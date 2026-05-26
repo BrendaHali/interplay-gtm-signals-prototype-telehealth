@@ -76,7 +76,6 @@ def aggregate_alerts_to_accounts(
                 "website": profile.get("website"),
                 "product_one_liner": profile.get("product_one_liner"),
                 "founded_year": profile.get("founded_year"),
-                "total_state_presence": profile.get("state_count"),
                 "topic_exposure_full": profile.get("topic_exposure", []),
                 "public_company": profile.get("public", False),
                 "ticker": profile.get("ticker"),

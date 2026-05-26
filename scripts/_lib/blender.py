@@ -331,7 +331,6 @@ def blend() -> list[dict[str, Any]]:
             "account_size_tier": size_tier,
             "account_tracking_status": "below_floor" if is_below_floor else tracking_status,
             "account_parent": account.get("parent_account"),
-            "account_state_count": profile_full.get("state_count"),
             "account_topic_count": len(profile_full.get("topic_exposure") or []),
             "account_employee_band": profile_full.get("employee_count_band"),
             "account_funding_stage": profile_full.get("funding_stage"),

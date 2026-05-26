@@ -70,7 +70,7 @@ Comprehensive watchlist coverage with size-tier orchestration concentrates AE at
 | Specialty consumer telehealth | Maven, Tia, Wisp, Plume, Folx, Hone, Sword, Curology, Equip, Allara, Pomelo, Origin, Nurx, Twentyeight | Reproductive health rules, gender-affirming care bans, physical therapy licensing |
 | Prescription, pharmacy, directory | GoodRx, Zocdoc, Truepill, Honeybee, Capsule, Alto, Lemonaid | State PBM regulation, anti-kickback, pharmacy licensing |
 
-The buyer offers three tiers (News, Pro, Enterprise). Each opportunity maps to an `expected_deal_band` (`5_top` $200K+ through `1_floor` <$40K) via a pricing function over `state_count`, `topic_exposure`, `employee_count_band`, `funding_stage`, and `target_tier`. Pricing constants live in `scripts/_lib/blender.py` and recalibrate once attribution data yields real win/loss numbers.
+The buyer offers three tiers (News, Pro, Enterprise). Each opportunity maps to an `expected_deal_band` (`5_top` $200K+ through `1_floor` <$40K) via a pricing function over `topic_exposure`, `employee_count_band`, `funding_stage`, and `target_tier`. Pricing constants live in `scripts/_lib/blender.py` and recalibrate once attribution data yields real win/loss numbers.
 
 **Size-Tier Orchestration.** Routing rules read from `data/scoring_config.yaml`:
 
