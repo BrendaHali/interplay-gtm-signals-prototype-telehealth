@@ -1,0 +1,33 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+
+# Derived data files (populated by pipeline runs; not source of truth)
+data/cfpb_complaints.json
+data/drug_enforcement.json
+data/lda_registrations.json
+data/openstates_bills.json
+data/openstates_hearings.json
+data/enforcement_news.json
+data/signals_*.json
+data/opportunities.json
+data/alerts.json
+data/slack_preview.json
+data/icp_comparison.json
+data/classification_cache.json
+data/errors.json
+
+# Pipeline log spam (regenerated every run; never tracked)
+outputs/pipeline.log
+*.log
+
+# Allow run outputs and site (these get committed by the GHA workflow for the Pages site)
+!outputs/run_summary.json
+!outputs/alerts.json
+!site/

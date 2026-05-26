@@ -1,0 +1,1682 @@
+{
+  "description": "Per-account v3 enrichment for telehealth ICP. Fields drive both the signal blender (business_model_exposure_weight) and the AE prioritization layer (employee_count_band, funding_stage, revenue_band, target_tier, state_count, topic_exposure). Watchlist directory fields (hq_city, hq_state, website, product_one_liner, founded_year) drive the dashboard's full-watchlist view. enrichment_status flags accounts where the new dimensions still need verification. disclosure_source flags whether risks come from a real 10-K (public) or industry-general analysis (private).",
+  "profiles": {
+    "acc_001": {
+      "name": "Hims & Hers Health",
+      "ticker": "HIMS",
+      "segment": "consumer_telehealth_multi_category",
+      "public": true,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "fl"
+      ],
+      "business_model_exposure_weight": 1.4,
+      "named_disclosed_risks": [
+        "state asynchronous prescribing rules",
+        "state pharmacy compounding regulations",
+        "GLP-1 compounded availability",
+        "state telehealth licensing variance",
+        "FDA enforcement on compounded GLP-1 products"
+      ],
+      "disclosure_source": "10K",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "1000-2500",
+      "funding_stage": "public",
+      "revenue_band": "1B+",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "compounded_glp1",
+        "asynchronous_prescribing",
+        "telehealth_licensing",
+        "mental_health_telehealth"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.hims.com",
+      "product_one_liner": "Direct-to-consumer telehealth platform for sexual health, weight loss (GLP-1), mental health, and dermatology.",
+      "founded_year": 2017
+    },
+    "acc_002": {
+      "name": "Ro",
+      "ticker": null,
+      "segment": "consumer_telehealth_multi_category",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.4,
+      "named_disclosed_risks": [
+        "state asynchronous prescribing",
+        "compounded GLP-1 supply",
+        "state pharmacy compounding rules"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "250M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "compounded_glp1",
+        "asynchronous_prescribing",
+        "telehealth_licensing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://ro.co",
+      "product_one_liner": "Multi-condition consumer telehealth: sexual health, weight loss (GLP-1), mental health, and skincare.",
+      "founded_year": 2017
+    },
+    "acc_003": {
+      "name": "LifeMD",
+      "ticker": "LFMD",
+      "segment": "consumer_telehealth_glp1_focus",
+      "public": true,
+      "top_state_exposures": [
+        "fl",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.3,
+      "named_disclosed_risks": [
+        "state telehealth prescribing restrictions",
+        "compounded GLP-1 availability",
+        "state pharmacy oversight"
+      ],
+      "disclosure_source": "10K",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "public",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "compounded_glp1",
+        "asynchronous_prescribing",
+        "telehealth_licensing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.lifemd.com",
+      "product_one_liner": "Telehealth and prescription platform spanning weight management (GLP-1), men's health, and primary care.",
+      "founded_year": 1994
+    },
+    "acc_004": {
+      "name": "Talkspace",
+      "ticker": "TALK",
+      "segment": "mental_health_telehealth",
+      "public": true,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.1,
+      "named_disclosed_risks": [
+        "state mental health licensing",
+        "Medicaid behavioral health reimbursement",
+        "state cross-border telehealth practice"
+      ],
+      "disclosure_source": "10K",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "public",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "controlled_substance_telehealth",
+        "telehealth_licensing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.talkspace.com",
+      "product_one_liner": "Online therapy and psychiatry network covering individual, couples, teen, and enterprise behavioral health.",
+      "founded_year": 2012
+    },
+    "acc_005": {
+      "name": "Teladoc Health",
+      "ticker": "TDOC",
+      "segment": "enterprise_virtual_care",
+      "public": true,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.3,
+      "named_disclosed_risks": [
+        "state professional licensure variance",
+        "Medicaid telehealth reimbursement",
+        "Interstate Medical Licensure Compact adoption",
+        "state cross-border practice"
+      ],
+      "disclosure_source": "10K",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "5000+",
+      "funding_stage": "public",
+      "revenue_band": "1B+",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "mental_health_telehealth",
+        "controlled_substance_telehealth"
+      ],
+      "hq_city": "Purchase",
+      "hq_state": "ny",
+      "website": "https://www.teladochealth.com",
+      "product_one_liner": "Enterprise virtual care platform: primary care, mental health, chronic condition management, and expert medical opinion.",
+      "founded_year": 2002
+    },
+    "acc_006": {
+      "name": "Amwell",
+      "ticker": "AMWL",
+      "segment": "enterprise_virtual_care",
+      "public": true,
+      "top_state_exposures": [
+        "ma",
+        "ca",
+        "ny"
+      ],
+      "business_model_exposure_weight": 1.2,
+      "named_disclosed_risks": [
+        "state telehealth reimbursement parity",
+        "state professional licensing",
+        "Medicaid coverage variance"
+      ],
+      "disclosure_source": "10K",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "public",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "mental_health_telehealth",
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "Boston",
+      "hq_state": "ma",
+      "website": "https://business.amwell.com",
+      "product_one_liner": "Enterprise telehealth software platform sold to health systems, health plans, and government.",
+      "founded_year": 2006
+    },
+    "acc_007": {
+      "name": "GoodRx",
+      "ticker": "GDRX",
+      "segment": "prescription_discount_plus_telehealth",
+      "public": true,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.2,
+      "named_disclosed_risks": [
+        "state PBM regulation",
+        "state prescription pricing transparency",
+        "state telehealth licensing"
+      ],
+      "disclosure_source": "10K",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "public",
+      "revenue_band": "500M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "prescription_economics",
+        "compounded_glp1",
+        "telehealth_licensing"
+      ],
+      "hq_city": "Santa Monica",
+      "hq_state": "ca",
+      "website": "https://www.goodrx.com",
+      "product_one_liner": "Prescription drug discount marketplace plus a telehealth arm (GoodRx Care) for primary care and specialty conditions.",
+      "founded_year": 2011
+    },
+    "acc_008": {
+      "name": "Cerebral",
+      "ticker": null,
+      "segment": "adhd_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.4,
+      "named_disclosed_risks": [
+        "DEA controlled-substance prescribing via telehealth",
+        "state ADHD prescribing rules",
+        "FTC consent order compliance"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "restructuring",
+      "revenue_band": "50-100M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "controlled_substance_telehealth",
+        "mental_health_telehealth",
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.cerebral.com",
+      "product_one_liner": "Online mental health platform for therapy, psychiatry, and medication management including ADHD and anxiety.",
+      "founded_year": 2019
+    },
+    "acc_009": {
+      "name": "Calibrate",
+      "ticker": null,
+      "segment": "glp1_weight_loss_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.3,
+      "named_disclosed_risks": [
+        "compounded GLP-1 availability",
+        "state BMI prescribing thresholds",
+        "state pharmacy compounding rules"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "compounded_glp1",
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.joincalibrate.com",
+      "product_one_liner": "Year-long metabolic health program combining GLP-1 prescribing with behavioral coaching.",
+      "founded_year": 2019
+    },
+    "acc_010": {
+      "name": "Noom",
+      "ticker": null,
+      "segment": "glp1_weight_loss_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.2,
+      "named_disclosed_risks": [
+        "compounded GLP-1 supply",
+        "state telehealth prescribing",
+        "consumer protection on weight loss claims"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "2500-5000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "250M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "compounded_glp1",
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.noom.com",
+      "product_one_liner": "Behavioral-change weight loss platform with a GLP-1 telehealth prescription arm (Noom Med).",
+      "founded_year": 2008
+    },
+    "acc_011": {
+      "name": "WeightWatchers Sequence",
+      "ticker": "WW (now OTC: WGHTQ)",
+      "segment": "glp1_weight_loss_telehealth",
+      "public": true,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.2,
+      "named_disclosed_risks": [
+        "GLP-1 prescriber availability",
+        "state telehealth medical practice rules",
+        "compounded GLP-1 regulatory shifts"
+      ],
+      "disclosure_source": "10K",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "public",
+      "revenue_band": "500M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "compounded_glp1",
+        "scope_of_practice",
+        "telehealth_licensing"
+      ],
+      "acquired_note": "Emerged from Chapter 11 bankruptcy June 2025. Now trades OTC under WGHTQ after delisting from NYSE. 10-K disclosures still filed.",
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.weightwatchers.com/us/sequence",
+      "product_one_liner": "Telehealth GLP-1 and metabolic health service integrated into the WeightWatchers membership program.",
+      "founded_year": 1963
+    },
+    "acc_012": {
+      "name": "Thirty Madison",
+      "ticker": null,
+      "segment": "consumer_telehealth_specialty",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [
+        "state telehealth prescribing",
+        "state pharmacy compounding"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_c",
+      "revenue_band": "100-250M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing",
+        "compounded_glp1"
+      ],
+      "acquired_note": "Acquired by Remedy Meds in September 2025 ($500M all-stock). Continues to operate as a brand portfolio under Remedy Meds.",
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.thirtymadison.com",
+      "product_one_liner": "Specialty consumer telehealth brand portfolio (Keeps for hair loss, Cove for migraine, Nurx for women's health).",
+      "founded_year": 2017
+    },
+    "acc_013": {
+      "name": "Included Health",
+      "ticker": null,
+      "segment": "enterprise_virtual_care",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.2,
+      "named_disclosed_risks": [
+        "state professional licensure",
+        "Medicaid telehealth reimbursement",
+        "cross-border practice"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "2500-5000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "250M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "cross-border"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://includedhealth.com",
+      "product_one_liner": "Enterprise navigation and virtual primary care platform for self-insured employers and health plans.",
+      "founded_year": 2011
+    },
+    "acc_014": {
+      "name": "Accolade",
+      "ticker": null,
+      "segment": "enterprise_virtual_care",
+      "public": false,
+      "top_state_exposures": [
+        "pa",
+        "ca",
+        "ny"
+      ],
+      "business_model_exposure_weight": 1.1,
+      "named_disclosed_risks": [
+        "state telehealth licensing",
+        "Medicare Advantage telehealth coverage"
+      ],
+      "disclosure_source": "industry_general",
+      "acquired_note": "Acquired by Transcarent (May 2025); no longer files independent SEC reports.",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "1000-2500",
+      "funding_stage": "acquired",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "Plymouth Meeting",
+      "hq_state": "pa",
+      "website": "https://www.accolade.com",
+      "product_one_liner": "Employer-paid healthcare navigation and advocacy platform combining concierge, virtual care, and benefit coordination.",
+      "founded_year": 2007
+    },
+    "acc_015": {
+      "name": "Done Global",
+      "ticker": null,
+      "segment": "adhd_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.4,
+      "named_disclosed_risks": [
+        "DEA controlled-substance telehealth prescribing",
+        "state ADHD prescribing rules",
+        "DOJ investigation precedent"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "indicted",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "controlled_substance_telehealth",
+        "asynchronous_prescribing"
+      ],
+      "acquired_note": "CEO Ruthia He and Clinical President David Brody convicted (November 2025) on conspiracy / controlled-substance / healthcare-fraud charges. Company indicted December 2025. Operational status: criminal proceedings ongoing; functionally insolvent.",
+      "hq_city": "Burlingame",
+      "hq_state": "ca",
+      "website": "https://www.donefirst.com",
+      "product_one_liner": "Online ADHD diagnosis and stimulant-medication management (subject of DEA / DOJ enforcement action).",
+      "founded_year": 2019
+    },
+    "acc_016": {
+      "name": "Sword Health",
+      "ticker": null,
+      "segment": "digital_musculoskeletal_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.2,
+      "named_disclosed_risks": [
+        "employer benefit plan regulations",
+        "state physical therapy licensing",
+        "Medicaid coverage for virtual therapy"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "50-100M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "scope_of_practice",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://swordhealth.com",
+      "product_one_liner": "Digital musculoskeletal and physical therapy program sold to employers and health plans.",
+      "founded_year": 2015
+    },
+    "acc_017": {
+      "name": "One Medical",
+      "ticker": null,
+      "segment": "hybrid_primary_care_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "wa"
+      ],
+      "business_model_exposure_weight": 1.3,
+      "named_disclosed_risks": [
+        "corporate practice of medicine rules",
+        "Medicare Advantage reimbursement rates",
+        "HIPAA and health data privacy"
+      ],
+      "disclosure_source": "industry_general",
+      "acquired_note": "Acquired by Amazon (Feb 2023); now Amazon One Medical, no longer files independent SEC reports.",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "1000-2500",
+      "funding_stage": "acquired",
+      "revenue_band": "500M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "scope_of_practice"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.onemedical.com",
+      "product_one_liner": "Hybrid in-person and virtual primary care membership (Amazon One Medical subsidiary).",
+      "founded_year": 2007
+    },
+    "acc_018": {
+      "name": "Spring Health",
+      "ticker": null,
+      "segment": "enterprise_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "fl"
+      ],
+      "business_model_exposure_weight": 1.1,
+      "named_disclosed_risks": [
+        "state behavioral health licensing",
+        "Medicaid mental health reimbursement",
+        "employer-sponsored health plan regulations"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.springhealth.com",
+      "product_one_liner": "Employer-paid behavioral health benefit platform: therapy, coaching, and psychiatry routing.",
+      "founded_year": 2016
+    },
+    "acc_019": {
+      "name": "Plume",
+      "ticker": null,
+      "segment": "consumer_lgbtq_specialty_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "fl"
+      ],
+      "business_model_exposure_weight": 1.4,
+      "named_disclosed_risks": [
+        "state hormone therapy restrictions",
+        "gender-affirming care bans",
+        "state asynchronous prescribing restrictions"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "gender_affirming_care",
+        "asynchronous_prescribing",
+        "telehealth_licensing"
+      ],
+      "hq_city": "Denver",
+      "hq_state": "co",
+      "website": "https://getplume.co",
+      "product_one_liner": "Telehealth platform for gender-affirming hormone therapy and primary care for transgender adults.",
+      "founded_year": 2019
+    },
+    "acc_020": {
+      "name": "Zocdoc",
+      "ticker": null,
+      "segment": "healthcare_directory_and_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [
+        "anti-kickback and fee-splitting laws",
+        "consumer protection regulations",
+        "state medical advertising rules"
+      ],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "prescription_economics",
+        "telehealth_general"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.zocdoc.com",
+      "product_one_liner": "Online physician-search and appointment marketplace with embedded telehealth scheduling.",
+      "founded_year": 2007
+    },
+    "acc_021": {
+      "name": "Maven Clinic",
+      "ticker": null,
+      "segment": "consumer_telehealth_womens_health",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_f",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "mental_health_telehealth",
+        "scope_of_practice"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.mavenclinic.com",
+      "product_one_liner": "Employer-paid virtual clinic for women's, family-building, and parental health (fertility, maternity, menopause).",
+      "founded_year": 2014
+    },
+    "acc_022": {
+      "name": "Lyra Health",
+      "ticker": null,
+      "segment": "enterprise_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "1000-2500",
+      "funding_stage": "series_f",
+      "revenue_band": "250M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "telehealth_reimbursement",
+        "scope_of_practice"
+      ],
+      "hq_city": "Burlingame",
+      "hq_state": "ca",
+      "website": "https://www.lyrahealth.com",
+      "product_one_liner": "Enterprise mental health benefit platform sold to large employers (Fortune 500 and tech).",
+      "founded_year": 2015
+    },
+    "acc_023": {
+      "name": "Headspace Health",
+      "ticker": null,
+      "segment": "enterprise_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "1000-2500",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "Santa Monica",
+      "hq_state": "ca",
+      "website": "https://www.headspace.com",
+      "product_one_liner": "Mindfulness and mental health platform combining consumer meditation with employer-paid behavioral health.",
+      "founded_year": 2010
+    },
+    "acc_024": {
+      "name": "BetterHelp",
+      "ticker": null,
+      "segment": "consumer_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "public",
+      "revenue_band": "500M-1B",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "asynchronous_prescribing",
+        "telehealth_licensing",
+        "controlled_substance_telehealth"
+      ],
+      "hq_city": "Mountain View",
+      "hq_state": "ca",
+      "website": "https://www.betterhelp.com",
+      "product_one_liner": "Direct-to-consumer online therapy network (Teladoc subsidiary).",
+      "founded_year": 2013
+    },
+    "acc_025": {
+      "name": "MDLive",
+      "ticker": null,
+      "segment": "enterprise_virtual_care",
+      "public": false,
+      "top_state_exposures": [
+        "fl",
+        "ca",
+        "ny"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "acquired",
+      "revenue_band": "50-100M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "Sunrise",
+      "hq_state": "fl",
+      "website": "https://www.mdlive.com",
+      "product_one_liner": "On-demand virtual urgent care, primary care, behavioral health, and dermatology (Evernorth / Cigna subsidiary).",
+      "founded_year": 2009
+    },
+    "acc_026": {
+      "name": "Doctor on Demand",
+      "ticker": null,
+      "segment": "enterprise_virtual_care",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "acquired",
+      "revenue_band": "50-100M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "controlled_substance_telehealth"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.doctorondemand.com",
+      "product_one_liner": "Virtual primary, urgent, and behavioral care (operated under Included Health).",
+      "founded_year": 2012
+    },
+    "acc_027": {
+      "name": "Crossover Health",
+      "ticker": null,
+      "segment": "enterprise_employer_health",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "tx",
+        "ny"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "scope_of_practice",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "San Clemente",
+      "hq_state": "ca",
+      "website": "https://crossoverhealth.com",
+      "product_one_liner": "On-site and virtual primary care designed for self-insured employers and Medicare Advantage populations.",
+      "founded_year": 2010
+    },
+    "acc_028": {
+      "name": "Charlie Health",
+      "ticker": null,
+      "segment": "consumer_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "mt",
+        "ca",
+        "ny"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "1000-2500",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "controlled_substance_telehealth",
+        "telehealth_licensing"
+      ],
+      "hq_city": "Bozeman",
+      "hq_state": "mt",
+      "website": "https://www.charliehealth.com",
+      "product_one_liner": "Virtual intensive outpatient program (IOP) for adolescent and adult mental health.",
+      "founded_year": 2020
+    },
+    "acc_029": {
+      "name": "Talkiatry",
+      "ticker": null,
+      "segment": "consumer_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_c",
+      "revenue_band": "50-100M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "controlled_substance_telehealth",
+        "telehealth_licensing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.talkiatry.com",
+      "product_one_liner": "In-network virtual psychiatry practice covering medication management and therapy.",
+      "founded_year": 2020
+    },
+    "acc_030": {
+      "name": "K Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_primary_care",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_f",
+      "revenue_band": "50-100M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing",
+        "telehealth_licensing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.khealth.com",
+      "product_one_liner": "AI-symptom-checker plus virtual primary care, including chronic-condition management and pediatrics.",
+      "founded_year": 2016
+    },
+    "acc_031": {
+      "name": "Brightside Health",
+      "ticker": null,
+      "segment": "consumer_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "controlled_substance_telehealth"
+      ],
+      "hq_city": "Oakland",
+      "hq_state": "ca",
+      "website": "https://www.brightside.com",
+      "product_one_liner": "Virtual psychiatry and therapy with a focus on depression, anxiety, and suicide-risk pathways.",
+      "founded_year": 2017
+    },
+    "acc_032": {
+      "name": "Tia",
+      "ticker": null,
+      "segment": "consumer_telehealth_womens_health",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "scope_of_practice"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://asktia.com",
+      "product_one_liner": "Women's health clinic combining in-person gynecology, primary care, and virtual care.",
+      "founded_year": 2017
+    },
+    "acc_033": {
+      "name": "Galileo Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_primary_care",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://galileo.io",
+      "product_one_liner": "Virtual primary care and multispecialty consult platform sold to plans and employers.",
+      "founded_year": 2019
+    },
+    "acc_034": {
+      "name": "Curology",
+      "ticker": null,
+      "segment": "consumer_telehealth_specialty",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_c",
+      "revenue_band": "100-250M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing",
+        "compounded_specialty"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://curology.com",
+      "product_one_liner": "Telehealth dermatology with custom-compounded prescription skincare formulations.",
+      "founded_year": 2014
+    },
+    "acc_035": {
+      "name": "Lemonaid Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_multi_category",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "acquired",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing",
+        "compounded_glp1",
+        "telehealth_licensing"
+      ],
+      "acquired_note": "Acquired by 23andMe (2021), then sold to Bambu Ventures / Innova for ~$10M in September 2025 after 23andMe bankruptcy. Operates independently under Bambu Ventures.",
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.lemonaidhealth.com",
+      "product_one_liner": "Online doctor's office for primary care and prescriptions, including birth control, GLP-1, and mental health.",
+      "founded_year": 2013
+    },
+    "acc_036": {
+      "name": "Nurx",
+      "ticker": null,
+      "segment": "consumer_telehealth_womens_health",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_c",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing",
+        "scope_of_practice"
+      ],
+      "acquired_note": "Direct parent Thirty Madison (acc_012) was acquired by Remedy Meds in September 2025 ($500M all-stock). Ultimate parent is now Remedy Meds.",
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.nurx.com",
+      "product_one_liner": "Telehealth platform for birth control, sexual-health screening, and migraine treatment.",
+      "founded_year": 2014
+    },
+    "acc_037": {
+      "name": "Truepill",
+      "ticker": null,
+      "segment": "consumer_telehealth_pharmacy",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "compounded_glp1",
+        "prescription_economics",
+        "telehealth_licensing"
+      ],
+      "hq_city": "Hayward",
+      "hq_state": "ca",
+      "website": "https://truepill.com",
+      "product_one_liner": "API-driven mail-order pharmacy plus virtual diagnostics, sold to telehealth brands.",
+      "founded_year": 2016
+    },
+    "acc_038": {
+      "name": "Eden Health",
+      "ticker": null,
+      "segment": "enterprise_employer_health",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_c",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "telehealth_licensing",
+        "scope_of_practice"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.edenhealth.com",
+      "product_one_liner": "Employer-paid primary care combining in-clinic, virtual, and care-navigation for mid-market companies.",
+      "founded_year": 2015
+    },
+    "acc_039": {
+      "name": "Cleo",
+      "ticker": null,
+      "segment": "enterprise_employer_health",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_c",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "scope_of_practice",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://hicleo.com",
+      "product_one_liner": "Family-care benefit covering pregnancy, parenting, and menopause; sold to employers.",
+      "founded_year": 2016
+    },
+    "acc_040": {
+      "name": "Equip Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_specialty",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "series_c",
+      "revenue_band": "50-100M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "scope_of_practice"
+      ],
+      "hq_city": "Carlsbad",
+      "hq_state": "ca",
+      "website": "https://equip.health",
+      "product_one_liner": "Virtual evidence-based eating-disorder treatment using a five-person care team per patient.",
+      "founded_year": 2019
+    },
+    "acc_041": {
+      "name": "Workit Health",
+      "ticker": null,
+      "segment": "adhd_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "mi",
+        "ca",
+        "ny"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "series_c",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "controlled_substance_telehealth",
+        "mental_health_telehealth"
+      ],
+      "hq_city": "Ann Arbor",
+      "hq_state": "mi",
+      "website": "https://www.workithealth.com",
+      "product_one_liner": "Online substance-use-disorder treatment including medication-assisted treatment for opioid and alcohol use.",
+      "founded_year": 2014
+    },
+    "acc_043": {
+      "name": "Wisp",
+      "ticker": null,
+      "segment": "consumer_telehealth_womens_health",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://hellowisp.com",
+      "product_one_liner": "Direct-to-consumer telehealth for sexual and reproductive health (UTI, contraception, STI testing).",
+      "founded_year": 2018
+    },
+    "acc_044": {
+      "name": "Folx Health",
+      "ticker": null,
+      "segment": "consumer_lgbtq_specialty_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing",
+        "scope_of_practice"
+      ],
+      "hq_city": "Boston",
+      "hq_state": "ma",
+      "website": "https://www.folxhealth.com",
+      "product_one_liner": "Subscription telehealth for the LGBTQIA+ community: hormone therapy, primary care, and sexual health.",
+      "founded_year": 2019
+    },
+    "acc_045": {
+      "name": "Allara Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_womens_health",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "<50",
+      "funding_stage": "series_a",
+      "revenue_band": "<10M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "telehealth_licensing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.allarahealth.com",
+      "product_one_liner": "Telehealth platform for women with PCOS and hormonal conditions.",
+      "founded_year": 2021
+    },
+    "acc_046": {
+      "name": "Origin",
+      "ticker": null,
+      "segment": "consumer_telehealth_specialty",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "<50",
+      "funding_stage": "series_a",
+      "revenue_band": "<10M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "scope_of_practice"
+      ],
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.theoriginway.com",
+      "product_one_liner": "Virtual and in-person pelvic-floor and orthopedic physical therapy specializing in women's health.",
+      "founded_year": 2020
+    },
+    "acc_047": {
+      "name": "Pomelo Care",
+      "ticker": null,
+      "segment": "consumer_telehealth_womens_health",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "series_c",
+      "revenue_band": "50-100M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "scope_of_practice",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.pomelocare.com",
+      "product_one_liner": "Maternity and pediatric care platform integrated with health plans to reduce NICU and preterm-birth risk.",
+      "founded_year": 2021
+    },
+    "acc_048": {
+      "name": "Hone Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_mens_hormone",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "<50",
+      "funding_stage": "series_a",
+      "revenue_band": "<10M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "controlled_substance_telehealth",
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "Washington",
+      "hq_state": "dc",
+      "website": "https://honehealth.com",
+      "product_one_liner": "At-home hormone testing and telehealth testosterone replacement therapy for men.",
+      "founded_year": 2020
+    },
+    "acc_049": {
+      "name": "Twentyeight Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_womens_health",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "<50",
+      "funding_stage": "series_a",
+      "revenue_band": "<10M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://twentyeighthealth.com",
+      "product_one_liner": "Telehealth contraception and sexual-health platform for underserved patients via Medicaid and ACA plans.",
+      "founded_year": 2018
+    },
+    "acc_050": {
+      "name": "Honeybee Health",
+      "ticker": null,
+      "segment": "consumer_telehealth_pharmacy",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "series_b",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "compounded_specialty",
+        "prescription_economics"
+      ],
+      "hq_city": "Culver City",
+      "hq_state": "ca",
+      "website": "https://honeybeehealth.com",
+      "product_one_liner": "Online mail-order pharmacy offering transparent pricing on generic and brand prescriptions.",
+      "founded_year": 2018
+    },
+    "acc_051": {
+      "name": "Alto Pharmacy",
+      "ticker": null,
+      "segment": "consumer_telehealth_pharmacy",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "500-1000",
+      "funding_stage": "acquired",
+      "revenue_band": "100-250M",
+      "target_tier": "enterprise",
+      "topic_exposure": [
+        "compounded_specialty",
+        "prescription_economics",
+        "scope_of_practice"
+      ],
+      "acquired_note": "Acquired by Fuze Health on March 21, 2025. No longer raises independent rounds; operates as a Fuze Health business unit.",
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.alto.com",
+      "product_one_liner": "Digital pharmacy with same-day delivery and chronic-condition adherence tools (Fuze Health subsidiary).",
+      "founded_year": 2015
+    },
+    "acc_052": {
+      "name": "Capsule",
+      "ticker": null,
+      "segment": "consumer_telehealth_pharmacy",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "nj",
+        "ma"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "50-100M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "prescription_economics",
+        "compounded_specialty"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.capsule.com",
+      "product_one_liner": "Same-day-delivery digital pharmacy serving a multi-state US footprint.",
+      "founded_year": 2015
+    },
+    "acc_053": {
+      "name": "9amHealth",
+      "ticker": null,
+      "segment": "consumer_telehealth_cardiometabolic",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "<50",
+      "funding_stage": "series_a",
+      "revenue_band": "<10M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "asynchronous_prescribing"
+      ],
+      "hq_city": "San Diego",
+      "hq_state": "ca",
+      "website": "https://9amhealth.com",
+      "product_one_liner": "Cardiometabolic virtual clinic for type-2 diabetes, hypertension, weight, and lipid management.",
+      "founded_year": 2020
+    },
+    "acc_054": {
+      "name": "Quartet Health",
+      "ticker": null,
+      "segment": "enterprise_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ny",
+        "ca",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "200-500",
+      "funding_stage": "series_d_plus",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "mental_health_telehealth",
+        "telehealth_reimbursement"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.quartethealth.com",
+      "product_one_liner": "Behavioral health collaborative care platform that connects primary care with mental health specialists.",
+      "founded_year": 2014
+    },
+    "acc_055": {
+      "name": "Pelago",
+      "ticker": null,
+      "segment": "adhd_mental_health_telehealth",
+      "public": false,
+      "top_state_exposures": [
+        "ca",
+        "ny",
+        "tx"
+      ],
+      "business_model_exposure_weight": 1.0,
+      "named_disclosed_risks": [],
+      "disclosure_source": "industry_general",
+      "enrichment_status": "enriched",
+      "state_count": 10,
+      "employee_count_band": "50-200",
+      "funding_stage": "series_c",
+      "revenue_band": "10-50M",
+      "target_tier": "pro",
+      "topic_exposure": [
+        "controlled_substance_telehealth",
+        "mental_health_telehealth"
+      ],
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.pelagohealth.com",
+      "product_one_liner": "Virtual substance-use management program covering tobacco, alcohol, and opioid use; employer-paid.",
+      "founded_year": 2017
+    }
+  }
+}

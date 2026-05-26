@@ -1,0 +1,94 @@
+name: Interplay GTM Signals · Telehealth
+
+on:
+  schedule:
+    # Daily at 08:00 UTC
+    - cron: "0 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      SEC_EDGAR_CONTACT: ${{ secrets.SEC_EDGAR_CONTACT }}
+      API_DATA_GOV_KEY: ${{ secrets.API_DATA_GOV_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pytest
+          pip install -r requirements.txt
+
+      - name: Restore OpenStates cumulative store
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/openstates_bills.json
+            data/openstates_hearings.json
+          key: openstates-store-${{ github.run_id }}
+          restore-keys: |
+            openstates-store-
+
+      - name: Run tests
+        run: python -m pytest tests/
+
+      - name: Run pipeline
+        run: python scripts/run_pipeline.py
+
+      - name: Generate Pages site
+        run: python scripts/generate_site.py
+
+      - name: Commit run outputs
+        run: |
+          git config user.name "interplay-gtm-signals-bot"
+          git config user.email "bot@interplay-gtm-signals.local"
+          git add outputs/ site/
+          if ! git diff --staged --quiet; then
+            git commit -m "Scheduled run: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+  pages:
+    needs: pipeline
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout (latest with run output)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

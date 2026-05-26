@@ -1,0 +1,39 @@
+{
+  "description": "LDA filing entity name variants mapped to canonical telehealth account IDs. LDA Senate disclosures use inconsistent legal-entity strings. Normalization happens in scripts/_lib/lda_client.py before signal detection.",
+  "aliases": {
+    "acc_001": ["Hims & Hers Health, Inc.", "Hims & Hers Health", "Hims Inc.", "Hers Inc.", "HIMS & HERS HEALTH"],
+    "acc_002": ["Ro", "Roman Health Pharmacy", "Roman Health Ventures", "Ro.co"],
+    "acc_003": ["LifeMD, Inc.", "LifeMD Inc", "LIFEMD INC"],
+    "acc_004": ["Talkspace, Inc.", "Talkspace Inc", "Groop Internet Platform"],
+    "acc_005": ["Teladoc Health, Inc.", "Teladoc Health Inc", "Teladoc Inc.", "TELADOC HEALTH INC", "BetterHelp Inc"],
+    "acc_006": ["American Well Corporation", "Amwell", "Amwell Health", "AMERICAN WELL CORP"],
+    "acc_007": ["GoodRx Holdings, Inc.", "GoodRx Inc", "GOODRX HOLDINGS INC"],
+    "acc_008": ["Cerebral, Inc.", "Cerebral Inc", "Cerebral Medical Group"],
+    "acc_009": ["Calibrate Health, Inc.", "Calibrate Inc"],
+    "acc_010": ["Noom, Inc.", "Noom Inc"],
+    "acc_011": ["WW International, Inc.", "WeightWatchers", "Weight Watchers International", "Sequence"],
+    "acc_012": ["Thirty Madison, Inc.", "Thirty Madison", "Keeps Inc.", "Picnic Inc.", "Cove Inc."],
+    "acc_013": ["Included Health, Inc.", "Included Health", "Doctor on Demand", "Grand Rounds Health"],
+    "acc_014": ["Accolade, Inc.", "Accolade Inc", "PlushCare Inc"],
+    "acc_015": ["Done Global, Inc.", "Done Global", "Done Health"],
+    "acc_016": ["Sword Health, Inc.", "Sword Health Inc", "Sword Health"],
+    "acc_017": ["1Life Healthcare, Inc.", "1Life Healthcare", "One Medical", "One Medical Group"],
+    "acc_018": ["Spring Health", "Compass Health", "Spring Care, Inc.", "Spring Care"],
+    "acc_019": ["Plume Clinic, Inc.", "Plume Clinic", "Plume", "Plume Health"],
+    "acc_020": ["Zocdoc, Inc.", "Zocdoc", "Zocdoc Inc"]
+  },
+  "lobbying_firm_aliases": {
+    "description": "Lobbying firms frequently retained by multiple telehealth clients. Tracking these gives Signal 2 visibility into shared-counsel coordination patterns.",
+    "common_telehealth_firms": [
+      "Holland & Knight",
+      "Akin Gump Strauss Hauer & Feld",
+      "Brownstein Hyatt Farber Schreck",
+      "K&L Gates",
+      "Manatt Phelps & Phillips",
+      "Foley Hoag",
+      "Hogan Lovells",
+      "Mehlman Consulting",
+      "Sirona Strategies"
+    ]
+  }
+}

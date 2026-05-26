@@ -1,0 +1,41 @@
+{
+  "description": "Tracked rival sets for Signal 2 (rival co-mobilization). Each set contains telehealth accounts that compete commercially but coordinate on policy. When 2 or more members of a set register lobbying activity on the same issue within a 90-day rolling window, Signal 2 fires.",
+  "pairs": [
+    {
+      "set_id": "glp1_prescribers",
+      "members": ["acc_001", "acc_002", "acc_003", "acc_009", "acc_010", "acc_011"],
+      "label": "GLP-1 weight-loss telehealth prescribers",
+      "shared_issues": ["compounded GLP-1 availability", "state BMI prescribing thresholds", "asynchronous prescribing rules", "state pharmacy compounding"]
+    },
+    {
+      "set_id": "adhd_telehealth",
+      "members": ["acc_008", "acc_015"],
+      "label": "ADHD telehealth prescribers (controlled substance via telehealth)",
+      "shared_issues": ["DEA controlled-substance telehealth prescribing", "state ADHD prescribing rules", "Ryan Haight Act federal flexibilities"]
+    },
+    {
+      "set_id": "mental_health_telehealth",
+      "members": ["acc_004", "acc_005", "acc_008", "acc_018"],
+      "label": "Mental health telehealth",
+      "shared_issues": ["state mental health licensing", "Medicaid behavioral health reimbursement", "interstate compact for psychology"]
+    },
+    {
+      "set_id": "enterprise_virtual_care",
+      "members": ["acc_005", "acc_006", "acc_013", "acc_014"],
+      "label": "Enterprise virtual care platforms",
+      "shared_issues": ["state professional licensure variance", "Medicaid telehealth reimbursement", "Interstate Medical Licensure Compact", "state telehealth parity laws"]
+    },
+    {
+      "set_id": "consumer_multi_category",
+      "members": ["acc_001", "acc_002", "acc_012", "acc_019"],
+      "label": "Consumer multi-category telehealth",
+      "shared_issues": ["asynchronous prescribing", "state pharmacy compounding", "DTC advertising rules"]
+    },
+    {
+      "set_id": "prescription_economics",
+      "members": ["acc_007", "acc_001", "acc_002", "acc_020"],
+      "label": "Prescription economics and access",
+      "shared_issues": ["state PBM regulation", "prescription price transparency", "manufacturer copay programs"]
+    }
+  ]
+}

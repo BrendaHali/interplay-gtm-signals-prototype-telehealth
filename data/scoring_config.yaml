@@ -1,0 +1,127 @@
+# Scoring config for telehealth ICP. Single vertical, composite blender across three signal primitives:
+# drug enforcement cascade, rival co-mobilization, enforcement precursor (FTC and state AG
+# enforcement plus state legislative hearings).
+
+vertical: telehealth
+
+# Composite blender weights for the three signal primitives.
+composite_weights:
+  s1_drug_enforcement_cascade: 0.35
+  s2_rival_co_mobilization: 0.30
+  s3_enforcement_precursor: 0.35
+
+# Threshold for routing an opportunity to the AE queue.
+# Production target is 0.55 (assumes multi-signal convergence).
+# Demo / early-data threshold is 0.20 (single-signal opportunities pass when business-model exposure indicates real account relevance).
+composite_score_floor: 0.20
+
+# Per-AE daily caps retained from v0.
+daily_caps:
+  slack_alert: 3
+  hubspot_task: 3
+  sequence_step: 5
+
+# Telehealth-relevant topic vocabulary used for cross-source matching.
+relevant_topics:
+  - "asynchronous prescribing"
+  - "telehealth licensing"
+  - "Interstate Medical Licensure Compact"
+  - "IMLC"
+  - "scope of practice"
+  - "nurse practitioner authority"
+  - "pharmacy compounding"
+  - "compounded GLP-1"
+  - "semaglutide"
+  - "tirzepatide"
+  - "controlled substance telehealth"
+  - "Ryan Haight Act"
+  - "DEA telehealth flexibility"
+  - "ADHD prescribing"
+  - "stimulant prescribing"
+  - "BMI prescribing thresholds"
+  - "Medicaid telehealth reimbursement"
+  - "telehealth parity"
+  - "in-person visit requirement"
+  - "state mental health licensing"
+  - "psychology compact"
+  - "prescription price transparency"
+  - "PBM regulation"
+  - "direct-to-consumer advertising"
+
+# Telehealth-prescribed drug categories that openFDA enforcement actions affect.
+# Drug enforcement spikes on these drugs are the Signal 1 trigger.
+telehealth_drug_categories:
+  glp1:
+    - "semaglutide"
+    - "tirzepatide"
+    - "liraglutide"
+    - "dulaglutide"
+  adhd:
+    - "methylphenidate"
+    - "amphetamine"
+    - "lisdexamfetamine"
+    - "dextroamphetamine"
+  hormones:
+    - "testosterone"
+    - "estradiol"
+    - "progesterone"
+  hair:
+    - "finasteride"
+    - "minoxidil"
+  ssri_snri:
+    - "sertraline"
+    - "fluoxetine"
+    - "escitalopram"
+    - "duloxetine"
+  weight_loss_other:
+    - "phentermine"
+    - "naltrexone"
+
+# Signal-level thresholds.
+signal_thresholds:
+  drug_enforcement:
+    minimum_records_per_month: 3            # volume floor per (drug_category) tuple
+    z_score_spike_threshold: 2.0            # z-score against trailing 12-week baseline
+    bill_match_window_days: 60              # bill must appear within 60 days of spike
+  co_mobilization:
+    rolling_window_days: 90                 # matches LDA quarterly filing cadence
+    minimum_competitors_within_window: 2
+  enforcement_precursor:
+    rolling_window_days: 14                 # enforcement to legislative hearing window
+    action_verb_required: true              # regex pre-filter for sued, settled, restitution, enforcement, investigation
+
+# Freshness decay for composite score.
+freshness_decay:
+  half_life_days: 14
+
+# engagement_multipliers removed in v1: the underlying engagement_status field
+# was a synthetic placeholder (no real HubSpot connection). The composite
+# formula uses only real multipliers now (business_model_exposure_weight +
+# risk_disclosure_multiplier). Once HubSpot writeback wires in v2, restore
+# this block with the real engagement-stage taxonomy from the live CRM and
+# recalibrate weights against attribution data.
+
+# Per-size-tier orchestration. Every account in the watchlist captures signals;
+# this block controls which opportunities surface as AE-routed alerts versus
+# capture-only watchlist records. Midmarket and startup get progressively
+# higher composite floors because enrichment is incomplete; once business-
+# model exposure weights and named disclosed risks are human-validated, the
+# floors can move closer to the enterprise default.
+size_tier_orchestration:
+  enterprise:
+    composite_floor: 0.20      # uses the top-level composite_score_floor
+    routes_to: alerts          # routed to AE queue and Slack
+  midmarket:
+    composite_floor: 0.40      # production-level floor
+    routes_to: alerts
+  startup:
+    composite_floor: 0.60      # production-level floor
+    routes_to: watchlist_only
+
+
+# Notes:
+# - composite_score = (w1 * s1 + w2 * s2 + w3 * s3) * business_model_exposure_weight * risk_disclosure_multiplier
+# - business_model_exposure_weight is loaded per-account from account_profiles.json (range 1.0 to 1.4)
+# - risk_disclosure_multiplier is derived from SEC EDGAR 10-Q / 10-K topic-mention density on public accounts (range 1.0 to 1.3, capped); private accounts hold at 1.0
+# - freshness_decay applies at per-signal scoring (recency_decay in detectors), not at the composite stage
+# - opportunities falling below composite_score_floor route to data/watchlist_opportunities.json rather than the AE-routed outputs/alerts.json
