@@ -1,7 +1,7 @@
 # Interplay GTM Signals · Telehealth & Digital Health Prototype
 
 **Live dashboard:** https://brendahali.github.io/interplay-gtm-signals-prototype-telehealth/
-**Repository:** https://github.com/BrendaHali/interplay-gtm-signals-prototype-telehealth
+
 
 ## Executive Summary
 
