@@ -1,20 +1,20 @@
 {
-  "started_at": "2026-06-01T13:23:42+00:00",
+  "started_at": "2026-06-02T11:55:21+00:00",
   "stages": {
     "ingest": {
       "openfda": {
-        "records": 120,
+        "records": 122,
         "categories": 6,
         "spikes_detected": 0
       },
       "lda": {
         "accounts_queried": 20,
-        "total_filings": 650
+        "total_filings": 907
       },
       "enforcement_news": {
         "items": 3,
         "raw_cfpb": 16,
-        "raw_google": 165
+        "raw_google": 144
       },
       "openstates": {
         "bills": 19,
@@ -22,8 +22,8 @@
       },
       "sec_edgar": {
         "public_accounts_processed": 7,
-        "total_topic_hits": 69,
-        "since_date": "2025-06-01"
+        "total_topic_hits": 63,
+        "since_date": "2025-06-02"
       }
     },
     "detect": {
@@ -48,5 +48,5 @@
       "preview_written_to": "data/slack_preview.json"
     }
   },
-  "completed_at": "2026-06-01T13:39:44+00:00"
+  "completed_at": "2026-06-02T12:10:45+00:00"
 }
