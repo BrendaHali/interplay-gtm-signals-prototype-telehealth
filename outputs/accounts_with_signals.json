@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T09:55:44+00:00",
-  "count": 7,
+  "generated_at": "2026-07-20T10:46:42+00:00",
+  "count": 6,
   "schema_note": "Per-account rollup of outputs/alerts.json. One record per account_id even when signals fire across multiple states and topics. evidence_drilldown preserves the original per-(state, topic) attribution for click-through inspection.",
   "accounts": [
     {
@@ -33,59 +33,52 @@
       "states_affected": [
         "ca",
         "ny",
-        "fl",
-        "pa"
+        "fl"
       ],
       "topics_affected": [
         "telehealth_general"
       ],
-      "top_composite_score": 0.571,
+      "top_composite_score": 0.568,
       "signals_summary": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.328
+        "S3": 0.078
       },
-      "total_routed_alerts": 4,
+      "total_routed_alerts": 3,
       "all_source_events": {
         "S1": [],
         "S2": [
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
-            "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "score": 0.9,
+            "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.082,
+            "score": 0.078,
             "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
             "enforcement_date": "2026-06-17T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.021,
+            "score": 0.02,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.328,
-            "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
-            "enforcement_date": "2026-07-15T14:28:00+00:00"
           }
         ]
       },
@@ -94,11 +87,11 @@
           "opportunity_id": "acc_001|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.571,
+          "composite_score": 0.568,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.95,
-            "S3": 0.082
+            "S3": 0.078
           },
           "signals_fired": 2,
           "source_events": {
@@ -107,42 +100,42 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.082,
+                "score": 0.078,
                 "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
                 "enforcement_date": "2026-06-17T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Hims: California Telehealth Prescribing Rules Tighten Amid FDA GLP-1 Enforcement"
+          "narrative_headline": "Hims: Competitor Lobbying Surge Signals GLP-1 Telehealth Regulatory Tightening"
         },
         {
           "opportunity_id": "acc_001|ny|telehealth_general",
           "state": "ny",
           "topic": "telehealth_general",
-          "composite_score": 0.532,
+          "composite_score": 0.531,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.95,
-            "S3": 0.021
+            "S3": 0.02
           },
           "signals_fired": 2,
           "source_events": {
@@ -151,32 +144,32 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.021,
+                "score": 0.02,
                 "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
                 "enforcement_date": "2026-05-20T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Hims: NY Telehealth Prescribing Standards Tighten as Competitors Mobilize"
+          "narrative_headline": "Hims: NY Telehealth Prescribing Standards Tighten Amid Competitor Lobbying"
         },
         {
           "opportunity_id": "acc_001|fl|telehealth_general",
@@ -195,72 +188,46 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "Hims: Florida Telehealth Prescribing Rules Shift Amid Competitor Federal Lobbying"
-        },
-        {
-          "opportunity_id": "acc_001|pa|telehealth_general",
-          "state": "pa",
-          "topic": "telehealth_general",
-          "composite_score": 0.209,
-          "signal_scores": {
-            "S1": 0.0,
-            "S2": 0.0,
-            "S3": 0.328
-          },
-          "signals_fired": 1,
-          "source_events": {
-            "S1": [],
-            "S2": [],
-            "S3": [
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.328,
-                "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
-                "enforcement_date": "2026-07-15T14:28:00+00:00"
-              }
-            ]
-          },
-          "narrative_headline": "Hims: Pennsylvania Pharmacy Board Settlement Signals Compounding Scrutiny"
+          "narrative_headline": "Hims: Florida Telehealth Prescribing Rules Draw Competitor Federal Lobbying"
         }
       ],
       "best_narrative": {
-        "headline": "Hims: California Telehealth Prescribing Rules Tighten Amid FDA GLP-1 Enforcement",
-        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chain and asynchronous prescribing workflows across state markets, creating distinct exposure versus single-category competitors. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as material risks. Four rival GLP-1 weight-loss telehealth prescribers have filed federal lobbying disclosures on telehealth topics in the past 60 days, and FDA enforcement actions targeting telehealth GLP-1 marketing claims have accelerated, signaling regulatory tightening across both state and federal channels. California's regulatory posture on telehealth prescribing and compounded medication availability will shape operational and compliance costs for Hims in its top-three state exposure portfolio.",
-        "cold_first_touch_frame": "Subject: California Telehealth Prescribing Tightens, Hims Compliance Timing Dear [Public Policy Head], Four competitors in the GLP-1 telehealth space filed federal lobbying disclosures on telehealth policy in the past 60 days, and FDA enforcement on compounded GLP-1 marketing is accelerating. California's state rules on asynchronous prescribing and pharmacy compounding are now a direct competitive and compliance factor. Your government affairs team should map California's next 90 days of pharmacy board rulemaking and telehealth licensing signals against Hims' current state-by-state prescribing workflows. I lead regulatory intelligence briefings for multistate telehealth operators on exactly this timing. Can we schedule 15 minutes on Thursday to walk through what California's enforcement posture means for your compliance roadmap? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FDA's recent enforcement sweep on telehealth GLP-1 marketing claims has shifted state policy momentum in California, and four of your competitors just lobbied federal agencies on telehealth. Your compliance team needs a 90-day state-policy read on where California pharmacy and telehealth licensing are headed. Prospect: We've been tracking some of this internally, but I'm not sure how urgent this is for us right now. BDR Pivot: That's exactly why this matters. Rival mobilization and FDA enforcement usually trigger state-level rule changes 60 to 90 days out. A quick 10-minute sync with your regulatory affairs lead would show you the specific California policy signals we're tracking that could affect your prescribing operations this quarter. Are you open to that Thursday?"
+        "headline": "Hims: Competitor Lobbying Surge Signals GLP-1 Telehealth Regulatory Tightening",
+        "body": "Hims operates a multi-category consumer telehealth platform with direct exposure to compounded GLP-1 supply chain dependencies and state asynchronous prescribing variance, unlike peers focused on narrower verticals. The most recent 10-K names state pharmacy compounding regulations and FDA enforcement on compounded GLP-1 products as material risks. Four GLP-1 weight-loss telehealth competitors filed federal lobbying disclosures on telehealth topics in July 2026, a mobilization pattern that historically precedes state-level regulatory tightening in high-exposure markets like California, New York, and Florida. FDA enforcement activity targeting telehealth GLP-1 marketing claims in June 2026 indicates federal appetite for category-wide compliance actions that will cascade to state regulators.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Spike, CA/NY/FL GLP-1 Risk Review Dear [Public Policy Head], Four GLP-1 weight-loss telehealth competitors filed federal lobbying disclosures in July, signaling organized industry movement ahead of state regulatory action in your top three markets. Your 10-K identifies compounded GLP-1 product availability and state asynchronous prescribing rules as material exposures. We track state-level enforcement precursors and competitor mobilization patterns to help regulatory affairs teams anticipate California, New York, and Florida policy shifts before they land on operators. Would a 15-minute call Thursday work to walk through what competitor positioning reveals about likely state moves in your segment? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Your 10-K flags state compounding and asynchronous prescribing rules as material risks. We're seeing four competitors lobby federally on telehealth right now, followed by FDA enforcement activity on GLP-1 marketing claims last month, both signals that state regulators in California, New York, and Florida are preparing tightening moves. Prospect: We're monitoring FDA enforcement internally, but state-level risk visibility is fragmented across our teams. BDR Pivot: That's exactly the gap we close. Ten minutes with your chief compliance officer to map competitor positioning against your state exposure profile in these three markets, no lengthy review, just pattern intelligence that helps you anticipate state moves before your GA team reacts to them."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_001|ca|telehealth_general",
       "multistate_indicator": true,
-      "state_count_affected": 4,
+      "state_count_affected": 3,
       "topic_count_affected": 1,
       "triggering_events_summary": [
-        "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
+        "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+        "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+        "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
         "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
-        "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
-        "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)"
+        "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)"
       ],
-      "latest_signal_event_date": "2026-07-18"
+      "latest_signal_event_date": "2026-07-19"
     },
     {
       "account_id": "acc_007",
@@ -297,11 +264,11 @@
         "telehealth_general",
         "telehealth_reimbursement"
       ],
-      "top_composite_score": 0.489,
+      "top_composite_score": 0.464,
       "signals_summary": {
         "S1": 0.0,
-        "S2": 0.95,
-        "S3": 0.082
+        "S2": 0.9,
+        "S3": 0.078
       },
       "total_routed_alerts": 6,
       "all_source_events": {
@@ -309,33 +276,27 @@
         "S2": [
           {
             "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-            "dt_posted": "2026-07-17"
-          },
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "score": 0.9,
+            "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.082,
+            "score": 0.078,
             "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
             "enforcement_date": "2026-06-17T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.021,
+            "score": 0.02,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -346,11 +307,11 @@
           "opportunity_id": "acc_007|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.489,
+          "composite_score": 0.464,
           "signal_scores": {
             "S1": 0.0,
-            "S2": 0.95,
-            "S3": 0.082
+            "S2": 0.9,
+            "S3": 0.078
           },
           "signals_fired": 2,
           "source_events": {
@@ -358,37 +319,31 @@
             "S2": [
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-                "dt_posted": "2026-07-17"
-              },
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.082,
+                "score": 0.078,
                 "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
                 "enforcement_date": "2026-06-17T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "GoodRx: Competitors mobilize on prescription economics amid FDA telehealth enforcement"
+          "narrative_headline": "GoodRx: Competitors File Telehealth Lobbying Amid FDA GLP-1 Enforcement"
         },
         {
           "opportunity_id": "acc_007|ny|telehealth_general",
           "state": "ny",
           "topic": "telehealth_general",
-          "composite_score": 0.456,
+          "composite_score": 0.432,
           "signal_scores": {
             "S1": 0.0,
-            "S2": 0.95,
-            "S3": 0.021
+            "S2": 0.9,
+            "S3": 0.02
           },
           "signals_fired": 2,
           "source_events": {
@@ -396,36 +351,30 @@
             "S2": [
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-                "dt_posted": "2026-07-17"
-              },
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.021,
+                "score": 0.02,
                 "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
                 "enforcement_date": "2026-05-20T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "GoodRx: NY Prescription Economics Rivals Mobilize Federal Lobbying"
+          "narrative_headline": "GoodRx: NY Telehealth Licensing Rival Mobilization Escalates"
         },
         {
           "opportunity_id": "acc_007|tx|telehealth_general",
           "state": "tx",
           "topic": "telehealth_general",
-          "composite_score": 0.445,
+          "composite_score": 0.421,
           "signal_scores": {
             "S1": 0.0,
-            "S2": 0.95,
+            "S2": 0.9,
             "S3": 0.0
           },
           "signals_fired": 1,
@@ -434,20 +383,14 @@
             "S2": [
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-                "dt_posted": "2026-07-17"
-              },
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "GoodRx: Competitor Lobbying Shifts Prescription Economics TX Regulatory Priority"
+          "narrative_headline": "GoodRx: Telehealth Competitors Mobilize Federal Lobbying Texas PBM Pressure"
         },
         {
           "opportunity_id": "acc_007|ca|telehealth_reimbursement",
@@ -466,13 +409,13 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "GoodRx: California Telehealth Reimbursement Policy Rivals Mobilize Lobbying"
+          "narrative_headline": "GoodRx: California Telehealth Reimbursement Rivals Mobilize Federal Lobbying"
         },
         {
           "opportunity_id": "acc_007|ny|telehealth_reimbursement",
@@ -491,13 +434,13 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "GoodRx: NY Telehealth Reimbursement Competitors Mobilize Federal Lobbying"
+          "narrative_headline": "GoodRx: NY Telehealth Reimbursement Rivals Mobilize Federal Lobbying"
         },
         {
           "opportunity_id": "acc_007|tx|telehealth_reimbursement",
@@ -516,20 +459,20 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "GoodRx: Texas Telehealth Reimbursement Rivals Mobilize Federal Advocacy"
+          "narrative_headline": "GoodRx: Telehealth Reimbursement Policy Shifts as Competitors Mobilize in TX"
         }
       ],
       "best_narrative": {
-        "headline": "GoodRx: Competitors mobilize on prescription economics amid FDA telehealth enforcement",
-        "body": "GoodRx operates a hybrid discount-pharmacy-plus-telehealth platform where prescription economics directly influence both consumer acquisition and provider network margins, distinguishing it from pure-play telehealth operators. The most recent 10-K names state PBM regulation, prescription pricing transparency requirements, and telehealth licensing as material risks. Two competitors have filed federal lobbying disclosures on prescription economics policy within the past month, signaling coordinated industry positioning ahead of potential state-level action, while the FDA has initiated sweeping enforcement on telehealth GLP-1 marketing claims. California, New York, and Texas represent the company's top state exposures for both PBM oversight and pricing disclosure mandates.",
-        "cold_first_touch_frame": "Subject: Competitor lobbying activity + FDA enforcement timing on GLP-1 claims Dear VP Regulatory Affairs, Two of GoodRx's direct competitors filed federal lobbying disclosures on prescription economics within the past month, and the FDA has begun enforcement action on telehealth GLP-1 marketing claims. Given your exposure in California, New York, and Texas on state PBM and pricing transparency rules, this signals a window where competitor positioning may shape incoming state policy. Would you have 15 minutes Thursday to walk through the timing and state-specific implications? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FDA's new enforcement action on telehealth GLP-1 marketing and two competitors' lobbying push on prescription economics suggest state regulators in your top markets will move quickly. This timing creates real urgency around your PBM and pricing transparency strategy. Prospect: We're tracking the FDA action internally, but we're not sure state-level movement is imminent in California yet. BDR Pivot: That's exactly what we see most often before state action accelerates. Can we spend 10 minutes mapping which specific state policy signals your team should be watching so you're ahead of the curve?"
+        "headline": "GoodRx: Competitors File Telehealth Lobbying Amid FDA GLP-1 Enforcement",
+        "body": "GoodRx operates a hybrid prescription-discount and telehealth platform with material exposure to state PBM regulation and telehealth licensing requirements across California, New York, and Texas. The most recent 10-K names state prescription pricing transparency and telehealth licensing as disclosed regulatory risks. Three competitors have filed federal lobbying disclosures on telehealth topics within the past month, while the FDA simultaneously launched a sweeping enforcement action targeting telehealth GLP-1 marketing claims. This convergence signals that state regulatory affairs teams and compliance leadership are preparing for intensified scrutiny of telehealth marketing practices and pricing transparency claims, requiring GoodRx's government affairs team to map state-level response postures ahead of coordinated enforcement.",
+        "cold_first_touch_frame": "Subject: Three Competitors Move on Telehealth Lobbying as FDA GLP-1 Enforcement Accelerates Dear [Public Policy Head], Three of GoodRx's direct competitors have filed telehealth-focused federal lobbying disclosures in the past month, coinciding with the FDA's announcement of a sweeping enforcement action against telehealth GLP-1 marketing claims. Given GoodRx's disclosed exposure to state PBM regulation and telehealth licensing across California, New York, and Texas, your government affairs team is likely mapping state-level response strategies now. I work with multistate telehealth operators to anticipate state policy moves ahead of federal enforcement cascades. Would a 15-minute call Thursday work to discuss how peer positioning is reshaping state regulatory timelines? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We've been tracking competitor lobbying filings on telehealth, and the FDA just launched a coordinated GLP-1 marketing enforcement action. Given your state PBM and telehealth licensing exposure across CA, NY, and TX, your compliance team likely needs updated state policy intelligence on the enforcement cascade. Prospect: We've got that covered internally, but enforcement is moving faster than we expected. BDR Pivot: That's exactly why I'm calling. Let me grab 10 minutes with your Chief Compliance Officer to show how state policy moves are tracking ahead of the FDA timeline, this week would be ideal."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_007|ca|telehealth_general",
@@ -537,13 +480,12 @@
       "state_count_affected": 3,
       "topic_count_affected": 2,
       "triggering_events_summary": [
-        "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-        "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
+        "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+        "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
         "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
         "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)"
       ],
-      "latest_signal_event_date": "2026-07-18"
+      "latest_signal_event_date": "2026-07-19"
     },
     {
       "account_id": "acc_005",
@@ -580,11 +522,11 @@
       "topics_affected": [
         "telehealth_general"
       ],
-      "top_composite_score": 0.443,
+      "top_composite_score": 0.44,
       "signals_summary": {
         "S1": 0.0,
         "S2": 0.85,
-        "S3": 0.082
+        "S3": 0.078
       },
       "total_routed_alerts": 3,
       "all_source_events": {
@@ -600,13 +542,13 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.082,
+            "score": 0.078,
             "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
             "enforcement_date": "2026-06-17T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.021,
+            "score": 0.02,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -617,11 +559,11 @@
           "opportunity_id": "acc_005|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.443,
+          "composite_score": 0.44,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.85,
-            "S3": 0.082
+            "S3": 0.078
           },
           "signals_fired": 2,
           "source_events": {
@@ -637,13 +579,13 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.082,
+                "score": 0.078,
                 "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
                 "enforcement_date": "2026-06-17T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Teladoc: California Telehealth Competitors Mobilize Federal Lobbying"
+          "narrative_headline": "Teladoc: California Telehealth Licensure Rivals Mobilize Federal Lobbying"
         },
         {
           "opportunity_id": "acc_005|ny|telehealth_general",
@@ -653,7 +595,7 @@
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.85,
-            "S3": 0.021
+            "S3": 0.02
           },
           "signals_fired": 2,
           "source_events": {
@@ -669,13 +611,13 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.021,
+                "score": 0.02,
                 "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
                 "enforcement_date": "2026-05-20T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Teladoc: NY Telehealth Licensing Rivals Mobilize Federal Advocacy"
+          "narrative_headline": "Teladoc: NY Telehealth Licensure Variance Rivals Mobilize Federal Lobby"
         },
         {
           "opportunity_id": "acc_005|tx|telehealth_general",
@@ -700,14 +642,14 @@
             ],
             "S3": []
           },
-          "narrative_headline": "Teladoc: Competitors Mobilize Federal Telehealth Lobbying"
+          "narrative_headline": "Teladoc: Competitor Telehealth Lobbying Escalates Texas Licensure"
         }
       ],
       "best_narrative": {
-        "headline": "Teladoc: California Telehealth Competitors Mobilize Federal Lobbying",
-        "body": "Teladoc operates enterprise virtual care contracts with health plans across multiple states, creating material exposure to state-level licensure and reimbursement policy shifts that affect contracted provider networks. Two telehealth competitors filed federal lobbying disclosures in July 2026 targeting telehealth regulatory topics, signaling industry-wide mobilization around state cross-border practice restrictions and professional licensure variance. The most recent 10-K names state professional licensure variance and Interstate Medical Licensure Compact adoption as material risks to the contracted provider model. California's top-three state exposure status means policy changes in telehealth licensing or Medicaid reimbursement could compress margins on a significant portion of enterprise health plan contracts.",
-        "cold_first_touch_frame": "Subject: Competitor Lobbying Shift, California Telehealth Licensure Risk Dear [Public Policy Head], Two telehealth competitors filed federal lobbying disclosures in July targeting state telehealth licensure and cross-border practice rules. Given Teladoc's reliance on contracted provider networks across California and your top-three state exposure, your public policy head should monitor whether the competitive lobbying wave creates new state reimbursement or licensing pressure that affects your health plan contracts. Would a 15-minute call on Thursday work to walk through the licensure and Medicaid exposure in your current California contracts? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The two competitors' federal lobbying filings on telehealth licensure came in July, and we're seeing early signals that state-level cross-border practice rules may shift in California this cycle. Your compliance leadership may want to stress-test the health plan contract exposures before the rules move. Prospect: We're already tracking the licensing variance issue internally, but the federal lobbying is new context. BDR Pivot: Exactly. A 10-minute sync with your compliance leadership would let us map which contracts carry the highest Medicaid or state licensure exposure so you're ahead of any reimbursement changes. Does Tuesday afternoon work?"
+        "headline": "Teladoc: California Telehealth Licensure Rivals Mobilize Federal Lobbying",
+        "body": "Teladoc operates a multi-state enterprise virtual care platform contracted directly with health plans, making it dependent on consistent state licensure frameworks and reimbursement stability across top-three states including California. The most recent 10-K names state professional licensure variance and Interstate Medical Licensure Compact adoption as material risks to cross-border prescribing workflows. Two mental health telehealth competitors filed federal lobbying disclosures on telehealth topics in July 2026, signaling industry-wide mobilization around licensure and practice standards as regulatory pressure intensifies. Concurrent FDA enforcement action targeting telehealth GLP-1 marketing claims suggests state-level scrutiny will follow, exposing Teladoc's marketing compliance and clinical messaging across its portfolio.",
+        "cold_first_touch_frame": "Subject: Competitors Filing on CA Telehealth Licensure, Timing to Align Dear [Public Policy Head], Two telehealth competitors just filed federal lobbying on licensure and interstate practice standards, with the FDA simultaneously targeting GLP-1 marketing claims across the sector. California's enforcement posture and licensure fragmentation are becoming a direct competitive moat issue. Would a 15-minute call Thursday work to map how your government affairs team is tracking these filings and state-level responses? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Your competitors filed federal lobbying on telehealth licensure last month, and the FDA just dropped enforcement on marketing claims. This is the moment your compliance leadership needs visibility into what's being lobbied and which states are moving next. Prospect: We track this through our internal government affairs team, but I see the timing pressure. BDR Pivot: Exactly. A 10-minute sync with your GC on how your peers are positioning licensure risk and what California's moving on would give you a concrete play before the next state action lands."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_005|ca|telehealth_general",
@@ -756,11 +698,11 @@
         "telehealth_general",
         "telehealth_reimbursement"
       ],
-      "top_composite_score": 0.439,
+      "top_composite_score": 0.437,
       "signals_summary": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.082
+        "S3": 0.078
       },
       "total_routed_alerts": 6,
       "all_source_events": {
@@ -769,50 +711,44 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
+          },
+          {
+            "signal_id": "S2_rival_co_mobilization",
+            "score": 0.9,
+            "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-            "dt_posted": "2026-07-17"
-          },
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
-          },
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.082,
+            "score": 0.078,
             "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
             "enforcement_date": "2026-06-17T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.021,
+            "score": 0.02,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -823,11 +759,11 @@
           "opportunity_id": "acc_002|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.439,
+          "composite_score": 0.437,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.95,
-            "S3": 0.082
+            "S3": 0.078
           },
           "signals_fired": 2,
           "source_events": {
@@ -836,38 +772,32 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-                "dt_posted": "2026-07-17"
-              },
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.082,
+                "score": 0.078,
                 "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
                 "enforcement_date": "2026-06-17T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Ro: California GLP-1 Telehealth Enforcement Cascade Accelerates"
+          "narrative_headline": "Ro: California GLP-1 Telehealth Marketing FDA Enforcement Action"
         },
         {
           "opportunity_id": "acc_002|ny|telehealth_general",
@@ -877,7 +807,7 @@
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.95,
-            "S3": 0.021
+            "S3": 0.02
           },
           "signals_fired": 2,
           "source_events": {
@@ -886,38 +816,32 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-                "dt_posted": "2026-07-17"
-              },
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.021,
+                "score": 0.02,
                 "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
                 "enforcement_date": "2026-05-20T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Ro: Telehealth Competitors File Federal Lobbying Push"
+          "narrative_headline": "Ro: NY Telehealth Competitors File Federal Lobbying Push"
         },
         {
           "opportunity_id": "acc_002|tx|telehealth_general",
@@ -936,31 +860,25 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
-                "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-                "dt_posted": "2026-07-17"
-              },
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "score": 0.9,
+                "event_summary": "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "Ro: GLP-1 Telehealth Competitors Mobilize Federal Lobbying Push"
+          "narrative_headline": "Ro: Telehealth Competitors File Federal Lobbying Push"
         },
         {
           "opportunity_id": "acc_002|ca|telehealth_reimbursement",
@@ -979,14 +897,14 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
@@ -1010,19 +928,19 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "Ro: NY Telehealth Reimbursement Competitors File Federal Lobbying"
+          "narrative_headline": "Ro: NY Telehealth Reimbursement Competitors File Federal Lobbying Push"
         },
         {
           "opportunity_id": "acc_002|tx|telehealth_reimbursement",
@@ -1041,26 +959,26 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               },
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "Ro: Texas Telehealth Reimbursement Competitor Lobbying Intensifies"
+          "narrative_headline": "Ro: Texas Telehealth Reimbursement Rivals File Federal Lobbying Push"
         }
       ],
       "best_narrative": {
-        "headline": "Ro: California GLP-1 Telehealth Enforcement Cascade Accelerates",
-        "body": "Ro's sexual-health-and-weight-loss model depends on asynchronous prescribing workflows and compounded GLP-1 supply chains, creating material exposure as FDA enforcement on telehealth marketing claims intensifies across the sector. Four competing GLP-1 telehealth prescribers filed federal lobbying disclosures on telehealth topics in July 2026, signaling industry mobilization ahead of anticipated state-level regulatory tightening. Operators in this segment commonly face California pharmacy board scrutiny on compounding standards and asynchronous prescribing protocols, particularly when marketing and supply-chain practices intersect with enforcement priorities. Your regulatory affairs team should map exposure across California, New York, and Texas given Ro's operational footprint in these jurisdictions.",
-        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Wave: Ro's Asynchronous Prescribing Exposure Dear Public Policy Head, Four of Ro's competitors filed federal telehealth lobbying disclosures this month as FDA enforcement on GLP-1 marketing claims accelerates. Your asynchronous prescribing model and compounded supply chain create material exposure in California, where pharmacy board oversight of compounding standards is tightening. I've helped similar operators map state-specific compliance gaps before enforcement hits. Can we grab 15 minutes Thursday to walk through what's landing on your compliance team's desk? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged Ro's GLP-1 marketing and compounding exposure back in May. The FDA enforcement action and competitor lobbying filings from last month have moved your timeline up significantly. Prospect: We're tracking the FDA piece internally, but state rules are a lower priority right now. BDR Pivot: That's the gap. State boards in California and Texas are using federal enforcement momentum to tighten compounding regs. Ten-minute sync with your Chief Compliance Officer on how Ro's asynchronous model sits against these emerging state rules?"
+        "headline": "Ro: California GLP-1 Telehealth Marketing FDA Enforcement Action",
+        "body": "Ro's asynchronous prescribing model and compounded GLP-1 supply chain create material exposure distinct from generalist virtual care platforms, as the company's weight-loss category depends entirely on direct-to-consumer marketing claims. FDA enforcement actions targeting telehealth GLP-1 marketing substantiation, reported in mid-June 2026, signal heightened federal scrutiny of clinical claims commonly made by asynchronous weight-loss prescribers. Simultaneously, four competing GLP-1 telehealth operators filed federal lobbying disclosures on telehealth policy in July 2026, indicating industry-wide mobilization around regulatory pressure. California's pharmacy compounding rules and state asynchronous prescribing standards now intersect with federal marketing enforcement, creating a compliance coordination challenge for the regulatory affairs lead.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Marketing Enforcement + CA Compounding Rule Alignment Dear Regulatory Affairs Lead, FDA enforcement actions on telehealth GLP-1 marketing claims landed in June, and four Ro competitors filed federal telehealth lobbying disclosures last month. California's compounding and asynchronous prescribing standards now sit at the intersection of federal substantiation enforcement and state pharmacy licensing risk. A 15-minute call Thursday would clarify how Ro's compliance calendar maps to these concurrent federal and state pressures. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Your government affairs team saw the FDA GLP-1 marketing enforcement action in June, and competitive intelligence shows four weight-loss telehealth operators mobilized on federal lobbying last month. That timing tells us your compliance roadmap may need a state-by-state checkpoint, especially in California. Prospect: We've been tracking the FDA action internally, but we're focused on product claims right now, not state regulatory mapping. BDR Pivot: Understood. Ten minutes to walk through how California's compounding and asynchronous prescribing standards interact with the FDA substantiation enforcement would give your GC confidence in your state playbook before the next board check-in."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_002|ca|telehealth_general",
@@ -1068,16 +986,15 @@
       "state_count_affected": 3,
       "topic_count_affected": 2,
       "triggering_events_summary": [
-        "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-17)",
-        "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-        "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
+        "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+        "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+        "Prescription economics and access: 3 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+        "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+        "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
         "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
         "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)"
       ],
-      "latest_signal_event_date": "2026-07-18"
+      "latest_signal_event_date": "2026-07-19"
     },
     {
       "account_id": "acc_011",
@@ -1114,11 +1031,11 @@
         "telehealth_general",
         "telehealth_reimbursement"
       ],
-      "top_composite_score": 0.376,
+      "top_composite_score": 0.375,
       "signals_summary": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.082
+        "S3": 0.078
       },
       "total_routed_alerts": 6,
       "all_source_events": {
@@ -1127,26 +1044,26 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+            "dt_posted": "2026-07-19"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.082,
+            "score": 0.078,
             "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
             "enforcement_date": "2026-06-17T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.021,
+            "score": 0.02,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -1157,11 +1074,11 @@
           "opportunity_id": "acc_011|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.376,
+          "composite_score": 0.375,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.95,
-            "S3": 0.082
+            "S3": 0.078
           },
           "signals_fired": 2,
           "source_events": {
@@ -1170,30 +1087,30 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.082,
+                "score": 0.078,
                 "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
                 "enforcement_date": "2026-06-17T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "WeightWatchers: California Telehealth GLP-1 Marketing Enforcement Cascade Accelerates"
+          "narrative_headline": "WeightWatchers: California Telehealth GLP-1 Marketing FDA Enforcement Accelerates"
         },
         {
           "opportunity_id": "acc_011|ny|telehealth_general",
           "state": "ny",
           "topic": "telehealth_general",
-          "composite_score": 0.351,
+          "composite_score": 0.35,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.95,
-            "S3": 0.021
+            "S3": 0.02
           },
           "signals_fired": 2,
           "source_events": {
@@ -1202,20 +1119,20 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.021,
+                "score": 0.02,
                 "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
                 "enforcement_date": "2026-05-20T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "WeightWatchers: NY Telehealth Prescriber Rules Shift Amid Competitor Lobbying"
+          "narrative_headline": "WeightWatchers: GLP-1 Telehealth Prescriber Availability Tightens NY"
         },
         {
           "opportunity_id": "acc_011|tx|telehealth_general",
@@ -1234,13 +1151,13 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.95,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "WeightWatchers: Competitor Telehealth Lobbying Signals TX Prescriber Access Tightening"
+          "narrative_headline": "WW: GLP-1 Competitor Lobbying Escalates Texas Telehealth Rules"
         },
         {
           "opportunity_id": "acc_011|ny|telehealth_reimbursement",
@@ -1259,13 +1176,13 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "WeightWatchers: NY Telehealth Reimbursement Rivals Mobilize Federal Lobby"
+          "narrative_headline": "WeightWatchers: Competitor Telehealth Reimbursement Lobbying Shifts NY"
         },
         {
           "opportunity_id": "acc_011|ca|telehealth_reimbursement",
@@ -1284,13 +1201,13 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "WeightWatchers: California Telehealth Reimbursement Lobby Pressure Intensifies"
+          "narrative_headline": "WeightWatchers: CA Telehealth Reimbursement Rivals File Federal Lobbying"
         },
         {
           "opportunity_id": "acc_011|tx|telehealth_reimbursement",
@@ -1309,20 +1226,20 @@
               {
                 "signal_id": "S2_rival_co_mobilization",
                 "score": 0.85,
-                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
+                "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
+                "dt_posted": "2026-07-19"
               }
             ],
             "S3": []
           },
-          "narrative_headline": "WeightWatchers: Competitors Mobilize Telehealth Reimbursement Federal Lobbying"
+          "narrative_headline": "WeightWatchers: Texas Telehealth Reimbursement Rivals File Federal Lobbying"
         }
       ],
       "best_narrative": {
-        "headline": "WeightWatchers: California Telehealth GLP-1 Marketing Enforcement Cascade Accelerates",
-        "body": "WeightWatchers operates a consumer-direct GLP-1 weight-loss telehealth model dependent on prescriber availability and state medical practice rule compliance, distinguishing it from enterprise virtual care platforms contracted with health plans. The FDA's June 2026 enforcement sweep targeting telehealth GLP-1 marketing claims, combined with four competing telehealth operators filing federal lobbying positions on telehealth regulation, signals state-level policy tightening in California and New York. The most recent 10-K names state telehealth medical practice rules and compounded GLP-1 regulatory shifts as material risks to prescriber access and marketing flexibility. WeightWatchers' government affairs team should map enforcement patterns across California's medical board and FDA field office to anticipate prescriber guidance updates or claim audit scrutiny.",
-        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Wave + CA Medical Board Alignment Risk Dear [Public Policy Head], Four telehealth competitors just filed federal lobbying notices on telehealth regulation following the FDA's June enforcement action on GLP-1 marketing claims. California's medical board typically harmonizes with FDA enforcement priorities within 60 to 90 days. Given WeightWatchers' prescriber network and marketing footprint in CA, a 15-minute call Thursday would help map state-level enforcement timing and prescriber communication strategy. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FDA's telehealth GLP-1 marketing enforcement in June, paired with four competitors mobilizing lobbying resources on telehealth rules, means California's medical board is likely reviewing prescriber claim standards now. Prospect: We're monitoring FDA enforcement internally, but state-level coordination isn't on the radar yet. BDR Pivot: That's the gap. State boards typically move 60 to 90 days after federal action, and your prescriber guidance could shift before your compliance team sees it coming. A 10-minute sync to walk your government affairs team through the CA timeline would cut that lag significantly."
+        "headline": "WeightWatchers: California Telehealth GLP-1 Marketing FDA Enforcement Accelerates",
+        "body": "WeightWatchers operates a direct-to-consumer weight-loss telehealth model dependent on prescriber networks and compounded GLP-1 supply, exposing the company to state medical practice rule shifts and FDA marketing claim enforcement in ways that differ materially from pure mental-health or sexual-health platforms with narrower therapeutic scope. The most recent 10-K names state telehealth medical practice rules and GLP-1 prescriber availability as material risks. Four competing GLP-1 weight-loss telehealth operators have filed federal lobbying disclosures on telehealth topics since mid-July 2026, and the FDA has issued a sweeping enforcement action targeting telehealth GLP-1 marketing claims, signaling tightened federal scrutiny of the marketing and operational practices that drive patient acquisition in this segment. California's top-three state exposure status combined with federal enforcement activity creates near-term pressure on WeightWatchers' government affairs team to map state-specific telehealth prescriber licensing and compounded drug approval pathways.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Marketing Enforcement, CA Telehealth Prescriber Exposure Dear [Public Policy Head / VP Regulatory Affairs], WeightWatchers' 10-K cites state telehealth medical practice rules and prescriber availability as material risk factors. The FDA has just launched a sweeping enforcement action against telehealth GLP-1 marketing claims, and four of your competitors have filed federal lobbying disclosures on telehealth topics in the past month. California remains a top-three state exposure for your business. A brief 15-minute call on Thursday would let us map the state prescriber licensing and compounded-drug approval exposure that your regulatory affairs team should be monitoring in real time. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FDA just launched enforcement against telehealth GLP-1 marketing claims, and we're seeing four of your peer operators lobby on telehealth federal topics simultaneously. Your 10-K names state prescriber rules as a material risk, California specifically. Prospect: We're tracking the FDA action internally, but I'm not sure this changes our near-term compliance roadmap. BDR Pivot: Understood. A quick 10-minute sync would let us show you how your state prescriber licensing and compounded-drug approval timelines align with what federal enforcement is signaling. It's a timing conversation, not a solution pitch."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_011|ca|telehealth_general",
@@ -1330,186 +1247,12 @@
       "state_count_affected": 3,
       "topic_count_affected": 2,
       "triggering_events_summary": [
-        "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-18)",
+        "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-19)",
+        "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-19)",
         "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
         "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)"
       ],
-      "latest_signal_event_date": "2026-07-18"
-    },
-    {
-      "account_id": "acc_020",
-      "account_name": "Zocdoc",
-      "account_size_tier": "enterprise",
-      "account_target_tier": "enterprise",
-      "account_segment": "healthcare_directory_and_telehealth",
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "series_d_plus",
-      "account_revenue_band": "100-250M",
-      "account_parent": null,
-      "account_tracking_status": "active_alert",
-      "routing_destination": "alerts",
-      "hq_city": "New York",
-      "hq_state": "ny",
-      "website": "https://www.zocdoc.com",
-      "product_one_liner": "Online physician-search and appointment marketplace with embedded telehealth scheduling.",
-      "founded_year": 2007,
-      "topic_exposure_full": [
-        "prescription_economics",
-        "telehealth_general"
-      ],
-      "public_company": false,
-      "ticker": null,
-      "disclosure_source": "industry_general",
-      "acquired_note": null,
-      "states_affected": [
-        "ca",
-        "ny",
-        "tx"
-      ],
-      "topics_affected": [
-        "telehealth_general"
-      ],
-      "top_composite_score": 0.314,
-      "signals_summary": {
-        "S1": 0.0,
-        "S2": 0.95,
-        "S3": 0.082
-      },
-      "total_routed_alerts": 3,
-      "all_source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-            "dt_posted": "2026-07-18"
-          }
-        ],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.082,
-            "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
-            "enforcement_date": "2026-06-17T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.021,
-            "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
-            "enforcement_date": "2026-05-20T07:00:00+00:00"
-          }
-        ]
-      },
-      "evidence_drilldown": [
-        {
-          "opportunity_id": "acc_020|ca|telehealth_general",
-          "state": "ca",
-          "topic": "telehealth_general",
-          "composite_score": 0.314,
-          "signal_scores": {
-            "S1": 0.0,
-            "S2": 0.95,
-            "S3": 0.082
-          },
-          "signals_fired": 2,
-          "source_events": {
-            "S1": [],
-            "S2": [
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
-              }
-            ],
-            "S3": [
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.082,
-                "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
-                "enforcement_date": "2026-06-17T07:00:00+00:00"
-              }
-            ]
-          },
-          "narrative_headline": "Zocdoc: Telehealth Marketing Compliance Tightens Across Top States"
-        },
-        {
-          "opportunity_id": "acc_020|ny|telehealth_general",
-          "state": "ny",
-          "topic": "telehealth_general",
-          "composite_score": 0.292,
-          "signal_scores": {
-            "S1": 0.0,
-            "S2": 0.95,
-            "S3": 0.021
-          },
-          "signals_fired": 2,
-          "source_events": {
-            "S1": [],
-            "S2": [
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
-              }
-            ],
-            "S3": [
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.021,
-                "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
-                "enforcement_date": "2026-05-20T07:00:00+00:00"
-              }
-            ]
-          },
-          "narrative_headline": "Zocdoc: NY Telehealth Regulatory Mobilization Intensifies Competitor Lobbying"
-        },
-        {
-          "opportunity_id": "acc_020|tx|telehealth_general",
-          "state": "tx",
-          "topic": "telehealth_general",
-          "composite_score": 0.285,
-          "signal_scores": {
-            "S1": 0.0,
-            "S2": 0.95,
-            "S3": 0.0
-          },
-          "signals_fired": 1,
-          "source_events": {
-            "S1": [],
-            "S2": [
-              {
-                "signal_id": "S2_rival_co_mobilization",
-                "score": 0.95,
-                "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-                "dt_posted": "2026-07-18"
-              }
-            ],
-            "S3": []
-          },
-          "narrative_headline": "Zocdoc: Telehealth Competitors Mobilize Federal Lobbying"
-        }
-      ],
-      "best_narrative": {
-        "headline": "Zocdoc: Telehealth Marketing Compliance Tightens Across Top States",
-        "body": "Zocdoc's directory-and-booking model creates material exposure to state medical advertising rules and consumer protection enforcement, particularly given California, New York, and Texas regulatory activity. Operators in this segment commonly face scrutiny on provider credential verification, marketing claim accuracy, and fee-splitting disclosures. Four competitors have mobilized federal lobbying on telehealth topics within the past eight weeks, and the FDA has signaled enforcement momentum on telehealth GLP-1 marketing claims. This combination suggests state attorneys general and medical boards may accelerate advertising compliance audits of directory platforms connecting patients to telehealth providers.",
-        "cold_first_touch_frame": "Subject: Four Competitors Just Lobbied on Telehealth, Your State Exposure Dear Public Policy Head, Four telehealth operators filed federal lobbying disclosures on telehealth in the past eight weeks, and the FDA has opened enforcement on GLP-1 marketing claims. For a directory platform connecting patients to providers across CA, NY, and TX, this signals state boards and AGs are moving from monitoring to active compliance audits on provider credential and marketing claim standards. Would a 15-minute call on Thursday work to map your current state-level exposure and near-term regulatory calendar? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: State medical boards are now enforcing telehealth marketing standards in real time, and your competitors are already lobbying on this. Four filings dropped in the past eight weeks alone, plus the FDA just targeted GLP-1 claims. Prospect: We've been tracking this, but it's not a priority right now. BDR Pivot: I understand. A quick 10-minute sync would give your compliance leadership a concrete picture of what your peer operators are defending against in CA and NY right now. That usually changes the timeline. Does Thursday at 2pm work?"
-      },
-      "best_narrative_source": "llm",
-      "best_opportunity_id": "acc_020|ca|telehealth_general",
-      "multistate_indicator": true,
-      "state_count_affected": 3,
-      "topic_count_affected": 1,
-      "triggering_events_summary": [
-        "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-18)",
-        "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
-        "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)"
-      ],
-      "latest_signal_event_date": "2026-07-18"
+      "latest_signal_event_date": "2026-07-19"
     },
     {
       "account_id": "acc_018",
@@ -1544,11 +1287,11 @@
       "topics_affected": [
         "telehealth_general"
       ],
-      "top_composite_score": 0.312,
+      "top_composite_score": 0.311,
       "signals_summary": {
         "S1": 0.0,
         "S2": 0.85,
-        "S3": 0.082
+        "S3": 0.078
       },
       "total_routed_alerts": 3,
       "all_source_events": {
@@ -1564,13 +1307,13 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.082,
+            "score": 0.078,
             "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
             "enforcement_date": "2026-06-17T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.021,
+            "score": 0.02,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -1581,11 +1324,11 @@
           "opportunity_id": "acc_018|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.312,
+          "composite_score": 0.311,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.85,
-            "S3": 0.082
+            "S3": 0.078
           },
           "signals_fired": 2,
           "source_events": {
@@ -1601,23 +1344,23 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.082,
+                "score": 0.078,
                 "event_summary": "Peer enforcement: FDA Targets Telehealth GLP-1 Marketing Claims in Sweeping Enforcement Action - trialsitenews.com (2026-06-17)",
                 "enforcement_date": "2026-06-17T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Spring Health: Competitors Mobilize Federal Lobbying on Telehealth Regulation"
+          "narrative_headline": "Spring Health: Competitors Mobilize Federal Telehealth Lobbying Amid FDA Enforcement"
         },
         {
           "opportunity_id": "acc_018|ny|telehealth_general",
           "state": "ny",
           "topic": "telehealth_general",
-          "composite_score": 0.289,
+          "composite_score": 0.288,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.85,
-            "S3": 0.021
+            "S3": 0.02
           },
           "signals_fired": 2,
           "source_events": {
@@ -1633,13 +1376,13 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.021,
+                "score": 0.02,
                 "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
                 "enforcement_date": "2026-05-20T07:00:00+00:00"
               }
             ]
           },
-          "narrative_headline": "Spring Health (private) | NY | Telehealth General | composite 0.289"
+          "narrative_headline": "Spring Health: Competitors Mobilize Federal Telehealth Advocacy New York"
         },
         {
           "opportunity_id": "acc_018|fl|telehealth_general",
@@ -1664,14 +1407,14 @@
             ],
             "S3": []
           },
-          "narrative_headline": "Spring Health: Florida Mental Health Telehealth Licensing Competitors Mobilize"
+          "narrative_headline": "Spring Health: FL Mental Health Telehealth Competitor Lobbying Intensifies"
         }
       ],
       "best_narrative": {
-        "headline": "Spring Health: Competitors Mobilize Federal Lobbying on Telehealth Regulation",
-        "body": "Spring Health operates as a pure-play mental health platform with state behavioral health licensing exposure across New York, California, and Florida, creating material sensitivity to regulatory shifts affecting asynchronous care delivery and employer-plan contracting. Industry-standard regulatory exposures for enterprise mental health telehealth operators include state-level licensing enforcement, Medicaid mental health reimbursement policy changes, and employer health plan compliance requirements. Two competitors filed federal lobbying disclosures on telehealth topics in July 2026, signaling sector-wide preparation for potential federal oversight or state-coordinated enforcement actions. Concurrent FDA enforcement action against telehealth GLP-1 marketing claims indicates broader federal appetite for telehealth business-model scrutiny, which may extend to mental health licensing and prescribing workflows.",
-        "cold_first_touch_frame": "Subject: Competitors Mobilize on Federal Telehealth Lobbying Dear Public Policy Head, Two of Spring Health's largest competitors filed federal lobbying disclosures in July on telehealth regulation, and the FDA simultaneously escalated enforcement against telehealth marketing claims. This dual signal suggests your government affairs team should map potential state-level licensing and Medicaid reimbursement exposure in CA, NY, and FL before next-cycle regulatory filings are due. I lead competitive intelligence on state mental health policy for multistate telehealth operators and can brief you on what your peers are filing and which state AG offices are most active in licensing enforcement. Can we lock 15 minutes Thursday at 2pm to align on your priority exposure areas? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your two largest competitors just filed federal lobbying reports on telehealth, and the FDA enforcement wave against telehealth GLP-1 claims landed the same month. That timing matters for your state licensing and Medicaid strategy across CA and NY. Prospect: We've got our own compliance team tracking this. Not sure we need external help right now. BDR Pivot: Understood. Most GCs we work with aren't worried about competitor positioning until it's too late. Spend 10 minutes with me this week, and I'll show you exactly which state enforcement triggers your peers are hedging against that you might not have on your radar yet."
+        "headline": "Spring Health: Competitors Mobilize Federal Telehealth Lobbying Amid FDA Enforcement",
+        "body": "Spring Health operates as a pure-play mental health platform with state behavioral health licensing exposure across high-enforcement jurisdictions, distinguishing it from broader consumer telehealth operators managing multiple service categories. Competitors have filed federal lobbying disclosures on telehealth topics as of July 2026, signaling organized industry response to regulatory tightening. Industry-standard regulatory exposures for this business model include state licensing compliance, Medicaid mental health reimbursement alignment, and employer plan contractual obligations tied to clinical standards. California, New York, and Florida represent the material exposure tier for behavioral health operators, where licensing boards and state attorneys general have increased scrutiny on telehealth service delivery.",
+        "cold_first_touch_frame": "Subject: Competitors Filing on Telehealth Regulation, Spring Health's California Exposure Dear Public Policy Head, Two competitors have filed federal lobbying disclosures on telehealth topics in the past 60 days, signaling preparation for state-level regulatory tightening. Given Spring Health's footprint in California, New York, and Florida, all high-enforcement states for behavioral health licensing, your government affairs team may benefit from parallel policy tracking to anticipate licensing and reimbursement changes. I have 15-minute calls available Thursday or Friday to walk through the filing activity and exposure mapping. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: You flagged state licensing and Medicaid reimbursement as compliance priorities last quarter. Two competitors just filed federal telehealth lobbying disclosures, which typically precedes state-level regulatory moves in California and New York. Prospect: We're tracking it internally, but bandwidth is tight right now. BDR Pivot: Completely understand. A quick 10-minute call this week, I can walk you through which states are moving first and what competitor positions mean for your licensing exposure in California. Worth 10 minutes to de-risk the next quarter."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_018|ca|telehealth_general",
