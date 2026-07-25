@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T10:12:34+00:00",
-  "count": 30,
+  "generated_at": "2026-07-25T09:34:57+00:00",
+  "count": 21,
   "alerts": [
     {
       "opportunity_id": "acc_001|ny|telehealth_general",
@@ -16,12 +16,12 @@
       "account_target_tier": "enterprise",
       "state": "ny",
       "topic": "telehealth_general",
-      "composite_score": 0.529,
+      "composite_score": 0.528,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.016
+        "S3": 0.015
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 21,
@@ -33,26 +33,26 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.016,
+            "score": 0.015,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -60,10 +60,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: NY Telehealth Prescribing Rules Tighten as Competitors Mobilize Lobbying",
-        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains and asynchronous prescribing workflows across state jurisdictions, creating exposure to regulatory variance that competitors are now actively monitoring in federal filings. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as material risks, with NY among the top three state exposures. Four weight-loss telehealth competitors filed federal lobbying disclosures on telehealth policy in July 2026, signaling coordinated state-level engagement that may precede NY regulatory tightening. Peer litigation filed in May 2026 against Hims suggests operational and compliance vulnerabilities in the asynchronous prescribing model that NY regulators may scrutinize.",
-        "cold_first_touch_frame": "Subject: NY Telehealth Competitors Mobilize on Prescribing Rules Dear VP Regulatory Affairs, Four weight-loss telehealth competitors filed federal lobbying disclosures on telehealth policy in July, signaling coordinated state engagement. Given your exposure to NY asynchronous prescribing rules and compounded GLP-1 availability, this competitor mobilization may precede regulatory tightening in your top markets. Can we grab 15 minutes Thursday to review how peers are positioning around state prescribing variance? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Four of your weight-loss competitors just filed federal lobbying on telehealth policy, and recent peer litigation raises compliance questions on asynchronous prescribing. Wanted to check in on whether NY regulatory exposure has moved up your priority list. Prospect: We're monitoring it, but it's not urgent yet. Plus, we have internal counsel handling compliance. BDR Pivot: Understood. What if I showed you in 10 minutes how your state exposure profile compares to what those competitors are lobbying on? Could help your GA team prioritize which rules to track first."
+        "headline": "Hims: NY Telehealth Prescribing Rules Shift as Competitors Mobilize Federally",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains and asynchronous prescribing workflows across state lines, creating exposure when peer operators file federal lobbying activity on telehealth topics. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as material risks to operations. Four competing GLP-1 weight-loss telehealth prescribers have filed federal lobbying disclosures on telehealth topics since July 2026, signaling sector-wide regulatory pressure that may precede state-level rulemaking in New York and other top-exposure jurisdictions (California, Florida). Your government affairs team should monitor whether NY pharmacy or telehealth boards open rulemakings on asynchronous prescriber standards or compounding oversight that could narrow Hims's current operational model.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Signals NY Prescribing Rule Shift Dear [Public Policy Head], Four GLP-1 telehealth competitors have filed federal lobbying disclosures on telehealth topics since July, typically a precursor to state board rulemaking on prescriber standards and compounding oversight. Your 10-K identifies state asynchronous prescribing rules and compounded GLP-1 availability as material operational risks. A 15-minute call on Thursday would let us align on what NY pharmacy and telehealth board activity to monitor over the next 60 days. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Four of your competitors just filed federal telehealth lobbying disclosures, and peer litigation from May signals enforcement appetite on prescribing and compounding workflows. That timing makes now the right moment to lock in visibility on what NY regulators are planning. Prospect: We're tracking the litigation, but I'm not sure federal lobbying translates to New York action. BDR Pivot: Fair point, but your 10-K flags state prescribing rules as material risk, and lobbying filings typically precede state-level rulemakings by 6 to 8 weeks. A 10-minute sync with your government affairs team could confirm whether NY boards are signaling any new rulemaking on asynchronous prescriber standards or compounding oversight."
       },
       "narrative_source": "llm"
     },
@@ -98,30 +98,30 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: California Telehealth Competitors File Federal Lobbying Push",
-        "body": "Hims operates a multi-category consumer telehealth platform dependent on state asynchronous prescribing rules and compounded GLP-1 supply chain access, making state-level regulatory variance material to unit economics across top markets. Four competing GLP-1 weight-loss telehealth prescribers filed federal lobbying disclosures on telehealth topics as of late July 2026, signaling coordinated policy mobilization to shape state prescribing and pharmacy compounding standards. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as material risks. California, New York, and Florida represent top-three state exposures for this operating model, and rival coordination on telehealth policy could accelerate enforcement or licensing tightening in these jurisdictions.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Filings Spike, CA Policy Window Dear Public Policy Head, Four GLP-1 telehealth competitors filed federal lobbying disclosures on telehealth topics this month. This signals coordinated effort to shape state asynchronous prescribing and compounding standards ahead of likely state-level rulemaking cycles. Given Hims' dependency on state pharmacy compounding access and asynchronous prescribing rules in California, New York, and Florida, tracking rival positioning and state agency timelines is now operationally critical. Could we schedule a 15-minute call Thursday to map state policy windows where competitor mobilization may create or close advocacy opportunities for your team? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged competitor lobbying coordination on telehealth policy last month. State agency comment periods are opening in California and Florida now, and your team may need to respond before rival groups establish default positions. Prospect: We've been tracking some of this internally, but the resource priority has shifted. BDR Pivot: Understood. A 10-minute sync with your GC and regulatory lead would clarify which state dockets create material exposure for Hims' compounding and asynchronous prescribing workflows. Timing matters here because comment windows close fast."
+        "headline": "Hims: California Telehealth Prescribing Rules Face Competitor Lobbying Mobilization",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on asynchronous prescribing workflows and compounded GLP-1 supply chains across top-three exposure states. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as disclosed risks to the business model. Four competing GLP-1 weight-loss telehealth prescribers filed federal lobbying disclosures on telehealth topics in July 2026, signaling coordinated policy engagement that may reshape prescribing standards in California and peer states. This competitor mobilization creates a timing window for regulatory affairs to map incoming policy pressure before rules tighten on asynchronous workflows or compounded product access.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Filing, California Prescribing Rules at Risk Dear Public Policy Head, Four rival GLP-1 telehealth operators filed federal lobbying disclosures on telehealth topics this month, signaling coordinated engagement on prescribing standards. Given Hims' disclosed exposure to state asynchronous prescribing rules and compounded GLP-1 availability, your government affairs team should map the pending policy asks before California and peer states move. I work with regulatory teams across multistate telehealth to track these coordinated filings and model state-by-state impact timelines. Would a 15-minute call on Thursday work to review the competitor filing set and draft a monitoring roadmap? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Your competitor landscape just shifted: four GLP-1 operators filed federal lobbying on telehealth last month, and California prescribing rules are likely next. This is the moment your government affairs team needs visibility into what they're asking for before state regulators move. Prospect: We've got this covered internally, but I'll check with public policy. BDR Pivot: Understood. Most teams find value in seeing the specific filings and state-impact modeling in one place. Could we grab 10 minutes early next week so I can walk you through what's live and what your team should be watching?"
       },
       "narrative_source": "llm"
     },
@@ -156,30 +156,30 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: Florida Telehealth Prescribing Rules Tighten Amid Competitor Lobbying",
-        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains and asynchronous prescribing workflows across high-enforcement states. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as disclosed risks. Four weight-loss telehealth competitors filed federal lobbying disclosures in recent months, signaling coordinated policy mobilization around telehealth licensing and prescribing scope. Florida ranks among Hims' top state exposures, making shifts in asynchronous prescribing standards and compounding pharmacy oversight material to operations.",
-        "cold_first_touch_frame": "Subject: Four GLP-1 Telehealth Competitors Just Filed Federal Lobbying, Florida Exposure Dear [Public Policy Head], Hims' 10-K identifies state asynchronous prescribing rules and compounded GLP-1 availability as material risks. Four direct competitors in weight-loss telehealth filed federal lobbying disclosures within the past 60 days, indicating coordinated policy engagement on telehealth licensing scope. Florida is a top-three state for Hims' exposure profile, making early monitoring of prescribing standard shifts critical to your compliance and government affairs roadmap. Would a 15-minute call Thursday work to map the competitor lobbying activity and Hims' specific exposure vectors in Florida? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged that four GLP-1 competitors just filed federal lobbying on telehealth scope, and Florida is a top-three state for Hims' compounded prescribing operations. Your compliance leadership should see this policy mobilization in real time. Prospect: We've been tracking some of this, but our team is stretched across multiple state rules right now. BDR Pivot: Exactly. A 10-minute sync with your government affairs lead would isolate which competitor moves pose the highest compliance risk to Florida asynchronous prescribing workflows. That clarity helps you prioritize your federal engagement strategy before state rule changes cascade downstream."
+        "headline": "Hims: Florida Telehealth Prescribing Rules Shift As Competitors Mobilize",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on asynchronous prescribing workflows and compounded GLP-1 supply chains across top-three exposure states, creating regulatory surface area distinct from pure-play sexual health or mental health operators. Per the most recent 10-K filing, state asynchronous prescribing rules and compounded GLP-1 product availability represent named material risks. Four competing GLP-1 weight-loss telehealth prescribers have filed federal lobbying disclosures on telehealth policy within the past month, signaling coordinated industry mobilization ahead of potential state-level prescribing or pharmacy compounding restrictions. Florida's position as a top-three exposure state amplifies the timing risk for Hims' government affairs team to anticipate and shape emerging legislative activity.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Uptick in FL Dear [Public Policy Head], Four GLP-1 telehealth competitors filed federal lobbying disclosures on telehealth topics in the past month, suggesting coordinated industry positioning ahead of state-level prescribing or compounding rule changes. Florida remains a top operational state for Hims, and your 10-K names state asynchronous prescribing rules and compounded GLP-1 availability as material risks. A 15-minute call Thursday would help map the likely state-level triggers your team should monitor. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Florida is seeing competitor mobilization on telehealth prescribing rules right now, and your 10-K flags asynchronous prescribing and compounded GLP-1 access as material exposures. Worth a quick sync to map what your government affairs team should be tracking. Prospect: We're monitoring Florida, but it's not urgent yet. BDR Pivot: Understood. A 10-minute call would just surface which rule changes your compliance leadership is already watching, so we stay aligned on timing. Does Thursday afternoon work?"
       },
       "narrative_source": "llm"
     },
@@ -202,7 +202,7 @@
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.016
+        "S3": 0.015
       },
       "business_model_exposure_weight": 1.2,
       "risk_disclosure_hit_count": 14,
@@ -214,20 +214,20 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-23)",
-            "dt_posted": "2026-07-23"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.016,
+            "score": 0.015,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -235,10 +235,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "GoodRx: NY Telehealth Licensing Competitors Mobilize Federal Lobbying",
-        "body": "GoodRx operates a hybrid discount pharmacy and telehealth platform dependent on state prescription economics and PBM-adjacent positioning across top-three exposure states, differentiating it from pure-play telehealth operators. The most recent 10-K names state telehealth licensing, state PBM regulation, and prescription pricing transparency as material risks. Four competitors have filed federal lobbying disclosures on telehealth topics since July 2026, signaling coordinated policy engagement ahead of potential state licensing tightening. Rival enforcement actions, including the Hims and Hers lawsuit filed May 2026, indicate state attorneys general are scrutinizing telehealth operational compliance and prescriber accountability.",
-        "cold_first_touch_frame": "Subject: Competitor Lobbying Surge on NY Telehealth Licensing Dear [Public Policy Head], Four competitors in your space have filed federal lobbying on telehealth topics in the last 60 days. Combined with the Hims and Hers enforcement action in May, this signals state attorneys general are tightening telehealth licensing and prescriber oversight. GoodRx's dual pharmacy-telehealth model creates material exposure in NY given the 10-K's disclosure of state licensing and PBM regulation as ongoing risks. Would you have 15 minutes Thursday to discuss how peer mobilization may reshape your state compliance roadmap? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The Hims lawsuit filing and four competitor federal lobbying disclosures on telehealth landed in the last 60 days. Your government affairs team may be tracking this, but NY enforcement appetite appears to be rising. Prospect: We're aware of the Hims action, but we're watching it closely before adjusting anything internally. BDR Pivot: That's exactly why a 10-minute sync with your compliance leadership makes sense now. We can map the state licensing and PBM exposure landscape across your top three states so you're ahead of any policy shifts, not reacting to them."
+        "headline": "GoodRx: NY Telehealth Licensing Rivals Mobilize Federal Lobby Push",
+        "body": "GoodRx operates at the intersection of prescription discount aggregation and direct-to-consumer telehealth services, creating exposure to both PBM regulation and state telehealth licensing standards that pure-play discount platforms do not face. The most recent 10-K names state telehealth licensing, state PBM regulation, and prescription pricing transparency as material risks. Four competitors filed federal telehealth lobbying disclosures in July 2026, signaling coordinated legislative strategy ahead of potential state-level licensing tightening in top-three exposure states: CA, NY, and TX. Recent enforcement activity against peer telehealth operators suggests state medical boards are prioritizing licensing compliance and asynchronous prescribing oversight as enforcement precursors.",
+        "cold_first_touch_frame": "Subject: NY Telehealth Licensing and PBM Exposure: Competitors' Lobbying Pivot Dear [Regulatory Affairs Lead], Four telehealth competitors just filed federal lobbying disclosures on telehealth policy in July 2026, coinciding with enforcement momentum against peer operators. Your 10-K identifies state telehealth licensing and PBM regulation in NY, CA, and TX as material exposures. We help regulatory affairs teams map competitor strategy and state-specific licensing trends before they become operational friction points. Would a 15-minute call Thursday work to discuss how your government affairs team is tracking this coordinated lobbying activity? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: State telehealth licensing enforcement is accelerating, and four of your closest competitors just coordinated a federal lobbying push in July. That timing suggests your compliance leadership should be stress-testing NY and TX licensing exposure now rather than later. Prospect: We've got our compliance team monitoring this separately, but lobbying coordination isn't really our main concern right now. BDR Pivot: Understood. The real issue is that state medical boards are moving faster than federal policy. A quick 10-minute sync with your GC on state-by-state licensing and PBM risk mapping could flag gaps your internal team might miss given the rival activity. Would next Tuesday work?"
       },
       "narrative_source": "llm"
     },
@@ -273,24 +273,24 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-23)",
-            "dt_posted": "2026-07-23"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "GoodRx: Competitor Telehealth Lobbying Intensifies CA PBM Regulation",
-        "body": "GoodRx operates a dual-revenue model combining prescription discount cards with telehealth services, creating exposure across state PBM regulation and telehealth licensing that competitors are actively shaping through federal advocacy. The most recent 10-K names state pharmacy benefit manager regulation and prescription pricing transparency as material risks to the discount card segment. Four competitors filed federal lobbying disclosures on telehealth topics in July 2026, signaling coordinated efforts to influence state-level policy pathways that could reshape reimbursement or licensing standards. California's top-three state exposure status means regulatory movement here will likely cascade to broader multistate compliance frameworks.",
-        "cold_first_touch_frame": "Subject: Four Competitors Just Lobbied Telehealth, CA PBM Rule Timing Dear [Public Policy Head], Four of your peers filed federal lobbying on telehealth in the past month, targeting state-level policy gaps. GoodRx's 10-K discloses material exposure to California PBM regulation and telehealth licensing, both active lobbying vectors right now. Your government affairs team should map competitor positioning and state timeline acceleration before Q3 filing cycles close. Could we grab 15 minutes Thursday to review the competitor advocacy landscape and your current state intelligence coverage? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed lobbying on telehealth and PBM policy. California's moving faster than most teams expect, and your GC should know the competitor positioning before it hardens into law. Prospect: We're tracking state policy, but our bandwidth is tight. BDR Pivot: Understood. Ten-minute call with your compliance leadership on Tuesday, we'll show how your peers are stacking advocacy and where California's enforcement precursors are forming. That's the gap most programs miss."
+        "headline": "GoodRx: Telehealth Competitors File Federal Lobbying on Prescription Economics",
+        "body": "GoodRx operates a hybrid prescription-discount and telehealth platform with material exposure to state PBM regulation and prescription pricing transparency rules, creating operational dependency on sustained access to pricing arbitrage and direct-to-consumer channels. Four competitors have filed federal lobbying disclosures on telehealth topics as of July 2026, signaling coordinated industry mobilization around prescription economics and reimbursement models. The most recent 10-K names state PBM regulation, state prescription pricing transparency, and state telehealth licensing as material risks. Given GoodRx's top-three state exposure profile in California, New York, and Texas, competitor lobbying activity increases likelihood that state-level policy intervention will target the pricing-access dynamics that drive the core business model.",
+        "cold_first_touch_frame": "Subject: Competitor Lobbying Activity on Telehealth Prescription Economics Dear Public Policy Head, Four of your competitors have filed federal lobbying disclosures on telehealth topics as of mid-July, suggesting coordinated industry movement on prescription economics. Given your top-state exposure in California and New York, state policy intervention on pricing transparency and PBM regulation could accelerate. Would a brief 15-minute call on Thursday work to map the competitive landscape and your government affairs priorities for the next two quarters? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Your competitors just filed coordinated federal lobbying on telehealth and prescription economics as of July. We're seeing state-level activity on pricing transparency in your top markets, and wanted to reconnect on how your compliance and regulatory teams are tracking competitor moves. Prospect: We've been heads-down on other priorities, but yes, the competitive noise is real. BDR Pivot: Perfect. Could we grab 10 minutes next week so your government affairs team and compliance leadership can review the competitor filing timeline and state-by-state exposure map we've built? It's a fast sync, and it'll help you stay ahead of any state-level response."
       },
       "narrative_source": "llm"
     },
@@ -325,24 +325,24 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-23)",
-            "dt_posted": "2026-07-23"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "GoodRx: Telehealth Competitor Lobbying Intensifies Texas PBM Regulation",
-        "body": "GoodRx operates a hybrid discount-card-plus-telehealth model with direct exposure to state PBM licensing and prescription pricing transparency rules, making competitor federal lobbying campaigns material to its operational planning. The most recent 10-K names state PBM regulation, state prescription pricing transparency, and state telehealth licensing as disclosed risks. Four competitors filed federal lobbying disclosures on telehealth topics in July 2026, signaling coordinated policy engagement in top-exposure states including Texas, California, and New York. This rival mobilization typically precedes state-level bill drafting and regulator engagement cycles that affect pricing arbitrage and care-delivery compliance posture.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Wave, TX PBM Exposure Dear Public Policy Head, Four of your telehealth and prescription-access competitors filed federal lobbying disclosures on telehealth topics this month, with Texas among the top exposure states for GoodRx's hybrid discount-plus-telehealth model. Given your disclosed material risks around state PBM regulation and prescription pricing transparency, this competitor mobilization may signal imminent state bill activity or regulator engagement in your top markets. Would a 15-minute call Thursday work to review the specific lobbying focus areas and map early-warning triggers for your compliance and government affairs team?",
-        "worked_deal_revival_frame": "BDR: Four competitors just filed federal telehealth lobbying disclosures, and Texas is heating up on PBM and prescription pricing rules. This competitor activity typically precedes state-level bill drafting that affects your pricing model and care-delivery licensing. Prospect: We've been tracking some of this ourselves, but we're not sure what specific state bills are coming yet. BDR Pivot: That's exactly the gap we help close. How about a 10-minute sync next week where we walk through the specific lobbying angles these competitors are pursuing and what state bill language your government affairs lead should be monitoring in Texas and California?"
+        "headline": "GoodRx: Competitor Telehealth Lobbying Intensifies Texas PBM Scrutiny",
+        "body": "GoodRx operates a dual-revenue model combining prescription discount card economics with direct-to-consumer telehealth services, creating material exposure to both state PBM regulation and telehealth licensing frameworks that competitors are now actively shaping through federal advocacy. The most recent 10-K names state PBM regulation and prescription pricing transparency as material risks, and four telehealth operators have filed federal lobbying disclosures on telehealth policy within the past 30 days, signaling coordinated legislative pressure. Texas remains a top-three state exposure for GoodRx given the scale of its telehealth market and emerging PBM oversight proposals. Your government affairs team should anticipate competitor-led state-level pushback on discount-card economics and asynchronous prescribing workflows in the coming session cycle.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Surge in TX, 15 Min Call? Dear [Public Policy Head], Four telehealth competitors filed federal lobbying disclosures on telehealth topics in the past month, signaling coordinated state-level legislative campaigns. Given GoodRx's dual exposure to PBM regulation and telehealth licensing in Texas, your government affairs team should understand the specific policy vectors competitors are targeting. Would a 15-minute call Thursday work to map the federal filings and their Texas implications? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Four of your telehealth competitors just filed federal lobbying disclosures on telehealth policy. This is worth revisiting your government affairs roadmap, especially given your 10-K disclosure on PBM regulation exposure in Texas. Prospect: We've been tracking some of this internally, but our hands are full with other priorities right now. BDR Pivot: Understood. A quick 10-minute sync with your compliance leadership would just confirm which competitor vectors your team is already monitoring and where there might be blind spots. Does next Tuesday morning work?"
       },
       "narrative_source": "llm"
     },
@@ -360,12 +360,12 @@
       "account_target_tier": "enterprise",
       "state": "ny",
       "topic": "telehealth_general",
-      "composite_score": 0.407,
+      "composite_score": 0.406,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.016
+        "S3": 0.015
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 0,
@@ -377,32 +377,32 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-23)",
-            "dt_posted": "2026-07-23"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.016,
+            "score": 0.015,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -410,12 +410,12 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Ro: NY Telehealth Competitors File Federal Lobbying Cascade",
-        "body": "Ro operates a sexual-health-and-weight-loss focused platform where asynchronous prescribing and compounded GLP-1 supply chain management are core operational workflows, creating material exposure to state pharmacy compounding rules across NY, CA, and TX. Four GLP-1 weight-loss telehealth prescribers filed federal lobbying disclosures on telehealth topics as of July 2026, signaling coordinated industry mobilization likely triggered by enforcement or regulatory pressure. Industry-standard regulatory exposures for this business model include state-level restrictions on compounded pharmaceutical distribution, asynchronous clinical evaluation standards, and pharmacy board oversight of remote prescribing workflows. Ro's government affairs team should assess whether competitor lobbying reflects anticipated state-level action in NY or multistate coordination that could narrow prescribing scope or supply chain access.",
-        "cold_first_touch_frame": "Subject: Competitor Lobbying Filing on NY Telehealth Prescribing Dear [Regulatory Affairs Lead], Four GLP-1 telehealth competitors filed federal lobbying disclosures on telehealth topics in July 2026, signaling potential coordinated industry response to enforcement or state rule changes. Given Ro's dependence on asynchronous prescribing and compounded GLP-1 supply workflows, your government affairs team should understand the regulatory catalyst behind this competitor mobilization and assess exposure in NY, CA, and TX. Can we schedule 15 minutes Thursday to map the timing and scope of this activity? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged four competitor lobbying filings on telehealth in July, and the Hims enforcement action from May suggests state pharmacy boards are tightening compounding and asynchronous prescribing oversight. Your GC should know whether this competitor activity is reactive defense or signals anticipated state action that affects your supply chain or clinical workflow. Prospect: We're tracking the Hims situation internally, but I'm not sure what a state-intelligence call would add right now. BDR Pivot: Understood. Ten minutes with your compliance lead to review the specific states lighting up in lobbying and enforcement filings would clarify whether you're ahead of timing or need to mobilize faster. Thursday work?"
+        "headline": "Ro: Competitor Telehealth Lobbying Surge Signals NY Prescribing Scrutiny",
+        "body": "Ro's core business model, focused on asynchronous prescribing for weight-loss and sexual health with compounded GLP-1 supply-chain dependency, faces material exposure as four competing GLP-1 telehealth prescribers filed federal lobbying disclosures on telehealth topics in recent months. The Hims and Hers litigation filed in 2026 surfaced state-level enforcement appetite around telehealth prescriber conduct and compounding practices. Operators in this segment commonly encounter state pharmacy board scrutiny on asynchronous prescribing workflows and compounded medication sourcing, particularly in New York, California, and Texas where Ro maintains substantial volume.",
+        "cold_first_touch_frame": "Subject: NY Telehealth Prescribing, Competitor Lobbying & Litigation Context Dear [Role], Four GLP-1 telehealth competitors filed federal lobbying disclosures on telehealth in the past two months, and the recent Hims and Hers litigation exposed state enforcement focus on asynchronous prescribing practices. Given Ro's model and New York exposure, your regulatory affairs lead should map how state pharmacy boards are interpreting prescriber conduct and compounded-supply oversight in this environment. Would a 15-minute call on Thursday work to discuss what this shift means for your policy roadmap? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Ro's competitors are actively lobbying on telehealth while state litigation against Hims and Hers moves forward, signaling regulators are tightening prescriber-conduct standards. This timing makes sense to revisit how your compliance leadership is monitoring state-level pharmacy board actions on asynchronous workflows. Prospect: We've been tracking the Hims case, but it's not clear how it applies to our model yet. BDR Pivot: That's exactly the gap, your GC should have 10 minutes to see how peer enforcement is reshaping state pharmacy board priorities on prescriber licensing and compounding oversight in your top three states."
       },
-      "narrative_source": "llm"
+      "narrative_source": "llm_retry"
     },
     {
       "opportunity_id": "acc_005|ny|telehealth_general",
@@ -431,12 +431,12 @@
       "account_target_tier": "enterprise",
       "state": "ny",
       "topic": "telehealth_general",
-      "composite_score": 0.407,
+      "composite_score": 0.406,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.85,
-        "S3": 0.016
+        "S3": 0.015
       },
       "business_model_exposure_weight": 1.3,
       "risk_disclosure_hit_count": 4,
@@ -455,7 +455,7 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.016,
+            "score": 0.015,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -463,10 +463,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Teladoc: NY Telehealth Competitors Mobilize Federal Lobbying",
-        "body": "Teladoc operates as a scale enterprise virtual care platform with contracted health plan relationships across multi-state networks, creating material exposure to state licensure variance and reimbursement policy shifts. Two mental health telehealth competitors filed federal lobbying disclosures on telehealth topics in July 2026, signaling coordinated policy engagement ahead of potential state-level enforcement or licensure tightening. The most recent 10-K names state professional licensure variance and Medicaid reimbursement as material operational risks. NY represents a top-three state exposure for Teladoc's contracted provider networks, making competitor mobilization in this jurisdiction a timing signal for proactive regulatory monitoring.",
-        "cold_first_touch_frame": "Subject: Competitor Lobbying Activity Signals NY Telehealth Policy Shift Dear Public Policy Head, Two of your competitors in mental health telehealth filed federal lobbying disclosures this month on telehealth topics. This coordinated mobilization typically precedes state-level licensure or reimbursement action. Given NY's weight in your contracted health plan footprint and the 10-K's disclosure of licensure variance as material risk, your government affairs team should map the specific policy asks these competitors are advancing at the federal level. Would a 15-minute call Thursday work to discuss early-warning indicators your team should be tracking? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed federal lobbying on telehealth in July, which typically signals state-level policy moves coming in the fall. Given NY's importance to your health plan contracts, this feels like the right moment to revisit how your compliance leadership is monitoring competitor policy positioning. Prospect: We've been tracking this, but it's not urgent yet. BDR Pivot: Understood. A quick 10-minute sync with your Chief Compliance Officer would help us identify which specific state reimbursement or licensure changes your team should be stress-testing against before Q4 budget planning. Does next Tuesday afternoon work?"
+        "headline": "Teladoc: NY Telehealth Licensing Rivals File Federal Lobbying",
+        "body": "Teladoc operates as a national enterprise virtual care contractor embedded in health plan networks, creating material exposure to state licensure variance and interstate practice restrictions that competitors now actively shape through federal advocacy. Two mental health telehealth operators filed federal lobbying disclosures in July 2026 on general telehealth policy, signaling coordinated pressure on state cross-border prescribing rules and professional licensure recognition. The most recent 10-K names state professional licensure variance and Interstate Medical Licensure Compact adoption as operational risks; competitor mobilization at the federal level typically precedes state-by-state enforcement tightening. Teladoc's government affairs team faces urgency to map current federal advocacy positions and anticipate resulting state-level regulatory shifts affecting network provider credentials in NY, CA, and TX.",
+        "cold_first_touch_frame": "Subject: Competitor Federal Lobbying on NY Telehealth Licensure, Timing Alert Dear Chief Regulatory Officer, Two Teladoc mental health competitors filed federal telehealth lobbying disclosures this month, suggesting coordinated federal pressure on state licensure rules. Your 10-K identifies state professional licensure variance as a material operational constraint; federal advocacy typically signals forthcoming state enforcement cycles. Can we schedule 15 minutes Thursday to map how competitor federal positions may reshape NY cross-border prescribing and provider credential rules affecting your network? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged competitor federal telehealth lobbying filings in July targeting licensure policy. Your GC mentioned state licensing variance as an operational pinch point six months ago, and federal mobilization typically accelerates state enforcement cycles within 90 days. Prospect: We've been monitoring Hims and Ro activity, but federal advocacy feels downstream from our state-level priorities. BDR Pivot: That's the exact timing gap we address. Ten minutes with your GA team to model which NY, CA, and TX state licensure shifts competitor federal positions typically trigger, no pitch, just scenario mapping to help your regulatory roadmap."
       },
       "narrative_source": "llm"
     },
@@ -501,36 +501,36 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-23)",
-            "dt_posted": "2026-07-23"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Ro: GLP-1 Competitors File Federal Telehealth Lobbying Push",
-        "body": "Ro's core operational model relies on asynchronous prescribing workflows and compounded GLP-1 supply chains, creating material exposure to state pharmacy board enforcement and prescriber licensing challenges distinct from broader telehealth platforms. Four competing weight-loss telehealth operators filed federal lobbying disclosures on telehealth regulatory topics in July 2026, signaling coordinated industry mobilization on prescribing standards and compounding oversight. California's top-three-state status for Ro's patient base amplifies the risk surface, particularly around compounded medication handling rules and state pharmacy board interpretations of asynchronous prescription protocols. Industry-standard regulatory exposures for this segment include state-level compounding facility licensing disputes, prescriber credential verification in remote workflows, and pharmacy board guidance shifts on GLP-1 compound formulations.",
-        "cold_first_touch_frame": "Subject: Competitor Lobbying Shift on GLP-1 Asynchronous Prescribing Dear Regulatory Affairs Lead, Four competing GLP-1 telehealth operators filed federal lobbying disclosures on telehealth topics this month, suggesting coordinated industry positioning on prescribing standards. Given Ro's dependence on asynchronous workflows and compounded supply chains, this competitor activity may signal imminent state-level enforcement focus or federal guidance clarification on compounding oversight. I'd like to brief your government affairs team on the filing patterns and California pharmacy board risk implications in 15 minutes on Thursday. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We've tracked four GLP-1 competitors filing federal lobbying this month on telehealth prescribing rules, which typically precedes state enforcement or guidance shifts. You and I last spoke in March around compounding facility licensing exposure, and this competitor move changes the timing and urgency. Prospect: We're monitoring California already, and our government affairs team has it covered. BDR Pivot: I understand. The value here is connecting your policy team's state-level calendar with what these competitive filings tell us about pharmacy board activity timing in California and Texas over the next 60 days. Let's grab 10 minutes to align on what's ahead so you're not reactive."
+        "headline": "Ro: GLP-1 Competitors Signal Federal Lobbying Intensity Shift",
+        "body": "Ro operates as a sexual-health-and-weight-loss focused telehealth platform where asynchronous prescribing and compounded GLP-1 supply chain management are core to unit economics and state regulatory exposure. Four direct competitors in the GLP-1 weight-loss telehealth segment filed federal lobbying disclosures on telehealth topics between June and July 2026, indicating a coordinated shift in how the category is preparing for state and federal scrutiny. Operators in this segment commonly face exposure across California, New York, and Texas pharmacy board actions on compounding standards, asynchronous prescribing restrictions, and cold-chain custody documentation. This competitor mobilization typically precedes state-level enforcement actions and legislative tightening on compound product labeling and prescriber licensing.",
+        "cold_first_touch_frame": "Subject: GLP-1 Telehealth Competitors File Federal Lobbying, Timing Signal for CA Pharmacy Board Activity Dear Public Policy Head, Four direct competitors in the GLP-1 weight-loss telehealth space have filed federal lobbying disclosures on telehealth topics in the past month. This pattern typically signals preparation for state pharmacy board actions on compounding standards and asynchronous prescribing workflows. Given Ro's material exposure in California, a 15-minute call on Thursday to discuss how your government affairs team is tracking competitor positioning and state board enforcement timelines would be valuable. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Four of your closest GLP-1 telehealth competitors just filed federal lobbying disclosures on telehealth policy. That usually means state boards are about to tighten compounding and asynchronous prescribing rules, and we're seeing California move first. Prospect: We're already tracking state pharmacy board guidance. What's your angle here? BDR Pivot: The angle is knowing which competitor moves are defensive versus offensive, and whether your compliance roadmap for asynchronous workflows matches what boards are signaling. Can we sync for 10 minutes next week so your compliance leadership can see what the filing data shows about state timing?"
       },
       "narrative_source": "llm"
     },
@@ -565,36 +565,36 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Consumer multi-category telehealth: 2 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           },
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-23)",
-            "dt_posted": "2026-07-23"
+            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on prescription economics (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Ro: Competitor Telehealth Lobbying Surge Tests TX Asynchronous Prescribing",
-        "body": "Ro operates a sexual-health-and-weight-loss focused platform where asynchronous prescribing serves as the core clinical workflow, creating material exposure if state pharmacy boards restrict remote consultation pathways. Four GLP-1 weight-loss telehealth competitors have filed federal lobbying disclosures on telehealth policy matters as of July 2026, signaling coordinated industry mobilization ahead of potential state-level prescribing rule changes. Texas ranks among Ro's top three state exposures and hosts active pharmacy compounding oversight tied to GLP-1 supply chains. The regulatory affairs lead should monitor Texas pharmacy board meeting agendas and competitor filings for signals that asynchronous prescribing standards are being tightened.",
-        "cold_first_touch_frame": "Subject: TX Telehealth Prescribing: Competitor Lobbying Uptick Dear [Public Policy Head], Four of Ro's telehealth competitors filed federal lobbying disclosures on telehealth policy in the past 60 days. This timing often precedes state-level scrutiny of asynchronous prescribing workflows, particularly in Texas where your GLP-1 and sexual-health prescribing volumes are material. A 15-minute call Thursday would help you map competitor moves against Ro's regulatory roadmap in TX and CA. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The competitive lobbying filings we discussed last quarter have accelerated. Four players just moved on telehealth policy, and Texas pharmacy boards are likely to respond. That's a timing reason to revisit the state-tracking plan we sketched. Prospect: We've been managing this internally, but the pace has picked up. BDR Pivot: Exactly. A 10-minute sync would let us show you how the rival filings map to specific TX and CA rule-change vectors, so your compliance leadership can front-run the cycle."
+        "headline": "Ro: Competitors File Federal Lobbying on Telehealth Prescribing Access",
+        "body": "Ro operates asynchronous prescribing as its core workflow for weight-loss and sexual-health categories, creating direct competitive exposure when rival GLP-1 platforms mobilize federal advocacy on telehealth scope. Four competitors in the GLP-1 weight-loss prescribing space filed federal lobbying disclosures on telehealth topics as of July 2026, signaling coordinated industry mobilization on prescribing access and compounding pharmacy rules. Texas, California, and New York represent Ro's top state exposures, and operators in this segment commonly face state-level enforcement on asynchronous prescriber licensure and compounded GLP-1 supply chain compliance. Ro's regulatory affairs lead should monitor whether competitor federal filings precede state-level rulemaking or enforcement cascades that could narrow prescriber certification pathways or tighten compounding oversight.",
+        "cold_first_touch_frame": "Subject: Competitor Federal Lobbying on Telehealth Prescribing Dear Regulatory Affairs Lead, Four GLP-1 weight-loss telehealth competitors filed federal lobbying disclosures on telehealth prescribing access as of late July. This coordination often precedes state-level enforcement tightening on asynchronous prescriber licensure and compounded supply chains, areas where Ro operates at material exposure given Texas, California, and New York status. Would a 15-minute call Thursday work to map how competitor federal positioning may signal state-policy timing in your top markets? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Four of your competitors just filed federal lobbying on telehealth prescribing access, and that usually signals incoming state-level pressure on asynchronous prescriber rules and compounding pharmacy oversight. You and I talked six months ago about Texas and California exposure, but competitor federal moves often compress the timeline for state rulemaking. Prospect: We've been tracking state-level stuff internally, but federal lobbying filing is new context for us. BDR Pivot: Exactly. That's why a 10-minute sync makes sense now, to map whether these federal filings suggest your government affairs team should accelerate any compliance or licensing strategy. Does next Tuesday morning work?"
       },
       "narrative_source": "llm"
     },
@@ -637,10 +637,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Teladoc: Competitor Telehealth Lobbying Mobilizes California",
-        "body": "Teladoc operates an enterprise virtual care platform contracted with health plans across multiple states, creating material exposure to state-level reimbursement and licensure policy changes. Two mental health telehealth competitors filed federal lobbying disclosures on telehealth topics in July 2026, signaling active policy mobilization around the Interstate Medical Licensure Compact and state cross-border practice restrictions. The most recent 10-K names state professional licensure variance and Medicaid reimbursement policy as material risks to the business model. California represents a top-three state exposure for Teladoc, making competitor advocacy activity in this jurisdiction a timing signal for internal policy monitoring.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Activity, July Filing Alert Dear Public Policy Head, Two mental health telehealth competitors disclosed federal lobbying activity on telehealth policy in July 2026, with focus on licensure compacts and cross-state practice. Given Teladoc's enterprise health plan contracting footprint in California and your 10-K disclosure of licensure variance as material risk, your government affairs team may want visibility into the specific advocacy targets and messaging these competitors are advancing. Can we schedule a brief 15-minute call Thursday to map the filing details and discuss whether policy intelligence coverage would strengthen your advocacy response? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Two Teladoc competitors just filed federal lobbying disclosures on telehealth licensure policy in July. This timing gives your compliance leadership a window to understand the legislative direction before it lands on your desk. Prospect: We've been monitoring this, but the filings are so scattered across platforms. BDR Pivot: That's exactly the problem most health plans run into. A 10-minute sync with your public policy team could show you how to centralize these competitor filings and tie them to your state reimbursement exposure in California, Texas, and New York."
+        "headline": "Teladoc: CA Mental Health Competitors File Telehealth Lobbying Push",
+        "body": "Teladoc operates as an enterprise virtual care platform contracted with health plans across multiple states, creating exposure to state-level licensure and reimbursement policy shifts that affect network provider credentials and care delivery workflows. Competitors in the mental health telehealth segment have recently filed federal lobbying disclosures on telehealth topics, signaling organized policy engagement that may precede state-level regulatory or coverage changes. The most recent 10-K names state professional licensure variance and interstate Medical Licensure Compact adoption as material risks to network adequacy and care continuity. California ranks among Teladoc's top state exposures by member volume, making shifts in CA mental health licensing or Medicaid telehealth reimbursement operationally significant.",
+        "cold_first_touch_frame": "Subject: CA Mental Health Telehealth Competitors Step Up Policy Engagement Dear [Public Policy Head], Two mental health telehealth competitors filed federal lobbying disclosures this month on telehealth topics, likely in advance of state-level policy moves. Given Teladoc's contracted health plan footprint in California and reliance on network provider licensure pathways, shifts in CA mental health practice rules or Medicaid telehealth reimbursement could affect care continuity and network costs. Would a 15-minute call Thursday work to map the competitive policy landscape and Teladoc's near-term exposure? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Two competitors in mental health telehealth just filed federal lobbying on telehealth policy this month. Given Teladoc's contracted health plan model and CA member base, I wanted to reconnect on how state licensure shifts might affect your network provider strategy. Prospect: We're tracking mental health policy, but our compliance team owns the deep state work. BDR Pivot: Understood. A 10-minute sync with your compliance leadership would help us map which CA and top-three-state rules matter most to your network model and flag what's moving in the next 90 days."
       },
       "narrative_source": "llm"
     },
@@ -683,166 +683,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Teladoc: Competitors Mobilize Federal Telehealth Lobbying Push",
-        "body": "Teladoc operates enterprise virtual care contracted with large health plans across CA, NY, and TX, creating material exposure to state licensure variance and Medicaid reimbursement policy shifts that competitors now actively shape at the federal level. Two rival mental health telehealth operators filed federal lobbying disclosures in July 2026 on telehealth topics, signaling coordinated advocacy that may precede state-level regulatory moves affecting cross-border prescribing and licensure reciprocity. The most recent 10-K names state professional licensure variance and Interstate Medical Licensure Compact adoption as material risks to operational continuity. Teladoc's government affairs team should monitor competitor advocacy filings to anticipate federal-to-state regulatory cascades that could compress margins in contracted health plan segments.",
-        "cold_first_touch_frame": "Subject: Competitors' July Telehealth Lobbying Filings, State Licensure Implications for Teladoc Dear [Public Policy Head], Two competitors in mental health telehealth filed federal lobbying disclosures on telehealth policy in July. Given Teladoc's contracted health plan footprint across CA, NY, and TX, their advocacy moves often precede state licensure or Medicaid reimbursement shifts that affect your cross-border prescribing model. We track competitor federal filings to help you anticipate state-level regulatory timing. Would a 15-minute call on Thursday work to walk through what these filings suggest for your 2026-2027 state strategy? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed federal lobbying disclosures on telehealth in July, and based on historical patterns, those filings often signal state licensure or Medicaid moves six to nine months out. We should sync briefly on what this means for your health plan contract exposure in your top three states. Prospect: We've been monitoring competitor moves internally, but happy to hear what your platform is picking up. BDR Pivot: Perfect. I can show you exactly which filings dropped, which states are likely next, and how other operators in your position have prepped their government affairs timelines. Ten minutes on your calendar this week?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_002|ca|telehealth_reimbursement",
-      "account_id": "acc_002",
-      "account_name": "Ro",
-      "account_segment": "consumer_telehealth_multi_category",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "series_d_plus",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.357,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.4,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          },
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Ro: California Telehealth Reimbursement Competitor Lobbying Intensifies",
-        "body": "Ro's asynchronous prescribing model for weight-loss and sexual-health categories creates narrower reimbursement exposure than multi-category platforms, but direct competitors have filed federal lobbying disclosures on telehealth reimbursement policy in the past 60 days, signaling renewed state-level pressure. Operators in this segment commonly face California pharmacy board scrutiny on compounded GLP-1 supply chains and asynchronous prescribing authorization thresholds. Competitor mobilization typically precedes state regulatory action by 90 to 120 days. Your government affairs team should map competitor filings against pending California Department of Consumer Affairs rulemaking and Medi-Cal reimbursement guidance.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Reimbursement Lobbying in CA, Timing for Your GA Team Dear VP Regulatory Affairs, Two of your direct competitors in weight-loss telehealth filed federal lobbying disclosures on telehealth reimbursement policy within the past 60 days. This activity typically signals state-level rulemaking pressure, and California's pharmacy board and Medi-Cal program are known chokepoints for asynchronous prescribing and compounded supply authorization. We track competitor GA moves and state regulatory calendars to help your team move ahead of these shifts. Would a 15-minute call Thursday work to map your current state exposure against these filings? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged that your direct competitors just filed federal lobbying on telehealth reimbursement in California, the timing aligns with typical state rulemaking cycles, and your asynchronous prescribing model sits squarely in the exposure zone. Prospect: We've been monitoring it internally, but our GA team is lean and we're not sure how it affects our compounding operations specifically. BDR Pivot: That's exactly the gap we fill. A 10-minute sync with your compliance lead would map competitor filings to California pharmacy board timelines and show you which reimbursement thresholds create operational risk for your model. Are you free Tuesday afternoon?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_002|ny|telehealth_reimbursement",
-      "account_id": "acc_002",
-      "account_name": "Ro",
-      "account_segment": "consumer_telehealth_multi_category",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "series_d_plus",
-      "account_target_tier": "enterprise",
-      "state": "ny",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.357,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.4,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          },
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Ro: NY Telehealth Reimbursement Rivals File Federal Lobbying Push",
-        "body": "Ro's sexual-health-and-weight-loss model depends on asynchronous prescribing workflows and compounded GLP-1 supply chains, creating material exposure to state pharmacy and telehealth reimbursement policy shifts. Two major competitors in the GLP-1 weight-loss telehealth segment filed federal lobbying disclosures on telehealth reimbursement in July 2026, signaling organized industry mobilization on payer and state policy fronts. Industry-standard regulatory exposures for this business model include compounded medication access restrictions and state-level asynchronous prescribing limitations, both of which could constrain revenue if reimbursement frameworks tighten. New York's position as a top-three state exposure for Ro makes competitor lobbying activity a timing signal for your government affairs team to map state-level reimbursement proposals.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Reimbursement Lobbying Activity in NY Dear Public Policy Head, Two GLP-1 telehealth competitors filed federal lobbying disclosures on telehealth reimbursement in July 2026, which typically precedes state-level policy coordination in your top markets. Given Ro's reliance on asynchronous prescribing and compounded medication access, understanding the legislative targets behind competitor lobbying could inform your own government affairs roadmap. Would you have 15 minutes on Thursday to discuss what regulatory moves your team is tracking in New York? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed federal lobbying on telehealth reimbursement in July, and that's typically when state policy activity accelerates in high-exposure markets like New York. I'm guessing your compliance team is already monitoring this, but wanted to reconnect on whether you'd benefit from real-time visibility into the specific state bills and agency guidance driving that federal engagement. Prospect: We're tracking it, but we're stretched thin on the state-level intelligence side. BDR Pivot: That's exactly the constraint I hear. How about a quick 10-minute sync where I show you how other multistate operators are staying ahead of these moves without adding headcount?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_002|tx|telehealth_reimbursement",
-      "account_id": "acc_002",
-      "account_name": "Ro",
-      "account_segment": "consumer_telehealth_multi_category",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "series_d_plus",
-      "account_target_tier": "enterprise",
-      "state": "tx",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.357,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.4,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          },
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Ro: Texas Telehealth Reimbursement Rivals File Federal Lobbying Push",
-        "body": "Ro operates a multi-category consumer telehealth platform with asynchronous prescribing and compounded GLP-1 supply as core workflows, creating material exposure to state pharmacy compounding rules and reimbursement policy shifts. Two GLP-1 weight-loss telehealth competitors filed federal lobbying disclosures on telehealth reimbursement policy in July 2026, signaling coordinated industry mobilization around state-level coverage decisions. Operators in this segment commonly face reimbursement exclusion risk when competitors establish policy relationships ahead of state regulatory review cycles. Texas ranks in the top three state exposures for Ro's compliance profile and compounding supply chain.",
-        "cold_first_touch_frame": "Subject: Competitor Lobbying Activity Hitting Texas Telehealth Reimbursement Dear VP Regulatory Affairs, Two GLP-1 telehealth competitors just filed federal lobbying disclosures on telehealth reimbursement policy, with activity dated July 20. Given Ro's asynchronous prescribing model and compounded GLP-1 supply footprint in Texas, your government affairs team should map the specific reimbursement exclusion risks these filings flag before state legislative sessions reconvene. Would a 15-minute call Thursday work to walk through the filing details and state-level exposure? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged competitor lobbying activity on telehealth reimbursement filed in July, and it directly touches Texas policy. Your compliance leadership should see the specific coverage exclusion angles they're pushing before it reaches your state legislative calendar. Prospect: We monitor competitor moves, but federal lobbying filings aren't always our first signal. BDR Pivot: That's fair. A quick 10-minute sync would let us show you which reimbursement exclusion arguments are landing in state committee testimony and how your asynchronous GLP-1 supply chain gets caught in the crosshairs. Worth 10 minutes Thursday?"
+        "headline": "Teladoc: Mental Health Competitors File Federal Telehealth Lobbying Push",
+        "body": "Teladoc operates contracted virtual care across health plan networks, creating material exposure when competing mental health platforms shift regulatory posture in key states. The most recent 10-K identifies state professional licensure variance and Interstate Medical Licensure Compact adoption as operational chokepoints affecting network adequacy and reimbursement. Two competitors recently filed federal lobbying disclosures on telehealth policy, signaling coordinated advocacy that may reshape state-level licensing or reimbursement standards. Your government affairs team should assess whether competitive filings target California, New York, or Texas licensing thresholds that affect Teladoc's contracted mental health provider capacity.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Activity Affecting Your TX & CA Networks Dear Public Policy Head, Two mental health telehealth competitors filed federal lobbying disclosures this month on telehealth policy. Given Teladoc's reliance on state licensure variance and interstate compact adoption to sustain contracted provider networks, shifts in competitor advocacy may signal incoming state licensing or reimbursement rule changes. We track these mobilizations across your top three states. Would a 15-minute call on Thursday help you assess whether these filings target your network-adequacy models? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged two competitor federal lobbying filings on telehealth last week, both in mental health. Given that Teladoc's contracted networks depend on state licensure alignment, I wanted to circle back on whether your compliance leadership has visibility into what these filings target. Prospect: We've seen the filings but haven't drilled into the details yet. They look broad. BDR Pivot: That's exactly why a 10-minute sync makes sense now, before the state-level follow-on activity. We can show you what these filings name and map them against your Texas and California provider licensing exposures."
       },
       "narrative_source": "llm"
     },
@@ -860,12 +704,12 @@
       "account_target_tier": "enterprise",
       "state": "ny",
       "topic": "telehealth_general",
-      "composite_score": 0.349,
+      "composite_score": 0.348,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.016
+        "S3": 0.015
       },
       "business_model_exposure_weight": 1.2,
       "risk_disclosure_hit_count": 0,
@@ -877,14 +721,14 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.016,
+            "score": 0.015,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -892,10 +736,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "WW: Competitor Telehealth Lobbying Signals NY Prescriber Availability Pressure",
-        "body": "WeightWatchers operates a GLP-1 weight-loss telehealth platform with direct prescriber dependency and compounded formulation supply-chain exposure, differentiating it from pure-play mental health or sexual-health operators that face lighter state medical practice scrutiny. The most recent 10-K names GLP-1 prescriber availability and state telehealth medical practice rules as material risks. Four direct competitors in the GLP-1 weight-loss segment filed federal telehealth lobbying disclosures in July 2026, signaling active mobilization around prescriber access constraints that are likely to intensify in New York's high-scrutiny regulatory environment. Concurrent enforcement activity against peer telehealth platforms suggests state attorneys general are coordinating on asynchronous prescribing workflows and compounded drug supply oversight.",
-        "cold_first_touch_frame": "Subject: NY Telehealth Prescriber Pressure: Competitor Lobbying Signals Incoming Dear Public Policy Head, Four GLP-1 weight-loss competitors filed federal telehealth lobbying disclosures this month, indicating coordinated pressure on prescriber-access rules in high-scrutiny states. New York's enforcement posture on asynchronous prescribing and compounded formulations suggests your government affairs team should model regulatory exposure across prescriber availability and supply-chain choke points now, before state enforcement tightens further. Would a 15-minute call Thursday work to discuss how your regulatory affairs lead can track these state-specific constraint patterns? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed July telehealth lobbying disclosures in New York, and we're seeing concurrent state enforcement on prescriber workflows. This timing suggests your compliance leadership should revisit your regulatory exposure model before the next enforcement wave hits. Prospect: We've been watching the Hims case, but we're not sure how it applies to our specific prescriber structure. BDR Pivot: That's exactly the gap. A 10-minute sync with your Chief Compliance Officer lets us show you how your prescriber availability risk profile differs from peers and where New York enforcement is most likely to focus next quarter."
+        "headline": "WeightWatchers: GLP-1 Telehealth Rivals Mobilize Federal Advocacy",
+        "body": "WeightWatchers operates a direct-to-consumer GLP-1 weight-loss telehealth model with material exposure to prescriber availability constraints and state medical practice rules that govern async weight-loss prescribing. The most recent 10-K names state telehealth medical practice rules and compounded GLP-1 regulatory shifts as disclosed risks. Four competing GLP-1 telehealth operators filed federal lobbying disclosures on telehealth policy between Q2 and Q3 2026, signaling organized competitive mobilization ahead of potential federal rulemaking or enforcement focus. This activity typically precedes coordinated state-level regulatory responses in top-exposure markets like New York, California, and Texas.",
+        "cold_first_touch_frame": "Subject: Competitive Telehealth Lobbying Activity in Your Core Markets Dear [Public Policy Head], Four GLP-1 telehealth competitors have filed federal lobbying disclosures on telehealth policy this summer. This coordinated activity often signals upstream federal rulemaking or state-level enforcement coordination in high-risk markets. Given WeightWatchers' prescriber model and footprint in New York, your government affairs team should assess whether competitive lobbying is reshaping the advocacy landscape in your priority states. Would a 15-minute call Thursday or Friday work to discuss early positioning? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: I noticed four of your biggest GLP-1 competitors filed federal telehealth lobbying disclosures in the past eight weeks. That timing often precedes state regulatory coordination. Do you have line of sight into what they're advocating for? Prospect: We're monitoring, but our internal bandwidth on federal policy is thin right now. BDR Pivot: That's exactly the timing issue. Before New York or California move, a 10-minute sync on what these filings signal could help your team get ahead. Can we grab time early next week?"
       },
       "narrative_source": "llm"
     },
@@ -930,18 +774,18 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "WeightWatchers: GLP-1 Telehealth Prescriber Access California Competitors Mobilize",
-        "body": "WeightWatchers operates a consumer-direct telehealth weight-loss model dependent on licensed prescriber availability and state-by-state telehealth medical practice rules, creating material exposure when competitors signal federal regulatory strategy shifts. The most recent 10-K names GLP-1 prescriber supply constraints and compounded GLP-1 regulatory changes as disclosed risks. Four rival GLP-1 weight-loss telehealth operators filed federal lobbying disclosures on telehealth topics as of July 2026, signaling sector-wide mobilization on prescriber-access and prescription-fulfillment regulation. California ranks among the top three state exposures for this business model, making early visibility into competitor positioning and state-level regulatory momentum operationally critical.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Activity, California Prescriber Access Implications Dear VP Regulatory Affairs, Four GLP-1 weight-loss telehealth competitors have filed federal lobbying disclosures on telehealth topics in the past 60 days. Given WeightWatchers' disclosed dependency on prescriber availability and state telehealth medical practice rules, this coordinated activity signals emerging regulatory positioning that may affect California operations. We track state-policy shifts and competitor regulatory strategy for telehealth operators; a 15-minute call Thursday would clarify where your team sits on prescriber-access monitoring today. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your GLP-1 competitor set just mobilized federal lobbying on telehealth prescriber and prescription-fulfillment topics. That timing suggests state regulatory moves are being anticipated, and California is a top-three exposure for your prescriber-supply model. Prospect: We've been monitoring that space internally, but I'm not sure how actionable federal filings are for state planning. BDR Pivot: Fair point. A quick 10-minute sync would show how your peers are signaling state-level risk and where California's prescriber-access conversations are heading, so your regulatory team can move ahead of the cascade rather than react to it."
+        "headline": "WeightWatchers: GLP-1 Telehealth Competitors Mobilize California Lobbying",
+        "body": "WeightWatchers operates a multi-category consumer telehealth platform with material exposure to GLP-1 prescriber availability and state telehealth medical practice rule changes across top-three states. The most recent 10-K names compounded GLP-1 regulatory shifts and state prescriber licensing as material risks to operational continuity. Four competing GLP-1 weight-loss telehealth operators filed federal telehealth lobbying disclosures within the past 60 days, signaling coordinated state-level legislative strategy around prescriber scope and prescription fulfillment standards. This competitor mobilization typically precedes state-specific regulatory filings and bill introductions that reshape the compliance framework for multistate operators.",
+        "cold_first_touch_frame": "Subject: GLP-1 Competitors' CA Telehealth Lobbying Push Dear [Role], Four of your primary GLP-1 telehealth competitors filed federal lobbying disclosures on telehealth rules in the past two months, indicating a coordinated push around prescriber scope and prescription standards that will hit California, New York, and Texas legislatures within the next two quarters. Your 10-K identifies compounded GLP-1 regulatory shifts and state medical practice rules as material operational risks. We help regulatory affairs leads anticipate and shape these state-level moves by tracking competitor lobbying strategy and connecting it to bill language before it circulates. Would a 15-minute call Thursday morning work to map the exposure across your top three states? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: You flagged GLP-1 prescriber regulation as a top operational risk last quarter. Four of your main competitors just filed coordinated federal telehealth lobbying, which historically precedes state-specific bill introductions in California and New York within 60 to 90 days. Prospect: We're monitoring it, but our government affairs team hasn't flagged anything urgent yet at the state level. BDR Pivot: That's exactly the gap we close. A 10-minute sync with your compliance leadership and GA lead would let us show you how competitor filings map to the specific bills and rule changes your team needs to track. Worth 10 minutes this week?"
       },
       "narrative_source": "llm"
     },
@@ -976,53 +820,7 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "WeightWatchers: GLP-1 Telehealth Competitors Mobilize Federal Lobbying Push",
-        "body": "WeightWatchers operates a direct-to-consumer telehealth model dependent on prescriber availability and state telehealth medical practice rules, creating material exposure when competitors shift to federal advocacy channels. Four rival GLP-1 weight-loss telehealth platforms filed federal lobbying disclosures on telehealth topics in July 2026, signaling coordinated efforts to shape prescriber regulations and state licensure frameworks. The most recent 10-K names compounded GLP-1 regulatory shifts and state-level telehealth rules as material risks to prescriber sourcing and program continuity. Texas represents a top-three state exposure for WeightWatchers, making competitor lobbying on telehealth scope and compounded formulation standards a direct operational threat.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Drive Hits Federal Agencies Dear Public Policy Head, Four of your largest GLP-1 telehealth competitors filed federal lobbying disclosures in July targeting telehealth regulations and prescriber rules. This coordinated move signals an escalating fight over state prescriber availability and compounded formulation standards that directly expose your Texas footprint and prescriber sourcing model. Would a 15-minute call Thursday work to map the lobbying landscape and pinpoint where your regulatory affairs team should engage first? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed coordinated federal lobbying on telehealth and prescriber rules in July. That timing matters because state-level compounded GLP-1 regulatory shifts are tracking alongside federal pressure. Prospect: We're aware, but federal lobbying doesn't directly impact our Texas operations. BDR Pivot: That's fair on direct impact, but competitor federal positioning often signals which state rules get challenged next. A 10-minute sync with your compliance leadership would surface which Texas-specific prescriber or compounding standards are most exposed to that federal momentum."
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_011|ny|telehealth_reimbursement",
-      "account_id": "acc_011",
-      "account_name": "WeightWatchers Sequence",
-      "account_segment": "glp1_weight_loss_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ny",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.306,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
+            "event_summary": "GLP-1 weight-loss telehealth prescribers: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
             "dt_posted": "2026-07-20"
           }
         ],
@@ -1030,240 +828,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "WeightWatchers: NY Telehealth Reimbursement Rivals File Federal Lobbying Push",
-        "body": "WeightWatchers operates a GLP-1 weight-loss telehealth model dependent on prescriber availability and state telehealth medical practice rules, creating exposure to reimbursement policy shifts that competitors are actively shaping at the federal level. Two rival GLP-1 telehealth operators filed federal lobbying disclosures on telehealth reimbursement in July 2026, signaling coordinated industry mobilization to influence coverage standards. The most recent 10-K names state telehealth medical practice rules and compounded GLP-1 regulatory shifts as material risks to the business model. New York's status as a top-three state exposure means reimbursement policy changes filed at the federal level will cascade to state plan administrators and commercial payers operating in that jurisdiction.",
-        "cold_first_touch_frame": "Subject: Federal Telehealth Reimbursement Lobbying Filings, NY Policy Implications Dear Public Policy Head, Two competitors in the GLP-1 weight-loss telehealth space filed federal lobbying disclosures on telehealth reimbursement standards in July 2026. Since WeightWatchers' prescriber availability and state telehealth rules are disclosed material risks, shifts in federal reimbursement policy will directly affect your New York market position and payer relationships. We should schedule 15 minutes this Thursday to map how federal filings translate to state-level coverage decisions. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Recent federal lobbying filings on telehealth reimbursement from two GLP-1 competitors suggest the reimbursement environment is shifting faster than anticipated. Your government affairs team may not yet have visibility into how these federal positions will reshape New York payer coverage policies. Prospect: We're tracking this internally, but federal filings are still preliminary. BDR Pivot: Understood. A 10-minute sync with your compliance leadership would surface which reimbursement scenarios pose the most material risk to your New York prescriber network and payer contracts, before payer responses lock in. Does Tuesday morning work?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_011|ca|telehealth_reimbursement",
-      "account_id": "acc_011",
-      "account_name": "WeightWatchers Sequence",
-      "account_segment": "glp1_weight_loss_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.306,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "WeightWatchers: California Telehealth Reimbursement Competitors File Federal Lobbying",
-        "body": "WeightWatchers operates a direct-to-consumer GLP-1 weight-loss telehealth model dependent on prescriber availability and state medical practice rules, creating exposure to reimbursement policy shifts that peers are now actively shaping at federal level. The most recent 10-K names state telehealth medical practice rules and compounded GLP-1 regulatory shifts as material risks. Two rival GLP-1 weight-loss telehealth operators filed federal lobbying disclosures on telehealth reimbursement in July 2026, signaling organized industry mobilization on a policy vector that directly affects prescriber economics and patient access in top-exposure states including California. This competitor mobilization creates a timing window for WeightWatchers' government affairs team to align federal strategy with state-level reimbursement defense.",
-        "cold_first_touch_frame": "Subject: Rivals Filing Federal Telehealth Reimbursement Lobbying, WW's State Policy Play Dear Public Policy Head, Two of your competitors in GLP-1 weight-loss telehealth just filed federal lobbying on telehealth reimbursement. The filing window suggests coordinated industry positioning on a policy axis that directly touches prescriber availability and state medical practice rules, both material risks named in your 10-K. We track competitive lobbying filings and state-level reimbursement exposure across multistate operators, and this moment is a critical timing window to align your California and top-state positioning before the federal and state conversations converge. Would a 15-minute call Thursday afternoon work to walk through what we are seeing in your exposure profile? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed federal lobbying on telehealth reimbursement, and we have been tracking how that shapes California policy momentum. This is the exact moment your compliance leadership should be stress-testing state-level exposure against what federal players are moving. Prospect: We have been handling reimbursement at the state level. Federal lobbying feels separate from what we are doing in California. BDR Pivot: That separation is exactly the risk. When federal players shift prescriber economics, state medical boards and payers respond within 90 days. A 10-minute sync would let us show you the state filing cascade we are seeing in your peer set and what your government affairs team should be monitoring in real time."
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_011|tx|telehealth_reimbursement",
-      "account_id": "acc_011",
-      "account_name": "WeightWatchers Sequence",
-      "account_segment": "glp1_weight_loss_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "tx",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.306,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "GLP-1 weight-loss telehealth prescribers: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "WW: Texas Telehealth Reimbursement Competitors File Federal Lobbying",
-        "body": "WeightWatchers operates a telehealth-connected weight loss platform with direct GLP-1 prescriber dependencies and state medical practice rule exposure across top three markets. The most recent 10-K names state telehealth medical practice rules and GLP-1 prescriber availability as material risks. Two competitors in the GLP-1 weight-loss telehealth segment filed federal lobbying disclosures on telehealth reimbursement policy in July 2026, signaling coordinated federal strategy to reshape reimbursement pathways. Texas ranks among WeightWatchers' top state exposures, creating material exposure given federal legislative momentum and the operational chokepoint GLP-1 prescriber access represents to the model.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Reimbursement Lobbying, Texas Exposure Dear [Public Policy Head], Two GLP-1 weight-loss competitors filed federal telehealth reimbursement lobbying in July. Given WeightWatchers' prescriber-access dependencies in Texas and three other top states, federal reimbursement policy shifts will reshape your state regulatory roadmap. I cover policy intelligence specific to multistate telehealth operators and wanted to flag this timing. Could we grab 15 minutes Thursday to walk through competitor filings and your government affairs team's state monitoring priorities? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed federal telehealth reimbursement lobbying in July, it signals a federal push that will trickle into state policy within six months. Given WeightWatchers' GLP-1 prescriber model and Texas exposure, I wanted to reconnect on how your government affairs and compliance teams are monitoring these federal signals before states move. Prospect: We've got it on our radar, but federal lobbying isn't a state concern yet. BDR Pivot: That's fair, most teams treat federal and state monitoring separately. What I'm seeing with other operators is that the 90-day lag between federal filing and state regulator response is where the strategic advantage sits. Could we do a 10-minute sync to map your state intelligence workflow against these competitor filings?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_007|ca|telehealth_reimbursement",
-      "account_id": "acc_007",
-      "account_name": "GoodRx",
-      "account_segment": "prescription_discount_plus_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.306,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "GoodRx: Telehealth Reimbursement Competition Accelerates California Lobbying",
-        "body": "GoodRx operates a hybrid prescription discount and telehealth platform where reimbursement economics directly affect margin on virtual care visits, distinguishing it from pure-play telehealth operators focused solely on provider networks. The most recent 10-K names state PBM regulation and telehealth licensing as material risks, and California's status as a top-three exposure state compounds competitive pressure as two major rivals filed federal lobbying notices on telehealth reimbursement in July 2026. This rival mobilization signals incoming state-level reimbursement proposals that could reshape how GoodRx captures value from its integrated telehealth-to-pharmacy workflow. The government affairs team should prepare for California legislative activity within the next two quarters.",
-        "cold_first_touch_frame": "Subject: Two Competitors Just Lobbied on CA Telehealth Reimbursement Dear Public Policy Head, Two major telehealth operators filed federal lobbying disclosures on telehealth reimbursement in July. Given GoodRx's integrated prescription discount and virtual care model, California reimbursement proposals will likely land on your radar within 60 days. We help policy teams map competitor filings to state bill tracking and revenue impact forecasts, so your team can move first rather than respond. Would a 15-minute call Thursday work to discuss the intelligence gap you're seeing on this?",
-        "worked_deal_revival_frame": "BDR: Two rivals just lobbied on telehealth reimbursement at the federal level, and California is likely next. Your compliance team flagged this risk in the 10-K, so timing is tight to build your state strategy. Prospect: We're already monitoring California, not sure we need external intelligence on this. BDR Pivot: The value isn't monitoring, it's seeing what your competitors filed and translating that into California bill language before it drops. Can we grab 10 minutes to show your Chief Compliance Officer how the intelligence sequence works?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_007|ny|telehealth_reimbursement",
-      "account_id": "acc_007",
-      "account_name": "GoodRx",
-      "account_segment": "prescription_discount_plus_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ny",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.306,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "GoodRx: NY Telehealth Reimbursement Rivals File Federal Lobbying Push",
-        "body": "GoodRx operates a hybrid discount-plus-telehealth model that depends on prescription economics transparency and state PBM regulation frameworks across top-three states including New York. Two competitors filed federal lobbying disclosures on telehealth reimbursement standards in July 2026, signaling coordinated mobilization around payment policy that could reshape state-level telehealth economics. The most recent 10-K names state telehealth licensing and prescription pricing transparency as material regulatory exposures. This rival activity creates timing pressure to map GoodRx's NY regulatory position before competitor-backed standards solidify at the state level.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Reimbursement Lobbying, NY Timing Dear [Public Policy Head], Two of GoodRx's direct competitors just filed federal lobbying on telehealth reimbursement policy. We track state-level follow-through from these federal filings, and NY is often next. Given GoodRx's dual exposure to prescription economics and telehealth licensing, now is the window to assess your government affairs team's readiness on reimbursement posture before state-level activity accelerates. Could we grab 15 minutes Thursday to map NY's current trajectory? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Two GoodRx competitors just filed federal lobbying on telehealth reimbursement standards, and we're seeing state-level follow-through patterns in NY start within weeks. This timing shift makes your reimbursement policy roadmap material again. Prospect: We paused that discussion after the last regulatory shift, but I see why it matters now. BDR Pivot: Exactly. Would a 10-minute sync with your compliance leadership this week to map NY's specific reimbursement exposure make sense before the state activity hardens?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_007|tx|telehealth_reimbursement",
-      "account_id": "acc_007",
-      "account_name": "GoodRx",
-      "account_segment": "prescription_discount_plus_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "tx",
-      "topic": "telehealth_reimbursement",
-      "composite_score": 0.306,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.85,
-        "S3": 0.0
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 0,
-      "risk_disclosure_multiplier": 1.0,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [
-          {
-            "signal_id": "S2_rival_co_mobilization",
-            "score": 0.85,
-            "event_summary": "Prescription economics and access: 2 competitors filed federal lobbying on telehealth reimbursement (latest filing 2026-07-20)",
-            "dt_posted": "2026-07-20"
-          }
-        ],
-        "S3": []
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "GoodRx: Texas Telehealth Reimbursement Rival Lobbying Intensifies",
-        "body": "GoodRx operates a hybrid prescription discount and telehealth platform with material exposure to state PBM regulation and telehealth reimbursement policy, particularly in Texas where the company maintains operational footprint. The most recent 10-K names state telehealth licensing and prescription pricing transparency as disclosed regulatory risks. Two competitors filed federal lobbying disclosures on telehealth reimbursement economics in July 2026, signaling coordinated industry mobilization that may precede state-level reimbursement rule changes affecting GoodRx's telehealth economics in top-three states including Texas. Government affairs teams tracking reimbursement policy should assess whether competitor positioning creates timing pressure for proactive state engagement.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Reimbursement Lobbying Activity in Texas Dear Public Policy Head, Two of GoodRx's closest competitors filed federal telehealth reimbursement lobbying disclosures on July 20. Texas remains a top revenue state for GoodRx's telehealth operations, and competitor mobilization on reimbursement economics often signals pending state regulatory attention. A 15-minute call Thursday would help your government affairs team map the policy timeline and competitive positioning. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged competitor federal lobbying on telehealth reimbursement filed in July, and Texas regulators typically follow federal industry signals within 90 days. Your compliance leadership mentioned bandwidth was the blocker last time, this may be the moment to revisit state exposure planning. Prospect: We've been watching the federal filings. Are you saying state action is imminent? BDR Pivot: Not certain, but the competitor pattern usually precedes state inquiry. A 10-minute sync with your GC would help us identify whether your current state intelligence covers Texas reimbursement risk or if you need faster signal access."
+        "headline": "WeightWatchers: GLP-1 Competitors File TX Telehealth Lobbying Push",
+        "body": "WeightWatchers operates a consumer telehealth weight-loss platform with direct exposure to prescriber availability and state telehealth medical practice rules, as named in the most recent 10-K. Four competing GLP-1 weight-loss telehealth operators filed federal lobbying disclosures on telehealth topics in July 2026, signaling coordinated policy engagement ahead of potential state-level regulatory tightening. Texas ranks among the company's top three state exposures for telehealth operations. The public policy head should assess whether competitors are mobilizing around prescriber licensing, asynchronous visit standards, or compounded GLP-1 regulatory frameworks that could affect WeightWatchers' operational model in Texas.",
+        "cold_first_touch_frame": "Subject: Four GLP-1 Competitors Just Lobbied TX Telehealth Regulations Dear [VP Regulatory Affairs], Four competing weight-loss telehealth operators filed federal lobbying disclosures on telehealth topics this month. Texas is a material state for your platform, and your 10-K already flags prescriber availability and state telehealth rules as core risks. We track these competitive policy moves so your team can move first on state-level exposure. Would you have 15 minutes Thursday to align on what they are targeting? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Our last conversation was about Texas telehealth exposure. Four of your direct competitors just filed lobbying activity on telehealth regulations this month, and I wanted to surface that timing with you before your next board cycle. Prospect: We have internal government affairs tracking that already. What's different about what you are seeing? BDR Pivot: We can show you exactly which policy vectors they are activating and which states beyond Texas are lighting up. Ten minutes on a call next week, and you'll know whether your GC should bump this up the priority list before Q3 closes."
       },
       "narrative_source": "llm"
     },
@@ -1281,12 +849,12 @@
       "account_target_tier": "enterprise",
       "state": "ny",
       "topic": "telehealth_general",
-      "composite_score": 0.291,
+      "composite_score": 0.29,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.95,
-        "S3": 0.016
+        "S3": 0.015
       },
       "business_model_exposure_weight": 1.0,
       "risk_disclosure_hit_count": 0,
@@ -1298,14 +866,14 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.016,
+            "score": 0.015,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -1313,12 +881,12 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "ZocDoc: Telehealth Rivals File Federal Lobbying on Prescription Economics",
-        "body": "ZocDoc operates a healthcare directory and telehealth referral network dependent on provider-side monetization and consumer trust in medical advertising compliance, creating material exposure to state medical board enforcement on false or misleading provider claims. Four competitors filed federal lobbying disclosures on telehealth topics between July and earlier 2026, signaling industry-wide pressure on prescription access economics and potential state-level regulatory tightening. Industry-standard regulatory exposures for this business model include anti-kickback statute violations, state consumer protection enforcement on deceptive medical advertising, and state-specific telemedicine practice rules. ZocDoc's government affairs team should monitor NY, CA, and TX medical board actions and federal legislative developments on telehealth advertising standards to assess competitive positioning.",
-        "cold_first_touch_frame": "Subject: Telehealth Rivals Escalate Federal Advocacy on Prescription Access Rules Dear Public Policy Head, Four ZocDoc competitors filed federal lobbying disclosures on telehealth topics this summer, reflecting industry focus on prescription economics regulation. Given ZocDoc's role as a healthcare directory connecting patients to telemedicine providers, shifts in state medical advertising enforcement or anti-kickback guidance could affect provider participation and referral economics. I'd like to share a 15-minute briefing on competitor positioning and NY state medical board enforcement trends Thursday or Friday. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: You and I last spoke about state telehealth advertising exposure in March. Four of your competitors just escalated federal lobbying on prescription access rules, and that activity is typically a precursor to state board action on provider claims. Prospect: We've been focused internally on compliance, but federal lobbying from competitors doesn't necessarily affect us directly. BDR Pivot: Understood. That said, competitor mobilization often triggers state investigations into the category. Can I grab 10 minutes this week to walk you through what the four filings target and what NY medical board enforcement patterns suggest for provider-side marketing rules?"
+        "headline": "Zocdoc: Telehealth Rival Mobilization Intensifies NY Regulatory Scrutiny",
+        "body": "Zocdoc operates a healthcare directory and marketplace model that connects patients to providers across telehealth and traditional care, creating material exposure to state advertising compliance and anti-kickback enforcement should regulators shift focus to marketplace economics. Four competitors have filed federal lobbying disclosures on telehealth topics as of July 2026, signaling coordinated industry effort to shape federal policy; concurrently, enforcement actions against peer telehealth platforms have raised state medical board and attorney general attention on fee-splitting and consumer protection violations. Industry-standard regulatory exposures for this business model include state medical advertising rules, anti-kickback statute compliance for provider referral incentives, and consumer protection standards around claim substantiation. NY ranks among Zocdoc's top operational states, making early-stage policy tracking and compliance gap assessment material to avoid downstream enforcement risk.",
+        "cold_first_touch_frame": "Subject: Telehealth Competitor Lobbying Spike and NY Enforcement Signal Dear Public Policy Head, Four telehealth competitors filed federal lobbying disclosures on telehealth policy within the past twelve months, and peer enforcement actions have escalated state regulator attention on marketplace fee structures and consumer protection claims. Given Zocdoc's position as a healthcare directory and referral platform operating in New York, a 15-minute call on Thursday would help identify whether your government affairs team has visibility into these competitor moves and state-level enforcement precursors. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Recent enforcement activity against telehealth competitors and coordinated federal lobbying filings suggest state regulators are examining marketplace economics and referral incentive structures more closely. We should reconnect briefly to assess whether your compliance leadership has mapped exposure to NY's advertising standards and anti-kickback enforcement. Prospect: We're monitoring it, but our legal team handles most of this. BDR Pivot: Understood. A quick 10-minute sync with your compliance lead would clarify whether you have real-time visibility into competitor regulatory moves in your top states. Does Friday morning work?"
       },
-      "narrative_source": "llm_retry"
+      "narrative_source": "llm"
     },
     {
       "opportunity_id": "acc_018|ny|telehealth_general",
@@ -1334,12 +902,12 @@
       "account_target_tier": "enterprise",
       "state": "ny",
       "topic": "telehealth_general",
-      "composite_score": 0.287,
+      "composite_score": 0.286,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.85,
-        "S3": 0.016
+        "S3": 0.015
       },
       "business_model_exposure_weight": 1.1,
       "risk_disclosure_hit_count": 0,
@@ -1358,7 +926,7 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.016,
+            "score": 0.015,
             "event_summary": "Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20)",
             "enforcement_date": "2026-05-20T07:00:00+00:00"
           }
@@ -1366,12 +934,12 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Spring Health (private) | NY | Telehealth General | composite 0.287",
-        "body": "2 of 3 signals converged on this opportunity. S1 (drug enforcement cascade)=0.00, S2 (rival co-mob)=0.85, S3 (enforcement precursor)=0.02. Trigger: Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20). Industry-standard regulatory exposures for this segment include state behavioral health licensing, Medicaid mental health reimbursement, employer-sponsored health plan regulations. Spring Health operates in NY as a enterprise mental health telehealth account.",
-        "cold_first_touch_frame": "Subject: Spring Health / NY Telehealth General regulatory alert Dear Public Policy Leadership, My name is Brenda Hali. I am reaching out because our GTM intelligence signals just converged on Spring Health's Telehealth General exposure in NY (composite score: 0.29). Specifically, we detected: Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20). Industry-standard regulatory exposures for this segment include state behavioral health licensing, Medicaid mental health reimbursement, employer-sponsored health plan regulations. We mapped this state-specific trigger to your footprint, and most corporate GA teams face a 30 to 60 day radar gap on this shift. Do you have 10 minutes this week for a call to compare our statehouse telemetry against your compliance roadmap? Best,\nBrenda Hali",
-        "worked_deal_revival_frame": "BDR: Hi there, this is Brenda Hali. I am following up on our prior discussion regarding Spring Health's Telehealth General exposure in NY. Our statehouse policy radar just flagged Peer enforcement: Hims and Hers Lawsuit 2026: What Claimants Must Know - LawFold.com (2026-05-20), which directly impacts your regulatory footprint. Prospect: Thanks, we are already tracking local bills through generalist services. BDR Pivot: Understood. However, generalist trackers don't catch the FDA spike co-mobilization window before the bill is filed. I wanted to share our localized statehouse impact assessment. Do you have 10 minutes on Thursday to sync?"
+        "headline": "Spring Health: NY Mental Health Telehealth Competitors Mobilize Federal Lobbying",
+        "body": "Spring Health operates as a pure-play mental health platform dependent on state behavioral health licensing reciprocity and employer plan network inclusion, creating distinct exposure relative to multi-category telehealth operators managing broader clinical verticals. Industry-standard regulatory exposures for this business model include state licensure portability, Medicaid mental health reimbursement alignment, and employer health plan contract retention across top markets. Competitors have filed federal lobbying disclosures on telehealth regulation as of July 2026, signaling anticipation of legislative or administrative action that may reshape reimbursement or licensing frameworks affecting the sector. Concurrent enforcement activity against peer operators underscores regulatory momentum and increases likelihood that Spring Health's government affairs team will need policy positioning clarification in the coming quarters.",
+        "cold_first_touch_frame": "Subject: Competitor Lobbying Activity Signals NY Mental Health Telehealth Regulatory Shift Dear Public Policy Head, Two of your peer mental health telehealth operators filed federal lobbying disclosures on telehealth topics in July 2026, concurrent with enforcement actions against other operators in the sector. This pattern typically precedes state-level regulatory activity affecting licensure reciprocity and Medicaid reimbursement alignment in top markets like New York. Your government affairs team may benefit from a 15-minute call this Thursday to map the federal-to-state translation of these developments and stress-test your employer plan and licensing exposure profile. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Recent competitor federal lobbying filings on telehealth reimbursement and continued enforcement activity in the mental health sector have created timing urgency around your state licensing and employer plan regulatory posture. We should reconnect to map how these shifts affect your top-three state strategy. Prospect: We've been focused on internal compliance; this feels premature for us right now. BDR Pivot: Understood. A quick 10-minute sync would help your government affairs and compliance leadership align on which state developments pose material risk to employer contracts and licensure reciprocity this year. Can we grab 15 minutes next week?"
       },
-      "narrative_source": "template_fallback_invalid_keys"
+      "narrative_source": "llm"
     },
     {
       "opportunity_id": "acc_020|ca|telehealth_general",
@@ -1404,20 +972,20 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Zocdoc: Telehealth Competitors File Federal Lobbying Campaign",
-        "body": "Zocdoc operates a provider-directory and marketplace model that surfaces telehealth practitioners to consumers, creating distinct exposure compared to direct-service telehealth platforms constrained by prescribing workflows or care licensing. Four major telehealth competitors filed federal lobbying disclosures in July 2026 covering telehealth policy topics, signaling coordinated industry mobilization ahead of potential state-level regulatory tightening. Industry-standard regulatory exposures for this business model include anti-kickback and fee-splitting law compliance, state medical advertising rule adherence, and consumer protection obligations across Zocdoc's top three states: California, New York, and Texas. Competitor lobbying activity often precedes state enforcement action or legislative tightening that reshapes marketplace terms.",
-        "cold_first_touch_frame": "Subject: Telehealth Competitors Lobby; Marketplace Compliance Exposure Dear Public Policy Head, Four major telehealth operators filed federal lobbying disclosures last month covering telehealth policy. This coordinated advocacy typically signals incoming state-level regulatory focus on marketplace practices, advertising standards, and fee structures. We help directory and marketplace platforms anticipate these shifts. Could we schedule 15 minutes Thursday to map Zocdoc's compliance posture against emerging state activity? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitors just filed federal lobbying on telehealth policy last month. State regulators in California and New York typically respond to federal-level advocacy with enforcement guidance or new rule proposals within six months. Prospect: We're already tracking federal developments through our government affairs team. BDR Pivot: Understood. The gap we typically see is that state-specific enforcement priorities lag federal filings by 90 days. Could we spend 10 minutes mapping which state advertising and fee-splitting rules carry the highest compliance risk for Zocdoc's marketplace model right now?"
+        "headline": "Zocdoc: Telehealth Competitors File Federal Lobbying Activity",
+        "body": "Zocdoc operates a healthcare directory and marketplace connecting patients to telehealth providers, creating material exposure to federal telehealth policy shifts that affect provider reimbursement and advertising rules. Four competitors filed federal lobbying disclosures in July 2026 covering telehealth topics, signaling intensified advocacy around prescription economics and access standards. Industry-standard regulatory exposures for directory and marketplace operators in this segment include anti-kickback statutes, fee-splitting restrictions, and state medical advertising rules, which are now under active industry mobilization. The company's government affairs team should monitor federal rulemaking cycles and state-level responses to potential changes in telehealth reimbursement frameworks.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Wave, What's Shifting Dear Public Policy Head, Four telehealth competitors filed federal lobbying disclosures last month covering prescription economics and telehealth access. This signals potential federal rulemaking momentum that could reshape reimbursement frameworks and advertising compliance obligations for directory and marketplace platforms. Your regulatory affairs lead should be tracking the federal policy windows these filings point to. Would a 15-minute call Thursday work to discuss what your team is seeing in the federal pipeline? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We're seeing four of your competitors mobilize federal lobbying on telehealth policy in the last 60 days. That usually means either a federal rulemaking cycle is opening or state-level changes are forcing national advocacy. Prospect: We've been tracking the reimbursement stuff, but haven't seen anything concrete from HHS yet. BDR Pivot: That's exactly the gap. Let's spend 10 minutes mapping which federal windows your compliance leadership should be monitoring and what state-level secondaries could accelerate. That way you're ahead instead of reactive."
       },
-      "narrative_source": "llm_retry"
+      "narrative_source": "llm"
     },
     {
       "opportunity_id": "acc_020|tx|telehealth_general",
@@ -1450,18 +1018,18 @@
           {
             "signal_id": "S2_rival_co_mobilization",
             "score": 0.95,
-            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-22)",
-            "dt_posted": "2026-07-22"
+            "event_summary": "Prescription economics and access: 4 competitors filed federal lobbying on telehealth (any topic) (latest filing 2026-07-20)",
+            "dt_posted": "2026-07-20"
           }
         ],
         "S3": []
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Zocdoc: Competitors Mobilize Federal Telehealth Lobbying Push",
-        "body": "Zocdoc operates a consumer-facing healthcare directory and marketplace connecting patients to telehealth providers, creating direct exposure to medical advertising, anti-kickback, and fee-splitting enforcement across its top-three states. Four competing platforms filed federal lobbying disclosures on telehealth topics in July 2026, signaling coordinated industry effort to shape regulatory outcomes before state medical boards tighten provider-listing standards or prescribing-access rules. Operators in this segment commonly face state-level challenges around provider credential verification, consumer protection claims, and kickback-adjacent referral economics. Texas medical board activity on telehealth advertising and provider conduct has historically preceded multi-state enforcement waves.",
-        "cold_first_touch_frame": "Subject: TX Telehealth Lobbying Wave, Competitor Move on July Filings Dear [Public Policy Head], Four competitors in the telehealth marketplace space filed federal lobbying activity on telehealth topics in July, signaling a coordinated push before Texas and other top-three states harden advertising and referral rules. Your government affairs team likely tracks these filings, but the timing suggests the industry cycle is accelerating on anti-kickback and fee-splitting exposure. Would a 15-minute call Thursday work to map your current state-by-state intelligence priorities against what these filings reveal about where enforcement risk is heading? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: I saw four marketplace competitors file federal lobbying on telehealth this July, and Texas medical board has historically used industry activity like this as a trigger to clarify provider-listing and advertising standards. That timing shift might change your roadmap priorities. Prospect: We're tracking some of it, but our policy team is stretched across a bunch of categories right now. BDR Pivot: Totally understand. Ten minutes to show you what those competitor filings reveal about which state moves are coming next, and whether your current disclosure posture in TX, CA, and NY is ahead of the wave. Does early next week work?"
+        "headline": "Zocdoc: Telehealth Competitors File Federal Lobbying Push Texas",
+        "body": "Zocdoc operates a multi-category healthcare marketplace connecting patients to providers across telehealth and in-person services, creating exposure to state medical advertising rules and consumer protection enforcement that rivals are now actively mobilizing around federally. Four competing telehealth platforms filed federal lobbying disclosures on telehealth economics and access topics as of July 2026, signaling coordinated industry effort to shape regulatory posture before state boards tighten advertising or referral-fee standards. Operators in this segment commonly face anti-kickback and fee-splitting exposure when provider payment structures are scrutinized by state medical boards or attorneys general. Texas ranks among the top three state exposure zones for Zocdoc's business model, making pre-emptive government affairs positioning material.",
+        "cold_first_touch_frame": "Subject: TX Medical Board Focus on Telehealth Referral Economics Dear Public Policy Head, Four competing telehealth platforms have filed federal lobbying disclosures on telehealth access and economics as of July. This signals state boards are likely to scrutinize provider payment and referral structures more closely. Zocdoc's marketplace model creates material exposure under Texas medical advertising and fee-splitting rules, and your government affairs team may benefit from a direct read on what peer mobilization efforts are signaling about enforcement timing. Would a 15-minute call on Thursday work to discuss the intelligence picture? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Four competing platforms just filed federal lobbying on telehealth economics in July. This typically precedes state board action, and your compliance leadership should know what peer organizations are signaling about advertising and referral-fee exposure in Texas. Prospect: We've already got our internal GA team monitoring this. BDR Pivot: Understood. The value here is seeing what your competitors disclosed to federal lobbies before state boards move, so your team isn't reactive. Can we run a quick 10-minute sync to show you the filing landscape and where Texas enforcement risk clusters?"
       },
       "narrative_source": "llm"
     },
@@ -1504,10 +1072,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Spring Health: California Telehealth Rivals Mobilize Federal Lobbying Push",
-        "body": "Spring Health operates as a pure-play mental health platform with state behavioral health licensing exposure across New York, California, and Florida, making competitive regulatory positioning material to market access. Two competitors in the mental health telehealth segment filed federal lobbying disclosures on telehealth topics in July 2026, signaling intensified advocacy around reimbursement standards and licensure portability. Industry-standard regulatory exposures for enterprise mental health operators include Medicaid mental health reimbursement volatility and employer-sponsored health plan contract terms, both of which federal telehealth policy directly influences. Competitor mobilization typically precedes state-level enforcement shifts or payer coverage restrictions that reshape operator economics.",
-        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Activity (CA/NY/FL Impact) Dear Public Policy Head, Two mental health telehealth competitors filed federal lobbying notices on telehealth policy in July 2026. Given Spring Health's licensure footprint in California, New York, and Florida, monitoring the legislative themes these filings track will help your government affairs team anticipate state-level reimbursement or licensing changes ahead of enforcement action. Can we schedule 15 minutes Thursday to map the specific policy areas your compliance leadership should watch? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged that two of your mental health telehealth competitors just filed federal lobbying disclosures on telehealth policy. That timing typically signals upcoming state or payer shifts that affect reimbursement and licensure standards in your core markets. Prospect: We've been tracking some of that, but we're focused on other priorities right now. BDR Pivot: Understood. A quick 10-minute sync with your compliance leadership would help you identify which specific policy themes in those filings carry operational risk for Spring Health across CA, NY, and Florida. Does Thursday work?"
+        "headline": "Spring Health: CA Mental Health Telehealth Competitors File Federal Lobbying Push",
+        "body": "Spring Health operates as a pure-play mental health platform with direct exposure to state behavioral health licensing requirements and employer plan contracting dynamics that differ meaningfully from horizontal telehealth operators. Two competitors in the mental health telehealth segment filed federal lobbying disclosures on telehealth policy in July 2026, signaling mobilization around reimbursement, licensing, or regulatory scope at the federal level. Industry-standard regulatory exposures for this business model include state licensure reciprocity barriers, Medicaid mental health carve-out redesigns, and employer health plan mental health parity enforcement. The timing of competitor lobbying activity suggests material exposure in top states including California, New York, and Florida where behavioral health licensing and plan regulation intersect.",
+        "cold_first_touch_frame": "Subject: Competitor Lobbying Alert: Federal Mental Health Telehealth Push Dear Public Policy Head, Two peers in the mental health telehealth space just filed federal lobbying disclosures on telehealth policy as of July 2026. This typically signals movement on reimbursement scope, licensing reciprocity, or plan-level parity rules that would affect your operational footprint in California and other key states. I work with regulatory affairs leaders in your segment to map these federal signals against state-level enforcement timing and employer contracting cycles. A 15-minute call Thursday would let me show you the competitive intelligence snapshot and where your licensing and plan exposure sits relative to this wave. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged that two mental health telehealth competitors just filed federal lobbying on telehealth policy in July. Given your footprint in California and the top-three states where behavioral health licensing and plan regulation overlap, this is likely a timing signal for your government affairs team. Prospect: We've been tracking that loosely, but federal lobbying doesn't always translate to state-level impact for us. BDR Pivot: That's exactly the gap. A 10-minute sync would let us walk you through how federal momentum typically cascades into state enforcement priorities and employer plan rule changes in your top three jurisdictions. This is data your regulatory affairs lead can act on immediately."
       },
       "narrative_source": "llm"
     },
@@ -1550,10 +1118,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Spring Health: Florida Behavioral Health Licensing Competitors Mobilize Federal Advocacy",
-        "body": "Spring Health operates as a pure-play mental health platform with state behavioral health licensing exposure across New York, California, and Florida, differentiating it from broader telehealth operators managing multiple clinical categories. Two competitors in the mental health telehealth segment filed federal lobbying disclosures on telehealth policy in July 2026, signaling organized industry mobilization around regulatory risk. Industry-standard regulatory exposures for this business model include state licensure compliance, Medicaid mental health reimbursement rate changes, and employer-sponsored health plan carve-out restrictions. Florida's position as a top-three state exposure creates material risk if competitor advocacy shifts state-level behavioral health licensing standards or reimbursement thresholds.",
-        "cold_first_touch_frame": "Subject: FL Behavioral Health Licensing: Competitor Advocacy Timing Dear [Role], Two competitors in the mental health telehealth space filed federal lobbying disclosures on telehealth policy last month, signaling active industry positioning around behavioral health licensing and reimbursement standards. Given Florida's relevance to your operational footprint, your government affairs team should assess whether state-level licensing or Medicaid mental health policy shifts are likely to follow federal advocacy patterns. Would a 15-minute call Thursday work to map Spring Health's state regulatory exposure and competitor positioning? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Your competitor slate just filed federal telehealth lobbying disclosures in July. We've flagged Florida behavioral health licensing and Medicaid reimbursement as the operational chokepoint worth tracking as that advocacy cascades. Prospect: We're aware of competitor moves, but we're not sure how federal filings translate to state risk for us. BDR Pivot: That's exactly the gap. A 10-minute sync lets us show you how competitor federal positioning historically maps to state licensing and reimbursement changes, and where Spring Health's exposure differs. Does early Thursday work?"
+        "headline": "Spring Health: Competitors File Telehealth Federal Lobbying Push",
+        "body": "Spring Health operates as a pure-play mental health platform embedded in employer benefit structures, creating material exposure to shifts in state behavioral health licensing standards and Medicaid reimbursement policy. Two competitors have recently filed federal lobbying disclosures on telehealth topics, signaling coordinated industry mobilization on regulatory frameworks that affect multistate operations. Florida ranks among Spring Health's top three state exposure zones alongside New York and California, where behavioral health licensing and employer health plan regulations create operational chokepoints. Industry-standard regulatory exposures for this business model include state parity requirements, asynchronous prescribing restrictions, and licensing reciprocity gaps that lobbying activity often precedes or responds to.",
+        "cold_first_touch_frame": "Subject: Competitor Telehealth Lobbying Activity in Your Top States Dear VP of Public Policy, Two of Spring Health's direct competitors filed federal lobbying disclosures this month focused on telehealth regulation. Given your footprint in Florida, New York, and California, this activity signals upcoming state-level regulatory moves that will affect licensing and reimbursement frameworks your compliance leadership should track. Would you have 15 minutes Thursday to discuss what the rival mobilization tells us about your exposure timeline? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Two Spring Health competitors just filed federal lobbying on telehealth policy. We flagged it because your government affairs team will likely see state-level regulatory proposals land within the next 60 to 90 days tied to that activity. Prospect: We're already tracking those competitors and our compliance team has it on radar. BDR Pivot: Understood. The timing question is whether your regulatory affairs lead has mapped how Florida's licensing and Medicaid mental health reimbursement moves will intersect with their lobbying positions. Could we run a 10-minute sync to share what we're seeing on the state-by-state timeline?"
       },
       "narrative_source": "llm"
     }
