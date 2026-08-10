@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-09T08:25:54+00:00",
+  "started_at": "2026-08-10T09:02:24+00:00",
   "stages": {
     "ingest": {
       "openfda": {
@@ -12,9 +12,9 @@
         "total_filings": 0
       },
       "enforcement_news": {
-        "items": 44,
+        "items": 42,
         "raw_cfpb": 20,
-        "raw_google": 168
+        "raw_google": 169
       },
       "openstates": {
         "bills": 34,
@@ -23,30 +23,30 @@
       "sec_edgar": {
         "public_accounts_processed": 7,
         "total_topic_hits": 67,
-        "since_date": "2025-08-09"
+        "since_date": "2025-08-10"
       }
     },
     "detect": {
       "S1_drug_enforcement_cascade": 0,
       "S2_rival_co_mobilization": 0,
-      "S3_enforcement_precursor": 42
+      "S3_enforcement_precursor": 40
     },
     "blend": {
-      "raw_opportunity_count": 11,
-      "after_caps_count": 11,
+      "raw_opportunity_count": 7,
+      "after_caps_count": 7,
       "caps_applied": false
     },
     "interpret": {
-      "alerts_generated": 11,
+      "alerts_generated": 7,
       "narrative_source": "llm"
     },
     "route": {
-      "alert_count": 11,
+      "alert_count": 7,
       "posted_count": 0,
       "dry_run": true,
       "errors": [],
       "preview_written_to": "data/slack_preview.json"
     }
   },
-  "completed_at": "2026-08-09T08:35:06+00:00"
+  "completed_at": "2026-08-10T09:11:03+00:00"
 }
