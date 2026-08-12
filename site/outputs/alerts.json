@@ -1,99 +1,7 @@
 {
-  "generated_at": "2026-08-11T08:48:20+00:00",
-  "count": 3,
+  "generated_at": "2026-08-12T09:03:10+00:00",
+  "count": 2,
   "alerts": [
-    {
-      "opportunity_id": "acc_001|fl|telehealth_general",
-      "account_id": "acc_001",
-      "account_name": "Hims & Hers Health",
-      "account_segment": "consumer_telehealth_multi_category",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "1000-2500",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "fl",
-      "topic": "telehealth_general",
-      "composite_score": 0.231,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.362
-      },
-      "business_model_exposure_weight": 1.4,
-      "risk_disclosure_hit_count": 21,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
-            "event_summary": "Peer enforcement: Hims & Hers Under Fire: What You Need to Know About the FTC Lawsuit - South Florida Reporter (2026-08-09)",
-            "enforcement_date": "2026-08-09T05:03:48+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Hims: FTC Enforcement Precursor Signals Florida Telehealth Scrutiny Ahead",
-        "body": "Hims operates a multi-category consumer telehealth platform with material exposure to state asynchronous prescribing rules and compounded GLP-1 supply chain dependencies, creating distinct regulatory surface area compared to single-indication competitors. The most recent 10-K names state pharmacy compounding regulations and FDA enforcement on compounded GLP-1 products as disclosed material risks. Recent FTC enforcement activity against peer telehealth operators signals that state attorneys general and federal regulators are prioritizing asynchronous prescribing workflows and compounded product availability as enforcement vectors. Florida's position as a top-three state exposure for Hims makes monitoring state-level enforcement precursors and pharmacy board actions operationally critical.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Enforcement Activity, Florida Regulatory Readiness Dear Public Policy Head, Recent FTC enforcement against telehealth peers underscores state-level scrutiny of asynchronous prescribing and compounded product workflows, two operational foundations for Hims. Florida authorities are likely to follow with similar investigative postures, particularly around GLP-1 compounding and state pharmacy board alignment. A brief 15-minute call on Thursday would help your government affairs team map near-term state enforcement indicators and prepare messaging. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The recent FTC enforcement action against telehealth operators has accelerated state attorneys general attention on asynchronous prescribing and compounded availability workflows. Your compliance leadership team likely activated response protocols, but the regulatory momentum suggests your state intelligence infrastructure needs immediate refresh. Prospect: We've been monitoring the FTC action internally, but we're not sure how directly it applies to our Florida footprint or our compound GLP-1 supply chain. BDR Pivot: That uncertainty is exactly why a 10-minute sync with your GC makes sense now. We can isolate which state enforcement precursors your compliance team should prioritize before prosecutors move from peers to your operation."
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_003|fl|telehealth_general",
-      "account_id": "acc_003",
-      "account_name": "LifeMD",
-      "account_segment": "consumer_telehealth_glp1_focus",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "200-500",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "fl",
-      "topic": "telehealth_general",
-      "composite_score": 0.214,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.362
-      },
-      "business_model_exposure_weight": 1.3,
-      "risk_disclosure_hit_count": 18,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
-            "event_summary": "Peer enforcement: Hims & Hers Under Fire: What You Need to Know About the FTC Lawsuit - South Florida Reporter (2026-08-09)",
-            "enforcement_date": "2026-08-09T05:03:48+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "LifeMD: Florida Telehealth Prescribing Enforcement Precursor Signals",
-        "body": "LifeMD operates a consumer-direct GLP-1 and weight-loss telehealth model dependent on asynchronous prescriber workflows and compounded pharmaceutical supply chains across top-three states. The most recent 10-K names state telehealth prescribing restrictions and state pharmacy oversight as material risks. Recent FTC enforcement actions against peer operators in the telehealth GLP-1 category signal heightened federal attention to prescriber supervision and compounded drug sourcing, creating near-term state-level enforcement copycat risk in Florida where LifeMD maintains operational footprint. Government affairs team should anticipate state pharmacy board inquiries into prescriber credential validation and compounding facility licensing audits within Q4 2026.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Enforcement and Florida Pharmacy Board Timing Dear Government Affairs Lead, The FTC enforcement wave against telehealth GLP-1 operators has triggered state pharmacy board review cycles in high-volume markets. Florida typically follows 30 to 60 days behind federal action. Your prescriber supervision protocols and compounding sourcing documentation are likely to be requested by the Florida Department of Health within the next quarter. Would a 15-minute call this Thursday work to review how peer operators are responding to state-level credential audit requests? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC's recent telehealth enforcement has triggered Florida pharmacy board scrutiny into prescriber supervision and compounded drug sourcing. Your team flagged this concern six months ago. Prospect: We've been managing this internally, but state guidance hasn't been clear yet. BDR Pivot: That uncertainty is exactly the gap. A 10-minute sync would let us show you how other operators are documenting prescriber credentials and facility compliance ahead of Florida audits. Would Tuesday morning work?"
-      },
-      "narrative_source": "llm"
-    },
     {
       "opportunity_id": "acc_001|ca|telehealth_general",
       "account_id": "acc_001",
@@ -108,12 +16,12 @@
       "account_target_tier": "enterprise",
       "state": "ca",
       "topic": "telehealth_general",
-      "composite_score": 0.211,
+      "composite_score": 0.22,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.331
+        "S3": 0.345
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 21,
@@ -125,205 +33,199 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers, alleging it shared people's health data with Meta and Snap - CBS News (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
             "event_summary": "Peer enforcement: EXCLUSIVE: US FTC sues Hims & Hers for sending user health info to Meta, Snap - Reuters (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.21,
-            "event_summary": "Peer enforcement: FTC sues Hims & Hers, alleging it shared people's health data with Meta and Snap - CBS News (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
-            "event_summary": "Peer enforcement: FTC Sues Hims & Hers, Alleging Unlawful Sharing of Data, Deceptive Billing - WSJ (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
-            "event_summary": "Peer enforcement: Hims misled consumers and violated their privacy, FTC alleges in a lawsuit - STAT (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations, deceptive billing practices - Healthcare Dive (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
-            "event_summary": "Peer enforcement: Hims and Hers shares fall 10% as FTC sues company over data, billing practices - CNBC (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
             "event_summary": "Peer enforcement: Hims & Hers Sued By FTC For Deceptive Practices - Forbes (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers, Alleging Unlawful Sharing of Data, Deceptive Billing - WSJ (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims misled consumers and violated their privacy, FTC alleges in a lawsuit - STAT (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims and Hers shares fall 10% as FTC sues company over data, billing practices - CNBC (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over data privacy, billing practices - Fierce Healthcare (2026-07-29)",
             "enforcement_date": "2026-07-29T22:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.232,
+            "score": 0.221,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy And Billing Practices - U.S. News & World Report (2026-07-31)",
             "enforcement_date": "2026-07-31T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over health data sharing, billing - Yahoo Finance (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
             "event_summary": "Peer enforcement: Hims & Hers Stock Plunges After FTC Sues Over Alleged Privacy Violations - Barron's (2026-07-29)",
             "enforcement_date": "2026-07-29T19:28:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
+            "score": 0.21,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for allegedly sharing patients' medical data with advertisers Meta and Snap - T (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
-            "event_summary": "Peer enforcement: FTC Sues Hims & Hers for Sending User Health Info to Meta, Snap - Insurance Journal (2026-07-30)",
-            "enforcement_date": "2026-07-30T05:19:26+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
-            "event_summary": "Peer enforcement: Hims & Hers stock sinks after FTC sues over health data sharing and billing - qz.com (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
-            "event_summary": "Peer enforcement: FTC lawsuit: Hims & Hers shared customer data with Meta, Snap - Yahoo Finance (2026-07-30)",
-            "enforcement_date": "2026-07-30T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
             "event_summary": "Peer enforcement: Hims & Hers sued by FTC for sharing health data with Meta, Snap - Cleveland.com (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers for Allegedly Sharing Private Health Info With Meta and Snap - Gizmodo (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
             "event_summary": "Peer enforcement: HIMS Stock in Focus as FTC Lawsuit Takes Aim at Hims & Hers Business Practices - Yahoo Finance (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.21,
-            "event_summary": "Peer enforcement: FTC Sues Hims & Hers for Allegedly Sharing Private Health Info With Meta and Snap - Gizmodo (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged health data sharing with Meta, Snap - WPXI (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.232,
-            "event_summary": "Peer enforcement: US FTC sues Hims & Hers for sending user health info to Meta, Snap - ETLegalWorld.com (2026-07-31)",
-            "enforcement_date": "2026-07-31T07:27:19+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for sharing sensitive user health data with Meta and Snap - The Independent (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.232,
+            "score": 0.221,
             "event_summary": "Peer enforcement: A view from DC: The FTC sues Hims over pixel tracking - IAPP (2026-07-31)",
             "enforcement_date": "2026-07-31T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
+            "score": 0.269,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers for privacy violations, sh... - Pluang (2026-08-04)",
+            "enforcement_date": "2026-08-04T19:29:58+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations and deceptive billing - ConsumerAffairs (2026-07-30)",
             "enforcement_date": "2026-07-30T12:05:45+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
+            "score": 0.21,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for sharing consumers' sensitive health information with Meta, Snap despite pri (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Alleged Privacy Violations, Deceptive Billing Practices - HuffPost (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
             "event_summary": "Peer enforcement: FTC Sues Hims and Hers: Telehealth Giant Routed Patient Data to Meta Without Consent - Tech Times (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.232,
+            "score": 0.221,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy And Billing Practices - HealthDay (2026-07-31)",
             "enforcement_date": "2026-07-31T14:24:09+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.283,
+            "score": 0.21,
+            "event_summary": "Peer enforcement: US FTC sues Hims & Hers over alleged sharing of health data with Meta and Snap - Storyboard18 (2026-07-30)",
+            "enforcement_date": "2026-07-30T12:01:01+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.269,
             "event_summary": "Peer enforcement: US sues Hims and Hers over claims users' intimate health data went to Meta, Snap - The Cool Down (2026-08-04)",
             "enforcement_date": "2026-08-04T12:57:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers, alleging it shared health data with Meta, Snap - AOL.com (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.21,
+            "score": 0.2,
             "event_summary": "Peer enforcement: Hims & Hers Lawsuit: FTC Alleges Privacy Violations - The Cyber Express (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.221,
+            "score": 0.21,
             "event_summary": "Peer enforcement: Hims & Hers sued by FTC for sharing health data with Meta, Snap - NJ.com (2026-07-30)",
             "enforcement_date": "2026-07-30T00:09:51+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.283,
-            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Data, Subscription Claims - MyChesCo (2026-08-04)",
-            "enforcement_date": "2026-08-04T15:10:00+00:00"
+            "score": 0.345,
+            "event_summary": "Peer enforcement: Hims & Hers Under Fire: What You Need to Know About the FTC Lawsuit - southfloridareporter.com (2026-08-09)",
+            "enforcement_date": "2026-08-09T05:03:48+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.232,
+            "score": 0.221,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Alleged Sharing of Patients\u2019 Health Data With Meta and Snap - TechNadu (2026-07-31)",
             "enforcement_date": "2026-07-31T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.331,
-            "event_summary": "Peer enforcement: FTC Sues Hims & Hers: What California Customers Should Know - legalscoops.com (2026-07-30)",
+            "score": 0.315,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers: What California Customers Should Know - LegalScoops (2026-07-30)",
             "enforcement_date": "2026-07-30T18:17:54+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.297,
+            "score": 0.283,
             "event_summary": "Peer enforcement: Novo Nordisk sues Eli Lilly over GLP-1 advertising, expanding scrutiny of drug marketing - Telehealt (2026-08-05)",
             "enforcement_date": "2026-08-05T09:45:00+00:00"
           }
@@ -331,10 +233,248 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: FTC Data-Sharing Enforcement Reshapes State Telehealth Privacy Standards",
-        "body": "Hims operates a multi-category consumer telehealth platform with material exposure across compounded GLP-1 supply chains, state asynchronous prescribing rules, and pharmacy licensing variance, making data governance failures uniquely costly relative to single-indication competitors. The most recent 10-K names state telehealth licensing variance and compounded GLP-1 product availability as material risks, and the FTC enforcement action targeting user health data sharing to Meta and Snap signals incoming state-level privacy mandate tightening in California, New York, and Florida. State regulatory bodies now face political pressure to codify data-sharing prohibitions into telehealth licensure rules, directly affecting how Hims collects, stores, and monetizes patient information across jurisdictions. Hims' public policy head should map state-by-state privacy standard changes and assess compounded GLP-1 inventory dependencies against emerging state-level data localization requirements.",
-        "cold_first_touch_frame": "Subject: CA Privacy Tightening Post-FTC Action: Hims Data Governance Exposure Dear [Public Policy Head], The FTC enforcement against Hims on user data sharing to Meta and Snap is triggering state-level privacy mandate discussions in California, New York, and Florida. Your 10-K already flags state licensing variance and compounded GLP-1 availability as material risks; incoming state data-sharing prohibitions will compress both operational and compliance timelines across your top three markets. We help multistate telehealth operators map state privacy codification cycles and forecast licensing rule changes 60 to 90 days ahead of formal notice. Could we schedule a 15-minute call Thursday to discuss how state-by-state privacy tightening may reshape your data governance roadmap? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC enforcement on your data sharing practices is now landing on state AG radar in California and New York, and we're seeing privacy codification language move faster than your compliance team may expect. This is exactly the timing to resurface how state-by-state policy tracking keeps your public policy team ahead of rule changes. Prospect: We're handling FTC remediation right now and don't have bandwidth for state-level monitoring. BDR Pivot: Understood, and that's exactly why a 10-minute sync makes sense now rather than later. We help your compliance leadership stay ahead of state privacy mandate timelines while your team focuses on FTC settlement execution. Can we lock in 10 minutes next Tuesday to map California and New York tightening cycles?"
+        "headline": "Hims: FTC Data-Sharing Enforcement Escalates CA Telehealth Licensing Scrutiny",
+        "body": "Hims operates a multi-category consumer telehealth platform with compounded GLP-1 supply-chain dependency and asynchronous prescribing workflows across multiple states, creating material exposure to state pharmacy board and medical board enforcement actions. The FTC's July 2026 lawsuit alleging health-data sharing with Meta and Snap signals heightened regulatory appetite for telehealth compliance violations in California, where the company faces concurrent state pharmacy compounding rule variance and telehealth licensing requirements. Per the 10-K filing, state asynchronous prescribing rules and GLP-1 compounded availability restrictions represent disclosed material risks. This enforcement action creates immediate timing pressure for California's medical board and state attorney general to coordinate compliance standards with pharmacy regulators.",
+        "cold_first_touch_frame": "Subject: FTC Hims Enforcement Signals CA Board Coordination Risk Dear [Public Policy Head], The FTC's data-sharing enforcement against Hims last month will likely trigger California medical and pharmacy boards to jointly review asynchronous prescribing protocols and compounded GLP-1 handling standards. Your government affairs team should anticipate coordinated state inquiry into clinical supervision and patient-consent frameworks within 60 to 90 days. Can we schedule a 15-minute call Thursday to map the exposure timeline? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC's Hims lawsuit just landed, and California's medical board usually coordinates with the pharmacy board on enforcement follow-up within two quarters. This is the moment your compliance leadership typically mobilizes policy response. Prospect: We're monitoring it, but the FTC case is federal. State boards may not move fast. BDR Pivot: They often do when federal enforcement signals state licensing or compounding gaps. Ten minutes to map your state board exposure and next 90-day regulatory calendar?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_003|ca|telehealth_general",
+      "account_id": "acc_003",
+      "account_name": "LifeMD",
+      "account_segment": "consumer_telehealth_glp1_focus",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "200-500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ca",
+      "topic": "telehealth_general",
+      "composite_score": 0.204,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.345
+      },
+      "business_model_exposure_weight": 1.3,
+      "risk_disclosure_hit_count": 18,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers, alleging it shared people's health data with Meta and Snap - CBS News (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: EXCLUSIVE: US FTC sues Hims & Hers for sending user health info to Meta, Snap - Reuters (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations, deceptive billing practices - Healthcare Dive (2026-07-30)",
+            "enforcement_date": "2026-07-30T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims & Hers Sued By FTC For Deceptive Practices - Forbes (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers, Alleging Unlawful Sharing of Data, Deceptive Billing - WSJ (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims misled consumers and violated their privacy, FTC alleges in a lawsuit - STAT (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims and Hers shares fall 10% as FTC sues company over data, billing practices - CNBC (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over data privacy, billing practices - Fierce Healthcare (2026-07-29)",
+            "enforcement_date": "2026-07-29T22:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.221,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy And Billing Practices - U.S. News & World Report (2026-07-31)",
+            "enforcement_date": "2026-07-31T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over health data sharing, billing - Yahoo Finance (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims & Hers Stock Plunges After FTC Sues Over Alleged Privacy Violations - Barron's (2026-07-29)",
+            "enforcement_date": "2026-07-29T19:28:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers for allegedly sharing patients' medical data with advertisers Meta and Snap - T (2026-07-30)",
+            "enforcement_date": "2026-07-30T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims & Hers sued by FTC for sharing health data with Meta, Snap - Cleveland.com (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers for Allegedly Sharing Private Health Info With Meta and Snap - Gizmodo (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: HIMS Stock in Focus as FTC Lawsuit Takes Aim at Hims & Hers Business Practices - Yahoo Finance (2026-07-30)",
+            "enforcement_date": "2026-07-30T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged health data sharing with Meta, Snap - WPXI (2026-07-30)",
+            "enforcement_date": "2026-07-30T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers for sharing sensitive user health data with Meta and Snap - The Independent (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.221,
+            "event_summary": "Peer enforcement: A view from DC: The FTC sues Hims over pixel tracking - IAPP (2026-07-31)",
+            "enforcement_date": "2026-07-31T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.269,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers for privacy violations, sh... - Pluang (2026-08-04)",
+            "enforcement_date": "2026-08-04T19:29:58+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations and deceptive billing - ConsumerAffairs (2026-07-30)",
+            "enforcement_date": "2026-07-30T12:05:45+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers for sharing consumers' sensitive health information with Meta, Snap despite pri (2026-07-30)",
+            "enforcement_date": "2026-07-30T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Alleged Privacy Violations, Deceptive Billing Practices - HuffPost (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC Sues Hims and Hers: Telehealth Giant Routed Patient Data to Meta Without Consent - Tech Times (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.221,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy And Billing Practices - HealthDay (2026-07-31)",
+            "enforcement_date": "2026-07-31T14:24:09+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: US FTC sues Hims & Hers over alleged sharing of health data with Meta and Snap - Storyboard18 (2026-07-30)",
+            "enforcement_date": "2026-07-30T12:01:01+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.269,
+            "event_summary": "Peer enforcement: US sues Hims and Hers over claims users' intimate health data went to Meta, Snap - The Cool Down (2026-08-04)",
+            "enforcement_date": "2026-08-04T12:57:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers, alleging it shared health data with Meta, Snap - AOL.com (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.2,
+            "event_summary": "Peer enforcement: Hims & Hers Lawsuit: FTC Alleges Privacy Violations - The Cyber Express (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.21,
+            "event_summary": "Peer enforcement: Hims & Hers sued by FTC for sharing health data with Meta, Snap - NJ.com (2026-07-30)",
+            "enforcement_date": "2026-07-30T00:09:51+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.345,
+            "event_summary": "Peer enforcement: Hims & Hers Under Fire: What You Need to Know About the FTC Lawsuit - southfloridareporter.com (2026-08-09)",
+            "enforcement_date": "2026-08-09T05:03:48+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.221,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Alleged Sharing of Patients\u2019 Health Data With Meta and Snap - TechNadu (2026-07-31)",
+            "enforcement_date": "2026-07-31T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.315,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers: What California Customers Should Know - LegalScoops (2026-07-30)",
+            "enforcement_date": "2026-07-30T18:17:54+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.283,
+            "event_summary": "Peer enforcement: Novo Nordisk sues Eli Lilly over GLP-1 advertising, expanding scrutiny of drug marketing - Telehealt (2026-08-05)",
+            "enforcement_date": "2026-08-05T09:45:00+00:00"
+          }
+        ]
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "LifeMD: FTC Data-Sharing Enforcement Pressures Telehealth Consumer Privacy Standards",
+        "body": "LifeMD operates a consumer-direct GLP-1 platform with material exposure to state telehealth prescribing restrictions and compounded supply chain dependencies, making third-party data-sharing practices a regulatory flashpoint across California, Texas, and Florida. The FTC's July 2026 enforcement action against Hims & Hers, alleging unauthorized health data transmission to Meta and Snap, establishes precedent for scrutiny of telehealth operators' data governance in high-volume consumer channels. The most recent 10-K names state pharmacy oversight and telehealth prescribing restrictions as material risks. LifeMD's government affairs team will need to audit current data-sharing agreements and social-media integration touchpoints before state AGs escalate similar investigations.",
+        "cold_first_touch_frame": "Subject: FTC Telehealth Data Precedent, LifeMD Privacy Exposure Dear Public Policy Head, The FTC's enforcement action against Hims & Hers this month for sharing health data with Meta and Snap creates immediate compliance risk for consumer telehealth platforms operating in California and Texas. Your 10-K discloses state pharmacy oversight and telehealth prescribing restrictions as material exposures; data-governance practices now fall within that regulatory perimeter. We help telehealth operators audit third-party data flows and map state-level privacy expectations before enforcement inquiries begin. Would a 15-minute call Thursday work to review your current data-sharing architecture against this new precedent? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC's Hims enforcement action last month on health data sharing with social platforms directly affects how you manage consumer data flows in California and Texas. Given your GLP-1 platform's direct-to-consumer model, this is timing worth revisiting. Prospect: We've reviewed our social media integrations, but I'm not sure how much has changed since we last spoke. BDR Pivot: Exactly the point. That enforcement action reset the baseline for what state regulators expect. A 10-minute sync would let us show you how peer platforms are responding and where your biggest exposure sits. Does tomorrow at 2 p.m. work?"
       },
       "narrative_source": "llm"
     }
