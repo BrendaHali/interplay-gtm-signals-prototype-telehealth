@@ -1,52 +1,5 @@
 {
-  "generated_at": "2026-08-13T09:03:30+00:00",
-  "count": 1,
-  "alerts": [
-    {
-      "opportunity_id": "acc_001|fl|telehealth_general",
-      "account_id": "acc_001",
-      "account_name": "Hims & Hers Health",
-      "account_segment": "consumer_telehealth_multi_category",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "1000-2500",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "fl",
-      "topic": "telehealth_general",
-      "composite_score": 0.209,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.328
-      },
-      "business_model_exposure_weight": 1.4,
-      "risk_disclosure_hit_count": 21,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.328,
-            "event_summary": "Peer enforcement: Hims & Hers Under Fire: What You Need to Know About the FTC Lawsuit - South Florida Reporter (2026-08-09)",
-            "enforcement_date": "2026-08-09T05:03:48+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Hims: Florida Telehealth Licensing Variance Compounds FTC Enforcement Risk",
-        "body": "Hims operates a multi-category consumer telehealth platform dependent on compounded GLP-1 supply chain continuity and asynchronous prescribing workflows across state lines, creating concentrated exposure to state pharmacy and licensing enforcement. The most recent 10-K names state asynchronous prescribing rules and state pharmacy compounding regulations as material risks. Florida's telehealth licensing variance creates operational friction where Hims must maintain separate prescriber credentialing and supervision protocols, a compliance layer that intensifies regulatory scrutiny when peer enforcement occurs. The FTC enforcement action signals that state-level pharmacy boards may now cross-reference federal investigations to identify compounding compliance gaps in asynchronous workflows.",
-        "cold_first_touch_frame": "Subject: Florida Telehealth Licensing Exposure During FTC Action Dear [Public Policy Head], The FTC enforcement action against Hims has surfaced state pharmacy board attention on asynchronous prescribing and compounded GLP-1 protocols. Florida's telehealth licensing variance means your supervision and credentialing architecture may face state-specific audits that don't align with your multi-state playbook. A 15-minute call Thursday would let us map the state-by-state licensing gaps that could compound FTC exposure. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC action has prompted Florida pharmacy boards to examine asynchronous prescribing supervision in compounded GLP-1 workflows. That timing creates an immediate need to audit your state licensing variance across your top three states. Prospect: We're already monitoring the FTC situation and our compliance team is reviewing prescriber protocols. BDR Pivot: Understood. A 10-minute sync with your GA team would let us show which state licensing rules create the highest enforcement risk under FTC scrutiny, so your compliance work stays ahead of board inquiries."
-      },
-      "narrative_source": "llm"
-    }
-  ]
+  "generated_at": "2026-08-14T08:56:06+00:00",
+  "count": 0,
+  "alerts": []
 }
