@@ -1,6 +1,545 @@
 {
-  "generated_at": "2026-08-18T08:22:34+00:00",
-  "count": 0,
+  "generated_at": "2026-08-19T08:23:59+00:00",
+  "count": 5,
   "schema_note": "Per-account rollup of outputs/alerts.json. One record per account_id even when signals fire across multiple states and topics. evidence_drilldown preserves the original per-(state, topic) attribution for click-through inspection.",
-  "accounts": []
+  "accounts": [
+    {
+      "account_id": "acc_001",
+      "account_name": "Hims & Hers Health",
+      "account_size_tier": "enterprise",
+      "account_target_tier": "enterprise",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_employee_band": "1000-2500",
+      "account_funding_stage": "public",
+      "account_revenue_band": "1B+",
+      "account_parent": null,
+      "account_tracking_status": "active_alert",
+      "routing_destination": "alerts",
+      "hq_city": "San Francisco",
+      "hq_state": "ca",
+      "website": "https://www.hims.com",
+      "product_one_liner": "Direct-to-consumer telehealth platform for sexual health, weight loss (GLP-1), mental health, and dermatology.",
+      "founded_year": 2017,
+      "topic_exposure_full": [
+        "compounded_glp1",
+        "asynchronous_prescribing",
+        "telehealth_licensing",
+        "mental_health_telehealth"
+      ],
+      "public_company": true,
+      "ticker": "HIMS",
+      "disclosure_source": "10K",
+      "acquired_note": null,
+      "states_affected": [
+        "tx"
+      ],
+      "topics_affected": [
+        "telehealth_general"
+      ],
+      "top_composite_score": 0.243,
+      "signals_summary": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.381
+      },
+      "total_routed_alerts": 1,
+      "all_source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.071,
+            "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+            "enforcement_date": "2026-07-15T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.381,
+            "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+            "enforcement_date": "2026-08-18T17:16:19+00:00"
+          }
+        ]
+      },
+      "evidence_drilldown": [
+        {
+          "opportunity_id": "acc_001|tx|telehealth_general",
+          "state": "tx",
+          "topic": "telehealth_general",
+          "composite_score": 0.243,
+          "signal_scores": {
+            "S1": 0.0,
+            "S2": 0.0,
+            "S3": 0.381
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [],
+            "S2": [],
+            "S3": [
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.071,
+                "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+                "enforcement_date": "2026-07-15T07:00:00+00:00"
+              },
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.381,
+                "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+                "enforcement_date": "2026-08-18T17:16:19+00:00"
+              }
+            ]
+          },
+          "narrative_headline": "Hims: Texas Pharmacy Board Enforcement Precursor Signals Compounding Scrutiny"
+        }
+      ],
+      "best_narrative": {
+        "headline": "Hims: Texas Pharmacy Board Enforcement Precursor Signals Compounding Scrutiny",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains and asynchronous prescribing workflows across state lines, creating exposure to pharmacy board enforcement patterns. Peer enforcement activity in adjacent states signals that pharmacy boards are tightening settlement terms around drug compounding oversight and prescriber accountability standards. The most recent 10-K names state compounding regulations and asynchronous prescribing rules as material risks; this enforcement precursor suggests Texas regulators may adopt similar scrutiny within 12 to 18 months. Regulatory affairs leadership should prioritize horizon scanning on Texas pharmacy board rulemaking and settlement precedent analysis from California, New York, and Florida pharmacy boards.",
+        "cold_first_touch_frame": "Subject: Texas Pharmacy Board Enforcement Signal on Compounded GLP-1 Dear [Public Policy Head], A peer enforcement case in the Midwest signals that state pharmacy boards are narrowing acceptable settlement terms around drug compounding and prescriber oversight. Given Hims' compounded GLP-1 supply dependency and multi-state asynchronous prescribing footprint, Texas pharmacy board activity warrants early-stage monitoring. I have specific state-by-state enforcement timeline data that maps Texas exposure against California, New York, and Florida precedent. Would a 15-minute call on Thursday work to walk through the signal and your current policy monitoring stack? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: A pharmacy board enforcement settlement in the Midwest just signaled tighter compounding oversight standards, and Texas regulators typically follow within 18 months. Your compliance leadership flagged compounding regulations as a material 10-K risk last year, so the timing feels right to refresh that exposure map. Prospect: We've been monitoring pharmacy boards, but our GA team hasn't prioritized Texas yet given California and Florida headwinds. BDR Pivot: Exactly. That's why a quick 10-minute sync with your GC makes sense now, before Texas rulemaking kicks off. I can show you how this specific enforcement pattern maps to your top-three-state exposure and what your peer timeline looks like."
+      },
+      "best_narrative_source": "llm",
+      "best_opportunity_id": "acc_001|tx|telehealth_general",
+      "multistate_indicator": false,
+      "state_count_affected": 1,
+      "topic_count_affected": 1,
+      "triggering_events_summary": [
+        "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+        "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)"
+      ],
+      "latest_signal_event_date": "2026-08-18"
+    },
+    {
+      "account_id": "acc_003",
+      "account_name": "LifeMD",
+      "account_size_tier": "enterprise",
+      "account_target_tier": "enterprise",
+      "account_segment": "consumer_telehealth_glp1_focus",
+      "account_employee_band": "200-500",
+      "account_funding_stage": "public",
+      "account_revenue_band": "100-250M",
+      "account_parent": null,
+      "account_tracking_status": "active_alert",
+      "routing_destination": "alerts",
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.lifemd.com",
+      "product_one_liner": "Telehealth and prescription platform spanning weight management (GLP-1), men's health, and primary care.",
+      "founded_year": 1994,
+      "topic_exposure_full": [
+        "compounded_glp1",
+        "asynchronous_prescribing",
+        "telehealth_licensing"
+      ],
+      "public_company": true,
+      "ticker": "LFMD",
+      "disclosure_source": "10K",
+      "acquired_note": null,
+      "states_affected": [
+        "tx"
+      ],
+      "topics_affected": [
+        "telehealth_general"
+      ],
+      "top_composite_score": 0.225,
+      "signals_summary": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.381
+      },
+      "total_routed_alerts": 1,
+      "all_source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.071,
+            "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+            "enforcement_date": "2026-07-15T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.381,
+            "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+            "enforcement_date": "2026-08-18T17:16:19+00:00"
+          }
+        ]
+      },
+      "evidence_drilldown": [
+        {
+          "opportunity_id": "acc_003|tx|telehealth_general",
+          "state": "tx",
+          "topic": "telehealth_general",
+          "composite_score": 0.225,
+          "signal_scores": {
+            "S1": 0.0,
+            "S2": 0.0,
+            "S3": 0.381
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [],
+            "S2": [],
+            "S3": [
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.071,
+                "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+                "enforcement_date": "2026-07-15T07:00:00+00:00"
+              },
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.381,
+                "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+                "enforcement_date": "2026-08-18T17:16:19+00:00"
+              }
+            ]
+          },
+          "narrative_headline": "LifeMD: Texas Pharmacy Board Enforcement Precursor Tightens Compounded GLP-1"
+        }
+      ],
+      "best_narrative": {
+        "headline": "LifeMD: Texas Pharmacy Board Enforcement Precursor Tightens Compounded GLP-1",
+        "body": "LifeMD operates a consumer telehealth platform centered on compounded GLP-1 supply chains and asynchronous prescribing workflows, creating material exposure to state pharmacy board enforcement activity. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as disclosed risks. Recent peer enforcement by a state pharmacy board accepting a drug settlement signals regulatory tightening in compounded obesity-medication oversight, particularly relevant given Texas ranks among LifeMD's top state exposures. Pharmacy board action often cascades across neighboring jurisdictions within 90 to 180 days, necessitating early policy monitoring to inform prescribing network adjustments.",
+        "cold_first_touch_frame": "Subject: Texas Pharmacy Board Enforcement Signal: GLP-1 Compliance Update Needed Dear VP Regulatory Affairs, A state pharmacy board recently accepted a drug settlement that narrows compounded medication dispensing standards. Given LifeMD's material reliance on compounded GLP-1 workflows and Texas ranking among your top three state exposures, this enforcement precedent carries direct operational implications for your prescribing network compliance posture. Would you have 15 minutes Thursday to discuss how peer enforcement patterns are reshaping state pharmacy board expectations in your core markets? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Texas pharmacy board enforcement just tightened compounded-medication standards, and your compliance leadership flagged this as a timing issue last quarter. We should sync briefly on how this precedent affects your prescribing workflows across your top three states. Prospect: We're monitoring it internally, but our legal team is focused on other priorities right now. BDR Pivot: Understood. A 10-minute call with your public policy head would clarify which enforcement signals warrant immediate prescribing-network updates. Can we lock in Thursday at 2 p.m.?"
+      },
+      "best_narrative_source": "llm",
+      "best_opportunity_id": "acc_003|tx|telehealth_general",
+      "multistate_indicator": false,
+      "state_count_affected": 1,
+      "topic_count_affected": 1,
+      "triggering_events_summary": [
+        "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+        "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)"
+      ],
+      "latest_signal_event_date": "2026-08-18"
+    },
+    {
+      "account_id": "acc_005",
+      "account_name": "Teladoc Health",
+      "account_size_tier": "enterprise",
+      "account_target_tier": "enterprise",
+      "account_segment": "enterprise_virtual_care",
+      "account_employee_band": "5000+",
+      "account_funding_stage": "public",
+      "account_revenue_band": "1B+",
+      "account_parent": null,
+      "account_tracking_status": "active_alert",
+      "routing_destination": "alerts",
+      "hq_city": "Purchase",
+      "hq_state": "ny",
+      "website": "https://www.teladochealth.com",
+      "product_one_liner": "Enterprise virtual care platform: primary care, mental health, chronic condition management, and expert medical opinion.",
+      "founded_year": 2002,
+      "topic_exposure_full": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "mental_health_telehealth",
+        "controlled_substance_telehealth"
+      ],
+      "public_company": true,
+      "ticker": "TDOC",
+      "disclosure_source": "10K",
+      "acquired_note": null,
+      "states_affected": [
+        "tx"
+      ],
+      "topics_affected": [
+        "telehealth_general"
+      ],
+      "top_composite_score": 0.208,
+      "signals_summary": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.381
+      },
+      "total_routed_alerts": 1,
+      "all_source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.071,
+            "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+            "enforcement_date": "2026-07-15T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.381,
+            "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+            "enforcement_date": "2026-08-18T17:16:19+00:00"
+          }
+        ]
+      },
+      "evidence_drilldown": [
+        {
+          "opportunity_id": "acc_005|tx|telehealth_general",
+          "state": "tx",
+          "topic": "telehealth_general",
+          "composite_score": 0.208,
+          "signal_scores": {
+            "S1": 0.0,
+            "S2": 0.0,
+            "S3": 0.381
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [],
+            "S2": [],
+            "S3": [
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.071,
+                "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+                "enforcement_date": "2026-07-15T07:00:00+00:00"
+              },
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.381,
+                "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+                "enforcement_date": "2026-08-18T17:16:19+00:00"
+              }
+            ]
+          },
+          "narrative_headline": "Teladoc: Texas Pharmacy Board Settlement Signals State Licensure Enforcement Shift"
+        }
+      ],
+      "best_narrative": {
+        "headline": "Teladoc: Texas Pharmacy Board Settlement Signals State Licensure Enforcement Shift",
+        "body": "Teladoc operates as a contracted enterprise virtual care platform dependent on multi-state health plan networks and provider licensing alignment across CA, NY, and TX, creating material exposure when state boards tighten pharmacy or prescribing oversight. The most recent 10-K names state professional licensure variance and Medicaid telehealth reimbursement as material risks. A neighboring state pharmacy board's recent settlement with a hospital system indicates enforcement appetite for prescribing and pharmacy practice standards that may cascade into Texas, where Teladoc maintains substantial health plan partnerships. Your regulatory affairs team should monitor whether Texas pharmacy board guidance changes on asynchronous prescribing workflows or pharmacy delegation standards over the next 60 days.",
+        "cold_first_touch_frame": "Subject: TX Pharmacy Board Settlement, Teladoc Prescribing Exposure Update Dear [Public Policy Head], A state pharmacy board settlement this month signals tighter enforcement on telehealth prescribing and pharmacy oversight. Given Teladoc's multi-state contracted model and TX health plan footprint, your governance team may benefit from a brief discussion on how neighboring enforcement patterns could affect your Medicaid and commercial reimbursement workflows in Texas. Would a 15-minute call Thursday work to map the exposure? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We saw a pharmacy board settlement land this month that mirrors some of the licensure variance risks you flagged in prior conversations. It looks like enforcement momentum is building on telehealth prescribing standards, and your GC team may want an updated scan before Q3 compliance reviews kick off. Prospect: We've been tracking this internally. Not sure there's enough Texas-specific detail yet to act on. BDR Pivot: Understood. A quick 10-minute sync with your compliance lead would surface which of your three core states is most at-risk right now and whether your reimbursement workflows need a preemptive audit. Does early next week work?"
+      },
+      "best_narrative_source": "llm",
+      "best_opportunity_id": "acc_005|tx|telehealth_general",
+      "multistate_indicator": false,
+      "state_count_affected": 1,
+      "topic_count_affected": 1,
+      "triggering_events_summary": [
+        "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+        "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)"
+      ],
+      "latest_signal_event_date": "2026-08-18"
+    },
+    {
+      "account_id": "acc_006",
+      "account_name": "Amwell",
+      "account_size_tier": "enterprise",
+      "account_target_tier": "enterprise",
+      "account_segment": "enterprise_virtual_care",
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "public",
+      "account_revenue_band": "100-250M",
+      "account_parent": null,
+      "account_tracking_status": "active_alert",
+      "routing_destination": "alerts",
+      "hq_city": "Boston",
+      "hq_state": "ma",
+      "website": "https://business.amwell.com",
+      "product_one_liner": "Enterprise telehealth software platform sold to health systems, health plans, and government.",
+      "founded_year": 2006,
+      "topic_exposure_full": [
+        "telehealth_licensing",
+        "telehealth_reimbursement",
+        "mental_health_telehealth",
+        "asynchronous_prescribing"
+      ],
+      "public_company": true,
+      "ticker": "AMWL",
+      "disclosure_source": "10K",
+      "acquired_note": null,
+      "states_affected": [
+        "tx"
+      ],
+      "topics_affected": [
+        "telehealth_general"
+      ],
+      "top_composite_score": 0.208,
+      "signals_summary": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.381
+      },
+      "total_routed_alerts": 1,
+      "all_source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.071,
+            "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+            "enforcement_date": "2026-07-15T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.381,
+            "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+            "enforcement_date": "2026-08-18T17:16:19+00:00"
+          }
+        ]
+      },
+      "evidence_drilldown": [
+        {
+          "opportunity_id": "acc_006|tx|telehealth_general",
+          "state": "tx",
+          "topic": "telehealth_general",
+          "composite_score": 0.208,
+          "signal_scores": {
+            "S1": 0.0,
+            "S2": 0.0,
+            "S3": 0.381
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [],
+            "S2": [],
+            "S3": [
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.071,
+                "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+                "enforcement_date": "2026-07-15T07:00:00+00:00"
+              },
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.381,
+                "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+                "enforcement_date": "2026-08-18T17:16:19+00:00"
+              }
+            ]
+          },
+          "narrative_headline": "Amwell: Texas Pharmacy Board Settlement Signals State Licensing Scrutiny"
+        }
+      ],
+      "best_narrative": {
+        "headline": "Amwell: Texas Pharmacy Board Settlement Signals State Licensing Scrutiny",
+        "body": "Amwell operates as a contracted enterprise virtual care platform dependent on multi-state health plan relationships and clinical licensing parity across top-three exposure states, creating material risk if state pharmacy boards tighten telehealth prescribing validation standards. The most recent 10-K names state professional licensing and Medicaid coverage variance as material risks, and a recent pharmacy board settlement in a peer jurisdiction signals enforcement momentum on prescription workflow documentation. Texas pharmacy board activity could cascade to MA, CA, and NY where Amwell's health plan partnerships concentrate, potentially requiring clinical-team protocol changes or new attestation burdens on asynchronous prescribing workflows. Your regulatory affairs lead should assess whether current clinical oversight procedures meet emerging state-level settlement benchmarks.",
+        "cold_first_touch_frame": "Subject: TX Pharmacy Board Settlement, Amwell Clinical Licensing Exposure Dear VP Regulatory Affairs, A recent Texas pharmacy board settlement signals tightening scrutiny on telehealth prescribing validation. Given Amwell's reliance on health plan contracts across CA, MA, and NY, state-by-state licensing parity shifts could affect clinical workflow compliance and attestation requirements. Would a 15-minute call Thursday work to review your current settlement-readiness posture across these top states? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The pharmacy board settlement last week in Texas is prompting health plan counsel to review telehealth clinical licensing protocols. Given your past interest in state-compliance mapping, this timing makes sense to reconnect. Prospect: We've got this covered through our clinical compliance team, and our contracts are solid. BDR Pivot: Understood. The risk isn't your current contracts, it's that settlement benchmarks often reset what state boards expect downstream. Can we spend 10 minutes on your enforcement-monitoring cadence so you're ahead of any MA or CA requirement shifts?"
+      },
+      "best_narrative_source": "llm",
+      "best_opportunity_id": "acc_006|tx|telehealth_general",
+      "multistate_indicator": false,
+      "state_count_affected": 1,
+      "topic_count_affected": 1,
+      "triggering_events_summary": [
+        "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+        "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)"
+      ],
+      "latest_signal_event_date": "2026-08-18"
+    },
+    {
+      "account_id": "acc_007",
+      "account_name": "GoodRx",
+      "account_size_tier": "enterprise",
+      "account_target_tier": "enterprise",
+      "account_segment": "prescription_discount_plus_telehealth",
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "public",
+      "account_revenue_band": "500M-1B",
+      "account_parent": null,
+      "account_tracking_status": "active_alert",
+      "routing_destination": "alerts",
+      "hq_city": "Santa Monica",
+      "hq_state": "ca",
+      "website": "https://www.goodrx.com",
+      "product_one_liner": "Prescription drug discount marketplace plus a telehealth arm (GoodRx Care) for primary care and specialty conditions.",
+      "founded_year": 2011,
+      "topic_exposure_full": [
+        "prescription_economics",
+        "compounded_glp1",
+        "telehealth_licensing"
+      ],
+      "public_company": true,
+      "ticker": "GDRX",
+      "disclosure_source": "10K",
+      "acquired_note": null,
+      "states_affected": [
+        "tx"
+      ],
+      "topics_affected": [
+        "telehealth_general"
+      ],
+      "top_composite_score": 0.208,
+      "signals_summary": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.381
+      },
+      "total_routed_alerts": 1,
+      "all_source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.071,
+            "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+            "enforcement_date": "2026-07-15T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.381,
+            "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+            "enforcement_date": "2026-08-18T17:16:19+00:00"
+          }
+        ]
+      },
+      "evidence_drilldown": [
+        {
+          "opportunity_id": "acc_007|tx|telehealth_general",
+          "state": "tx",
+          "topic": "telehealth_general",
+          "composite_score": 0.208,
+          "signal_scores": {
+            "S1": 0.0,
+            "S2": 0.0,
+            "S3": 0.381
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [],
+            "S2": [],
+            "S3": [
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.071,
+                "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+                "enforcement_date": "2026-07-15T07:00:00+00:00"
+              },
+              {
+                "signal_id": "S3_enforcement_precursor",
+                "score": 0.381,
+                "event_summary": "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)",
+                "enforcement_date": "2026-08-18T17:16:19+00:00"
+              }
+            ]
+          },
+          "narrative_headline": "GoodRx: Texas Pharmacy Board Settlement Signals Enforcement Precursor"
+        }
+      ],
+      "best_narrative": {
+        "headline": "GoodRx: Texas Pharmacy Board Settlement Signals Enforcement Precursor",
+        "body": "GoodRx operates a hybrid prescription discount and telehealth platform with material exposure to state pharmacy board enforcement cascades, particularly in high-regulation states like Texas, California, and New York. The most recent 10-K names state PBM regulation, prescription pricing transparency mandates, and telehealth licensing as material risks to operations. A peer pharmacy settlement in a neighboring state suggests Texas regulators are tightening settlement terms and enforcement precedent around drug handling, pricing disclosure, and telehealth compliance workflows. GoodRx's government affairs team should monitor Texas pharmacy board rule-making and settlement patterns over the next 90 days to assess whether settlement terms may apply retroactively to existing operations.",
+        "cold_first_touch_frame": "Subject: Texas Pharmacy Board Settlement, New Compliance Precedent Dear VP Regulatory Affairs, A Texas pharmacy board settlement concluded last month sets a new enforcement baseline for drug handling and pricing disclosure that may affect GoodRx's telehealth and discount operations in the state. Your 10-K already flags state PBM regulation and prescription pricing transparency as material risks; this settlement tightens what 'transparent' means in practice. We work with multistate telehealth and pharmacy platforms to track settlement terms and rule-making patterns in real time so your compliance team can act before similar enforcement action surfaces in your footprint. Would a 15-minute call on Thursday work to walk through what this settlement signals for your Texas compliance roadmap? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The Texas pharmacy board settlement last month reset compliance expectations around pricing disclosure and drug handling. Your GC and compliance leadership should see what the new settlement baseline means for your Texas telehealth and discount workflows before another state adopts the same standard. Prospect: We've already got a pharmacy compliance vendor and we're monitoring state boards. BDR Pivot: Understood. The gap isn't monitoring, it's translating settlement language into your specific telehealth workflow before regulators in California or New York cite Texas precedent. A 10-minute sync with your Chief Compliance Officer to map settlement terms against your current discount and telehealth playbook would show whether you're exposed or buttoned up."
+      },
+      "best_narrative_source": "llm_retry",
+      "best_opportunity_id": "acc_007|tx|telehealth_general",
+      "multistate_indicator": false,
+      "state_count_affected": 1,
+      "topic_count_affected": 1,
+      "triggering_events_summary": [
+        "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
+        "Peer enforcement: Hims & Hers CEO Andrew Dudum pushes back on FTC lawsuit - Yahoo Finance (2026-08-18)"
+      ],
+      "latest_signal_event_date": "2026-08-18"
+    }
+  ]
 }
