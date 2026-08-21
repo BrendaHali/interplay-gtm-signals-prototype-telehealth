@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T08:24:04+00:00",
+  "generated_at": "2026-08-21T08:25:33+00:00",
   "count": 2,
   "schema_note": "Per-account rollup of outputs/alerts.json. One record per account_id even when signals fire across multiple states and topics. evidence_drilldown preserves the original per-(state, topic) attribution for click-through inspection.",
   "accounts": [
@@ -36,11 +36,11 @@
       "topics_affected": [
         "telehealth_general"
       ],
-      "top_composite_score": 0.231,
+      "top_composite_score": 0.22,
       "signals_summary": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.362
+        "S3": 0.345
       },
       "total_routed_alerts": 1,
       "all_source_events": {
@@ -49,13 +49,13 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.067,
+            "score": 0.064,
             "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
             "enforcement_date": "2026-07-15T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
+            "score": 0.345,
             "event_summary": "Peer enforcement: Hims & Hers CEO says FTC lawsuit misunderstands how the company works - CNBC (2026-08-18)",
             "enforcement_date": "2026-08-18T14:20:05+00:00"
           }
@@ -66,11 +66,11 @@
           "opportunity_id": "acc_001|tx|telehealth_general",
           "state": "tx",
           "topic": "telehealth_general",
-          "composite_score": 0.231,
+          "composite_score": 0.22,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.0,
-            "S3": 0.362
+            "S3": 0.345
           },
           "signals_fired": 1,
           "source_events": {
@@ -79,26 +79,26 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.067,
+                "score": 0.064,
                 "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
                 "enforcement_date": "2026-07-15T07:00:00+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.362,
+                "score": 0.345,
                 "event_summary": "Peer enforcement: Hims & Hers CEO says FTC lawsuit misunderstands how the company works - CNBC (2026-08-18)",
                 "enforcement_date": "2026-08-18T14:20:05+00:00"
               }
             ]
           },
-          "narrative_headline": "Hims: Texas Pharmacy Board Enforcement Precursor State Settlement"
+          "narrative_headline": "Hims: Texas Pharmacy Board Settlement Signals Compounded GLP-1 Scrutiny"
         }
       ],
       "best_narrative": {
-        "headline": "Hims: Texas Pharmacy Board Enforcement Precursor State Settlement",
-        "body": "Hims operates a multi-category consumer telehealth platform with material exposure to state pharmacy board enforcement on compounded GLP-1 supply chains and asynchronous prescribing workflows. A peer pharmacy settlement in Indiana signals regional enforcement patterns that often cascade to higher-volume states; Texas ranks among the top enforcement-activity jurisdictions for telehealth operators. The most recent 10-K names state pharmacy compounding regulations and asynchronous prescribing rules as material risks, with specific exposure to GLP-1 product availability restrictions. Texas regulatory activity on compounded drug approval timelines presents an operational chokepoint for multistate fulfillment networks.",
-        "cold_first_touch_frame": "Subject: Texas Pharmacy Board Activity, Timing for Your Policy Team Dear Public Policy Head, A peer-company pharmacy settlement in Indiana last month reflects enforcement momentum on compounded GLP-1 prescribing that typically flows to higher-activity states like Texas. Your regulatory affairs team may benefit from a 15-minute call Thursday to map state-specific exposure on asynchronous dispensing rules and compounding board timelines. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Pharmacy board enforcement in Indiana last month follows a pattern that usually spreads to Texas within six months. Your compliance leadership should see what enforcement-precursor signals look like in your top-three states. Prospect: We're monitoring it, but our government affairs team is stretched. BDR Pivot: Exactly why a 10-minute sync makes sense now. I can show you the enforcement timeline data for California, New York, and Florida so your team doesn't have to build it from scratch."
+        "headline": "Hims: Texas Pharmacy Board Settlement Signals Compounded GLP-1 Scrutiny",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chain logistics across state lines, distinguishing exposure from single-vertical peers. The most recent 10-K names state pharmacy compounding regulations and compounded GLP-1 product availability as material risks. A peer settlement involving a pharmacy board in July 2026 suggests state regulators are narrowing enforcement thresholds for asynchronous compounded drug distribution, a core operational model for Hims weight-loss services. Texas ranks as a top-three state exposure given prescription volume, making this enforcement signal relevant to compliance posture review.",
+        "cold_first_touch_frame": "Subject: TX Pharmacy Board Settlement, Compounded GLP-1 Compliance Review Needed Dear [Public Policy Head], A state pharmacy board settlement involving compounded drug distribution (July 2026) signals tightening enforcement thresholds that directly affect Hims' asynchronous GLP-1 prescribing model in Texas and peer markets. Your 10-K discloses compounded GLP-1 availability and state pharmacy rules as material operational risks. We help multistate telehealth operators track these enforcement precedents and map compliance exposure across your top three state markets before regulators escalate. Could we schedule 15 minutes Thursday to review how this settlement may affect your current Texas playbook? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: A state pharmacy board just narrowed compounding settlement terms in July, directly impacting how asynchronous GLP-1 prescribing operates in Texas and your peer markets. This is a compliance timing moment for your team. Prospect: We saw that settlement, but we're managing it internally and don't have budget allocated right now. BDR Pivot: Understood. One quick 10-minute call would help your compliance leadership connect this enforcement signal to your top-three state exposure map and identify what's already covered. We can show you how other multistate operators are responding to these narrowed thresholds without adding cost."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_001|tx|telehealth_general",
@@ -143,11 +143,11 @@
       "topics_affected": [
         "telehealth_general"
       ],
-      "top_composite_score": 0.214,
+      "top_composite_score": 0.204,
       "signals_summary": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.362
+        "S3": 0.345
       },
       "total_routed_alerts": 1,
       "all_source_events": {
@@ -156,13 +156,13 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.067,
+            "score": 0.064,
             "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
             "enforcement_date": "2026-07-15T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
+            "score": 0.345,
             "event_summary": "Peer enforcement: Hims & Hers CEO says FTC lawsuit misunderstands how the company works - CNBC (2026-08-18)",
             "enforcement_date": "2026-08-18T14:20:05+00:00"
           }
@@ -173,11 +173,11 @@
           "opportunity_id": "acc_003|tx|telehealth_general",
           "state": "tx",
           "topic": "telehealth_general",
-          "composite_score": 0.214,
+          "composite_score": 0.204,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.0,
-            "S3": 0.362
+            "S3": 0.345
           },
           "signals_fired": 1,
           "source_events": {
@@ -186,26 +186,26 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.067,
+                "score": 0.064,
                 "event_summary": "Peer enforcement: State pharmacy board narrowly accepts drug settlement for Muncie hospital - The Star Press (2026-07-15)",
                 "enforcement_date": "2026-07-15T07:00:00+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.362,
+                "score": 0.345,
                 "event_summary": "Peer enforcement: Hims & Hers CEO says FTC lawsuit misunderstands how the company works - CNBC (2026-08-18)",
                 "enforcement_date": "2026-08-18T14:20:05+00:00"
               }
             ]
           },
-          "narrative_headline": "LifeMD: Texas Pharmacy Board Drug Settlement Precedent Tightens Compounded GLP-1 Oversight"
+          "narrative_headline": "LifeMD: Texas Pharmacy Board Settlement Signals State Enforcement Escalation"
         }
       ],
       "best_narrative": {
-        "headline": "LifeMD: Texas Pharmacy Board Drug Settlement Precedent Tightens Compounded GLP-1 Oversight",
-        "body": "LifeMD operates a consumer telehealth platform with compounded GLP-1 as a material revenue line, creating direct exposure to state pharmacy board enforcement precedent. The most recent 10-K names state pharmacy oversight and compounded GLP-1 availability as material risks. A peer pharmacy settlement in an adjacent state signals board appetite for tighter compounded drug supply chain requirements, which would affect LifeMD's prescribing workflows and inventory positioning in Texas, Florida, and California. The company's government affairs team should map settlement terms against current state compliance posture in top-three states before enforcement activity escalates.",
-        "cold_first_touch_frame": "Subject: TX Pharmacy Board Precedent: Compounded GLP-1 Settlement Implications Dear VP, Regulatory Affairs, A state pharmacy board settlement involving compounded drug supply chain oversight signals potential tightening in Texas and adjacent markets where LifeMD operates GLP-1 dispensing. Your 10-K identifies state pharmacy oversight as a material risk. A 15-minute call Thursday or Friday would help us map settlement language against your current compliance framework in Florida, California, and Texas. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The peer pharmacy board settlement on compounded drug oversight just closed, and your GC likely received internal legal notes on exposure. This is the moment to align your state-by-state compliance timeline with what boards are enforcing. Prospect: We're monitoring it, but our legal team says we're compliant in Texas already. BDR Pivot: That's the right baseline, but settlement terms often shift what 'compliant' means 90 days out. A 10-minute sync with your compliance lead would clarify whether your current prescribing and inventory controls match the new precedent, or if you need a refresh."
+        "headline": "LifeMD: Texas Pharmacy Board Settlement Signals State Enforcement Escalation",
+        "body": "LifeMD operates a consumer GLP-1 telehealth platform dependent on compounded weight-loss medication supply chains and state pharmacy board approval pathways, creating material exposure as enforcement activity intensifies across top-three state markets. The most recent 10-K names state pharmacy oversight and compounded GLP-1 availability as disclosed material risks. A peer settlement in the pharmacy board enforcement cycle suggests Texas regulators are tightening scrutiny of asynchronous prescribing workflows and compounded drug sourcing, the operational chokepoint for LifeMD's core margin model. The compliance leadership team should assess whether current state-by-state licensing and supply chain protocols require hardening before broader enforcement cascades.",
+        "cold_first_touch_frame": "Subject: TX Pharmacy Board Enforcement, LifeMD Exposure Timing Dear [Public Policy Head], A peer pharmacy board settlement in Texas signals tightening enforcement on compounded GLP-1 prescribing workflows. Your 10-K discloses this as material risk exposure. We help multistate telehealth operators track enforcement precursor signals and rebuild state-level compliance strategy before settlements land. Can we grab 15 minutes Thursday to map LifeMD's Texas and California pharmacy board exposure? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: A peer settlement just landed in Texas pharmacy enforcement around compounded GLP-1 prescribing. Your compliance leadership was tracking this six months ago, and the timing suggests we should reconnect on your state-by-state pharmacy board strategy. Prospect: We've been managing this internally since the last conversation, but I see why you're flagging it. BDR Pivot: Exactly. Rather than rebuild that internal analysis, let's spend 10 minutes reviewing whether your current Texas and California pharmacy protocols need any hardening before the next enforcement wave hits. Does Tuesday morning work?"
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_003|tx|telehealth_general",
