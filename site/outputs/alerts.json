@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T12:52:59+00:00",
-  "count": 5,
+  "generated_at": "2026-09-02T12:22:14+00:00",
+  "count": 2,
   "alerts": [
     {
       "opportunity_id": "acc_001|tx|telehealth_general",
@@ -16,12 +16,12 @@
       "account_target_tier": "enterprise",
       "state": "tx",
       "topic": "telehealth_general",
-      "composite_score": 0.243,
+      "composite_score": 0.231,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 21,
@@ -33,7 +33,7 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over misleading charges an... - Pluang (2026-08-31)",
             "enforcement_date": "2026-08-31T16:16:29+00:00"
           }
@@ -41,10 +41,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: FTC Enforcement Precursor Signals State Compounding Scrutiny Ahead",
-        "body": "Hims operates a multi-category consumer telehealth platform dependent on compounded GLP-1 supply chain viability and state asynchronous prescribing pathways, creating exposure across pharmacy regulation, product availability, and licensure variance. The FTC enforcement action over misleading charges establishes a federal enforcement precursor that typically triggers state-level pharmacy board and attorney general follow-on actions on compounded product claims and prescriber qualification standards. The most recent 10-K names state compounding regulations and asynchronous prescribing rules as material risks; Texas pharmacy board rules on remote prescriber standing and compound product disclosure now carry elevated enforcement probability. Hims' government affairs team should map TX pharmacy board rulemaking calendar and AG consumer protection priorities against the FTC settlement timeline to identify remediation windows before state-specific orders cascade.",
-        "cold_first_touch_frame": "Subject: FTC Settlement Timing: TX Pharmacy Board Follow-On Risk Dear [Public Policy Head], The FTC enforcement closure on Hims creates a 6 to 12-month window before state pharmacy boards and AGs typically issue follow-on guidance on compounded product disclosures and prescriber qualification standards. Texas pharmacy rules on remote prescriber standing and asynchronous GLP-1 compound availability are now likely enforcement targets. We help multistate operators map state pharmacy board calendars and AG consumer protection priorities against federal settlement timelines to build remediation roadmaps before state orders land. Can we grab 15 minutes Thursday to discuss TX's specific enforcement sequencing risk? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC settlement on Hims just closed, and that typically means state pharmacy boards and AGs move within six months on compounded product claims and remote prescriber standards. Texas is a top enforcement state for you, and we've seen similar enforcement sequences cascade across CA, NY, and FL. Prospect: We're still reviewing the settlement terms internally and waiting to see what guidance the FTC issues. BDR Pivot: Totally fair. The issue is that state pharmacy boards often move independently of federal guidance, and by the time TX rules drop, you'll have limited time to reshape compliance posture. How about a quick 10-minute sync where we show you the state enforcement timeline we've mapped for operators in your footprint? That way you're not caught flat-footed when the board signals its priorities."
+        "headline": "Hims: FTC Enforcement Action Exposes Telehealth Billing Compliance Gaps",
+        "body": "Hims operates a multi-category consumer telehealth platform with compounded GLP-1 supply chain dependency and asynchronous prescribing workflows that create material exposure across state licensing and pharmacy regulation frameworks. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and state telehealth licensing variance as disclosed risks, with top exposures in California, New York, and Florida. Recent FTC enforcement against a peer telehealth operator signals regulatory focus on billing practices and consumer disclosures, creating operational pressure on customer acquisition and retention workflows. The compliance leadership team should assess whether current billing disclosure protocols meet emerging FTC standards across state jurisdictions where Hims operates multi-category offerings.",
+        "cold_first_touch_frame": "Subject: FTC Enforcement Signals New Billing Disclosure Standard for Telehealth Dear Public Policy Head, The FTC action against a telehealth peer over misleading charges reflects regulatory focus on billing transparency and state-level licensing compliance. Given Hims' multi-state footprint and asynchronous prescribing model, your government affairs team should review whether current disclosure protocols align with emerging FTC enforcement expectations in California, New York, and Florida. Would a 15-minute call on Thursday work to discuss state-specific billing compliance exposure? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We saw the FTC action against a telehealth operator last week on billing disclosures. Given your multi-state footprint and asynchronous model, compliance exposure likely shifted. Prospect: We've been monitoring FTC activity, but our legal team is handling it internally. BDR Pivot: Understood. State-level billing rules diverge significantly, especially in California and New York. A 10-minute sync with your compliance leadership to map state disclosure gaps would clarify exposure scope across your operating footprint."
       },
       "narrative_source": "llm"
     },
@@ -62,12 +62,12 @@
       "account_target_tier": "enterprise",
       "state": "tx",
       "topic": "telehealth_general",
-      "composite_score": 0.225,
+      "composite_score": 0.214,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
       "business_model_exposure_weight": 1.3,
       "risk_disclosure_hit_count": 18,
@@ -79,7 +79,7 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over misleading charges an... - Pluang (2026-08-31)",
             "enforcement_date": "2026-08-31T16:16:29+00:00"
           }
@@ -87,148 +87,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "LifeMD: FTC Enforcement Signals State Telehealth Prescribing Tightens",
-        "body": "LifeMD operates a direct-to-consumer GLP-1 distribution model dependent on asynchronous prescribing workflows across state lines, creating material exposure to state pharmacy board enforcement cascades triggered by peer litigation. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks, and the FTC action against a category peer signals imminent state-level retaliation on misleading marketing and charge disclosure standards. Texas pharmacy board and Florida regulators have begun scrutinizing telehealth operators' charge transparency and prescriber credential verification, directly implicating LifeMD's top three state exposure profile. The enforcement precursor score reflects risk that state AGs will adopt similar investigative postures within 90 days.",
-        "cold_first_touch_frame": "Subject: TX Pharmacy Board Enforcement Risk, LifeMD Prescribing Model Dear [Public Policy Head], The FTC's lawsuit against Hims over misleading charges and prescriber disclosures is signaling state pharmacy boards to launch parallel investigations into telehealth operators. Your 10-K identifies state prescribing restrictions and compounded GLP-1 oversight as material risks, and Texas ranks in your top three state exposures by user volume. A 15-minute call Thursday would help your government affairs team map the specific state-by-state enforcement timeline and messaging strategy. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC action last week against a peer telehealth operator is accelerating state pharmacy board investigations into misleading charges and prescriber transparency. Your compliance leadership flagged state prescribing restrictions as a material risk, and we've seen Texas and Florida boards begin spot-checks on asynchronous workflows. Prospect: We're monitoring the FTC case, but we're not sure yet how much state-level action will follow. BDR Pivot: That's exactly why a 10-minute sync makes sense now, before your regulatory team gets inquiries. We can walk through the three states where enforcement moves fastest and how peer operators are restructuring disclosures to stay ahead."
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_005|tx|telehealth_general",
-      "account_id": "acc_005",
-      "account_name": "Teladoc Health",
-      "account_segment": "enterprise_virtual_care",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "5000+",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "tx",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.3,
-      "risk_disclosure_hit_count": 4,
-      "risk_disclosure_multiplier": 1.2,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: FTC sues Hims & Hers over misleading charges an... - Pluang (2026-08-31)",
-            "enforcement_date": "2026-08-31T16:16:29+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Teladoc: FTC Enforcement Against Competitor Signals State Licensure Scrutiny",
-        "body": "Teladoc operates as an enterprise virtual care platform contracted with health plans across multiple states, creating material exposure to state medical board licensure enforcement tied to telehealth billing and prescribing workflows. The most recent 10-K names state professional licensure variance and Interstate Medical Licensure Compact adoption as material regulatory risks. The FTC enforcement action against a direct competitor for misleading telehealth charges signals heightened federal-state coordination on consumer protection in virtual care, which typically precedes state-level medical board audits of billing transparency and provider credential verification. Texas, California, and New York medical boards regularly align enforcement actions following federal precedent, creating near-term exposure to compliance inquiries and documentation demands.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Action, TX/CA/NY State Board Inquiry Timing Dear VP Regulatory Affairs, The FTC's enforcement action against a direct telehealth competitor over misleading billing charges typically triggers parallel state medical board inquiries within 60 to 90 days. Given Teladoc's multi-state health plan contracts and reliance on cross-border provider licensing, your regulatory affairs team should confirm your billing disclosure and credential verification processes align with emerging state-board expectations. I'd recommend a 15-minute call on Thursday to map the state-by-state timing exposure and identify any documentation gaps before boards reach out. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC's action on telehealth billing transparency has us fielding calls from every health plan compliance officer we work with. State medical boards in Texas and California are already signaling follow-up audits, and your multi-state contract footprint puts you in the first wave. Prospect: We've got our legal team monitoring this. Not sure we need another vendor tool right now. BDR Pivot: Understood. The gap isn't legal coverage, it's real-time state board action tracking tied to your specific provider networks and plan contracts. A 10-minute sync this week would show you how much exposure is sitting in your contract documentation versus what boards are asking competitors for. Worth 10 minutes?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_006|tx|telehealth_general",
-      "account_id": "acc_006",
-      "account_name": "Amwell",
-      "account_segment": "enterprise_virtual_care",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "tx",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 6,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: FTC sues Hims & Hers over misleading charges an... - Pluang (2026-08-31)",
-            "enforcement_date": "2026-08-31T16:16:29+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Amwell: FTC Enforcement Signal Raises Telehealth Billing Transparency Risk",
-        "body": "Amwell's enterprise virtual care model depends on health plan contracts and direct-to-consumer billing relationships across multiple states, creating material exposure to FTC scrutiny on billing transparency and charge authorization practices. The recent FTC action against Hims & Hers signals regulatory focus on telehealth billing workflows, particularly around subscription charges and consent documentation. Per the 10-K filing, state professional licensing variance and Medicaid coverage parity already constrain Amwell's operational margins; billing compliance becomes an additional choke point as enforcement agencies move downstream. Amwell's government affairs team should map current billing disclosures against FTC expectations before state attorneys general adopt comparable enforcement postures.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Billing Action, Amwell's Transparency Posture Dear [Public Policy Head], The FTC's recent case against Hims & Hers over billing disclosures signals a compliance priority that will likely reach Amwell's contract review and state licensing renewal cycles. Your enterprise health plan relationships and direct consumer subscriptions both sit in the enforcement crosshairs. Would you have 15 minutes Thursday to review how peer operators are preempting similar exposure through billing disclosure audits? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC's billing transparency action against Hims just landed, and your compliance team will likely flag Amwell's subscription and consent workflows. This is the moment to get ahead of state-level follow-on actions before your GA team gets pinged. Prospect: We've been monitoring it, but our legal team hasn't raised it as urgent yet. BDR Pivot: That's exactly the window we're seeing close. Can I grab 10 minutes with you and compliance to map Amwell's current billing disclosures against FTC precedent? Most operators in your space are moving now, not after a regulator calls."
-      },
-      "narrative_source": "llm_retry"
-    },
-    {
-      "opportunity_id": "acc_007|tx|telehealth_general",
-      "account_id": "acc_007",
-      "account_name": "GoodRx",
-      "account_segment": "prescription_discount_plus_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "tx",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 15,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: FTC sues Hims & Hers over misleading charges an... - Pluang (2026-08-31)",
-            "enforcement_date": "2026-08-31T16:16:29+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "GoodRx: FTC Enforcement Cascade Pressures Texas Telehealth Billing Practices",
-        "body": "GoodRx operates a hybrid discount-card-plus-telehealth model that exposes it to regulatory scrutiny on two fronts: PBM regulation and direct-to-consumer telehealth billing transparency, whereas pure-play discount platforms avoid telehealth licensing risk entirely. The most recent 10-K names state telehealth licensing and state prescription pricing transparency as material regulatory exposures. The FTC action against Hims & Hers for deceptive billing practices signals that state attorneys general and federal regulators are now prioritizing telehealth operator payment disclosures, particularly in top-exposure states like Texas. GoodRx's government affairs team should assess whether current billing disclosures and consent flows meet the emerging enforcement standard now visible in peer cases.",
-        "cold_first_touch_frame": "Subject: FTC Hims Settlement, GoodRx Telehealth Billing Exposure in TX Dear [Public Policy Head], The FTC's recent enforcement action against Hims & Hers for misleading charges has reset the baseline for telehealth operator billing transparency. Given GoodRx's dual footprint in discount cards and direct telehealth services, your regulatory affairs lead should audit whether current billing disclosures and consent workflows meet the standard now visible in peer enforcement. Texas regulators are likely to accelerate scrutiny on this front. Would a 15-minute call Thursday work to map exposure points? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC action against Hims just surfaced a billing-transparency enforcement pattern that affects GoodRx's telehealth operations in Texas. Your compliance leadership flagged this as a priority last cycle. Prospect: We've reviewed the Hims case internally, but our billing workflows are different. BDR Pivot: Understood. A 10-minute sync with your GC would help us compare where your disclosure posture stands relative to what regulators are now enforcing. That clarity should inform your 2026 guidance and state-level strategy."
+        "headline": "LifeMD: FTC Enforcement Signals State Telehealth Scrutiny Intensifies",
+        "body": "LifeMD operates a consumer-direct GLP-1 platform with material exposure to state pharmacy board oversight and prescribing restrictions, particularly in Florida, California, and Texas where compounded weight-loss compounds face heightened regulatory review. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks. The FTC's August 2026 enforcement action against Hims & Hers for misleading charges signals a precursor phase where state attorneys general and pharmacy boards may coordinate on consumer protection and clinical safety investigations within the telehealth weight-loss category. LifeMD's government affairs team should prepare for potential state-level inquiry triggers on billing transparency, prescriber credential verification, and compound sourcing documentation within the next two quarters.",
+        "cold_first_touch_frame": "Subject: FTC Telehealth Enforcement - TX Pharmacy Board Coordination Risk Dear Public Policy Head, The FTC's recent action against Hims & Hers over misleading charges is accelerating state-level telehealth enforcement playbooks, particularly in Texas where LifeMD operates with material GLP-1 compounding exposure. Your 10-K already flags state prescribing restrictions and pharmacy oversight as core regulatory dependencies. We help public policy teams map state enforcement sequencing and prepare multi-state defense coordination 60 days ahead of inquiry signals. Would a 15-minute call Thursday work to walk through Texas pharmacy board activity patterns this quarter? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC's August enforcement against Hims just triggered follow-on state investigations in three of your top markets. Your compliance team likely flagged this already, but state coordination mechanics are moving faster than most telehealth platforms anticipated. Prospect: We're monitoring it, but our GA team is already on this. BDR Pivot: That's exactly why we should reconnect for 10 minutes. State-level enforcement sequencing in telehealth weight-loss has changed since we last spoke. I can show you the precursor signals your team should track before your next board compliance update."
       },
       "narrative_source": "llm"
     }
