@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-19T12:04:44+00:00",
+  "started_at": "2026-09-20T12:38:45+00:00",
   "stages": {
     "ingest": {
       "openfda": {
@@ -12,9 +12,9 @@
         "total_filings": 0
       },
       "enforcement_news": {
-        "items": 45,
+        "items": 43,
         "raw_cfpb": 21,
-        "raw_google": 158
+        "raw_google": 167
       },
       "openstates": {
         "bills": 35,
@@ -23,7 +23,7 @@
       "sec_edgar": {
         "public_accounts_processed": 7,
         "total_topic_hits": 64,
-        "since_date": "2025-09-19"
+        "since_date": "2025-09-20"
       }
     },
     "detect": {
@@ -48,5 +48,5 @@
       "preview_written_to": "data/slack_preview.json"
     }
   },
-  "completed_at": "2026-09-19T12:07:49+00:00"
+  "completed_at": "2026-09-20T12:42:21+00:00"
 }
