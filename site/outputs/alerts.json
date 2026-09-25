@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:59:00+00:00",
+  "generated_at": "2026-09-25T13:05:12+00:00",
   "count": 2,
   "alerts": [
     {
@@ -16,12 +16,12 @@
       "account_target_tier": "enterprise",
       "state": "tx",
       "topic": "telehealth_general",
-      "composite_score": 0.231,
+      "composite_score": 0.22,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.362
+        "S3": 0.345
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 21,
@@ -33,24 +33,18 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
+            "score": 0.345,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Telehealth Data Practices and Drug Prescribing - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438. (2026-09-22)",
             "enforcement_date": "2026-09-22T10:38:52+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.141,
-            "event_summary": "Peer enforcement: Hims & Hers Investor Sues Over FTC Privacy, Billing Claims - Law360 (2026-09-03)",
-            "enforcement_date": "2026-09-03T00:40:00+00:00"
           }
         ]
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: FTC Enforcement Action Signals State Telehealth Data Compliance Scrutiny",
-        "body": "Hims operates a multi-category consumer platform dependent on asynchronous prescribing workflows and compounded GLP-1 supply chains across high-enforcement states, creating material exposure when federal data-practice enforcement precedes state regulatory tightening. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and telehealth licensing variance as disclosed risks. FTC action against telehealth data practices typically catalyzes state attorney general follow-up within 6 to 18 months, particularly in California, New York, and Florida where Hims maintains top operational density. Government affairs teams should audit state-level data-handling standards for telehealth prescribing and compounding workflows to close gaps before state enforcement mirrors federal precedent.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Action Timing Your TX Regulatory Strategy Dear Public Policy Head, Hims faces material exposure as FTC enforcement on telehealth data practices typically triggers state-level follow-up actions within months. Your 10-K discloses state asynchronous prescribing and compounding rules as key risks; state AGs in California, New York, and Florida often use federal cases as compliance blueprints. A 15-minute call Thursday would help you map state-specific gaps before regulatory momentum shifts to your top markets. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC action against telehealth data practices is reshaping state AG priorities in your top three markets. This timing makes sense to revisit how your compliance roadmap accounts for state-level follow-up enforcement. Prospect: We've been monitoring the FTC case, but our government affairs team is already tracking prescribing rules. BDR Pivot: State enforcement typically follows different timelines and enforcement theories than federal action. A 10-minute sync with your Chief Compliance Officer would surface which state-specific data and prescribing standards your current framework may not yet address."
+        "headline": "Hims: FTC Telehealth Data Practices Enforcement Signals TX Prescribing Vulnerability",
+        "body": "Hims operates a multi-category consumer telehealth platform with material exposure across compounded GLP-1 supply chains, state asynchronous prescribing rules, and pharmacy compounding regulations. The most recent 10-K names state telehealth licensing variance and FDA enforcement on compounded GLP-1 products as disclosed risks. The FTC enforcement action against a peer operator on telehealth data practices and drug prescribing establishes a regulatory precursor that typically accelerates state-level scrutiny of asynchronous workflows and compounding availability claims in high-population states like Texas, California, New York, and Florida. Hims' government affairs team should prepare for accelerated inquiry on prescriber-verification protocols and compounded product sourcing documentation.",
+        "cold_first_touch_frame": "Subject: FTC Telehealth Enforcement and TX Prescribing Exposure Dear Public Policy Head, The FTC enforcement action against a telehealth competitor on data practices and drug prescribing will likely trigger state-level inquiries into asynchronous prescriber workflows and compounded product claims. Your 10-K cites state prescribing rules and compounded GLP-1 availability as material exposures. A brief sync on how your government affairs team is mapping state-by-state prescribing rule changes across your top three exposure states would help align on timing and messaging. Could we grab 15 minutes on Thursday to discuss? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC's enforcement action on telehealth data and prescribing practices just landed, and state attorneys general typically follow within 60 to 90 days. Your compliance leadership is probably fielding calls on asynchronous prescriber verification and compounded product sourcing right now. Prospect: We're monitoring it internally, but our regulatory team is handling the response. BDR Pivot: Understood. A quick 10-minute call with your GC or Chief Compliance Officer would help us show how other multistate operators are documenting prescriber protocols and compounding sourcing before state inquiries accelerate. Worth a brief sync this week?"
       },
       "narrative_source": "llm"
     },
@@ -68,12 +62,12 @@
       "account_target_tier": "enterprise",
       "state": "tx",
       "topic": "telehealth_general",
-      "composite_score": 0.214,
+      "composite_score": 0.204,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.362
+        "S3": 0.345
       },
       "business_model_exposure_weight": 1.3,
       "risk_disclosure_hit_count": 18,
@@ -85,24 +79,18 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
+            "score": 0.345,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Telehealth Data Practices and Drug Prescribing - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438. (2026-09-22)",
             "enforcement_date": "2026-09-22T10:38:52+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.141,
-            "event_summary": "Peer enforcement: Hims & Hers Investor Sues Over FTC Privacy, Billing Claims - Law360 (2026-09-03)",
-            "enforcement_date": "2026-09-03T00:40:00+00:00"
           }
         ]
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "LifeMD: FTC Enforcement Signals Telehealth Prescribing Scrutiny in TX",
-        "body": "LifeMD operates a direct-to-consumer GLP-1 and weight-loss telehealth model with material exposure to state prescribing restrictions and compounded pharmaceutical supply chain dependencies, creating distinct regulatory vulnerability versus enterprise virtual care platforms. The FTC's recent enforcement action against a peer operator for telehealth data practices and prescribing workflows signals heightened federal scrutiny of asynchronous prescribing and patient data handling in the consumer weight-loss segment. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks, and Texas ranks among LifeMD's top three state markets. LifeMD's government affairs team should assess whether the FTC's claims signal enforcement priorities that may cascade to state-level pharmacy board actions or data protection investigations in Texas.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Enforcement and Texas Prescribing Exposure Dear Public Policy Head, The FTC's recent enforcement action against a telehealth peer for prescribing and data practices underscores federal scrutiny of asynchronous workflows in your segment. LifeMD's Texas footprint and disclosed compounded GLP-1 supply dependencies create material exposure if state regulators follow the FTC's enforcement signals. I'd like to schedule a 15-minute call Thursday to map how this enforcement trend affects your state policy roadmap. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC just moved on telehealth prescribing practices at a peer operator, and Texas is signaling tighter scrutiny of compounded GLP-1 channels. That timing makes now the right moment to stress-test your prescribing disclosure and state regulatory exposure. Prospect: We're monitoring the FTC action, but we think our asynchronous model is defensible. BDR Pivot: That defensibility argument is exactly why a 10-minute sync with your compliance leadership makes sense right now, before state regulators start asking the same questions the FTC did."
+        "headline": "LifeMD: FTC Enforcement Signals State Telehealth Prescribing Scrutiny",
+        "body": "LifeMD operates a consumer-direct GLP-1 platform with material exposure to state pharmacy board oversight and compounded medication supply-chain dependencies across its top three states. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as disclosed risks. FTC enforcement action against a peer telehealth operator signals heightened federal scrutiny of data practices and asynchronous prescribing workflows, which typically precedes state-level regulatory tightening in Texas, California, and Florida. LifeMD's government affairs team should model compliance exposure under anticipated state pharmacy board guidance updates within the next 120 days.",
+        "cold_first_touch_frame": "Subject: FTC Hims Enforcement, TX Pharmacy Board Precursor Signal Dear Public Policy Head, The FTC action against Hims on telehealth prescribing practices is triggering state pharmacy board review cycles, particularly in Texas where LifeMD has high customer concentration. Your 10-K discloses state prescribing restrictions and compounded GLP-1 supply constraints as material risks. We help consumer telehealth operators track state enforcement pipelines and draft early regulatory positioning before board guidance hardens. Would a 15-minute call Thursday work to review the Texas pharmacy board's likely next moves? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC's Hims enforcement just landed, and state pharmacy boards in Texas are signaling they'll follow with prescribing-scope guidance within 90 days. Your compliance team flagged this exact risk in the 10-K, so the timing is now to get ahead of it. Prospect: We're monitoring it, but our legal team is still assessing the federal ruling. BDR Pivot: Exactly. A quick 10-minute sync with your Chief Compliance Officer would let us walk through the state-specific prescribing exposure and show how other operators are documenting early positioning. That puts you ahead of the guidance wave instead of reacting to it."
       },
       "narrative_source": "llm"
     }
