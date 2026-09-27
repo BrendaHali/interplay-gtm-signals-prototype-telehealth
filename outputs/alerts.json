@@ -1,52 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:34:51+00:00",
-  "count": 1,
-  "alerts": [
-    {
-      "opportunity_id": "acc_001|tx|telehealth_general",
-      "account_id": "acc_001",
-      "account_name": "Hims & Hers Health",
-      "account_segment": "consumer_telehealth_multi_category",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "1000-2500",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "tx",
-      "topic": "telehealth_general",
-      "composite_score": 0.209,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.328
-      },
-      "business_model_exposure_weight": 1.4,
-      "risk_disclosure_hit_count": 21,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.328,
-            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Telehealth Data Practices and Drug Prescribing - \u041c\u0435\u0436\u0430. \u041d\u043e\u0432\u0438\u043d\u0438 \u0423\u043a\u0440\u0430\u0457\u043d\u0438. (2026-09-22)",
-            "enforcement_date": "2026-09-22T10:38:52+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Hims: FTC Enforcement Action Signals State Prescribing Practice Scrutiny",
-        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on asynchronous prescribing workflows and compounded GLP-1 supply chains across high-enforcement states. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as material risks. Recent FTC enforcement action against the company creates operational exposure across CA, NY, and FL, where state pharmacy boards and medical boards often coordinate with federal enforcement. The government affairs team should assess whether state-level investigations into telehealth data practices or prescribing protocols are already underway or imminent.",
-        "cold_first_touch_frame": "Subject: FTC Action on Hims Prescribing Practices, TX State Policy Exposure Dear Public Policy Head, The recent FTC enforcement action against Hims over telehealth data and drug prescribing practices creates immediate exposure in states where Texas often follows enforcement precedent. Given Hims' reliance on asynchronous prescribing workflows and compounded GLP-1 availability across high-scrutiny states, state pharmacy and medical boards may accelerate rule clarification or enforcement activity. A 15-minute call Thursday would help identify whether state-level coordination with federal enforcement is already on your compliance radar. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC enforcement action against Hims creates a natural moment for state policy teams to map which Texas and surrounding-state pharmacy board actions may follow. State agencies often coordinate on prescribing standards after federal enforcement signals, and your compliance leadership should have visibility into that timeline. Prospect: We're monitoring the FTC action, but we're not sure if Texas pharmacy board is moving independently right now. BDR Pivot: That's exactly where a 10-minute sync helps. We track state-board coordination patterns and timing, I'd walk you through what typically follows FTC enforcement in your top three states so your team isn't caught reactive."
-      },
-      "narrative_source": "llm"
-    }
-  ]
+  "generated_at": "2026-09-27T13:23:53+00:00",
+  "count": 0,
+  "alerts": []
 }
