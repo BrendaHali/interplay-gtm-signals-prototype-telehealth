@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:19:07+00:00",
+  "generated_at": "2026-10-25T12:51:13+00:00",
   "count": 2,
   "alerts": [
     {
@@ -16,12 +16,12 @@
       "account_target_tier": "enterprise",
       "state": "ca",
       "topic": "telehealth_general",
-      "composite_score": 0.231,
+      "composite_score": 0.22,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.362
+        "S3": 0.345
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 21,
@@ -33,7 +33,7 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.01,
+            "score": 0.009,
             "event_summary": "Peer enforcement: The Future of ABA Network Adequacy: Telehealth, Enforcement, and Accountability - Breaking News ABA (2026-08-10)",
             "enforcement_date": "2026-08-10T07:00:00+00:00"
           },
@@ -46,6 +46,12 @@
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.005,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations, deceptive billing practices - Healthcare Dive (2026-07-30)",
+            "enforcement_date": "2026-07-30T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers, alleging it shared people's health data with Meta and Snap - CBS News (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
@@ -54,12 +60,6 @@
             "score": 0.005,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers, Alleging Unlawful Sharing of Data, Deceptive Billing - WSJ (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
-            "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations, deceptive billing practices - Healthcare Dive (2026-07-30)",
-            "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
@@ -82,12 +82,18 @@
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.005,
+            "event_summary": "Peer enforcement: US FTC sues Hims & Hers for sending user health info to Meta, Snap - Yahoo Finance (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for allegedly sharing patient information with third-party platforms - The Reco (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for allegedly sharing patients' medical data with advertisers Meta and Snap - T (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -99,15 +105,15 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.005,
-            "event_summary": "Peer enforcement: Hims & Hers stock sinks after FTC sues over health data sharing and billing - Quartz (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
             "score": 0.008,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy and Billing Practices - Neurology Advisor (2026-08-07)",
             "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: Hims & Hers stock sinks after FTC sues over health data sharing and billing - Quartz (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
@@ -117,7 +123,13 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.345,
+            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare News (2026-10-22)",
+            "enforcement_date": "2026-10-22T20:07:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
             "event_summary": "Peer enforcement: HIMS Stock in Focus as FTC Lawsuit Takes Aim at Hims & Hers Business Practices - Yahoo Finance (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -141,7 +153,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations and deceptive billing - ConsumerAffairs (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -159,7 +171,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
+            "score": 0.345,
             "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
             "enforcement_date": "2026-10-22T21:52:02+00:00"
           },
@@ -177,7 +189,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged health data sharing with Meta, Snap - WSB-TV (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -195,7 +207,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for sharing consumers' sensitive health information with Meta, Snap despite pri (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -210,6 +222,12 @@
             "score": 0.008,
             "event_summary": "Peer enforcement: \u2018They Are Thieves\u2019: FTC Complaints About Hims & Hers Detail Surprise Charges - Gizmodo (2026-08-07)",
             "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.011,
+            "event_summary": "Peer enforcement: FTC lawsuit alleges Hims & Hers charged consumers for unwanted prescriptions - Top Class Actions (2026-08-13)",
+            "enforcement_date": "2026-08-13T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
@@ -239,10 +257,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: California Telehealth Licensing Variance Enforcement Accountability Tightens",
-        "body": "Hims operates a multi-category consumer telehealth platform with material exposure across state asynchronous prescribing rules, pharmacy compounding regulations, and GLP-1 compounded product availability. The most recent 10-K names state telehealth licensing variance and FDA enforcement on compounded GLP-1 products as material risks. Recent peer enforcement actions around network adequacy and telehealth accountability signal that state regulators are moving from guidance issuance to active investigation of asynchronous workflows, particularly in high-volume states like California. California's licensing framework remains a chokepoint given the state's market size and historical willingness to intervene on compounded pharmaceutical supply chains.",
-        "cold_first_touch_frame": "Subject: California Telehealth Accountability Enforcement Signals Dear Public Policy Head, Recent enforcement actions against peer telehealth operators have shifted state focus from licensing variance toleration to active accountability on asynchronous prescribing and compounded GLP-1 supply. California's regulatory posture on network adequacy and practitioner licensing is tightening, and your government affairs team should assess operational readiness for escalated compliance scrutiny. I'd like to spend 15 minutes Thursday mapping exposure across your top-three state jurisdiction portfolio. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: California's recent telehealth enforcement signals show regulators are moving beyond guidance to active investigation of asynchronous workflows and compounded product availability. Given Hims' exposure across state licensing and GLP-1 supply chains, your compliance leadership should have visibility into state-by-state enforcement escalation timing. Prospect: We've been tracking this internally, but our government affairs team is stretched across multiple state filings right now. BDR Pivot: That's exactly why a 10-minute sync with your compliance leadership makes sense now. We can show you how peer operators are structuring their state regulatory responses to enforcement precursor signals, so you're ahead of California's next move."
+        "headline": "Hims: California Telehealth Licensing Variance Enforcement Precursor Signals",
+        "body": "Hims operates a multi-category consumer telehealth platform with material exposure to state asynchronous prescribing rules and compounded GLP-1 supply chain dependencies across top-three states. The most recent 10-K names state telehealth licensing variance and state pharmacy compounding regulations as material risks; peer enforcement activity in the ABA telehealth network adequacy space signals regulatory tightening on accountability and prescriber authorization standards. California's licensing framework variance from federal telehealth provisions creates operational chokepoint for asynchronous workflows, particularly where compounded GLP-1 availability intersects with state pharmacy board oversight. Government affairs team should model updated licensing compliance costs and prescriber credentialing timelines across California, New York, and Florida.",
+        "cold_first_touch_frame": "Subject: ABA Telehealth Enforcement Signals CA Licensing Tightening for Hims Dear [Public Policy Head], Recent peer enforcement activity in the ABA telehealth network adequacy space points to state licensing variance as the next enforcement vector. Your 10-K discloses telehealth licensing variance across top states as material; California's framework now faces scrutiny on asynchronous prescriber accountability. We help telehealth platforms model state licensing compliance exposure and prescriber credentialing timelines before enforcement hits operations. Can we grab 15 minutes Thursday to map your top-three state exposure? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged this in August, and peer enforcement in the ABA telehealth space just moved the needle on California licensing tightening. Your compliance leadership told us licensing variance was on the roadmap, but enforcement precursors are moving faster than internal timelines. Prospect: We're still in the planning phase. This isn't urgent yet. BDR Pivot: Exactly, which is why this timing matters. Ten minutes with your GC to stress-test prescriber credentialing timelines against the new enforcement pattern would lock in your lead time. Thursday work?"
       },
       "narrative_source": "llm"
     },
@@ -260,12 +278,12 @@
       "account_target_tier": "enterprise",
       "state": "ca",
       "topic": "telehealth_general",
-      "composite_score": 0.214,
+      "composite_score": 0.204,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.362
+        "S3": 0.345
       },
       "business_model_exposure_weight": 1.3,
       "risk_disclosure_hit_count": 18,
@@ -277,7 +295,7 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.01,
+            "score": 0.009,
             "event_summary": "Peer enforcement: The Future of ABA Network Adequacy: Telehealth, Enforcement, and Accountability - Breaking News ABA (2026-08-10)",
             "enforcement_date": "2026-08-10T07:00:00+00:00"
           },
@@ -290,6 +308,12 @@
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.005,
+            "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations, deceptive billing practices - Healthcare Dive (2026-07-30)",
+            "enforcement_date": "2026-07-30T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers, alleging it shared people's health data with Meta and Snap - CBS News (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
@@ -298,12 +322,6 @@
             "score": 0.005,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers, Alleging Unlawful Sharing of Data, Deceptive Billing - WSJ (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
-            "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations, deceptive billing practices - Healthcare Dive (2026-07-30)",
-            "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
@@ -326,12 +344,18 @@
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.005,
+            "event_summary": "Peer enforcement: US FTC sues Hims & Hers for sending user health info to Meta, Snap - Yahoo Finance (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for allegedly sharing patient information with third-party platforms - The Reco (2026-07-29)",
             "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for allegedly sharing patients' medical data with advertisers Meta and Snap - T (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -343,15 +367,15 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.005,
-            "event_summary": "Peer enforcement: Hims & Hers stock sinks after FTC sues over health data sharing and billing - Quartz (2026-07-29)",
-            "enforcement_date": "2026-07-29T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
             "score": 0.008,
             "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy and Billing Practices - Neurology Advisor (2026-08-07)",
             "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: Hims & Hers stock sinks after FTC sues over health data sharing and billing - Quartz (2026-07-29)",
+            "enforcement_date": "2026-07-29T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
@@ -361,7 +385,13 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.345,
+            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare News (2026-10-22)",
+            "enforcement_date": "2026-10-22T20:07:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
             "event_summary": "Peer enforcement: HIMS Stock in Focus as FTC Lawsuit Takes Aim at Hims & Hers Business Practices - Yahoo Finance (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -385,7 +415,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged privacy violations and deceptive billing - ConsumerAffairs (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -403,7 +433,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
+            "score": 0.345,
             "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
             "enforcement_date": "2026-10-22T21:52:02+00:00"
           },
@@ -421,7 +451,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers over alleged health data sharing with Meta, Snap - WSB-TV (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -439,7 +469,7 @@
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.006,
+            "score": 0.005,
             "event_summary": "Peer enforcement: FTC sues Hims & Hers for sharing consumers' sensitive health information with Meta, Snap despite pri (2026-07-30)",
             "enforcement_date": "2026-07-30T07:00:00+00:00"
           },
@@ -454,6 +484,12 @@
             "score": 0.008,
             "event_summary": "Peer enforcement: \u2018They Are Thieves\u2019: FTC Complaints About Hims & Hers Detail Surprise Charges - Gizmodo (2026-08-07)",
             "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.011,
+            "event_summary": "Peer enforcement: FTC lawsuit alleges Hims & Hers charged consumers for unwanted prescriptions - Top Class Actions (2026-08-13)",
+            "enforcement_date": "2026-08-13T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
@@ -483,10 +519,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "LifeMD: California Telehealth Prescribing Enforcement Precursor Signals",
-        "body": "LifeMD operates a consumer GLP-1 focused model dependent on asynchronous prescribing workflows and compounded medication supply chains across high-enforcement states, creating distinct exposure versus enterprise virtual care platforms. The most recent 10-K names state telehealth prescribing restrictions and state pharmacy oversight as material risks. California enforcement activity targeting telehealth network adequacy and prescribing accountability, as documented in peer enforcement precedent, indicates regulatory tightening that could constrain LifeMD's core operational model. Government affairs leadership should assess whether current compliance monitoring covers emerging state-level prescriber documentation and pharmacy coordination requirements.",
-        "cold_first_touch_frame": "Subject: CA Telehealth Enforcement Signal: Prescribing Accountability Framework Dear Public Policy Head, Peer enforcement actions on telehealth network adequacy and prescribing accountability are signaling state-level tightening in California. Given LifeMD's 10-K disclosure of state telehealth prescribing restrictions as a material risk, your compliance leadership should map emerging CA requirements against current prescriber protocols and pharmacy partnerships. Would a 15-minute call Thursday morning help assess timing and scope? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged California enforcement precursor signals tied to telehealth prescribing accountability. Your 10-K cited state prescribing restrictions as material, so timing feels right to revisit compliance exposure across your top three states. Prospect: We're monitoring it, but prescribing workflows are already locked down. BDR Pivot: The gap isn't your current controls, it's whether emerging CA documentation and pharmacy coordination standards will force protocol changes. How about a 10-minute sync to validate your state intelligence coverage on this?"
+        "headline": "LifeMD: California Telehealth Prescribing Restrictions Tighten Enforcement",
+        "body": "LifeMD operates a consumer-direct GLP-1 platform dependent on asynchronous prescribing workflows and compounded supply chains across three high-enforcement states, making it materially exposed to state pharmacy board actions that peer pure-play sexual-health operators face less acutely. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks. California's enforcement messaging on telehealth accountability signals upstream regulatory tightening that historically precedes pharmacy licensing actions and prescriber credential reviews. The government affairs team should assess whether current prescriber protocols and compounding partnerships align with California's emerging enforcement posture, particularly given LifeMD's top-three state dependency.",
+        "cold_first_touch_frame": "Subject: California Enforcement Signal on Telehealth Prescribing Workflows Dear Public Policy Head, Recent California enforcement messaging on telehealth accountability is signaling upstream regulatory tightening that historically precedes pharmacy licensing actions. Your 10-K identifies state telehealth prescribing restrictions as a material risk, and LifeMD's compounded GLP-1 supply chain concentrates exposure in California, Florida, and Texas. I'd like to schedule a brief 15-minute call on Thursday to align on whether your current prescriber protocols and compounding partnerships are positioned defensively against emerging enforcement priorities. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We've been tracking California's recent enforcement messaging on telehealth accountability, and your 10-K flags state prescribing restrictions as a live material risk. Given LifeMD's compounded GLP-1 footprint in three high-enforcement states, I wanted to reconnect on whether your current prescriber protocols are positioned ahead of the pharmacy board's focus on asynchronous workflows. Prospect: We've reviewed our compliance posture internally, but enforcement activity has been moving quickly. BDR Pivot: Exactly, which is why I'd like to carve out 10 minutes with your compliance team to walk through the specific enforcement vectors California is signaling and benchmark your current state pharmacy partnerships against emerging standards."
       },
       "narrative_source": "llm"
     }
