@@ -1,5 +1,170 @@
 {
-  "generated_at": "2026-11-01T14:36:03+00:00",
-  "count": 0,
-  "alerts": []
+  "generated_at": "2026-11-02T17:32:13+00:00",
+  "count": 2,
+  "alerts": [
+    {
+      "opportunity_id": "acc_001|ca|telehealth_general",
+      "account_id": "acc_001",
+      "account_name": "Hims & Hers Health",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 4,
+      "account_employee_band": "1000-2500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ca",
+      "topic": "telehealth_general",
+      "composite_score": 0.22,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.345
+      },
+      "business_model_exposure_weight": 1.4,
+      "risk_disclosure_hit_count": 21,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy and Billing Practices - Neurology Advisor (2026-08-07)",
+            "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.232,
+            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
+            "enforcement_date": "2026-10-22T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.345,
+            "event_summary": "Peer enforcement: GoodRx & Criteo Revised $32 Million Data Privacy Settlement Gets First Approval - The HIPAA Journal (2026-10-30)",
+            "enforcement_date": "2026-10-30T01:24:43+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.232,
+            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
+            "enforcement_date": "2026-10-22T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.007,
+            "event_summary": "Peer enforcement: FTC lawsuit alleges Hims & Hers charged consumers for unwanted prescriptions - Top Class Actions (2026-08-13)",
+            "enforcement_date": "2026-08-13T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: Hims & Hers Received 4,800 FTC Complaints in 5 Years. Customers Say They Were Hit With Charges for P (2026-08-07)",
+            "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: \u2018They Are Thieves\u2019: FTC Complaints About Hims & Hers Detail Surprise Charges - Gizmodo (2026-08-07)",
+            "enforcement_date": "2026-08-07T07:00:00+00:00"
+          }
+        ]
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "Hims: FTC Enforcement Action Pressures California Telehealth Compliance Standards",
+        "body": "Hims operates a multi-category consumer telehealth platform with material exposure across compounded GLP-1 supply chains, asynchronous prescribing workflows, and state pharmacy licensing variance, making FTC enforcement actions particularly material to operational risk. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as disclosed risks. The FTC lawsuit targeting health privacy and billing practices establishes enforcement precedent that will likely inform state regulatory scrutiny of telehealth operators in California, New York, and Florida. Hims' government affairs team should anticipate state health boards and attorney general offices leveraging this federal action to justify tighter compounding oversight and asynchronous prescribing guardrails within existing state statutory frameworks.",
+        "cold_first_touch_frame": "Subject: FTC Action Creates Window for CA Telehealth Compliance Readiness Dear VP Regulatory Affairs, The FTC's recent enforcement action against Hims surfaces a critical timing opportunity for your compliance and government affairs teams. State regulators in California will likely use this precedent to justify tightening telehealth prescribing and compounding standards in the coming months. A 15-minute call on Thursday would let us show how leading operators are mapping state-by-state exposure and building compliance narratives before official rulemaking cycles begin. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC action against Hims last week triggered new state inquiry cycles into telehealth compounding and prescribing oversight. Your team has probably fielded some early outreach already. Prospect: We've seen some inquiry traffic, but we're still evaluating what this means for our operations in California and New York. BDR Pivot: That makes sense. A quick 10-minute sync would let us show you how other multi-state operators are organizing their state-by-state compliance roadmap right now, before regulators formalize new standards. Can we grab time early next week?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_003|ca|telehealth_general",
+      "account_id": "acc_003",
+      "account_name": "LifeMD",
+      "account_segment": "consumer_telehealth_glp1_focus",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "200-500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ca",
+      "topic": "telehealth_general",
+      "composite_score": 0.204,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.345
+      },
+      "business_model_exposure_weight": 1.3,
+      "risk_disclosure_hit_count": 18,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [],
+        "S2": [],
+        "S3": [
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: FTC Sues Hims & Hers Over Health Privacy and Billing Practices - Neurology Advisor (2026-08-07)",
+            "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.232,
+            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
+            "enforcement_date": "2026-10-22T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.345,
+            "event_summary": "Peer enforcement: GoodRx & Criteo Revised $32 Million Data Privacy Settlement Gets First Approval - The HIPAA Journal (2026-10-30)",
+            "enforcement_date": "2026-10-30T01:24:43+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.232,
+            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
+            "enforcement_date": "2026-10-22T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.007,
+            "event_summary": "Peer enforcement: FTC lawsuit alleges Hims & Hers charged consumers for unwanted prescriptions - Top Class Actions (2026-08-13)",
+            "enforcement_date": "2026-08-13T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: Hims & Hers Received 4,800 FTC Complaints in 5 Years. Customers Say They Were Hit With Charges for P (2026-08-07)",
+            "enforcement_date": "2026-08-07T07:00:00+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.005,
+            "event_summary": "Peer enforcement: \u2018They Are Thieves\u2019: FTC Complaints About Hims & Hers Detail Surprise Charges - Gizmodo (2026-08-07)",
+            "enforcement_date": "2026-08-07T07:00:00+00:00"
+          }
+        ]
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "LifeMD: FTC Telehealth Enforcement Signals California Prescribing Scrutiny",
+        "body": "LifeMD operates a direct-to-consumer GLP-1 and weight-loss telehealth model with material dependence on asynchronous prescribing workflows and compounded medication supply chains across high-enforcement states, creating distinct exposure relative to multi-category platforms. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks. FTC enforcement against peer operators signals heightened focus on telehealth billing practices and patient privacy, with California's AG office historically following federal enforcement trajectories in consumer health. LifeMD's government affairs team should assess whether current consent protocols and state-by-state prescribing documentation meet emerging enforcement standards, particularly in California.",
+        "cold_first_touch_frame": "Subject: FTC Telehealth Enforcement Uptick, California Prescribing Exposure Dear Regulatory Affairs Lead, The FTC's recent enforcement action against peer telehealth operators has triggered state-level policy reviews in California around asynchronous prescribing and billing transparency. Your 10-K discloses state prescribing restrictions as material risk; given LifeMD's GLP-1 focus and CA exposure, this is a timing moment to audit your state-by-state consent and documentation protocols against emerging enforcement benchmarks. Would you have 15 minutes Thursday or Friday for a quick call on how enforcement signals translate to state policy tightening? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: California's AG office typically moves on federal telehealth enforcement patterns. The FTC's recent action against peers has likely triggered internal policy reviews at your shop, worth a 10-minute sync to map state-by-state prescribing exposure against your current consent workflows. Prospect: We've reviewed the FTC action internally. It's not clear how much this affects our California prescribing model. BDR Pivot: That's exactly the gap. I can walk you through how three states have already tightened asynchronous prescribing standards post-FTC action and what your state policy team should track. Ten minutes this week?"
+      },
+      "narrative_source": "llm"
+    }
+  ]
 }
