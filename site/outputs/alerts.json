@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T16:43:14+00:00",
-  "count": 5,
+  "generated_at": "2026-11-13T16:02:24+00:00",
+  "count": 2,
   "alerts": [
     {
       "opportunity_id": "acc_001|ca|telehealth_general",
@@ -16,12 +16,12 @@
       "account_target_tier": "enterprise",
       "state": "ca",
       "topic": "telehealth_general",
-      "composite_score": 0.243,
+      "composite_score": 0.231,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 23,
@@ -33,19 +33,25 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
+            "score": 0.135,
+            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
+            "enforcement_date": "2026-10-22T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
             "enforcement_date": "2026-11-11T20:27:48+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.362,
+            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare News (2026-11-11)",
+            "enforcement_date": "2026-11-11T23:03:06+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.345,
             "event_summary": "Peer enforcement: HIMS Stock Faces Dual Blow From Expanded FTC Privacy Lawsuit After Selloff Driven By Q3 Subscriber L (2026-11-10)",
             "enforcement_date": "2026-11-10T23:10:26+00:00"
           }
@@ -53,10 +59,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: FTC Multi-State Enforcement Cascade Targets Compounded GLP-1 Prescribing",
-        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains and asynchronous prescribing workflows across state lines, creating exposure to both state pharmacy board actions and federal enforcement coordination. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and FDA enforcement on compounded GLP-1 products as material risks. Five-state FTC litigation now creates legal precedent and regulatory momentum that will directly inform California's pharmacy board guidance and state telehealth licensing enforcement in 2026. Your government affairs team should anticipate state-level derivative investigations and compounding rule tightening within 60 to 90 days.",
-        "cold_first_touch_frame": "Subject: Five-State FTC Enforcement, CA Pharmacy Board Timing Risk Dear Regulatory Affairs Lead, Five states have now joined the FTC lawsuit against Hims, signaling coordinated enforcement focus on compounded GLP-1 prescribing and asynchronous workflows. California pharmacy regulators typically follow federal enforcement patterns, and your 10-K already flags state compounding regulations as material exposure. We help multistate telehealth operators track state-specific enforcement signals and timing windows so your compliance roadmap stays ahead of derivative investigations. Would a 15-minute call Thursday work to map California's likely next moves? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The five-state FTC action against Hims just created new urgency around California pharmacy board guidance timing. Last time we spoke, your team was watching compounding rules, and this enforcement wave materially accelerates that calendar. Prospect: We're monitoring it, but our outside counsel is already on it. BDR Pivot: Absolutely, and counsel owns the litigation risk. What we see is state-level follow-on actions typically land 45 to 90 days after federal precedent. A quick 10-minute sync on our state-tracking intelligence for CA could help your public policy head anticipate board staff questions before they formalize guidance."
+        "headline": "Hims: FTC Data-Privacy Lawsuit Tests Subscription Cancellation Compliance Standards",
+        "body": "Hims operates a multi-category consumer telehealth platform with material exposure to state asynchronous prescribing rules and compounded GLP-1 supply chain dependencies, making subscription and data governance issues operationally distinct from pure sexual-health or mental-health focused competitors. The most recent 10-K names state telehealth licensing variance and state pharmacy compounding regulations as material risks. An FTC lawsuit alleging user data mishandling and subscription cancellation friction creates a direct enforcement precursor for Hims' regulatory affairs function, particularly in California, New York, and Florida where telehealth licensing standards intersect with consumer protection frameworks. The dismissal motion outcome will signal whether similar state-level AG scrutiny on subscription practices and data retention norms escalates.",
+        "cold_first_touch_frame": "Subject: FTC Lawsuit Signals CA Consumer-Protection Risk for Telehealth Subscriptions Dear Public Policy Head, Hims is defending an FTC lawsuit over user data and subscription cancellation practices. California's consumer protection statutes and telehealth licensing frameworks create compounding exposure here, especially as your government affairs team manages multi-state compliance for GLP-1 and asynchronous prescribing workflows. A brief 15-minute call Thursday would let us map how peer enforcement patterns are reshaping state-level subscription governance in your top three markets. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC lawsuit against Hims on subscription and data practices landed this week. Given your prior interest in multi-state subscription compliance, this enforcement precursor reshapes how California and New York are likely to tighten telehealth subscription rules. Prospect: We've been tracking FTC action, but haven't prioritized subscription governance yet. BDR Pivot: That gap is exactly the timing issue. A 10-minute sync would show you which state-level subscription statutes your compliance leadership should flag now, before enforcement pressure cascades to your state regulators."
       },
       "narrative_source": "llm"
     },
@@ -74,15 +80,15 @@
       "account_target_tier": "enterprise",
       "state": "ca",
       "topic": "telehealth_general",
-      "composite_score": 0.225,
+      "composite_score": 0.214,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
       "business_model_exposure_weight": 1.3,
-      "risk_disclosure_hit_count": 18,
+      "risk_disclosure_hit_count": 23,
       "risk_disclosure_multiplier": 1.3,
       "signals_fired": 1,
       "source_events": {
@@ -91,19 +97,25 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
+            "score": 0.135,
+            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
+            "enforcement_date": "2026-10-22T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
             "enforcement_date": "2026-11-11T20:27:48+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
             "score": 0.362,
+            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare News (2026-11-11)",
+            "enforcement_date": "2026-11-11T23:03:06+00:00"
+          },
+          {
+            "signal_id": "S3_enforcement_precursor",
+            "score": 0.345,
             "event_summary": "Peer enforcement: HIMS Stock Faces Dual Blow From Expanded FTC Privacy Lawsuit After Selloff Driven By Q3 Subscriber L (2026-11-10)",
             "enforcement_date": "2026-11-10T23:10:26+00:00"
           }
@@ -111,184 +123,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "LifeMD: California Telehealth Prescribing Oversight Tightens Peer Enforcement",
-        "body": "LifeMD operates a consumer-direct GLP-1 telehealth model dependent on multi-state prescribing flexibility and compounded medication supply chains, creating exposure when state pharmacy boards align enforcement priorities. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks. Five states have now joined the FTC action against a peer operator, signaling coordinated state-level scrutiny of asynchronous prescribing workflows and compounded weight-loss medication distribution. California's regulatory posture will likely shift to match enforcement momentum, requiring LifeMD's government affairs team to map revised compliance thresholds before Q1 2027 rulemaking cycles close.",
-        "cold_first_touch_frame": "Subject: Five-State FTC Action Signals California Telehealth Enforcement Pivot Dear Public Policy Head, The FTC action involving five states against a peer telehealth operator underscores coordinated state-level focus on asynchronous prescribing and compounded GLP-1 distribution. Your 10-K discloses material exposure to state telehealth prescribing restrictions and compounded medication availability. California typically follows multi-state enforcement signals, and your compliance leadership should validate current prescribing documentation and pharmacy sourcing alignment now. Would a 15-minute call Thursday work to map the state-by-state policy timeline? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: Five states just joined an FTC enforcement action focused on telehealth prescribing workflows. California's regulatory team will likely follow that enforcement pattern, and your compliance exposure hinges on how prescribing documentation and compounded medication sourcing align with emerging state definitions. Prospect: We've already reviewed our prescribing protocols with our outside counsel. BDR Pivot: That's solid foundation work. A 10-minute sync would let us confirm your compliance roadmap accounts for the specific state-by-state policy gaps California regulators typically target when multi-state enforcement accelerates. Does Tuesday morning work?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_005|ca|telehealth_general",
-      "account_id": "acc_005",
-      "account_name": "Teladoc Health",
-      "account_segment": "enterprise_virtual_care",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "5000+",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.3,
-      "risk_disclosure_hit_count": 4,
-      "risk_disclosure_multiplier": 1.2,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
-            "event_summary": "Peer enforcement: HIMS Stock Faces Dual Blow From Expanded FTC Privacy Lawsuit After Selloff Driven By Q3 Subscriber L (2026-11-10)",
-            "enforcement_date": "2026-11-10T23:10:26+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Teladoc: FTC Telehealth Enforcement Wave Pressures CA Licensure Compliance",
-        "body": "Teladoc operates as the largest pure-play enterprise virtual care platform contracted directly with health plans and employers, creating material exposure to state professional licensure enforcement across its top three jurisdictions. The most recent 10-K names state professional licensure variance and interstate medical practice rules as material risks to operations. Five state attorneys general joined the FTC lawsuit against Hims & Hers this month, signaling coordinated enforcement appetite for telehealth licensing and credential verification gaps. California's medical board has historically led enforcement actions on scope-of-practice violations; Teladoc's health-plan-contracted model depends on consistent state-to-state licensure compliance to maintain network adequacy and reimbursement relationships.",
-        "cold_first_touch_frame": "Subject: FTC Enforcement Wave: State Licensure Compliance Timing for Teladoc Dear Chief Compliance Officer, Five state AGs joined the FTC lawsuit against Hims this month, creating immediate scrutiny on telehealth credential verification and state licensure practices. Given Teladoc's scale in health-plan contracting across California, New York, and Texas, your government affairs team may be fielding questions from payers on licensure audit readiness and interstate Medical Licensure Compact alignment. Would a 15-minute call this Thursday work to map state-by-state compliance exposure and what your peers are building right now? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC action against Hims landed this week with five states joining in, and we're seeing every enterprise telehealth platform reassess their licensure compliance footprint across state networks. Your compliance team may be facing payer questions on credential verification and Interstate Compact readiness, especially in California. Prospect: We've got internal processes in place for that. Not sure there's urgency here. BDR Pivot: I hear that. The difference is payers are now asking for written audit trails on licensure verification, state by state. Ten minutes to show you what three other enterprise platforms are documenting for their health plan partners, specifically around CA exposure, could save your compliance team weeks of rebuilding that argument."
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_006|ca|telehealth_general",
-      "account_id": "acc_006",
-      "account_name": "Amwell",
-      "account_segment": "enterprise_virtual_care",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 6,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
-            "event_summary": "Peer enforcement: HIMS Stock Faces Dual Blow From Expanded FTC Privacy Lawsuit After Selloff Driven By Q3 Subscriber L (2026-11-10)",
-            "enforcement_date": "2026-11-10T23:10:26+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Amwell: FTC Enforcement Cascade Pressures State Telehealth Licensing Standards",
-        "body": "Amwell operates a broad enterprise virtual care platform dependent on state-by-state professional licensing reciprocity and Medicaid parity rules, creating exposure distinct from single-specialty telehealth operators. The most recent 10-K names state professional licensing variance and Medicaid coverage inconsistency as material risks; the FTC's multi-state action against Hims & Hers signals regulatory focus on telehealth prescribing workflows and state licensure compliance frameworks. California, Massachusetts, and New York enforcement activity typically precedes coordinated multi-state policy alignment that can reshape reimbursement and credentialing standards across Amwell's largest contract territories. The regulatory affairs lead should assess whether enforcement precedent will accelerate state-level licensing board rulemaking or trigger unexpected Medicaid coverage exclusions in top-revenue states.",
-        "cold_first_touch_frame": "Subject: CA Telehealth Licensing Risk Spikes on FTC Multi-State Enforcement Dear [Public Policy Head], The FTC's latest multi-state filing against Hims & Hers has flagged state professional licensing compliance as an enforcement priority. Amwell's enterprise virtual care model operates across MA, CA, and NY with high Medicaid dependency, and your 10-K already flags state licensing variance as material exposure. We help GA teams model how enforcement in peer states translates into policy changes in your core markets before they hit your network. Would a 15-minute call this Thursday work to walk through what the FTC filing means for your licensing and credentialing roadmap? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FTC multi-state telehealth enforcement action just shifted focus to state licensure frameworks, and Amwell's Medicaid parity exposure in California and Massachusetts is now in scope. This is the right time to revisit how your compliance leadership is preparing your GA team for the policy rulemaking that follows. Prospect: We've been monitoring this, but we're not sure how directly it affects our network model or which states will move first. BDR Pivot: That's exactly where a 10-minute sync helps. We can show you the enforcement-to-rulemaking timeline and which states typically lead on licensing policy after federal action, so your compliance leadership can brief your board with specifics instead of guesses."
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_007|ca|telehealth_general",
-      "account_id": "acc_007",
-      "account_name": "GoodRx",
-      "account_segment": "prescription_discount_plus_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 12,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.362,
-            "event_summary": "Peer enforcement: HIMS Stock Faces Dual Blow From Expanded FTC Privacy Lawsuit After Selloff Driven By Q3 Subscriber L (2026-11-10)",
-            "enforcement_date": "2026-11-10T23:10:26+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "GoodRx: FTC Telehealth Enforcement Targets Prescription Discount Platform Exposure",
-        "body": "GoodRx operates a hybrid prescription-discount-and-telehealth model that creates dual regulatory surface: the discount marketplace triggers state PBM regulation and pricing transparency mandates, while the telehealth arm faces state licensing and prescribing-authority scrutiny. The most recent 10-K names state PBM regulation, state prescription pricing transparency, and state telehealth licensing as material risks. Five states have now joined the FTC lawsuit against Hims & Hers, signaling enforcement focus on telehealth operators' compliance with state prescribing and consumer protection standards, which directly implicates GoodRx's licensing posture across California, New York, and Texas. The government affairs team should model disclosure and documentation requirements emerging from multi-state enforcement actions.",
-        "cold_first_touch_frame": "Subject: Multi-State Telehealth Enforcement and GoodRx Compliance Readiness Dear Public Policy Head, Five states have joined the FTC's enforcement action against Hims & Hers, targeting telehealth prescribing practices and consumer protection compliance. Given GoodRx's prescription-discount-and-telehealth business model and material exposure to state licensing and PBM regulation across California, New York, and Texas, your government affairs team should assess how this enforcement cascade shapes disclosure obligations and state-level prescribing-authority alignment. Would a 15-minute call on Thursday work to map exposure and timing?",
-        "worked_deal_revival_frame": "BDR: The five-state FTC enforcement action against Hims & Hers is reshaping how state regulators scrutinize telehealth prescribing workflows and consumer disclosures. Given your licensing and PBM exposure in top states, this is a good moment to stress-test your government affairs readiness. Prospect: We've been watching the Hims enforcement, but our compliance team says our model is different. BDR Pivot: That difference is exactly what we should document. A 10-minute sync with your compliance leadership this week to align on state filing and disclosure priorities would clarify your true exposure window."
+        "headline": "LifeMD: California Telehealth Prescribing Enforcement Precursors Tighten",
+        "body": "LifeMD operates a direct-to-consumer GLP-1 supply model dependent on state pharmacy board cooperation and prescriber licensure across top-three state markets, creating material exposure distinct from enterprise virtual care platforms with contracted health plan relationships. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks. Recent peer enforcement activity targeting user data practices and subscription retention in telehealth signals California regulators are intensifying scrutiny of consumer-facing business models in this category. LifeMD's government affairs team should assess whether California Pharmacy Board or Attorney General actions are imminent against asynchronous prescribing workflows or compounded supply chain practices.",
+        "cold_first_touch_frame": "Subject: California Pharmacy Board Enforcement Activity on Telehealth GLP-1 Prescribing Dear Public Policy Head, Recent FTC activity against peer telehealth operators targeting user data and subscription practices signals California regulators are escalating scrutiny of consumer telehealth business models. LifeMD's 10-K identifies state prescribing restrictions and compounded GLP-1 availability as material operational risks. Your regulatory affairs team may benefit from a brief conversation on how California-specific enforcement precursors align with your current policy monitoring. Would a 15-minute call on Thursday work to review your current state-by-state compliance posture? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: Recent enforcement activity targeting peer telehealth operators in California creates timing urgency around your state prescribing and compounded supply chain exposure. Your compliance team likely sees the same regulatory pressure we are tracking across your top three state markets. Prospect: We are monitoring this, but our legal team is handling it. BDR Pivot: Understood. A 10-minute sync with your compliance leadership and regulatory affairs team could help you map whether state-by-state enforcement patterns are converging on your business model. No long commitment, just a quick alignment on what we are seeing in real time."
       },
       "narrative_source": "llm"
     }
