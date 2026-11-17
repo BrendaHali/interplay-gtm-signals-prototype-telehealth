@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T17:50:35+00:00",
-  "count": 5,
+  "generated_at": "2026-11-17T17:28:07+00:00",
+  "count": 4,
   "schema_note": "Per-account rollup of outputs/alerts.json. One record per account_id even when signals fire across multiple states and topics. evidence_drilldown preserves the original per-(state, topic) attribution for click-through inspection.",
   "accounts": [
     {
@@ -31,49 +31,53 @@
       "disclosure_source": "10K",
       "acquired_note": null,
       "states_affected": [
-        "ca"
+        "ca",
+        "ny",
+        "fl"
       ],
       "topics_affected": [
+        "compounded_glp1",
         "telehealth_general"
       ],
-      "top_composite_score": 0.243,
+      "top_composite_score": 0.367,
       "signals_summary": {
-        "S1": 0.0,
+        "S1": 0.576,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
-      "total_routed_alerts": 1,
+      "total_routed_alerts": 4,
       "all_source_events": {
-        "S1": [],
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
         "S2": [],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
+            "score": 0.11,
             "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
             "enforcement_date": "2026-10-22T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
             "enforcement_date": "2026-11-11T20:27:48+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
             "enforcement_date": "2026-11-11T23:03:06+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
             "enforcement_date": "2026-11-15T23:44:07+00:00"
           }
@@ -81,14 +85,89 @@
       },
       "evidence_drilldown": [
         {
+          "opportunity_id": "acc_001|ca|compounded_glp1",
+          "state": "ca",
+          "topic": "compounded_glp1",
+          "composite_score": 0.367,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "Hims: FDA Enforcement Spike Targets Compounded GLP-1 Supply Chain"
+        },
+        {
+          "opportunity_id": "acc_001|ny|compounded_glp1",
+          "state": "ny",
+          "topic": "compounded_glp1",
+          "composite_score": 0.367,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "Hims: FDA GLP-1 Enforcement Spike Pressures NY Compounding Supply Chain"
+        },
+        {
+          "opportunity_id": "acc_001|fl|compounded_glp1",
+          "state": "fl",
+          "topic": "compounded_glp1",
+          "composite_score": 0.367,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "Hims: Florida GLP-1 Compounding FDA Enforcement Cascade Accelerates"
+        },
+        {
           "opportunity_id": "acc_001|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.243,
+          "composite_score": 0.231,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.0,
-            "S3": 0.381
+            "S3": 0.362
           },
           "signals_fired": 1,
           "source_events": {
@@ -97,55 +176,49 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
+                "score": 0.11,
                 "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
                 "enforcement_date": "2026-10-22T07:00:00+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
+                "score": 0.297,
                 "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
                 "enforcement_date": "2026-11-11T20:27:48+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
+                "score": 0.297,
                 "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
                 "enforcement_date": "2026-11-11T23:03:06+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.381,
+                "score": 0.362,
                 "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
                 "enforcement_date": "2026-11-15T23:44:07+00:00"
               }
             ]
           },
-          "narrative_headline": "Hims: FTC Lawsuit Dismissal Signals Precursor to State Data Privacy Enforcement"
+          "narrative_headline": "Hims: FTC Data Privacy Lawsuit Signals State Enforcement Precursor"
         }
       ],
       "best_narrative": {
-        "headline": "Hims: FTC Lawsuit Dismissal Signals Precursor to State Data Privacy Enforcement",
-        "body": "Hims operates a multi-category consumer telehealth platform with compounded GLP-1 supply chain dependency and state-level asynchronous prescribing workflows that create material exposure to state attorneys general scrutiny on user data handling and subscription practices. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and state telehealth licensing variance as material risks. The FTC lawsuit dismissal proceeding in October 2026 may signal the opening of state-level data privacy and consumer protection enforcement channels, particularly in California, New York, and Florida where Hims operates high-volume patient populations. State data privacy statutes and telehealth-specific subscription cancellation rules now pose operational chokepoints for subscription retention and compliance frameworks.",
-        "cold_first_touch_frame": "Subject: California Data Privacy Enforcement Window Opening for Telehealth Subscription Models Dear Public Policy Head, Hims' FTC dismissal motion signals the transition of user data and subscription practice scrutiny to state attorneys general, particularly in California. State privacy statutes and telehealth-specific cancellation mandates now create material compliance friction for multi-state subscription operations. We help regulatory affairs teams map state-by-state enforcement precursors and subscription compliance gaps before enforcement action surfaces. Could your team take a 15-minute call Thursday to discuss how California's enforcement timeline affects Hims' policy roadmap? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: California's data privacy enforcement trajectory shifted this month as the FTC case moved to dismissal, and state attorneys general are now the enforcement vector. This timing window is critical for your compliance and policy teams to audit subscription practices against California Consumer Privacy Act requirements. Prospect: We're already tracking the FTC litigation, and our legal team handles that. BDR Pivot: Understood, and the GC's team is managing the federal side. What we're proposing is a 10-minute sync with your regulatory affairs lead to map the state enforcement precursors California flagged in similar cases, so your policy team stays ahead of the transition from federal to state enforcement."
+        "headline": "Hims: FDA Enforcement Spike Targets Compounded GLP-1 Supply Chain",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 sourcing and asynchronous prescribing workflows across state jurisdictions. The most recent 10-K names compounded GLP-1 product availability and state pharmacy compounding regulations as material risks to operations. FDA enforcement actions on compounded GLP-1 products reached 11 cases in the week of November 9, 2026, representing a 3.09 standard-deviation spike above baseline enforcement cadence. California's pharmacy board and state asynchronous prescribing rules create operational exposure that compounds the federal enforcement environment.",
+        "cold_first_touch_frame": "Subject: FDA Enforcement Surge on Compounded GLP-1: CA Pharmacy Board Implications Dear Public Policy Head, FDA enforcement actions on compounded GLP-1 products spiked to 11 cases last week, well above normal cadence. Given Hims' sourcing model and California's asynchronous prescribing rules, your government affairs team may be fielding inquiries from pharmacy regulators on supply-chain compliance and state-level product availability standards. I lead state regulatory intelligence for telehealth operators. A 15-minute call Thursday would let me share what other multistate platforms are tracking on this enforcement cascade and California-specific pharmacy board positioning. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: FDA enforcement on compounded GLP-1 jumped significantly last week, and I'm seeing California pharmacy board activity accelerate in response. Your compliance team is probably already on this, but the state intelligence angle may have shifted since we last connected. Prospect: We're monitoring it internally. Our pharmacy counsel is tracking FDA action. BDR Pivot: Understood. The gap I see is state-level pharmacy board positioning on sourcing standards, that's where California differs from Florida and New York. Ten-minute call Friday to walk your compliance leadership through what we're seeing on state-specific responses?"
       },
       "best_narrative_source": "llm",
-      "best_opportunity_id": "acc_001|ca|telehealth_general",
-      "multistate_indicator": false,
-      "state_count_affected": 1,
-      "topic_count_affected": 1,
+      "best_opportunity_id": "acc_001|ca|compounded_glp1",
+      "multistate_indicator": true,
+      "state_count_affected": 3,
+      "topic_count_affected": 2,
       "triggering_events_summary": [
+        "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
         "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
         "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
         "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-        "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
         "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)"
       ],
       "latest_signal_event_date": "2026-11-15"
@@ -177,64 +250,143 @@
       "disclosure_source": "10K",
       "acquired_note": null,
       "states_affected": [
-        "ca"
+        "fl",
+        "ca",
+        "tx"
       ],
       "topics_affected": [
+        "compounded_glp1",
         "telehealth_general"
       ],
-      "top_composite_score": 0.225,
+      "top_composite_score": 0.341,
       "signals_summary": {
-        "S1": 0.0,
+        "S1": 0.576,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
-      "total_routed_alerts": 1,
+      "total_routed_alerts": 4,
       "all_source_events": {
-        "S1": [],
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
         "S2": [],
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
+            "score": 0.11,
             "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
             "enforcement_date": "2026-10-22T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
             "enforcement_date": "2026-11-11T20:27:48+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
             "enforcement_date": "2026-11-11T23:03:06+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
             "enforcement_date": "2026-11-15T23:44:07+00:00"
           }
         ]
       },
       "evidence_drilldown": [
+        {
+          "opportunity_id": "acc_003|fl|compounded_glp1",
+          "state": "fl",
+          "topic": "compounded_glp1",
+          "composite_score": 0.341,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "LifeMD: Florida GLP-1 Compounding Enforcement Cascade Pressures Supply"
+        },
+        {
+          "opportunity_id": "acc_003|ca|compounded_glp1",
+          "state": "ca",
+          "topic": "compounded_glp1",
+          "composite_score": 0.341,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "LifeMD: California Pharmacy Board Compounded GLP-1 Enforcement Accelerates"
+        },
+        {
+          "opportunity_id": "acc_003|tx|compounded_glp1",
+          "state": "tx",
+          "topic": "compounded_glp1",
+          "composite_score": 0.341,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "LifeMD: FDA GLP-1 Enforcement Spike Pressures TX Compounded Supply"
+        },
         {
           "opportunity_id": "acc_003|ca|telehealth_general",
           "state": "ca",
           "topic": "telehealth_general",
-          "composite_score": 0.225,
+          "composite_score": 0.214,
           "signal_scores": {
             "S1": 0.0,
             "S2": 0.0,
-            "S3": 0.381
+            "S3": 0.362
           },
           "signals_fired": 1,
           "source_events": {
@@ -243,498 +395,344 @@
             "S3": [
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
+                "score": 0.11,
                 "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
                 "enforcement_date": "2026-10-22T07:00:00+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
+                "score": 0.297,
                 "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
                 "enforcement_date": "2026-11-11T20:27:48+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
+                "score": 0.297,
                 "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
                 "enforcement_date": "2026-11-11T23:03:06+00:00"
               },
               {
                 "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.381,
+                "score": 0.362,
                 "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
                 "enforcement_date": "2026-11-15T23:44:07+00:00"
               }
             ]
           },
-          "narrative_headline": "LifeMD: California Telehealth Prescribing FTC Data Practice Scrutiny Intensifies"
+          "narrative_headline": "LifeMD: California Telehealth Prescribing Enforcement Precursor Signals"
         }
       ],
       "best_narrative": {
-        "headline": "LifeMD: California Telehealth Prescribing FTC Data Practice Scrutiny Intensifies",
-        "body": "LifeMD operates a consumer-direct GLP-1 telehealth model with material exposure to state pharmacy board oversight and compounded medication supply chain dependencies across top-three states, particularly California. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks. FTC enforcement activity against peer telehealth operators signals that user data handling practices and subscription management disclosures now face regulatory scrutiny, creating precursor conditions for state-level investigations into how telehealth platforms market and retain subscribers. LifeMD's government affairs team should assess exposure across California's pharmacy board, medical board, and attorney general office.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Data Enforcement and LifeMD's CA Prescribing Footprint Dear Public Policy Head, FTC enforcement against competitor telehealth platforms on user data and subscription practices signals a widening enforcement aperture that will reach California regulators. LifeMD's compounded GLP-1 supply chain and direct-to-consumer prescribing model create material exposure across California's pharmacy and medical boards. We help telehealth operators map state enforcement precursors and prepare compliance positioning before state AGs move. Are you available for a 15-minute call Thursday to discuss California's current enforcement signals? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: California's pharmacy board and medical board are now tracking telehealth data practices through the FTC enforcement lens. This creates a 60-to-90-day window for LifeMD to position your compliance story before state investigators reach out. Prospect: We've got internal counsel monitoring FTC activity. Not sure we need an external view on California state enforcement yet. BDR Pivot: That's exactly the gap we see across telehealth operators. Internal counsel tracks federal enforcement; state enforcement precursors move in parallel. A 10-minute sync this week to map California's specific pharmacy board and AG signaling would let you get ahead of the timeline."
+        "headline": "LifeMD: Florida GLP-1 Compounding Enforcement Cascade Pressures Supply",
+        "body": "LifeMD's compounded GLP-1 supply chain represents core revenue exposure distinct from multi-category platforms, given the company's direct dependency on state pharmacy board approval and compounding facility licensing. The FDA enforcement action spike on GLP-1 products reached 11 actions in the week of November 9, 2026, signaling accelerated federal scrutiny of compounding practices and labeling standards. Per the most recent 10-K filing, state pharmacy oversight and compounded GLP-1 availability rank among material operational risks. Florida's top-three state exposure status compounds this pressure, as the state's pharmacy board historically responds to federal enforcement signals with accelerated local compliance audits.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike: Florida Pharmacy Board Timing Risk Dear Chief Compliance Officer, The FDA completed 11 GLP-1 enforcement actions in the past two weeks, and Florida pharmacy boards typically follow within 30 to 60 days with facility audits and compounding protocol reviews. LifeMD's compounded GLP-1 supply chain faces material exposure given this enforcement cascade and your top-three state dependency. I wanted to flag this timing and propose a 15-minute call Thursday to map Florida-specific pharmacy board response patterns and your current compliance posture. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged the FDA GLP-1 enforcement spike two weeks ago, and Florida pharmacy boards are now entering audit mode. Your compliance leadership told us you'd circle back once state board timelines became clearer, and they just did. Prospect: We've got internal legal reviewing our compounding protocols, but bandwidth is tight right now. BDR Pivot: Understood. A 10-minute sync with your regulatory affairs lead would help us align on which Florida board guidance to prioritize first. Can we lock in a call Thursday afternoon?"
       },
       "best_narrative_source": "llm",
-      "best_opportunity_id": "acc_003|ca|telehealth_general",
-      "multistate_indicator": false,
-      "state_count_affected": 1,
-      "topic_count_affected": 1,
+      "best_opportunity_id": "acc_003|fl|compounded_glp1",
+      "multistate_indicator": true,
+      "state_count_affected": 3,
+      "topic_count_affected": 2,
       "triggering_events_summary": [
+        "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
         "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
         "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
         "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-        "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
         "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)"
       ],
       "latest_signal_event_date": "2026-11-15"
     },
     {
-      "account_id": "acc_005",
-      "account_name": "Teladoc Health",
+      "account_id": "acc_002",
+      "account_name": "Ro",
       "account_size_tier": "enterprise",
       "account_target_tier": "enterprise",
-      "account_segment": "enterprise_virtual_care",
-      "account_employee_band": "5000+",
-      "account_funding_stage": "public",
-      "account_revenue_band": "1B+",
-      "account_parent": null,
-      "account_tracking_status": "active_alert",
-      "routing_destination": "alerts",
-      "hq_city": "Purchase",
-      "hq_state": "ny",
-      "website": "https://www.teladochealth.com",
-      "product_one_liner": "Enterprise virtual care platform: primary care, mental health, chronic condition management, and expert medical opinion.",
-      "founded_year": 2002,
-      "topic_exposure_full": [
-        "telehealth_licensing",
-        "telehealth_reimbursement",
-        "mental_health_telehealth",
-        "controlled_substance_telehealth"
-      ],
-      "public_company": true,
-      "ticker": "TDOC",
-      "disclosure_source": "10K",
-      "acquired_note": null,
-      "states_affected": [
-        "ca"
-      ],
-      "topics_affected": [
-        "telehealth_general"
-      ],
-      "top_composite_score": 0.208,
-      "signals_summary": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "total_routed_alerts": 1,
-      "all_source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-            "enforcement_date": "2026-11-15T23:44:07+00:00"
-          }
-        ]
-      },
-      "evidence_drilldown": [
-        {
-          "opportunity_id": "acc_005|ca|telehealth_general",
-          "state": "ca",
-          "topic": "telehealth_general",
-          "composite_score": 0.208,
-          "signal_scores": {
-            "S1": 0.0,
-            "S2": 0.0,
-            "S3": 0.381
-          },
-          "signals_fired": 1,
-          "source_events": {
-            "S1": [],
-            "S2": [],
-            "S3": [
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
-                "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-                "enforcement_date": "2026-11-11T20:27:48+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
-                "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-                "enforcement_date": "2026-11-11T23:03:06+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.381,
-                "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-                "enforcement_date": "2026-11-15T23:44:07+00:00"
-              }
-            ]
-          },
-          "narrative_headline": "Teladoc: FTC Enforcement Peer Action Signals California Licensure Compliance Risk"
-        }
-      ],
-      "best_narrative": {
-        "headline": "Teladoc: FTC Enforcement Peer Action Signals California Licensure Compliance Risk",
-        "body": "Teladoc operates as an enterprise virtual care platform contracted with health plans across multiple states, creating material exposure to state licensure enforcement given California's top-3 state status and cross-border prescribing workflows. The most recent 10-K names state professional licensure variance and Interstate Medical Licensure Compact adoption as disclosed risks. A peer telehealth operator's FTC dismissal motion over user data and subscription practices signals regulatory attention to operational transparency around provider credentialing and state-specific licensure verification. California's medical board has historically prioritized asynchronous care workflows, making precursor enforcement signals material to Teladoc's contracted care delivery model.",
-        "cold_first_touch_frame": "Subject: California Medical Board Enforcement Signal: Teladoc Licensure Compliance Timing Dear [Public Policy Head], A peer telehealth operator's recent FTC action on data and subscription practices has triggered state-level scrutiny on how platforms verify and document provider licensure across state lines. Teladoc's 10-K discloses state licensure variance and IMLC adoption as material risks. California's enforcement posture on cross-border virtual care makes this a 15-minute call window this week to assess your compliance roadmap against emerging state-specific disclosure standards. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged Teladoc's licensure exposure in California three months back. A peer company's FTC motion just surfaced data transparency gaps around provider credentialing, which creates a timing reason to circle back on how your compliance leadership is documenting state-specific verification workflows. Prospect: We've been managing that internally, and our legal team is tracking the FTC motion separately. BDR Pivot: Understood. The gap is usually between what legal tracks and what your government affairs team reports to contracted health plans. A 10-minute sync with both teams would show whether your current state policy monitoring catches licensure precursors before enforcement. Does Thursday work?"
-      },
-      "best_narrative_source": "llm",
-      "best_opportunity_id": "acc_005|ca|telehealth_general",
-      "multistate_indicator": false,
-      "state_count_affected": 1,
-      "topic_count_affected": 1,
-      "triggering_events_summary": [
-        "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-        "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-        "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-        "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-        "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)"
-      ],
-      "latest_signal_event_date": "2026-11-15"
-    },
-    {
-      "account_id": "acc_006",
-      "account_name": "Amwell",
-      "account_size_tier": "enterprise",
-      "account_target_tier": "enterprise",
-      "account_segment": "enterprise_virtual_care",
+      "account_segment": "consumer_telehealth_multi_category",
       "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_revenue_band": "100-250M",
+      "account_funding_stage": "series_d_plus",
+      "account_revenue_band": "250M-1B",
       "account_parent": null,
       "account_tracking_status": "active_alert",
       "routing_destination": "alerts",
-      "hq_city": "Boston",
-      "hq_state": "ma",
-      "website": "https://business.amwell.com",
-      "product_one_liner": "Enterprise telehealth software platform sold to health systems, health plans, and government.",
-      "founded_year": 2006,
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://ro.co",
+      "product_one_liner": "Multi-condition consumer telehealth: sexual health, weight loss (GLP-1), mental health, and skincare.",
+      "founded_year": 2017,
       "topic_exposure_full": [
-        "telehealth_licensing",
-        "telehealth_reimbursement",
-        "mental_health_telehealth",
-        "asynchronous_prescribing"
+        "compounded_glp1",
+        "asynchronous_prescribing",
+        "telehealth_licensing"
       ],
-      "public_company": true,
-      "ticker": "AMWL",
-      "disclosure_source": "10K",
+      "public_company": false,
+      "ticker": null,
+      "disclosure_source": "industry_general",
       "acquired_note": null,
       "states_affected": [
-        "ca"
+        "ca",
+        "ny",
+        "tx"
       ],
       "topics_affected": [
-        "telehealth_general"
+        "compounded_glp1"
       ],
-      "top_composite_score": 0.208,
+      "top_composite_score": 0.282,
       "signals_summary": {
-        "S1": 0.0,
+        "S1": 0.576,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.0
       },
-      "total_routed_alerts": 1,
+      "total_routed_alerts": 3,
       "all_source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
+        "S1": [
           {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-            "enforcement_date": "2026-11-15T23:44:07+00:00"
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
           }
-        ]
+        ],
+        "S2": [],
+        "S3": []
       },
       "evidence_drilldown": [
         {
-          "opportunity_id": "acc_006|ca|telehealth_general",
+          "opportunity_id": "acc_002|ca|compounded_glp1",
           "state": "ca",
-          "topic": "telehealth_general",
-          "composite_score": 0.208,
+          "topic": "compounded_glp1",
+          "composite_score": 0.282,
           "signal_scores": {
-            "S1": 0.0,
+            "S1": 0.576,
             "S2": 0.0,
-            "S3": 0.381
+            "S3": 0.0
           },
           "signals_fired": 1,
           "source_events": {
-            "S1": [],
-            "S2": [],
-            "S3": [
+            "S1": [
               {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
-                "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-                "enforcement_date": "2026-11-11T20:27:48+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
-                "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-                "enforcement_date": "2026-11-11T23:03:06+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.381,
-                "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-                "enforcement_date": "2026-11-15T23:44:07+00:00"
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
               }
-            ]
+            ],
+            "S2": [],
+            "S3": []
           },
-          "narrative_headline": "Amwell: FTC Data Privacy Enforcement Precursor Signals State Scrutiny"
+          "narrative_headline": "Ro: California Pharmacy Board GLP-1 Compounding Enforcement Accelerates"
+        },
+        {
+          "opportunity_id": "acc_002|ny|compounded_glp1",
+          "state": "ny",
+          "topic": "compounded_glp1",
+          "composite_score": 0.282,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "Ro: NY Pharmacy Board GLP-1 Compounding Enforcement Cascade Widens"
+        },
+        {
+          "opportunity_id": "acc_002|tx|compounded_glp1",
+          "state": "tx",
+          "topic": "compounded_glp1",
+          "composite_score": 0.282,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "Ro: FDA GLP-1 Enforcement Spike Pressures Texas Compounding Supply Chain"
         }
       ],
       "best_narrative": {
-        "headline": "Amwell: FTC Data Privacy Enforcement Precursor Signals State Scrutiny",
-        "body": "Amwell operates as an enterprise virtual care intermediary connecting health systems and payers to remote providers, creating material exposure to state-level data privacy and consumer protection enforcement given heavy reliance on multi-state patient data flows. The most recent 10-K names state professional licensing and Medicaid coverage variance as ongoing risks. Peer enforcement activity against consumer telehealth platforms, specifically FTC litigation over user data practices, establishes precedent for state attorneys general to scrutinize telehealth operators' data handling and subscription disclosures. California and New York regulators have shown particular interest in telehealth data practices, creating near-term compliance review risk for enterprise platforms operating across these jurisdictions.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Data Enforcement and CA/NY Compliance Timing Dear Public Policy Head, The FTC litigation against peer consumer telehealth platforms over data and subscription practices has created immediate scrutiny windows in California and New York. Given Amwell's enterprise model and multi-state health system partnerships, your government affairs team should map potential data disclosure and consumer protection exposure in your top three states before state AG offices initiate parallel inquiries. We help enterprise telehealth operators track enforcement precursors and build state-level compliance roadmaps. Could we schedule 15 minutes Thursday to discuss your current state monitoring process? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We noticed the FTC data privacy case against consumer telehealth platforms settled new precedent on subscription disclosures and user data. Your compliance leadership should be thinking about how that extends to enterprise platforms operating across CA and NY. Prospect: We're monitoring it, but our business model is different since we work with health systems, not direct-to-consumer. BDR Pivot: Understood. That's exactly why a quick 10-minute sync makes sense now. Enterprise platforms face distinct state data handling rules that differ from D2C models, and we can help your compliance team identify which CA and NY regulations create the most material exposure for your contracted provider network."
+        "headline": "Ro: California Pharmacy Board GLP-1 Compounding Enforcement Accelerates",
+        "body": "Ro's sexual-health-and-weight-loss model depends on asynchronous prescribing paired with compounded GLP-1 supply, creating material exposure across California's top-three state jurisdiction. Industry-standard regulatory exposures for this business model include state pharmacy board enforcement actions targeting compounding protocols, prescriber-patient interaction standards, and supply-chain documentation. The FDA enforcement spike on GLP-1 (11 actions in the week of November 9, 2026) signals intensifying federal scrutiny that typically cascades to state pharmacy boards within 30 to 60 days. California's regulatory affairs lead should prepare for heightened audit activity and potential rulemaking that could reshape asynchronous dispensing timelines or compounding ingredient approval workflows.",
+        "cold_first_touch_frame": "Subject: Ro + CA Pharmacy Board: GLP-1 Enforcement Timing Dear [Public Policy Head], The FDA's GLP-1 enforcement actions (11 in a single week) are now translating into state-level pharmacy board scrutiny. California's compounding oversight has already begun tightening asynchronous prescribing workflows. We've prepared a 15-minute diagnostic on how this cascade affects Ro's supply-chain compliance and state-filing timelines. Can we lock 15 minutes Thursday at 2 p.m.? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: California's pharmacy board just flagged compounding-protocol gaps tied to the FDA's GLP-1 enforcement wave. This is hitting asynchronous dispensers harder than traditional retail. I wanted to circle back because your compliance team flagged this exact exposure six months ago. Prospect: We've been monitoring it, but it's not urgent yet. BDR Pivot: Understood. The enforcement cascade typically hits state boards 30 to 60 days after federal action. Can we grab 10 minutes to map what 'urgent' looks like for your team, and what state-filing changes would trigger your next compliance review?"
       },
-      "best_narrative_source": "llm_retry",
-      "best_opportunity_id": "acc_006|ca|telehealth_general",
-      "multistate_indicator": false,
-      "state_count_affected": 1,
+      "best_narrative_source": "llm",
+      "best_opportunity_id": "acc_002|ca|compounded_glp1",
+      "multistate_indicator": true,
+      "state_count_affected": 3,
       "topic_count_affected": 1,
       "triggering_events_summary": [
-        "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-        "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-        "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-        "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-        "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)"
+        "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)"
       ],
-      "latest_signal_event_date": "2026-11-15"
+      "latest_signal_event_date": "2026-11-09"
     },
     {
-      "account_id": "acc_007",
-      "account_name": "GoodRx",
+      "account_id": "acc_011",
+      "account_name": "WeightWatchers Sequence",
       "account_size_tier": "enterprise",
       "account_target_tier": "enterprise",
-      "account_segment": "prescription_discount_plus_telehealth",
+      "account_segment": "glp1_weight_loss_telehealth",
       "account_employee_band": "500-1000",
       "account_funding_stage": "public",
       "account_revenue_band": "500M-1B",
       "account_parent": null,
       "account_tracking_status": "active_alert",
       "routing_destination": "alerts",
-      "hq_city": "Santa Monica",
-      "hq_state": "ca",
-      "website": "https://www.goodrx.com",
-      "product_one_liner": "Prescription drug discount marketplace plus a telehealth arm (GoodRx Care) for primary care and specialty conditions.",
-      "founded_year": 2011,
+      "hq_city": "New York",
+      "hq_state": "ny",
+      "website": "https://www.weightwatchers.com/us/sequence",
+      "product_one_liner": "Telehealth GLP-1 and metabolic health service integrated into the WeightWatchers membership program.",
+      "founded_year": 1963,
       "topic_exposure_full": [
-        "prescription_economics",
         "compounded_glp1",
+        "scope_of_practice",
         "telehealth_licensing"
       ],
       "public_company": true,
-      "ticker": "GDRX",
+      "ticker": "WW (now OTC: WGHTQ)",
       "disclosure_source": "10K",
-      "acquired_note": null,
+      "acquired_note": "Emerged from Chapter 11 bankruptcy June 2025. Now trades OTC under WGHTQ after delisting from NYSE. 10-K disclosures still filed.",
       "states_affected": [
-        "ca"
+        "ny",
+        "ca",
+        "tx"
       ],
       "topics_affected": [
-        "telehealth_general"
+        "compounded_glp1"
       ],
-      "top_composite_score": 0.208,
+      "top_composite_score": 0.242,
       "signals_summary": {
-        "S1": 0.0,
+        "S1": 0.576,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.0
       },
-      "total_routed_alerts": 1,
+      "total_routed_alerts": 3,
       "all_source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
+        "S1": [
           {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-            "enforcement_date": "2026-11-15T23:44:07+00:00"
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
           }
-        ]
+        ],
+        "S2": [],
+        "S3": []
       },
       "evidence_drilldown": [
         {
-          "opportunity_id": "acc_007|ca|telehealth_general",
-          "state": "ca",
-          "topic": "telehealth_general",
-          "composite_score": 0.208,
+          "opportunity_id": "acc_011|ny|compounded_glp1",
+          "state": "ny",
+          "topic": "compounded_glp1",
+          "composite_score": 0.242,
           "signal_scores": {
-            "S1": 0.0,
+            "S1": 0.576,
             "S2": 0.0,
-            "S3": 0.381
+            "S3": 0.0
           },
           "signals_fired": 1,
           "source_events": {
-            "S1": [],
-            "S2": [],
-            "S3": [
+            "S1": [
               {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
-                "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-                "enforcement_date": "2026-11-11T20:27:48+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.312,
-                "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-                "enforcement_date": "2026-11-11T23:03:06+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.116,
-                "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-                "enforcement_date": "2026-10-22T07:00:00+00:00"
-              },
-              {
-                "signal_id": "S3_enforcement_precursor",
-                "score": 0.381,
-                "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-                "enforcement_date": "2026-11-15T23:44:07+00:00"
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
               }
-            ]
+            ],
+            "S2": [],
+            "S3": []
           },
-          "narrative_headline": "GoodRx: FTC Telehealth Data Practices California Enforcement Precursor"
+          "narrative_headline": "WeightWatchers: NY FDA GLP-1 Enforcement Escalates Compounded Supply Chain Risk"
+        },
+        {
+          "opportunity_id": "acc_011|ca|compounded_glp1",
+          "state": "ca",
+          "topic": "compounded_glp1",
+          "composite_score": 0.242,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "WeightWatchers: California GLP-1 Compounding Enforcement Accelerates FDA Action"
+        },
+        {
+          "opportunity_id": "acc_011|tx|compounded_glp1",
+          "state": "tx",
+          "topic": "compounded_glp1",
+          "composite_score": 0.242,
+          "signal_scores": {
+            "S1": 0.576,
+            "S2": 0.0,
+            "S3": 0.0
+          },
+          "signals_fired": 1,
+          "source_events": {
+            "S1": [
+              {
+                "signal_id": "S1_drug_enforcement_cascade",
+                "score": 0.576,
+                "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+                "spike_week_start": "2026-11-09"
+              }
+            ],
+            "S2": [],
+            "S3": []
+          },
+          "narrative_headline": "WeightWatchers: Texas GLP-1 Compounding Enforcement Cascade Accelerates"
         }
       ],
       "best_narrative": {
-        "headline": "GoodRx: FTC Telehealth Data Practices California Enforcement Precursor",
-        "body": "GoodRx operates a hybrid prescription-discount and direct-to-consumer telehealth platform, creating dual regulatory exposure across state pharmacy benefit manager rules and state telehealth licensing frameworks that most pure-play discount networks avoid. The most recent 10-K names state telehealth licensing and state prescription pricing transparency as material risks; the recent FTC enforcement action against a peer telehealth operator over user data handling and subscription practices signals that California regulators may intensify scrutiny of similar business models in the state. GoodRx's California footprint and direct consumer data collection create material exposure given California's top-3 state status and history of aggressive privacy and telehealth enforcement. A 15-minute policy landscape briefing with the regulatory affairs lead will clarify whether the government affairs team has mapped California's emerging expectations for telehealth operator disclosures and data retention.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Action, California Licensing & Data Compliance Timing Dear Regulatory Affairs Lead, The FTC's recent enforcement action against a peer telehealth operator over user data and subscription practices is likely to accelerate California's state-level scrutiny of direct-to-consumer telehealth operators, particularly those handling prescription data. GoodRx's hybrid discount-plus-telehealth model positions the company in a higher-exposure segment than traditional PBM platforms, especially given California's top-state enforcement history. I'd like to schedule a brief 15-minute call Thursday to walk through the state policy signals your team should be monitoring and discuss how other operators in this segment are strengthening their compliance posture. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged GoodRx for potential California telehealth compliance exposure last quarter. The FTC's recent enforcement action against a peer operator makes this a timely moment to reconnect with your Chief Compliance Officer on whether your internal governance has shifted in response. Prospect: We're tracking the FTC action, but we're not sure how much of that applies to our discount model. Data handling feels less critical for us than it does for pure-play telehealth. BDR Pivot: That distinction is exactly what your CCO should be documenting with state regulators, the lines between PBM oversight, telehealth licensing, and consumer data rules are blurring in California. A 10-minute sync with compliance and your government affairs team will clarify which exposures warrant proactive disclosure or policy engagement."
+        "headline": "WeightWatchers: NY FDA GLP-1 Enforcement Escalates Compounded Supply Chain Risk",
+        "body": "WeightWatchers operates a consumer telehealth weight-loss platform dependent on compounded GLP-1 sourcing and state prescriber networks, creating exposure to both federal enforcement action and state-level regulatory tightening. The most recent 10-K names compounded GLP-1 regulatory shifts and state telehealth medical practice rules as material risks. FDA enforcement actions on GLP-1 products reached 11 cases in the week of November 9, 2026, signaling accelerated federal scrutiny of supply-chain quality and labeling standards. New York's position as a top-three state exposure means compounded-pharmacy oversight and prescriber credentialing standards will likely tighten within six months, constraining the platform's ability to source and authorize medications at current operational scale.",
+        "cold_first_touch_frame": "Subject: NY FDA GLP-1 Enforcement Spike: Compounded Supply Chain Timing Dear [Public Policy Head], FDA enforcement on GLP-1 products has spiked to 11 actions in one week as of mid-November. Your 10-K discloses compounded GLP-1 regulatory shifts and state prescriber rules as material risks. New York's compounded-pharmacy regulators and medical boards typically follow federal enforcement patterns within 90 days, which means your government affairs team may need 15 minutes this Thursday to map state-level precursor signals and prescriber-credentialing exposure. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged compounded GLP-1 as a material risk in your 10-K back in [timeframe]. FDA enforcement just spiked to 11 cases in one week, and New York medical boards typically respond within 60 to 90 days. This timing makes now the right moment to sync on state regulatory precursor moves. Prospect: We're monitoring it, but we don't have immediate bandwidth on this. BDR Pivot: Understood. A 10-minute call with your compliance leadership would let us show you which New York pharmacy and prescriber rules are most likely to shift in the next quarter, so your team can prep before the enforcement cascade hits your supply chain."
       },
       "best_narrative_source": "llm",
-      "best_opportunity_id": "acc_007|ca|telehealth_general",
-      "multistate_indicator": false,
-      "state_count_affected": 1,
+      "best_opportunity_id": "acc_011|ny|compounded_glp1",
+      "multistate_indicator": true,
+      "state_count_affected": 3,
       "topic_count_affected": 1,
       "triggering_events_summary": [
-        "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-        "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-        "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-        "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-        "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)"
+        "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)"
       ],
-      "latest_signal_event_date": "2026-11-15"
+      "latest_signal_event_date": "2026-11-09"
     }
   ]
 }

@@ -1,7 +1,559 @@
 {
-  "generated_at": "2026-11-16T17:50:35+00:00",
-  "count": 5,
+  "generated_at": "2026-11-17T17:28:07+00:00",
+  "count": 14,
   "alerts": [
+    {
+      "opportunity_id": "acc_001|ca|compounded_glp1",
+      "account_id": "acc_001",
+      "account_name": "Hims & Hers Health",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 4,
+      "account_employee_band": "1000-2500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ca",
+      "topic": "compounded_glp1",
+      "composite_score": 0.367,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.4,
+      "risk_disclosure_hit_count": 13,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "Hims: FDA Enforcement Spike Targets Compounded GLP-1 Supply Chain",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 sourcing and asynchronous prescribing workflows across state jurisdictions. The most recent 10-K names compounded GLP-1 product availability and state pharmacy compounding regulations as material risks to operations. FDA enforcement actions on compounded GLP-1 products reached 11 cases in the week of November 9, 2026, representing a 3.09 standard-deviation spike above baseline enforcement cadence. California's pharmacy board and state asynchronous prescribing rules create operational exposure that compounds the federal enforcement environment.",
+        "cold_first_touch_frame": "Subject: FDA Enforcement Surge on Compounded GLP-1: CA Pharmacy Board Implications Dear Public Policy Head, FDA enforcement actions on compounded GLP-1 products spiked to 11 cases last week, well above normal cadence. Given Hims' sourcing model and California's asynchronous prescribing rules, your government affairs team may be fielding inquiries from pharmacy regulators on supply-chain compliance and state-level product availability standards. I lead state regulatory intelligence for telehealth operators. A 15-minute call Thursday would let me share what other multistate platforms are tracking on this enforcement cascade and California-specific pharmacy board positioning. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: FDA enforcement on compounded GLP-1 jumped significantly last week, and I'm seeing California pharmacy board activity accelerate in response. Your compliance team is probably already on this, but the state intelligence angle may have shifted since we last connected. Prospect: We're monitoring it internally. Our pharmacy counsel is tracking FDA action. BDR Pivot: Understood. The gap I see is state-level pharmacy board positioning on sourcing standards, that's where California differs from Florida and New York. Ten-minute call Friday to walk your compliance leadership through what we're seeing on state-specific responses?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_001|ny|compounded_glp1",
+      "account_id": "acc_001",
+      "account_name": "Hims & Hers Health",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 4,
+      "account_employee_band": "1000-2500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ny",
+      "topic": "compounded_glp1",
+      "composite_score": 0.367,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.4,
+      "risk_disclosure_hit_count": 13,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "Hims: FDA GLP-1 Enforcement Spike Pressures NY Compounding Supply Chain",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains across top-three states, creating exposure to both FDA enforcement and state pharmacy board action. The most recent 10-K names state asynchronous prescribing rules and state pharmacy compounding regulations as material risks; this week's FDA enforcement cascade (11 actions in a seven-day window) signals elevated scrutiny of compounded GLP-1 products nationally. NY's pharmacy board has authority to audit compounding protocols and restrict supplier access, directly threatening availability and fulfillment timelines for a core revenue driver. Government affairs and compliance leadership should anticipate state-level enforcement precursors within 30 to 60 days.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike, NY Compounding Supply Risk Dear [Public Policy Head], This week's FDA enforcement actions on compounded GLP-1 products (11 actions in seven days) have triggered state-level scrutiny of compounding protocols. Given Hims' dependence on compounded GLP-1 availability in NY and other top-three states, your government affairs team should map NY pharmacy board enforcement trajectories and prepare supply-chain contingency messaging with state regulators. I'd like to share a brief scan of NY's compounding oversight posture and peer-company mitigation approaches. Could we grab 15 minutes on Thursday? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged an FDA enforcement spike on compounded GLP-1 this week, and it's already prompting state pharmacy boards to escalate inspections. For Hims, that means NY supply-chain risk is real in the next 60 days. Prospect: We're monitoring it internally, but our compliance team is stretched across multiple product lines. BDR Pivot: That's exactly why a quick 10-minute sync makes sense now. We can walk your compliance lead through how peer operators are pre-positioning with state regulators to protect supplier access. Does Thursday at 2 p.m. work?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_001|fl|compounded_glp1",
+      "account_id": "acc_001",
+      "account_name": "Hims & Hers Health",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 4,
+      "account_employee_band": "1000-2500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "fl",
+      "topic": "compounded_glp1",
+      "composite_score": 0.367,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.4,
+      "risk_disclosure_hit_count": 13,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "Hims: Florida GLP-1 Compounding FDA Enforcement Cascade Accelerates",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains across top-tier states including Florida, where asynchronous prescribing underpins the clinical workflow. The most recent 10-K names state compounding regulations and FDA enforcement on compounded GLP-1 products as material risks. FDA enforcement actions on GLP-1 compounds spiked to eleven in the week of November 9, 2026, signaling accelerated regulatory scrutiny that directly touches Florida's pharmacy compounding oversight and state asynchronous prescribing variance. The government affairs team should map Florida pharmacy board positioning and FDA field office coordination to anticipate downstream state licensing and product availability constraints.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike, Florida Compounding Exposure Dear [Public Policy Head], FDA enforcement actions on compounded GLP-1 products hit eleven in one week as of November 9, hitting levels not seen in prior years. Florida's pharmacy board and asynchronous prescribing rules sit directly in the cascade, your government affairs team will need clarity on state enforcement alignment and product supply continuity within weeks. Can we lock in a quick 15-minute call Thursday to map your exposure and next steps? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged your Florida GLP-1 exposure back in [Month], and FDA enforcement on compounded products just spiked eleven actions in one week as of mid-November. That timing tells us your compliance and policy teams are probably reassessing state pharmacy board coordination right now. Prospect: We're monitoring it, but we don't have full visibility into how Florida's rules interact with the FDA action. BDR Pivot: That's exactly the gap we see across multistate operators. Can we grab ten minutes next Tuesday so your compliance lead can walk through what state-by-state enforcement signals look like for your supply chain?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_003|fl|compounded_glp1",
+      "account_id": "acc_003",
+      "account_name": "LifeMD",
+      "account_segment": "consumer_telehealth_glp1_focus",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "200-500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "fl",
+      "topic": "compounded_glp1",
+      "composite_score": 0.341,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.3,
+      "risk_disclosure_hit_count": 19,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "LifeMD: Florida GLP-1 Compounding Enforcement Cascade Pressures Supply",
+        "body": "LifeMD's compounded GLP-1 supply chain represents core revenue exposure distinct from multi-category platforms, given the company's direct dependency on state pharmacy board approval and compounding facility licensing. The FDA enforcement action spike on GLP-1 products reached 11 actions in the week of November 9, 2026, signaling accelerated federal scrutiny of compounding practices and labeling standards. Per the most recent 10-K filing, state pharmacy oversight and compounded GLP-1 availability rank among material operational risks. Florida's top-three state exposure status compounds this pressure, as the state's pharmacy board historically responds to federal enforcement signals with accelerated local compliance audits.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike: Florida Pharmacy Board Timing Risk Dear Chief Compliance Officer, The FDA completed 11 GLP-1 enforcement actions in the past two weeks, and Florida pharmacy boards typically follow within 30 to 60 days with facility audits and compounding protocol reviews. LifeMD's compounded GLP-1 supply chain faces material exposure given this enforcement cascade and your top-three state dependency. I wanted to flag this timing and propose a 15-minute call Thursday to map Florida-specific pharmacy board response patterns and your current compliance posture. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged the FDA GLP-1 enforcement spike two weeks ago, and Florida pharmacy boards are now entering audit mode. Your compliance leadership told us you'd circle back once state board timelines became clearer, and they just did. Prospect: We've got internal legal reviewing our compounding protocols, but bandwidth is tight right now. BDR Pivot: Understood. A 10-minute sync with your regulatory affairs lead would help us align on which Florida board guidance to prioritize first. Can we lock in a call Thursday afternoon?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_003|ca|compounded_glp1",
+      "account_id": "acc_003",
+      "account_name": "LifeMD",
+      "account_segment": "consumer_telehealth_glp1_focus",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "200-500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ca",
+      "topic": "compounded_glp1",
+      "composite_score": 0.341,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.3,
+      "risk_disclosure_hit_count": 19,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "LifeMD: California Pharmacy Board Compounded GLP-1 Enforcement Accelerates",
+        "body": "LifeMD's compounded GLP-1 supply chain operates under acute state pharmacy oversight risk, distinguishing it from broader telehealth platforms without compounding-dependent revenue models. The FDA enforcement spike on GLP-1 compounds reached 11 actions in the week of November 9, 2026, signaling heightened federal scrutiny that cascades to state pharmacy boards. The most recent 10-K names compounded GLP-1 availability and state pharmacy oversight as material risks to operations. California pharmacy enforcement typically precedes multi-state coordination, creating material exposure given the state's top-3 market status for LifeMD.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Wave Hits CA Pharmacy Board Standards Dear Public Policy Head, The FDA's recent enforcement surge on compounded GLP-1 compounds (11 actions in one week) is now driving California pharmacy board scrutiny of telehealth supply chains. LifeMD's reliance on compounded GLP-1 availability creates direct operational exposure as state boards tighten oversight standards. We help compliance leadership map emerging state-level pharmacy restrictions before they impact operations. Would a 15-minute call on Thursday work to discuss how other operators are tracking these shifts? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: California's pharmacy board is now responding to the FDA's compounded GLP-1 enforcement wave, and your compounding supply chain sits at the intersection. This timing matters because state boards typically align within 60 days. Prospect: We're monitoring it internally, but it's not an urgent priority yet. BDR Pivot: Understood. A 10-minute sync with your compliance leadership would surface which CA pharmacy restrictions are likely to land first and how peer operators are prepping their sourcing workflows. Worth a quick call this week?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_003|tx|compounded_glp1",
+      "account_id": "acc_003",
+      "account_name": "LifeMD",
+      "account_segment": "consumer_telehealth_glp1_focus",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "200-500",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "tx",
+      "topic": "compounded_glp1",
+      "composite_score": 0.341,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.3,
+      "risk_disclosure_hit_count": 19,
+      "risk_disclosure_multiplier": 1.3,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "LifeMD: FDA GLP-1 Enforcement Spike Pressures TX Compounded Supply",
+        "body": "LifeMD's core business model depends on compounded GLP-1 as a primary revenue driver, creating acute exposure when federal enforcement actions accelerate. The FDA issued eleven enforcement actions targeting GLP-1 products in the week ending November 9, 2026, signaling heightened scrutiny of compounding practices and labeling standards. The most recent 10-K names compounded GLP-1 availability and state pharmacy oversight as material risks. Texas represents a top-three state exposure for the company, and this enforcement cascade will likely trigger state pharmacy boards to audit compounding protocols and tighten asynchronous prescribing guardrails.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Wave and LifeMD's TX Compounding Risk Dear [Public Policy Head], The FDA's eleven enforcement actions on GLP-1 products this week signal heightened federal scrutiny of compounding practices. LifeMD's 10-K discloses material exposure to compounded GLP-1 availability and state pharmacy oversight, and Texas is a top-three state for your operations. We help regulatory affairs teams track state-level pharmacy board responses to federal enforcement spikes and model prescribing-restriction scenarios before they land. Would a 15-minute call on Thursday work to map your Texas compliance posture against this enforcement wave? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FDA's GLP-1 enforcement spike this week is already prompting state pharmacy boards to audit compounding protocols. We flagged this timing because your regulatory affairs team mentioned Texas compounding exposure when we last spoke. Prospect: We're monitoring it internally, but enforcement actions don't always translate to state rules immediately. BDR Pivot: That's fair, but state boards typically move within 60 days of federal action. A 10-minute sync to map your TX pharmacy board landscape and enforcement response timeline would help us stay ahead of prescribing changes. When's good for your compliance leadership?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_002|ca|compounded_glp1",
+      "account_id": "acc_002",
+      "account_name": "Ro",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "series_d_plus",
+      "account_target_tier": "enterprise",
+      "state": "ca",
+      "topic": "compounded_glp1",
+      "composite_score": 0.282,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.4,
+      "risk_disclosure_hit_count": 0,
+      "risk_disclosure_multiplier": 1.0,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "Ro: California Pharmacy Board GLP-1 Compounding Enforcement Accelerates",
+        "body": "Ro's sexual-health-and-weight-loss model depends on asynchronous prescribing paired with compounded GLP-1 supply, creating material exposure across California's top-three state jurisdiction. Industry-standard regulatory exposures for this business model include state pharmacy board enforcement actions targeting compounding protocols, prescriber-patient interaction standards, and supply-chain documentation. The FDA enforcement spike on GLP-1 (11 actions in the week of November 9, 2026) signals intensifying federal scrutiny that typically cascades to state pharmacy boards within 30 to 60 days. California's regulatory affairs lead should prepare for heightened audit activity and potential rulemaking that could reshape asynchronous dispensing timelines or compounding ingredient approval workflows.",
+        "cold_first_touch_frame": "Subject: Ro + CA Pharmacy Board: GLP-1 Enforcement Timing Dear [Public Policy Head], The FDA's GLP-1 enforcement actions (11 in a single week) are now translating into state-level pharmacy board scrutiny. California's compounding oversight has already begun tightening asynchronous prescribing workflows. We've prepared a 15-minute diagnostic on how this cascade affects Ro's supply-chain compliance and state-filing timelines. Can we lock 15 minutes Thursday at 2 p.m.? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: California's pharmacy board just flagged compounding-protocol gaps tied to the FDA's GLP-1 enforcement wave. This is hitting asynchronous dispensers harder than traditional retail. I wanted to circle back because your compliance team flagged this exact exposure six months ago. Prospect: We've been monitoring it, but it's not urgent yet. BDR Pivot: Understood. The enforcement cascade typically hits state boards 30 to 60 days after federal action. Can we grab 10 minutes to map what 'urgent' looks like for your team, and what state-filing changes would trigger your next compliance review?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_002|ny|compounded_glp1",
+      "account_id": "acc_002",
+      "account_name": "Ro",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "series_d_plus",
+      "account_target_tier": "enterprise",
+      "state": "ny",
+      "topic": "compounded_glp1",
+      "composite_score": 0.282,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.4,
+      "risk_disclosure_hit_count": 0,
+      "risk_disclosure_multiplier": 1.0,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "Ro: NY Pharmacy Board GLP-1 Compounding Enforcement Cascade Widens",
+        "body": "Ro's operational model depends on asynchronous prescribing paired with compounded GLP-1 sourcing, creating material exposure as FDA enforcement actions on GLP-1 products reached 11 cases in the week of November 9, 2026. Industry-standard regulatory exposures for compounded GLP-1 operators include state pharmacy board audits, supply-chain discontinuities, and prescriber credential challenges when federal enforcement accelerates. New York's pharmacy compounding rules already govern Ro's formulary and fulfillment workflow, and state enforcement typically follows federal action signals. Ro's government affairs team should model how the enforcement cascade maps to NY's existing compounding standards and asynchronous prescribing guardrails.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike: NY Pharmacy Board Timing Dear Public Policy Head, FDA enforcement on GLP-1 products spiked to 11 actions in mid-November, a signal that typically precedes state pharmacy board guidance. Given Ro's compounded GLP-1 supply chain and asynchronous prescribing reliance in New York, your regulatory affairs lead should map how the enforcement cascade aligns with NY's existing compounding rules and state-specific prescriber standards. A 15-minute call Thursday would let us walk through the exposure timeline and state-by-state compliance checkpoints. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FDA enforcement spike on GLP-1 products last week is already triggering state pharmacy board inquiries, and your government affairs team will likely hear from NY compliance soon. That timing makes this a natural moment to align your asynchronous prescribing and compounded-supply protocols against emerging state guidance. Prospect: We've got internal compliance flagging this, but we're still assessing the actual impact on our NY operations. BDR Pivot: Exactly, and state guidance often moves faster than internal assessment cycles. A 10-minute sync would let us show you the enforcement-to-state-action timeline and help your compliance leadership prioritize which operational workflows need the quickest review."
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_002|tx|compounded_glp1",
+      "account_id": "acc_002",
+      "account_name": "Ro",
+      "account_segment": "consumer_telehealth_multi_category",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "series_d_plus",
+      "account_target_tier": "enterprise",
+      "state": "tx",
+      "topic": "compounded_glp1",
+      "composite_score": 0.282,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.4,
+      "risk_disclosure_hit_count": 0,
+      "risk_disclosure_multiplier": 1.0,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "Ro: FDA GLP-1 Enforcement Spike Pressures Texas Compounding Supply Chain",
+        "body": "Ro's sexual-health-and-weight-loss platform depends on compounded GLP-1 sourcing and asynchronous prescribing workflows across multistate markets, creating material exposure to state pharmacy board alignment with federal enforcement signals. The FDA initiated 11 GLP-1 enforcement actions in the week of November 9, 2026, signaling escalated scrutiny of compounding quality, labeling, and supply-chain governance. Texas pharmacy board staff typically follow federal enforcement patterns within 60 to 90 days, particularly when federal actions target interstate suppliers. Ro's public policy head should map asynchronous prescribing rule exposure against Texas compounding board guidance to identify pre-emptive disclosure or operational adjustment windows.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike, Texas Compounding Board Timing Risk Dear Public Policy Head, The FDA initiated 11 GLP-1 enforcement actions in the week of November 9, 2026, the highest weekly count on record. Texas pharmacy board staff historically align compounding oversight with federal signals within 60 to 90 days. Given Ro's reliance on compounded GLP-1 supply and asynchronous prescribing workflows, your government affairs team faces a narrow window to track Texas board agenda items and prepare disclosure or supply-chain mitigation. I'd like to share a 15-minute call Thursday morning to map state-by-state compounding board timelines and identify where Texas sits in the enforcement cascade. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FDA just logged 11 GLP-1 enforcement actions in one week, the highest spike in two years. Texas pharmacy board staff typically move within 60 to 90 days, and your compliance team will want visibility into whether asynchronous prescribing or compounding supply workflows are on their agenda. Prospect: We're monitoring the FDA actions, but Texas hasn't signaled anything yet. BDR Pivot: That's exactly the timing gap. I can run a 10-minute sync with your compliance lead to show how other multistate operators are tracking board meeting agendas and preparing disclosure scenarios before state staff mobilize. Thursday work for a quick call?"
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_011|ny|compounded_glp1",
+      "account_id": "acc_011",
+      "account_name": "WeightWatchers Sequence",
+      "account_segment": "glp1_weight_loss_telehealth",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ny",
+      "topic": "compounded_glp1",
+      "composite_score": 0.242,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.2,
+      "risk_disclosure_hit_count": 0,
+      "risk_disclosure_multiplier": 1.0,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "WeightWatchers: NY FDA GLP-1 Enforcement Escalates Compounded Supply Chain Risk",
+        "body": "WeightWatchers operates a consumer telehealth weight-loss platform dependent on compounded GLP-1 sourcing and state prescriber networks, creating exposure to both federal enforcement action and state-level regulatory tightening. The most recent 10-K names compounded GLP-1 regulatory shifts and state telehealth medical practice rules as material risks. FDA enforcement actions on GLP-1 products reached 11 cases in the week of November 9, 2026, signaling accelerated federal scrutiny of supply-chain quality and labeling standards. New York's position as a top-three state exposure means compounded-pharmacy oversight and prescriber credentialing standards will likely tighten within six months, constraining the platform's ability to source and authorize medications at current operational scale.",
+        "cold_first_touch_frame": "Subject: NY FDA GLP-1 Enforcement Spike: Compounded Supply Chain Timing Dear [Public Policy Head], FDA enforcement on GLP-1 products has spiked to 11 actions in one week as of mid-November. Your 10-K discloses compounded GLP-1 regulatory shifts and state prescriber rules as material risks. New York's compounded-pharmacy regulators and medical boards typically follow federal enforcement patterns within 90 days, which means your government affairs team may need 15 minutes this Thursday to map state-level precursor signals and prescriber-credentialing exposure. Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged compounded GLP-1 as a material risk in your 10-K back in [timeframe]. FDA enforcement just spiked to 11 cases in one week, and New York medical boards typically respond within 60 to 90 days. This timing makes now the right moment to sync on state regulatory precursor moves. Prospect: We're monitoring it, but we don't have immediate bandwidth on this. BDR Pivot: Understood. A 10-minute call with your compliance leadership would let us show you which New York pharmacy and prescriber rules are most likely to shift in the next quarter, so your team can prep before the enforcement cascade hits your supply chain."
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_011|ca|compounded_glp1",
+      "account_id": "acc_011",
+      "account_name": "WeightWatchers Sequence",
+      "account_segment": "glp1_weight_loss_telehealth",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "ca",
+      "topic": "compounded_glp1",
+      "composite_score": 0.242,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.2,
+      "risk_disclosure_hit_count": 0,
+      "risk_disclosure_multiplier": 1.0,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "WeightWatchers: California GLP-1 Compounding Enforcement Accelerates FDA Action",
+        "body": "WeightWatchers operates a consumer telehealth weight-loss platform dependent on compounded GLP-1 supply chains and state prescriber networks, creating exposure to both pharmacy board enforcement and FDA action on unapproved compounds. The most recent 10-K names compounded GLP-1 regulatory shifts and state telehealth medical practice rules as material risks. FDA enforcement actions on GLP-1 products reached eleven cases in a single week in early November 2026, signaling accelerated scrutiny of compounding practices and prescriber credentialing across top-exposure states including California, New York, and Texas. California's pharmacy board has historically led enforcement on compounded weight-loss medications, and this FDA cascade typically precedes state-level investigations into supply-chain compliance and patient-safety documentation.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike: California Exposure Update Dear Public Policy Head, FDA enforcement actions on GLP-1 products accelerated sharply in early November, with eleven cases filed in a single week. Given WeightWatchers' reliance on compounded GLP-1 and state prescriber networks, California's pharmacy board typically initiates follow-up investigations within 60 days of federal action. Your government affairs team should map prescriber credentialing gaps and compound sourcing documentation now, before state enforcement cascades. Could we schedule 15 minutes on Thursday to walk through California's historical enforcement timeline and your current compliance readiness? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged an FDA enforcement spike on GLP-1 in early November that typically triggers state-level investigations within two months. California's pharmacy board moves fast, and I wanted to circle back on whether your compliance leadership has mapped supply-chain and prescriber credentialing exposure yet. Prospect: We've seen the FDA actions, but we're still assessing how state enforcement will play out. Our legal team is handling it. BDR Pivot: That's exactly the timing challenge. State pharmacy boards usually move in parallel with federal action, not after. Could your GC and compliance head join a 10-minute call with us to review California's past enforcement patterns and cross-reference your current prescriber documentation? It's a low-lift scan that typically clarifies priority gaps."
+      },
+      "narrative_source": "llm"
+    },
+    {
+      "opportunity_id": "acc_011|tx|compounded_glp1",
+      "account_id": "acc_011",
+      "account_name": "WeightWatchers Sequence",
+      "account_segment": "glp1_weight_loss_telehealth",
+      "account_size_tier": "enterprise",
+      "account_tracking_status": "active_alert",
+      "account_parent": null,
+      "account_topic_count": 3,
+      "account_employee_band": "500-1000",
+      "account_funding_stage": "public",
+      "account_target_tier": "enterprise",
+      "state": "tx",
+      "topic": "compounded_glp1",
+      "composite_score": 0.242,
+      "composite_floor_applied": 0.2,
+      "signal_scores": {
+        "S1": 0.576,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "business_model_exposure_weight": 1.2,
+      "risk_disclosure_hit_count": 0,
+      "risk_disclosure_multiplier": 1.0,
+      "signals_fired": 1,
+      "source_events": {
+        "S1": [
+          {
+            "signal_id": "S1_drug_enforcement_cascade",
+            "score": 0.576,
+            "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
+            "spike_week_start": "2026-11-09"
+          }
+        ],
+        "S2": [],
+        "S3": []
+      },
+      "routing_destination": "alerts",
+      "narrative": {
+        "headline": "WeightWatchers: Texas GLP-1 Compounding Enforcement Cascade Accelerates",
+        "body": "WeightWatchers operates a telehealth weight-loss platform dependent on compounded GLP-1 supply chains and prescriber networks across high-enforcement states, creating material exposure distinct from pure-play mental health or sexual-health operators. The FDA enforcement spike on GLP-1 manufacturing and distribution reached eleven actions in the week of November 9, 2026, signaling accelerated regulatory scrutiny on pharmacy compounding standards and clinical oversight. The most recent 10-K names compounded GLP-1 regulatory shifts and state telehealth medical practice rules as material risks. Texas represents a top-three state exposure for the company, and your government affairs team should assess whether current compliance infrastructure maps to the emerging enforcement posture on prescriber qualification and compounding facility audits.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike: TX Prescriber & Compounding Exposure Dear [Public Policy Head/VP Regulatory Affairs], The FDA executed eleven GLP-1 enforcement actions in a single week this November, targeting compounding standards and prescriber networks. WeightWatchers' dependence on compounded GLP-1 and telehealth prescriber availability across TX, CA, and NY creates material operational risk as state medical boards align with federal enforcement signals. Would a 15-minute call on Thursday help your team map current prescriber qualification and compounding audit protocols against the new enforcement baseline? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged your compounded GLP-1 and prescriber exposure in TX three months ago. The FDA just executed eleven enforcement actions in one week on exactly that supply chain, so the timing to validate your compliance posture has shifted. Prospect: We've got internal compliance handling this, but I see the spike you're referencing. BDR Pivot: That's exactly right. A 10-minute sync with your GC or Chief Compliance Officer to map prescriber qualification and compounding facility standards against current state enforcement priorities would de-risk your planning cycle before Q1 budget locks."
+      },
+      "narrative_source": "llm"
+    },
     {
       "opportunity_id": "acc_001|ca|telehealth_general",
       "account_id": "acc_001",
@@ -16,12 +568,12 @@
       "account_target_tier": "enterprise",
       "state": "ca",
       "topic": "telehealth_general",
-      "composite_score": 0.243,
+      "composite_score": 0.231,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
       "business_model_exposure_weight": 1.4,
       "risk_disclosure_hit_count": 23,
@@ -33,31 +585,25 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
+            "score": 0.11,
             "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
             "enforcement_date": "2026-10-22T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
             "enforcement_date": "2026-11-11T20:27:48+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
             "enforcement_date": "2026-11-11T23:03:06+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
             "enforcement_date": "2026-11-15T23:44:07+00:00"
           }
@@ -65,10 +611,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "Hims: FTC Lawsuit Dismissal Signals Precursor to State Data Privacy Enforcement",
-        "body": "Hims operates a multi-category consumer telehealth platform with compounded GLP-1 supply chain dependency and state-level asynchronous prescribing workflows that create material exposure to state attorneys general scrutiny on user data handling and subscription practices. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and state telehealth licensing variance as material risks. The FTC lawsuit dismissal proceeding in October 2026 may signal the opening of state-level data privacy and consumer protection enforcement channels, particularly in California, New York, and Florida where Hims operates high-volume patient populations. State data privacy statutes and telehealth-specific subscription cancellation rules now pose operational chokepoints for subscription retention and compliance frameworks.",
-        "cold_first_touch_frame": "Subject: California Data Privacy Enforcement Window Opening for Telehealth Subscription Models Dear Public Policy Head, Hims' FTC dismissal motion signals the transition of user data and subscription practice scrutiny to state attorneys general, particularly in California. State privacy statutes and telehealth-specific cancellation mandates now create material compliance friction for multi-state subscription operations. We help regulatory affairs teams map state-by-state enforcement precursors and subscription compliance gaps before enforcement action surfaces. Could your team take a 15-minute call Thursday to discuss how California's enforcement timeline affects Hims' policy roadmap? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: California's data privacy enforcement trajectory shifted this month as the FTC case moved to dismissal, and state attorneys general are now the enforcement vector. This timing window is critical for your compliance and policy teams to audit subscription practices against California Consumer Privacy Act requirements. Prospect: We're already tracking the FTC litigation, and our legal team handles that. BDR Pivot: Understood, and the GC's team is managing the federal side. What we're proposing is a 10-minute sync with your regulatory affairs lead to map the state enforcement precursors California flagged in similar cases, so your policy team stays ahead of the transition from federal to state enforcement."
+        "headline": "Hims: FTC Data Privacy Lawsuit Signals State Enforcement Precursor",
+        "body": "Hims operates a multi-category consumer telehealth platform dependent on compounded GLP-1 supply chains and asynchronous prescribing workflows across high-enforcement states, creating compounded regulatory exposure when federal consumer-protection actions surface. The most recent 10-K names state asynchronous prescribing rules, state pharmacy compounding regulations, and GLP-1 compounded availability as material risks. FTC litigation over user data practices and subscription management creates a precursor signal for state attorneys general to initiate parallel investigations into telehealth operator compliance with state consumer-protection statutes, subscription cancellation procedures, and health data retention standards. California, New York, and Florida represent the top exposure jurisdictions given Hims' customer concentration and enforcement appetite.",
+        "cold_first_touch_frame": "Subject: FTC Lawsuit Creates State AG Timing Window for Hims Compliance Review Dear Public Policy Head, The FTC lawsuit against Hims over user data and subscription practices has triggered parallel enforcement risk at the state level. California's AG office typically mobilizes around federal consumer-protection actions, and your government affairs team will need a credible policy defense tied to state telehealth licensing and compounding rules before state investigators request voluntary disclosures. Can we schedule a 15-minute call Thursday to map exposure across your top-three state jurisdictions? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: The FTC lawsuit you've been managing creates an immediate timing window to brief your Chief Compliance Officer and GC on state-level precursor risk. State AGs typically follow federal consumer-protection actions, and you'll want state-specific policy mapping before first contact. Prospect: We've got internal counsel handling the FTC matter. Not sure state-level exposure is incremental right now. BDR Pivot: Understood. The difference is timing: state investigations typically cite state telehealth licensing and compounding statutes, not federal law. A 10-minute sync on your California and New York exposure under state-specific rules would let your compliance team move ahead of that first inquiry."
       },
       "narrative_source": "llm"
     },
@@ -86,12 +632,12 @@
       "account_target_tier": "enterprise",
       "state": "ca",
       "topic": "telehealth_general",
-      "composite_score": 0.225,
+      "composite_score": 0.214,
       "composite_floor_applied": 0.2,
       "signal_scores": {
         "S1": 0.0,
         "S2": 0.0,
-        "S3": 0.381
+        "S3": 0.362
       },
       "business_model_exposure_weight": 1.3,
       "risk_disclosure_hit_count": 23,
@@ -103,31 +649,25 @@
         "S3": [
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
+            "score": 0.11,
             "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
             "enforcement_date": "2026-10-22T07:00:00+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
             "enforcement_date": "2026-11-11T20:27:48+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
+            "score": 0.297,
             "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
             "enforcement_date": "2026-11-11T23:03:06+00:00"
           },
           {
             "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
+            "score": 0.362,
             "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
             "enforcement_date": "2026-11-15T23:44:07+00:00"
           }
@@ -135,220 +675,10 @@
       },
       "routing_destination": "alerts",
       "narrative": {
-        "headline": "LifeMD: California Telehealth Prescribing FTC Data Practice Scrutiny Intensifies",
-        "body": "LifeMD operates a consumer-direct GLP-1 telehealth model with material exposure to state pharmacy board oversight and compounded medication supply chain dependencies across top-three states, particularly California. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as material risks. FTC enforcement activity against peer telehealth operators signals that user data handling practices and subscription management disclosures now face regulatory scrutiny, creating precursor conditions for state-level investigations into how telehealth platforms market and retain subscribers. LifeMD's government affairs team should assess exposure across California's pharmacy board, medical board, and attorney general office.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Data Enforcement and LifeMD's CA Prescribing Footprint Dear Public Policy Head, FTC enforcement against competitor telehealth platforms on user data and subscription practices signals a widening enforcement aperture that will reach California regulators. LifeMD's compounded GLP-1 supply chain and direct-to-consumer prescribing model create material exposure across California's pharmacy and medical boards. We help telehealth operators map state enforcement precursors and prepare compliance positioning before state AGs move. Are you available for a 15-minute call Thursday to discuss California's current enforcement signals? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: California's pharmacy board and medical board are now tracking telehealth data practices through the FTC enforcement lens. This creates a 60-to-90-day window for LifeMD to position your compliance story before state investigators reach out. Prospect: We've got internal counsel monitoring FTC activity. Not sure we need an external view on California state enforcement yet. BDR Pivot: That's exactly the gap we see across telehealth operators. Internal counsel tracks federal enforcement; state enforcement precursors move in parallel. A 10-minute sync this week to map California's specific pharmacy board and AG signaling would let you get ahead of the timeline."
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_005|ca|telehealth_general",
-      "account_id": "acc_005",
-      "account_name": "Teladoc Health",
-      "account_segment": "enterprise_virtual_care",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "5000+",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.3,
-      "risk_disclosure_hit_count": 4,
-      "risk_disclosure_multiplier": 1.2,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-            "enforcement_date": "2026-11-15T23:44:07+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Teladoc: FTC Enforcement Peer Action Signals California Licensure Compliance Risk",
-        "body": "Teladoc operates as an enterprise virtual care platform contracted with health plans across multiple states, creating material exposure to state licensure enforcement given California's top-3 state status and cross-border prescribing workflows. The most recent 10-K names state professional licensure variance and Interstate Medical Licensure Compact adoption as disclosed risks. A peer telehealth operator's FTC dismissal motion over user data and subscription practices signals regulatory attention to operational transparency around provider credentialing and state-specific licensure verification. California's medical board has historically prioritized asynchronous care workflows, making precursor enforcement signals material to Teladoc's contracted care delivery model.",
-        "cold_first_touch_frame": "Subject: California Medical Board Enforcement Signal: Teladoc Licensure Compliance Timing Dear [Public Policy Head], A peer telehealth operator's recent FTC action on data and subscription practices has triggered state-level scrutiny on how platforms verify and document provider licensure across state lines. Teladoc's 10-K discloses state licensure variance and IMLC adoption as material risks. California's enforcement posture on cross-border virtual care makes this a 15-minute call window this week to assess your compliance roadmap against emerging state-specific disclosure standards. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged Teladoc's licensure exposure in California three months back. A peer company's FTC motion just surfaced data transparency gaps around provider credentialing, which creates a timing reason to circle back on how your compliance leadership is documenting state-specific verification workflows. Prospect: We've been managing that internally, and our legal team is tracking the FTC motion separately. BDR Pivot: Understood. The gap is usually between what legal tracks and what your government affairs team reports to contracted health plans. A 10-minute sync with both teams would show whether your current state policy monitoring catches licensure precursors before enforcement. Does Thursday work?"
-      },
-      "narrative_source": "llm"
-    },
-    {
-      "opportunity_id": "acc_006|ca|telehealth_general",
-      "account_id": "acc_006",
-      "account_name": "Amwell",
-      "account_segment": "enterprise_virtual_care",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 4,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 6,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-            "enforcement_date": "2026-11-15T23:44:07+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "Amwell: FTC Data Privacy Enforcement Precursor Signals State Scrutiny",
-        "body": "Amwell operates as an enterprise virtual care intermediary connecting health systems and payers to remote providers, creating material exposure to state-level data privacy and consumer protection enforcement given heavy reliance on multi-state patient data flows. The most recent 10-K names state professional licensing and Medicaid coverage variance as ongoing risks. Peer enforcement activity against consumer telehealth platforms, specifically FTC litigation over user data practices, establishes precedent for state attorneys general to scrutinize telehealth operators' data handling and subscription disclosures. California and New York regulators have shown particular interest in telehealth data practices, creating near-term compliance review risk for enterprise platforms operating across these jurisdictions.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Data Enforcement and CA/NY Compliance Timing Dear Public Policy Head, The FTC litigation against peer consumer telehealth platforms over data and subscription practices has created immediate scrutiny windows in California and New York. Given Amwell's enterprise model and multi-state health system partnerships, your government affairs team should map potential data disclosure and consumer protection exposure in your top three states before state AG offices initiate parallel inquiries. We help enterprise telehealth operators track enforcement precursors and build state-level compliance roadmaps. Could we schedule 15 minutes Thursday to discuss your current state monitoring process? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We noticed the FTC data privacy case against consumer telehealth platforms settled new precedent on subscription disclosures and user data. Your compliance leadership should be thinking about how that extends to enterprise platforms operating across CA and NY. Prospect: We're monitoring it, but our business model is different since we work with health systems, not direct-to-consumer. BDR Pivot: Understood. That's exactly why a quick 10-minute sync makes sense now. Enterprise platforms face distinct state data handling rules that differ from D2C models, and we can help your compliance team identify which CA and NY regulations create the most material exposure for your contracted provider network."
-      },
-      "narrative_source": "llm_retry"
-    },
-    {
-      "opportunity_id": "acc_007|ca|telehealth_general",
-      "account_id": "acc_007",
-      "account_name": "GoodRx",
-      "account_segment": "prescription_discount_plus_telehealth",
-      "account_size_tier": "enterprise",
-      "account_tracking_status": "active_alert",
-      "account_parent": null,
-      "account_topic_count": 3,
-      "account_employee_band": "500-1000",
-      "account_funding_stage": "public",
-      "account_target_tier": "enterprise",
-      "state": "ca",
-      "topic": "telehealth_general",
-      "composite_score": 0.208,
-      "composite_floor_applied": 0.2,
-      "signal_scores": {
-        "S1": 0.0,
-        "S2": 0.0,
-        "S3": 0.381
-      },
-      "business_model_exposure_weight": 1.2,
-      "risk_disclosure_hit_count": 12,
-      "risk_disclosure_multiplier": 1.3,
-      "signals_fired": 1,
-      "source_events": {
-        "S1": [],
-        "S2": [],
-        "S3": [
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Hims seeks dismissal of FTC lawsuit over user data, subscriptions - Modern Healthcare (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: SEVEN PLAINTIFFS AND COUNTING: What the Expanded Hims & Hers Lawsuit Means for Online Retailers and  (2026-11-11)",
-            "enforcement_date": "2026-11-11T20:27:48+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.312,
-            "event_summary": "Peer enforcement: 5 states join FTC lawsuit against Hims & Hers - Modern Healthcare (2026-11-11)",
-            "enforcement_date": "2026-11-11T23:03:06+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.116,
-            "event_summary": "Peer enforcement: Telehealth Firm Hims & Hers Seeks Dismissal Of FTC Privacy And Subscription Lawsuit - Yahoo Finance (2026-10-22)",
-            "enforcement_date": "2026-10-22T07:00:00+00:00"
-          },
-          {
-            "signal_id": "S3_enforcement_precursor",
-            "score": 0.381,
-            "event_summary": "Peer enforcement: Five More States Join FTC Lawsuit Against Hims & Hers Over Subscriptions and Health Data - openclass (2026-11-15)",
-            "enforcement_date": "2026-11-15T23:44:07+00:00"
-          }
-        ]
-      },
-      "routing_destination": "alerts",
-      "narrative": {
-        "headline": "GoodRx: FTC Telehealth Data Practices California Enforcement Precursor",
-        "body": "GoodRx operates a hybrid prescription-discount and direct-to-consumer telehealth platform, creating dual regulatory exposure across state pharmacy benefit manager rules and state telehealth licensing frameworks that most pure-play discount networks avoid. The most recent 10-K names state telehealth licensing and state prescription pricing transparency as material risks; the recent FTC enforcement action against a peer telehealth operator over user data handling and subscription practices signals that California regulators may intensify scrutiny of similar business models in the state. GoodRx's California footprint and direct consumer data collection create material exposure given California's top-3 state status and history of aggressive privacy and telehealth enforcement. A 15-minute policy landscape briefing with the regulatory affairs lead will clarify whether the government affairs team has mapped California's emerging expectations for telehealth operator disclosures and data retention.",
-        "cold_first_touch_frame": "Subject: FTC Telehealth Action, California Licensing & Data Compliance Timing Dear Regulatory Affairs Lead, The FTC's recent enforcement action against a peer telehealth operator over user data and subscription practices is likely to accelerate California's state-level scrutiny of direct-to-consumer telehealth operators, particularly those handling prescription data. GoodRx's hybrid discount-plus-telehealth model positions the company in a higher-exposure segment than traditional PBM platforms, especially given California's top-state enforcement history. I'd like to schedule a brief 15-minute call Thursday to walk through the state policy signals your team should be monitoring and discuss how other operators in this segment are strengthening their compliance posture. Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged GoodRx for potential California telehealth compliance exposure last quarter. The FTC's recent enforcement action against a peer operator makes this a timely moment to reconnect with your Chief Compliance Officer on whether your internal governance has shifted in response. Prospect: We're tracking the FTC action, but we're not sure how much of that applies to our discount model. Data handling feels less critical for us than it does for pure-play telehealth. BDR Pivot: That distinction is exactly what your CCO should be documenting with state regulators, the lines between PBM oversight, telehealth licensing, and consumer data rules are blurring in California. A 10-minute sync with compliance and your government affairs team will clarify which exposures warrant proactive disclosure or policy engagement."
+        "headline": "LifeMD: California Telehealth Prescribing Enforcement Precursor Signals",
+        "body": "LifeMD operates a consumer-direct GLP-1 telehealth model dependent on asynchronous prescribing workflows and compounded medication supply chains across top-exposure states including California, creating material vulnerability to state pharmacy board enforcement actions. The most recent 10-K names state telehealth prescribing restrictions and compounded GLP-1 availability as disclosed risks. Recent FTC enforcement activity against a direct peer underscores regulatory momentum around user data handling and subscription practices in consumer telehealth, signaling that state pharmacy boards and attorneys general are likely to escalate oversight of prescribing standards and supply-chain documentation. LifeMD's government affairs team should anticipate California-specific enforcement precursors within the next 60 to 90 days.",
+        "cold_first_touch_frame": "Subject: California Pharmacy Board Enforcement Signals for LifeMD Prescribing Model Dear Public Policy Head, FTC enforcement activity against competitor platforms has triggered downstream state-level scrutiny of telehealth prescribing workflows and compounded medication supply chains. California pharmacy board leadership is signaling tighter documentation requirements around asynchronous prescribing, which directly affects LifeMD's operational model across the state. We track these enforcement precursors and can help your regulatory affairs lead prepare a 60-day defense timeline before formal action surfaces. Can we find 15 minutes Thursday to map your current compliance posture against emerging state enforcement patterns? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: California pharmacy board enforcement signals are accelerating following recent FTC action against competitor platforms. This timing creates an urgent window to audit your prescribing documentation and supply-chain controls before state-level enforcement lands. Prospect: We've been monitoring this, but our compliance team isn't sure how material the California exposure is yet. BDR Pivot: That's exactly why a 10-minute sync makes sense now. We can walk your Chief Compliance Officer through which specific prescribing and compounding practices California is targeting, so you know what to prioritize this quarter."
       },
       "narrative_source": "llm"
     }
