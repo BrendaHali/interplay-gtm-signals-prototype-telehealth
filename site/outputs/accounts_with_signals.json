@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:03:13+00:00",
+  "generated_at": "2026-11-22T16:05:02+00:00",
   "count": 4,
   "schema_note": "Per-account rollup of outputs/alerts.json. One record per account_id even when signals fire across multiple states and topics. evidence_drilldown preserves the original per-(state, topic) attribution for click-through inspection.",
   "accounts": [
@@ -38,9 +38,9 @@
       "topics_affected": [
         "compounded_glp1"
       ],
-      "top_composite_score": 0.322,
+      "top_composite_score": 0.311,
       "signals_summary": {
-        "S1": 0.505,
+        "S1": 0.488,
         "S2": 0.0,
         "S3": 0.0
       },
@@ -49,7 +49,7 @@
         "S1": [
           {
             "signal_id": "S1_drug_enforcement_cascade",
-            "score": 0.505,
+            "score": 0.488,
             "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
             "spike_week_start": "2026-11-09"
           }
@@ -62,9 +62,9 @@
           "opportunity_id": "acc_001|ca|compounded_glp1",
           "state": "ca",
           "topic": "compounded_glp1",
-          "composite_score": 0.322,
+          "composite_score": 0.311,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -73,7 +73,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -81,15 +81,15 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "Hims: California Pharmacy Board GLP-1 Compounding Enforcement Spike"
+          "narrative_headline": "Hims: California Pharmacy Board GLP-1 Compounding Enforcement Cascade Accelerates"
         },
         {
           "opportunity_id": "acc_001|ny|compounded_glp1",
           "state": "ny",
           "topic": "compounded_glp1",
-          "composite_score": 0.322,
+          "composite_score": 0.311,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -98,7 +98,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -112,9 +112,9 @@
           "opportunity_id": "acc_001|fl|compounded_glp1",
           "state": "fl",
           "topic": "compounded_glp1",
-          "composite_score": 0.322,
+          "composite_score": 0.311,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -123,7 +123,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -131,14 +131,14 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "Hims: FDA GLP-1 Enforcement Spike Pressures Florida Compounding Supply"
+          "narrative_headline": "Hims: Florida GLP-1 Compounding FDA Enforcement Cascade Accelerates"
         }
       ],
       "best_narrative": {
-        "headline": "Hims: California Pharmacy Board GLP-1 Compounding Enforcement Spike",
-        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chain fulfillment across state lines, creating acute exposure to pharmacy board enforcement variance. The most recent 10-K names state pharmacy compounding regulations and FDA enforcement on compounded GLP-1 products as material risks. California enforcement actions on weight-loss compounding have increased sharply, with 11 FDA actions in the week of November 9, 2026 alone, signaling accelerated federal-state coordination on supply-chain integrity. The compliance leadership should map whether current compounding-sourcing protocols align with the tightening state pharmacy board standards that now govern asynchronous prescribing workflows.",
-        "cold_first_touch_frame": "Subject: California FDA GLP-1 Actions Raise Compounding Sourcing Risk Dear [Regulatory Affairs Lead], FDA enforcement on compounded GLP-1 products hit an 11-action week in early November. California's pharmacy board has begun coordinating on supply sourcing, and your 10-K discloses compounded GLP-1 availability as a material risk. We track state-by-state pharmacy compounding standards and their intersection with asynchronous prescribing rules. Can we lock in 15 minutes Thursday to map your exposure across CA, NY, and Florida? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: California just coordinated with FDA on compounded GLP-1 sourcing standards, and your 10-K flags this as material exposure. The window to adjust procurement and compliance protocols is now, before state boards align enforcement. Prospect: We've been monitoring it, but our compounding partner handles most of that. BDR Pivot: That's exactly the blind spot. Your partner's state-license standing isn't your legal cover. Can we spend 10 minutes walking your government affairs team through the three-state compliance map we built for operators in your category? It directly reduces your disclosure risk."
+        "headline": "Hims: California Pharmacy Board GLP-1 Compounding Enforcement Cascade Accelerates",
+        "body": "Hims operates a multi-category consumer telehealth platform with material dependency on compounded GLP-1 supply chains across asynchronous prescribing workflows, creating exposure distinct from peers focused on single therapeutic categories. The most recent 10-K names state pharmacy compounding regulations and FDA enforcement on compounded GLP-1 products as material risks. FDA enforcement actions on GLP-1 compounds spiked to eleven in the week of November 9, 2026, signaling regulatory momentum that typically precedes state-level pharmacy board guidance tightening. California's pharmacy licensing and compounding oversight positions the state as a top-three exposure territory for Hims, requiring rapid policy positioning by the government affairs team.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike: California Pharmacy Board Next Dear Public Policy Head, FDA enforcement actions on compounded GLP-1 products reached eleven in a single week this November, marking a material enforcement cascade that historically triggers state pharmacy board guidance within thirty to sixty days. California's pharmacy compounding regulations directly govern Hims' supply chain for this category. We help multistate operators map state-level policy responses before pharmacy boards formalize restrictions, keeping government affairs teams ahead of enforcement precursors. Would a fifteen-minute call Thursday work to discuss California's likely next moves and how peer operators are repositioning? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: California saw three pharmacy board GLP-1 guidance shifts in October alone, and the FDA enforcement spike this month typically signals state action within weeks. Your compliance leadership should be mapping California's response before it lands. Prospect: We're monitoring it, but our legal team thinks we have runway before California moves. BDR Pivot: That timing assumption is exactly where operators get caught flat-footed. Ten minutes Thursday, I can walk your compliance lead through the state-action timeline we're seeing across your top three markets and show you what repositioning looks like before pharmacy boards act. Fair?"
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_001|ca|compounded_glp1",
@@ -184,9 +184,9 @@
       "topics_affected": [
         "compounded_glp1"
       ],
-      "top_composite_score": 0.299,
+      "top_composite_score": 0.289,
       "signals_summary": {
-        "S1": 0.505,
+        "S1": 0.488,
         "S2": 0.0,
         "S3": 0.0
       },
@@ -195,7 +195,7 @@
         "S1": [
           {
             "signal_id": "S1_drug_enforcement_cascade",
-            "score": 0.505,
+            "score": 0.488,
             "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
             "spike_week_start": "2026-11-09"
           }
@@ -208,9 +208,9 @@
           "opportunity_id": "acc_003|fl|compounded_glp1",
           "state": "fl",
           "topic": "compounded_glp1",
-          "composite_score": 0.299,
+          "composite_score": 0.289,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -219,7 +219,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -233,9 +233,9 @@
           "opportunity_id": "acc_003|ca|compounded_glp1",
           "state": "ca",
           "topic": "compounded_glp1",
-          "composite_score": 0.299,
+          "composite_score": 0.289,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -244,7 +244,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -258,9 +258,9 @@
           "opportunity_id": "acc_003|tx|compounded_glp1",
           "state": "tx",
           "topic": "compounded_glp1",
-          "composite_score": 0.299,
+          "composite_score": 0.289,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -269,7 +269,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -277,14 +277,14 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "LifeMD: Texas Compounded GLP-1 Enforcement Cascade Accelerates"
+          "narrative_headline": "LifeMD: Texas Compounded GLP-1 FDA Enforcement Cascade Accelerates"
         }
       ],
       "best_narrative": {
         "headline": "LifeMD: Florida GLP-1 Compounding Enforcement Cascade Accelerates",
-        "body": "LifeMD's core business model depends on compounded GLP-1 supply chain continuity across state pharmacy boards, creating material exposure as FDA enforcement actions spike. The most recent 10-K names compounded GLP-1 availability and state pharmacy oversight as disclosed risks; Florida ranks among the company's top-three state markets. Eleven FDA enforcement actions in the week of November 9, 2026 signal regulatory momentum that typically precedes state-level pharmacy board compliance reviews and prescription protocol audits. Florida's pharmacy board has begun cross-referencing FDA enforcement lists with state-licensed telehealth operators, narrowing the window for supply-chain adjustment.",
-        "cold_first_touch_frame": "Subject: LifeMD: Florida Pharmacy Board GLP-1 Enforcement Window Dear Public Policy Head, FDA enforcement on compounded GLP-1 operators hit eleven actions in a single week this November, and Florida's pharmacy board is now cross-referencing those lists with state-licensed telehealth prescribers. Your 10-K flags compounded availability as material, and Florida is a top-three market for LifeMD. We help regulatory affairs teams track state pharmacy board alignment signals before they translate into supply-chain friction. Would a 15-minute call on Thursday work to map Florida's current enforcement trajectory? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FDA's GLP-1 enforcement spike this November has Florida's pharmacy board moving faster than expected on compounded-operator audits. Your compliance team flagged supply-chain continuity as a priority last quarter. Prospect: We're monitoring it, but Florida hasn't issued formal guidance yet. BDR Pivot: Exactly, that's the timing issue. State boards typically telegraph their moves through enforcement referral lists before formal guidance drops. Would a quick 10-minute sync help your compliance leadership get ahead of Florida's next wave, before it hits operations?"
+        "body": "LifeMD's core operating model depends on compounded GLP-1 supply chain continuity across telehealth workflows, creating material exposure as FDA enforcement actions on GLP-1 compounds reached 11 cases in the week of November 9, 2026. The most recent 10-K names compounded GLP-1 availability and state pharmacy oversight as recurring material risks to revenue and operational licensing. Florida ranks among LifeMD's top-three state exposures, and enforcement cascade patterns typically precede state-level pharmacy board compliance actions within 60 to 90 days. Government affairs and regulatory teams should map Florida pharmacy board calendar and FDA guidance updates to identify early warning signals for prescribing or compounding restrictions.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike, Florida Pharmacy Risk Timeline Dear Director of Public Policy, FDA enforcement actions on GLP-1 compounds spiked to 11 cases the week of November 9, an outlier event that typically precedes state pharmacy board compliance waves. LifeMD's 10-K discloses compounded GLP-1 availability as material, and Florida is a top-three state exposure. Your government affairs team should build a 60-day monitoring protocol for Florida pharmacy board guidance and enforcement signals to avoid compliance gaps. Would you have 15 minutes Thursday to map your current state regulatory calendar against this enforcement timeline? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged an FDA enforcement spike on GLP-1 compounds last week that typically triggers state pharmacy board action within 60 days. Florida is your top exposure, and your 10-K names compounded-GLP-1 availability as material risk. Prospect: We're monitoring FDA closely, but state action isn't guaranteed. BDR Pivot: Agreed, but your compliance leadership should validate whether your current state monitoring picks up pharmacy board signals before they become enforcement. Would a 10-minute call with your GC this week help you stress-test your state watch protocol?"
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_003|fl|compounded_glp1",
@@ -330,9 +330,9 @@
       "topics_affected": [
         "compounded_glp1"
       ],
-      "top_composite_score": 0.247,
+      "top_composite_score": 0.239,
       "signals_summary": {
-        "S1": 0.505,
+        "S1": 0.488,
         "S2": 0.0,
         "S3": 0.0
       },
@@ -341,7 +341,7 @@
         "S1": [
           {
             "signal_id": "S1_drug_enforcement_cascade",
-            "score": 0.505,
+            "score": 0.488,
             "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
             "spike_week_start": "2026-11-09"
           }
@@ -354,9 +354,9 @@
           "opportunity_id": "acc_002|ca|compounded_glp1",
           "state": "ca",
           "topic": "compounded_glp1",
-          "composite_score": 0.247,
+          "composite_score": 0.239,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -365,7 +365,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -373,15 +373,15 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "Ro: FDA GLP-1 Enforcement Spike Pressures CA Compounded Supply Chain"
+          "narrative_headline": "Ro: FDA GLP-1 Enforcement Spike Pressures California Compounding Supply"
         },
         {
           "opportunity_id": "acc_002|ny|compounded_glp1",
           "state": "ny",
           "topic": "compounded_glp1",
-          "composite_score": 0.247,
+          "composite_score": 0.239,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -390,7 +390,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -398,15 +398,15 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "Ro: FDA GLP-1 Enforcement Spike Pressures Compounded Supply Chain"
+          "narrative_headline": "Ro: NY Pharmacy Board Compounded GLP-1 Enforcement Accelerates"
         },
         {
           "opportunity_id": "acc_002|tx|compounded_glp1",
           "state": "tx",
           "topic": "compounded_glp1",
-          "composite_score": 0.247,
+          "composite_score": 0.239,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -415,7 +415,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -423,14 +423,14 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "Ro: Texas Pharmacy Board Compounded GLP-1 Enforcement Intensity Rises"
+          "narrative_headline": "Ro: FDA GLP-1 Enforcement Spike Pressures Texas Compounding Supply Chain"
         }
       ],
       "best_narrative": {
-        "headline": "Ro: FDA GLP-1 Enforcement Spike Pressures CA Compounded Supply Chain",
-        "body": "Ro's sexual-health-and-weight-loss model depends on asynchronous prescribing paired with compounded GLP-1 sourcing, creating material exposure to pharmacy board compliance scrutiny across top-three states. The FDA initiated eleven enforcement actions on GLP-1 products in the week of November 9, 2026, signaling accelerated regulatory cascade activity. Operators in this segment commonly face state-level supply chain audits and compounding rule tightening, particularly in California where asynchronous workflows remain contested. This enforcement spike typically precedes state pharmacy board guidance updates and supply-chain documentation demands within 60 to 90 days.",
-        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Spike, CA Compounding Supply Chain Check Dear Chief Compliance Officer, The FDA issued eleven GLP-1 enforcement actions in mid-November, and state pharmacy boards in California, New York, and Texas typically follow with guidance clarifications within two to three months. Given Ro's compounded GLP-1 sourcing and asynchronous prescribing workflow, your regulatory affairs team should audit supply-chain documentation and state compounding-rule alignment now, before guidance hardens. I work with telehealth compliance leaders to map these regulatory cascades ahead of state board action. Would a 15-minute call Thursday morning help clarify exposure and next steps? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: The FDA enforcement spike on GLP-1 in mid-November typically triggers state pharmacy board guidance updates within 60 days. For operators like Ro with compounded supply chains in California, now is the moment to map asynchronous-prescribing compliance and supply-chain documentation risk. Prospect: We've tabled this until Q1, and our legal team has it on their list. BDR Pivot: I understand. The window to influence state guidance is typically 45 to 90 days after FDA action, after that, compliance costs spike. Can I grab 10 minutes with you and your regulatory lead to walk through what other multistate operators are filing with CA Pharmacy Board right now?"
+        "headline": "Ro: FDA GLP-1 Enforcement Spike Pressures California Compounding Supply",
+        "body": "Ro's sexual-health-and-weight-loss model depends on asynchronous prescribing paired with compounded GLP-1 sourcing, creating material exposure when state pharmacy compounding rules tighten in response to federal action. The FDA issued 11 enforcement actions on GLP-1 products in the week of November 9, 2026, signaling accelerated scrutiny of supply chain integrity and compounder oversight. Operators in this segment commonly face state-level pharmacy board investigations following federal enforcement cascades, particularly in California where compounding standards already restrict certain formulation practices. Your government affairs team should map California pharmacy board enforcement precedent and assess whether current compounder certifications and supply documentation meet anticipated state-heightened standards.",
+        "cold_first_touch_frame": "Subject: FDA GLP-1 Enforcement Wave and Your CA Compounding Supply Chain Dear [Public Policy Head/VP Regulatory Affairs], The FDA escalated GLP-1 enforcement actions to 11 in a single week as of November 9, creating downstream pressure on state pharmacy boards and compounding oversight. For operators like Ro, this cascade typically triggers California regulatory tightening on compounder certifications and supply documentation within 60 to 90 days. I work with sexual-health-and-weight-loss telehealth platforms to map state-by-state compounding rule shifts and assess supply chain resilience before state action lands. Would a 15-minute call on Thursday work to walk through the California pharmacy board timeline and what's already shifting? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged the FDA GLP-1 enforcement spike in early November, and California pharmacy board guidance updates are now starting to roll out. I wanted to circle back because your compliance team will need to assess whether your compounder network aligns with the new standards before state enforcement kicks in. Prospect: We've been tracking it internally, but we're not sure if it's a material issue yet for our prescribing workflow. BDR Pivot: That makes sense. A lot of teams find the operational blind spot is compounder certification currency versus state board expectations, not the prescribing piece itself. Would a 10-minute sync with your GC or Chief Compliance Officer help you stress-test whether your supply chain documentation is ahead of what the board will require?"
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_002|ca|compounded_glp1",
@@ -476,9 +476,9 @@
       "topics_affected": [
         "compounded_glp1"
       ],
-      "top_composite_score": 0.212,
+      "top_composite_score": 0.205,
       "signals_summary": {
-        "S1": 0.505,
+        "S1": 0.488,
         "S2": 0.0,
         "S3": 0.0
       },
@@ -487,7 +487,7 @@
         "S1": [
           {
             "signal_id": "S1_drug_enforcement_cascade",
-            "score": 0.505,
+            "score": 0.488,
             "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
             "spike_week_start": "2026-11-09"
           }
@@ -500,9 +500,9 @@
           "opportunity_id": "acc_011|ny|compounded_glp1",
           "state": "ny",
           "topic": "compounded_glp1",
-          "composite_score": 0.212,
+          "composite_score": 0.205,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -511,7 +511,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -525,9 +525,9 @@
           "opportunity_id": "acc_011|ca|compounded_glp1",
           "state": "ca",
           "topic": "compounded_glp1",
-          "composite_score": 0.212,
+          "composite_score": 0.205,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -536,7 +536,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -544,15 +544,15 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "WW: California GLP-1 Enforcement Spike Targets Compounded Supply Chain"
+          "narrative_headline": "WW: California GLP-1 Compounding Enforcement Accelerates FDA Action"
         },
         {
           "opportunity_id": "acc_011|tx|compounded_glp1",
           "state": "tx",
           "topic": "compounded_glp1",
-          "composite_score": 0.212,
+          "composite_score": 0.205,
           "signal_scores": {
-            "S1": 0.505,
+            "S1": 0.488,
             "S2": 0.0,
             "S3": 0.0
           },
@@ -561,7 +561,7 @@
             "S1": [
               {
                 "signal_id": "S1_drug_enforcement_cascade",
-                "score": 0.505,
+                "score": 0.488,
                 "event_summary": "FDA enforcement spike on glp1: 11 actions in week of 2026-11-09 (z-score 3.09)",
                 "spike_week_start": "2026-11-09"
               }
@@ -569,14 +569,14 @@
             "S2": [],
             "S3": []
           },
-          "narrative_headline": "WW: Texas Compounded GLP-1 FDA Enforcement Cascade Accelerates"
+          "narrative_headline": "WeightWatchers: Texas Compounded GLP-1 FDA Enforcement Accelerates"
         }
       ],
       "best_narrative": {
         "headline": "WeightWatchers: NY FDA GLP-1 Enforcement Spike Targets Compounded Supply",
-        "body": "WeightWatchers operates a consumer telehealth weight-loss platform dependent on compounded GLP-1 as a primary clinical offering, creating direct exposure to prescriber availability and state pharmacy board compliance shifts. The FDA initiated eleven enforcement actions against GLP-1 operators in the week of November 9, 2026, signaling accelerated scrutiny of compounded formulations and prescriber networks. The most recent 10-K names compounded GLP-1 regulatory shifts and state telehealth medical practice rules as material risks to operations. New York's pharmacy board and medical board coordination on GLP-1 oversight presents a near-term operational chokepoint for clinical sourcing and prescription fulfillment workflows.",
-        "cold_first_touch_frame": "Subject: NY FDA GLP-1 Enforcement Escalation: Compounded Supply Compliance Review Dear Public Policy Head, The FDA issued eleven enforcement actions against GLP-1 operators in mid-November, with New York pharmacy and medical boards now coordinating oversight of compounded formulations. WeightWatchers' 10-K discloses material exposure to compounded GLP-1 regulatory shifts and state prescriber availability constraints. We work with multistate telehealth operators to track FDA enforcement patterns and state board coordination ahead of compliance deadlines. Would a brief 15-minute call Thursday morning help your regulatory affairs lead assess whether your current compounded sourcing strategy aligns with the new enforcement posture? Best,\n[Rep Name]",
-        "worked_deal_revival_frame": "BDR: We flagged compounded GLP-1 enforcement patterns with your team in Q3, and the FDA just escalated actions in mid-November across eleven cases. New York's pharmacy and medical boards are now coordinating on this issue, which affects your prescriber network directly. Prospect: We've been monitoring that, but it's not clear yet how much will change for us operationally. BDR Pivot: That's exactly why a 10-minute sync with your compliance leadership makes sense now, before state guidance hardens. We've mapped how the enforcement sequence typically flows into state board action, and your sourcing timeline may have a narrow window. Can we grab 10 minutes this week?"
+        "body": "WeightWatchers operates a GLP-1 weight-loss telehealth model dependent on compounded pharmaceutical supply chains and state prescriber networks, creating direct exposure to enforcement cascades that competitors with single-indication focus do not face. The most recent 10-K names compounded GLP-1 regulatory shifts and state telehealth medical practice rules as material risks. FDA enforcement actions on GLP-1 products reached 11 in the week ending November 9, 2026, a statistically significant spike that typically precedes state-level tightening in pharmacy board guidance and prescriber credentialing standards. NY's rank as a top-three exposure state means material operational risk if enforcement momentum shifts to supply-chain audits or asynchronous prescribing restrictions.",
+        "cold_first_touch_frame": "Subject: NY GLP-1 Enforcement Spike: Compounded Supply Chain Timing Dear [Public Policy Head], FDA enforcement actions on GLP-1 products spiked to 11 in a single week this month, the highest volume in recent months. Given WeightWatchers' dependence on compounded supply chains and NY's status as a top regulatory jurisdiction, your government affairs team should model how enforcement momentum translates into state pharmacy board guidance shifts or prescriber network audits. Would a 15-minute call Thursday work to discuss state-level monitoring protocols? Best,\n[Rep Name]",
+        "worked_deal_revival_frame": "BDR: We flagged an FDA enforcement spike on GLP-1 products this month that typically drives state pharmacy board tightening within 60 days. NY's prescriber credentialing standards and compounded supply audits are the operational chokepoints your compliance leadership should be tracking now. Prospect: We've seen the FDA actions, but our supply chain is compliant. BDR Pivot: Compliance is table stakes. The timing question is whether NY's pharmacy board will update guidance on asynchronous prescriber verification or compounded ingredient sourcing before Q1 budget cycles close. A 10-minute sync to map your state monitoring calendar against enforcement timelines would help you stay ahead of the cascade."
       },
       "best_narrative_source": "llm",
       "best_opportunity_id": "acc_011|ny|compounded_glp1",
